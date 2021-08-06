@@ -107,20 +107,6 @@ const top100Films = [
 ];
 
 function LandingPage() {
-
-    const [state, setState] = React.useState({
-        age: '',
-        name: 'hai',
-    });
-
-    const handleChange = (event: any) => {
-        const name = event.target.name;
-        setState({
-            ...state,
-            [name]: event.target.value,
-        });
-    };
-
     return (
         <div>
             <Box display='flex' alignItems='center' style={{height: 400, background: '#273A6B'}}>
