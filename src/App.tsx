@@ -1,6 +1,7 @@
 import React from 'react';
 import {Box, Container} from "@material-ui/core";
 import FloatContainer from "./components/containers/FloatContainer";
+import TextIconWrapper from "./components/icons/TextIconWrapper";
 
 function App() {
     return (
@@ -9,9 +10,9 @@ function App() {
                 <Container>
                     <Box display='flex' alignItems='center'>
                         <Box pt={3} pb={3}>
-                            <h2 style={{fontWeight: "lighter", color: 'white', margin: 0}}>
+                            <TextIconWrapper style={{fontWeight: "lighter", color: 'white', margin: 0}}>
                                 NSVB
-                            </h2>
+                            </TextIconWrapper>
                         </Box>
                         <Box flex={1}/>
                         <Box display='flex' alignItems='center' style={{color: 'white'}}>
@@ -22,7 +23,7 @@ function App() {
                                 Research
                             </a>
                             <a style={{marginLeft: 16}}>
-                                Developers
+                                Developer
                             </a>
                         </Box>
                     </Box>
@@ -30,9 +31,9 @@ function App() {
             </div>
             <Box display='flex' alignItems='center' style={{height: 400, background: '#273A6B'}}>
                 <Container>
-                    <h1 style={{color: 'white'}}>
+                    <p style={{color: 'white', fontWeight: 'bold', fontSize: 32}}>
                         Nordic Social Value Bank
-                    </h1>
+                    </p>
                 </Container>
             </Box>
             <Container style={{position: 'relative'}}>
