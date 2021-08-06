@@ -2,29 +2,33 @@ import {Box, Container} from "@material-ui/core";
 import TextIconWrapper from "../icons/TextIconWrapper";
 import React from "react";
 import HeaderLink from "./HeaderLink";
-import RouteNames from "../../constants/routeNames";
+import RouteNames from "../../constants/RouteNames";
+import {useLocation} from "react-router";
+import {RouteToColor} from "../../constants/Navigation";
 
-export const HeaderNavigation = () => {
+export const HeaderNavigation: React.FC = () => {
+    const location = useLocation();
+    const color = RouteToColor[location.pathname];
     return (
         <div style={{position: "absolute", left: 0, right: 0}}>
             <Container>
                 <Box display='flex' alignItems='center'>
                     <Box pt={3} pb={3}>
-                        <HeaderLink to='/'>
-                            <TextIconWrapper style={{fontWeight: "lighter", color: 'white', margin: 0}}>
+                        <TextIconWrapper>
+                            <HeaderLink to='/' color={color} style={{margin: 0}}>
                                 NSVB
-                            </TextIconWrapper>
-                        </HeaderLink>
+                            </HeaderLink>
+                        </TextIconWrapper>
                     </Box>
                     <Box flex={1}/>
-                    <Box display='flex' alignItems='center' style={{color: 'white'}}>
-                        <HeaderLink to='/'>
+                    <Box display='flex' alignItems='center'>
+                        <HeaderLink to={RouteNames.about} color={color}>
                             About
                         </HeaderLink>
-                        <HeaderLink to='/'>
+                        <HeaderLink to={RouteNames.research} color={color}>
                             Research
                         </HeaderLink>
-                        <HeaderLink to={RouteNames.developer}>
+                        <HeaderLink to={RouteNames.developer} color={color}>
                             Developer
                         </HeaderLink>
                     </Box>
