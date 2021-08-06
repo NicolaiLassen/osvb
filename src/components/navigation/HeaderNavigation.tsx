@@ -2,7 +2,7 @@ import {Box, Container} from "@material-ui/core";
 import TextIconWrapper from "../icons/TextIconWrapper";
 import React from "react";
 import HeaderLink from "./HeaderLink";
-
+import RouteNames from "../../constants/routeNames";
 
 export const HeaderNavigation = () => {
     return (
@@ -10,7 +10,7 @@ export const HeaderNavigation = () => {
             <Container>
                 <Box display='flex' alignItems='center'>
                     <Box pt={3} pb={3}>
-                        <HeaderLink href='/'>
+                        <HeaderLink to='/'>
                             <TextIconWrapper style={{fontWeight: "lighter", color: 'white', margin: 0}}>
                                 NSVB
                             </TextIconWrapper>
@@ -18,13 +18,13 @@ export const HeaderNavigation = () => {
                     </Box>
                     <Box flex={1}/>
                     <Box display='flex' alignItems='center' style={{color: 'white'}}>
-                        <HeaderLink href='/'>
+                        <HeaderLink to='/'>
                             About
                         </HeaderLink>
-                        <HeaderLink href='/' style={{marginLeft: 16}}>
+                        <HeaderLink to='/'>
                             Research
                         </HeaderLink>
-                        <HeaderLink href='/' style={{marginLeft: 16}}>
+                        <HeaderLink to={RouteNames.developer}>
                             Developer
                         </HeaderLink>
                     </Box>
@@ -33,3 +33,5 @@ export const HeaderNavigation = () => {
         </div>
     )
 }
+
+export default HeaderNavigation;
