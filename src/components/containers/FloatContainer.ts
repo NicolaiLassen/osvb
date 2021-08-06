@@ -4,7 +4,6 @@ import styled from 'styled-components';
 export const FloatContainer = styled.div`
     background: white;  
     position: relative;
-    padding: 32px;
     border-radius: 16px;
     box-shadow:  0px 16px 40px rgba(112, 144, 176,0.2);
 `;
