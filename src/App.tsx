@@ -14,20 +14,22 @@ function App() {
                             </h2>
                         </Box>
                         <Box flex={1}/>
-                        <Box style={{color: 'white'}}>
+                        <Box display='flex' alignItems='center' style={{color: 'white'}}>
                             <p>
-                                t
+                                About
+                            </p>
+                            <p style={{marginLeft: 16}}>
+                                Research
                             </p>
                         </Box>
                     </Box>
-
                 </Container>
             </div>
             <div style={{height: 400, background: '#273A6B'}}>
             </div>
             <Container>
                 <div style={{position: 'relative'}}>
-                    <div style={{position: "absolute", left: 0, right: 0, top: -32, zIndex: 10}}>
+                    <div style={{position: "absolute", left: 0, right: 0, top: -42, zIndex: 10}}>
                         <FloatContainer>
                             Picker
                         </FloatContainer>
