@@ -9,7 +9,7 @@ function App() {
                 <Container>
                     <Box display='flex' alignItems='center'>
                         <Box pt={3} pb={3}>
-                            <h2 style={{color: 'white', margin: 0}}>
+                            <h2 style={{fontWeight: "lighter", color: 'white', margin: 0}}>
                                 NSVB
                             </h2>
                         </Box>
