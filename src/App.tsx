@@ -15,25 +15,36 @@ function App() {
                         </Box>
                         <Box flex={1}/>
                         <Box display='flex' alignItems='center' style={{color: 'white'}}>
-                            <p>
+                            <a>
                                 About
-                            </p>
-                            <p style={{marginLeft: 16}}>
+                            </a>
+                            <a style={{marginLeft: 16}}>
                                 Research
-                            </p>
+                            </a>
+                            <a style={{marginLeft: 16}}>
+                                Developers
+                            </a>
                         </Box>
                     </Box>
                 </Container>
             </div>
-            <div style={{height: 400, background: '#273A6B'}}>
-            </div>
-            <Container>
+            <Box display='flex' alignItems='center' style={{height: 400, background: '#273A6B'}}>
+                <Container>
+                    <h1 style={{color: 'white'}}>
+                        Nordic Social Value Bank
+                    </h1>
+                </Container>
+            </Box>
+            <Container style={{position: 'relative'}}>
                 <div style={{position: 'relative'}}>
-                    <div style={{position: "absolute", left: 0, right: 0, top: -42, zIndex: 10}}>
+                    <div style={{position: "absolute", left: 0, right: 0, top: -42, zIndex: 10, width: '100%'}}>
                         <FloatContainer>
                             Picker
                         </FloatContainer>
                     </div>
+                </div>
+                <Box height={80}/>
+                <div style={{background: '#E7F1F7', height: 400, borderRadius: 8}}>
                 </div>
             </Container>
         </div>
