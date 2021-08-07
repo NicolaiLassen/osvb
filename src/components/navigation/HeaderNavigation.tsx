@@ -33,7 +33,7 @@ export const HeaderNavigation: React.FC = () => {
                         </TextIconWrapper>
                     </Box>
                     <Box flex={1}/>
-                    <MobileNavigation/>
+                    <MobileNavigation color={color}/>
                     <DesktopNavigation color={color}/>
                 </Box>
             </Container>

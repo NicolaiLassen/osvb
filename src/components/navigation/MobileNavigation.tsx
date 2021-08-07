@@ -32,8 +32,11 @@ const useStyles = makeStyles<Theme, MobileNavigationStyleProps>((theme) => ({
     }
 }));
 
+interface MobileNavigationProps {
+    color: string;
+}
 
-export const MobileNavigation = () => {
+export const MobileNavigation: React.FC<MobileNavigationProps> = ({color}) => {
     const [open, setOpen] = useState<boolean>(false);
     const handleClickOpen = () => {
         setOpen(!open);
@@ -44,8 +47,8 @@ export const MobileNavigation = () => {
         <Box className={classes.root}>
             <IconButton
                 onClick={handleClickOpen}
-                style={{background: 'rgba(255,255,255,0.05)'}}>
-                <MenuLineIcon color='white' size={22}/>
+                style={{background: `${color}11`}}>
+                <MenuLineIcon color={color} size={22}/>
             </IconButton>
             <FloatContainer className={classes.mobilNavigation}>
                 <Box>
