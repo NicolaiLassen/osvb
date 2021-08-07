@@ -1,4 +1,4 @@
-import {Box, IconButton, makeStyles, Theme} from "@material-ui/core";
+import {Box, ClickAwayListener, IconButton, makeStyles, Theme} from "@material-ui/core";
 import MenuLineIcon from "remixicon-react/MenuLineIcon";
 import FloatContainer from "../containers/FloatContainer";
 import CloseLineIcon from "remixicon-react/CloseLineIcon";
@@ -41,61 +41,68 @@ export const MobileNavigation: React.FC<MobileNavigationProps> = ({color}) => {
     const handleClickOpen = () => {
         setOpen(!open);
     }
+    const handleClickAway = () => {
+        if (open) {
+            setOpen(false);
+        }
+    }
     const classes = useStyles({open});
 
     return (
-        <Box className={classes.root}>
-            <IconButton
-                onClick={handleClickOpen}
-                style={{background: `${color}11`}}>
-                <MenuLineIcon color={color} size={22}/>
-            </IconButton>
-            <FloatContainer className={classes.mobilNavigation}>
-                <Box>
-                    <IconButton
-                        onClick={handleClickOpen}
-                        style={{
-                            background: 'rgba(39, 58, 107,0.05)',
-                            position: 'absolute',
-                            right: 8,
-                            top: 8,
-                        }}
-                    >
-                        <CloseLineIcon color='#273A6B' size={22}/>
-                    </IconButton>
-                </Box>
-                <Box>
-                    <HeaderLink
-                        onClick={handleClickOpen}
-                        to={RouteNames.about}
-                        color='#273A6B'
-                        style={{display: 'block', fontWeight: 'bold', marginBottom: 8}}
-                    >
-                        About
-                    </HeaderLink>
-                </Box>
-                <Box>
-                    <HeaderLink
-                        onClick={handleClickOpen}
-                        to={RouteNames.research}
-                        color='#273A6B'
-                        style={{display: 'block', fontWeight: 'bold', marginBottom: 8}}
-                    >
-                        Research
-                    </HeaderLink>
-                </Box>
-                <Box>
-                    <HeaderLink
-                        onClick={handleClickOpen}
-                        to={RouteNames.developer}
-                        color='#273A6B'
-                        style={{fontWeight: 'bold'}}
-                    >
-                        Developer
-                    </HeaderLink>
-                </Box>
-            </FloatContainer>
-        </Box>
+        <ClickAwayListener onClickAway={handleClickAway}>
+            <Box className={classes.root}>
+                <IconButton
+                    onClick={handleClickOpen}
+                    style={{background: `${color}11`}}>
+                    <MenuLineIcon color={color} size={22}/>
+                </IconButton>
+                <FloatContainer className={classes.mobilNavigation}>
+                    <Box>
+                        <IconButton
+                            onClick={handleClickOpen}
+                            style={{
+                                background: 'rgba(39, 58, 107,0.05)',
+                                position: 'absolute',
+                                right: 8,
+                                top: 8,
+                            }}
+                        >
+                            <CloseLineIcon color='#273A6B' size={22}/>
+                        </IconButton>
+                    </Box>
+                    <Box>
+                        <HeaderLink
+                            onClick={handleClickOpen}
+                            to={RouteNames.about}
+                            color='#273A6B'
+                            style={{display: 'block', fontWeight: 'bold', marginBottom: 8}}
+                        >
+                            About
+                        </HeaderLink>
+                    </Box>
+                    <Box>
+                        <HeaderLink
+                            onClick={handleClickOpen}
+                            to={RouteNames.research}
+                            color='#273A6B'
+                            style={{display: 'block', fontWeight: 'bold', marginBottom: 8}}
+                        >
+                            Research
+                        </HeaderLink>
+                    </Box>
+                    <Box>
+                        <HeaderLink
+                            onClick={handleClickOpen}
+                            to={RouteNames.developer}
+                            color='#273A6B'
+                            style={{fontWeight: 'bold'}}
+                        >
+                            Developer
+                        </HeaderLink>
+                    </Box>
+                </FloatContainer>
+            </Box>
+        </ClickAwayListener>
     )
 }
 
