@@ -69,7 +69,7 @@ export const MobileNavigation: React.FC<MobileNavigationProps> = ({color}) => {
                         onClick={handleClickOpen}
                         to={RouteNames.about}
                         color='#273A6B'
-                        style={{display: 'block', fontWeight: 'bold', paddingBottom: 8}}
+                        style={{display: 'block', fontWeight: 'bold', marginBottom: 8}}
                     >
                         About
                     </HeaderLink>
@@ -79,7 +79,7 @@ export const MobileNavigation: React.FC<MobileNavigationProps> = ({color}) => {
                         onClick={handleClickOpen}
                         to={RouteNames.research}
                         color='#273A6B'
-                        style={{display: 'block', fontWeight: 'bold', paddingBottom: 8}}
+                        style={{display: 'block', fontWeight: 'bold', marginBottom: 8}}
                     >
                         Research
                     </HeaderLink>
