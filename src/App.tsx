@@ -6,18 +6,23 @@ import {HeaderNavigation} from "./components/navigation/HeaderNavigation";
 import DeveloperPage from "./pages/DeveloperPage";
 import ResearchPage from "./pages/ResearchPage";
 import AboutPage from "./pages/AboutPage";
+import {FooterNavigation} from "./components/navigation/FooterNavigation";
+import {Box} from "@material-ui/core";
 
 function App() {
     return (
         <div>
             <Router>
                 <HeaderNavigation/>
-                <Switch>
-                    <Route path={RouteNames.about} component={AboutPage}/>
-                    <Route path={RouteNames.research} component={ResearchPage}/>
-                    <Route path={RouteNames.developer} component={DeveloperPage}/>
-                    <Route component={LandingPage}/>
-                </Switch>
+                <Box display='flex' minHeight='100vh' flexDirection='column' justifyContent='space-between'>
+                    <Switch>
+                        <Route path={RouteNames.about} component={AboutPage}/>
+                        <Route path={RouteNames.research} component={ResearchPage}/>
+                        <Route path={RouteNames.developer} component={DeveloperPage}/>
+                        <Route component={LandingPage}/>
+                    </Switch>
+                    <FooterNavigation/>
+                </Box>
             </Router>
         </div>
     );
