@@ -8,9 +8,9 @@ import {RouteToColor} from "../../constants/Navigation";
 
 export const HeaderNavigation: React.FC = () => {
     const location = useLocation();
-    const color = RouteToColor[location.pathname];
+    const color = RouteToColor[location.pathname] ?? '#273A6B';
     return (
-        <div style={{position: "absolute", left: 0, right: 0}}>
+        <div style={{position: "absolute", zIndex: 10, left: 0, right: 0}}>
             <Container>
                 <Box display='flex' alignItems='center'>
                     <Box pt={3} pb={3}>

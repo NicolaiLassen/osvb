@@ -25,79 +25,77 @@ function DeveloperPage() {
                 </Container>
             </Box>
             <Container>
-                <div style={{position: 'relative', width: '100%'}}>
-                    <div style={{position: "absolute", left: 0, right: 0, top: -72, zIndex: 10, width: '100%'}}>
-                        <Grid container spacing={3}>
-                            <Grid item md={6} sm={12} xs={12}>
-                                <FloatContainer>
-                                    <Box p={4} flexDirection='column' display='flex'
-                                         justifyContent='center'>
-                                        <Box
-                                            mb={2}
-                                            display='flex'
-                                            alignItems='center'
-                                            justifyContent='center'
-                                            borderRadius={8}
-                                            style={{background: 'rgba(99,163,238,0.2)', height: 45, width: 45}}>
-                                            <FileList3LineIcon color='#63A3EE' size={22}/>
-                                        </Box>
-                                        <h3 style={{margin: 0}}>Documentation</h3>
+                <div style={{transform: 'translateY(-55px)'}}>
+                    <Grid container spacing={3}>
+                        <Grid item md={6} sm={12} xs={12}>
+                            <FloatContainer>
+                                <Box p={4} flexDirection='column' display='flex'
+                                     justifyContent='center'>
+                                    <Box
+                                        mb={2}
+                                        display='flex'
+                                        alignItems='center'
+                                        justifyContent='center'
+                                        borderRadius={8}
+                                        style={{background: 'rgba(99,163,238,0.2)', height: 45, width: 45}}>
+                                        <FileList3LineIcon color='#63A3EE' size={22}/>
                                     </Box>
-                                </FloatContainer>
-                            </Grid>
-                            <Grid item md={6} sm={12} xs={12}>
-                                <FloatContainer>
-                                    <Box p={4} flexDirection='column' display='flex'
-                                         justifyContent='center'>
-                                        <Box
-                                            mb={2}
-                                            display='flex'
-                                            alignItems='center'
-                                            justifyContent='center'
-                                            borderRadius={8}
-                                            style={{background: 'rgba(99,163,238,0.2)', height: 45, width: 45}}>
-                                            <Slideshow3LineIcon color='#63A3EE' size={22}/>
-                                        </Box>
-                                        <h3 style={{margin: 0}}>Examples</h3>
-                                    </Box>
-                                </FloatContainer>
-                            </Grid>
-                            <Grid item md={6} sm={12} xs={12}>
-                                <FloatContainer>
-                                    <Box p={4} flexDirection='column' display='flex'
-                                         justifyContent='center'>
-                                        <Box
-                                            mb={2}
-                                            display='flex'
-                                            alignItems='center'
-                                            justifyContent='center'
-                                            borderRadius={8}
-                                            style={{background: 'rgba(99,163,238,0.2)', height: 45, width: 45}}>
-                                            <KeyLineIcon color='#63A3EE' size={22}/>
-                                        </Box>
-                                        <h3 style={{margin: 0}}>API key</h3>
-                                    </Box>
-                                </FloatContainer>
-                            </Grid>
-                            <Grid item md={6} sm={12} xs={12}>
-                                <FloatContainer>
-                                    <Box p={4} flexDirection='column' display='flex'
-                                         justifyContent='center'>
-                                        <Box
-                                            mb={2}
-                                            display='flex'
-                                            alignItems='center'
-                                            justifyContent='center'
-                                            borderRadius={8}
-                                            style={{background: 'rgba(99,163,238,0.2)', height: 45, width: 45}}>
-                                            <LifebuoyLineIcon color='#63A3EE' size={22}/>
-                                        </Box>
-                                        <h3 style={{margin: 0}}>Support</h3>
-                                    </Box>
-                                </FloatContainer>
-                            </Grid>
+                                    <h3 style={{margin: 0}}>Documentation</h3>
+                                </Box>
+                            </FloatContainer>
                         </Grid>
-                    </div>
+                        <Grid item md={6} sm={12} xs={12}>
+                            <FloatContainer>
+                                <Box p={4} flexDirection='column' display='flex'
+                                     justifyContent='center'>
+                                    <Box
+                                        mb={2}
+                                        display='flex'
+                                        alignItems='center'
+                                        justifyContent='center'
+                                        borderRadius={8}
+                                        style={{background: 'rgba(99,163,238,0.2)', height: 45, width: 45}}>
+                                        <Slideshow3LineIcon color='#63A3EE' size={22}/>
+                                    </Box>
+                                    <h3 style={{margin: 0}}>Examples</h3>
+                                </Box>
+                            </FloatContainer>
+                        </Grid>
+                        <Grid item md={6} sm={12} xs={12}>
+                            <FloatContainer>
+                                <Box p={4} flexDirection='column' display='flex'
+                                     justifyContent='center'>
+                                    <Box
+                                        mb={2}
+                                        display='flex'
+                                        alignItems='center'
+                                        justifyContent='center'
+                                        borderRadius={8}
+                                        style={{background: 'rgba(99,163,238,0.2)', height: 45, width: 45}}>
+                                        <KeyLineIcon color='#63A3EE' size={22}/>
+                                    </Box>
+                                    <h3 style={{margin: 0}}>API key</h3>
+                                </Box>
+                            </FloatContainer>
+                        </Grid>
+                        <Grid item md={6} sm={12} xs={12}>
+                            <FloatContainer>
+                                <Box p={4} flexDirection='column' display='flex'
+                                     justifyContent='center'>
+                                    <Box
+                                        mb={2}
+                                        display='flex'
+                                        alignItems='center'
+                                        justifyContent='center'
+                                        borderRadius={8}
+                                        style={{background: 'rgba(99,163,238,0.2)', height: 45, width: 45}}>
+                                        <LifebuoyLineIcon color='#63A3EE' size={22}/>
+                                    </Box>
+                                    <h3 style={{margin: 0}}>Support</h3>
+                                </Box>
+                            </FloatContainer>
+                        </Grid>
+                    </Grid>
                 </div>
             </Container>
         </div>

@@ -25,43 +25,40 @@ function LandingPage() {
                 </Container>
             </Box>
             <Container>
-                <div style={{position: 'relative', width: '100%'}}>
-                    <div style={{position: "absolute", left: 0, right: 0, top: -44, zIndex: 10, width: '100%'}}>
-                        <FloatContainer style={{height: 88}}>
+                <div style={{transform: 'translateY(-44px)'}}>
+                    <FloatContainer style={{height: 88}}>
+                        <Box
+                            display='flex'
+                            alignItems='center'
+                            height='100%'
+                            pr={1}
+                            pl={1}
+                        >
                             <Box
-                                display='flex'
-                                alignItems='center'
-                                height='100%'
                                 pr={1}
                                 pl={1}
-                            >
-                                <Box
-                                    pr={1}
-                                    pl={1}
-                                    display='flex'
-                                    alignItems='center'
-                                    justifyContent='center'
-                                    height='100%'
-                                    style={{borderRight: '1px solid #E7F1F7'}}>
-                                    <Autocomplete
-                                        id="combo-box-demo"
-                                        options={top100Films}
-                                        getOptionLabel={(option: any) => option.title}
-                                        style={{width: 300}}
-                                        renderInput={(params: any) => <TextField
-                                            {...params} label="Combo box"
-                                            size='small'
-                                            variant="outlined"
-                                            style={{border: 'none'}}
-                                        />
-                                        }
+                                display='flex'
+                                alignItems='center'
+                                justifyContent='center'
+                                height='100%'
+                                style={{borderRight: '1px solid #E7F1F7'}}>
+                                <Autocomplete
+                                    id="combo-box-demo"
+                                    options={top100Films}
+                                    getOptionLabel={(option: any) => option.title}
+                                    style={{width: 300}}
+                                    renderInput={(params: any) => <TextField
+                                        {...params} label="Combo box"
+                                        size='small'
+                                        variant="outlined"
+                                        style={{border: 'none'}}
                                     />
-                                </Box>
+                                    }
+                                />
                             </Box>
-                        </FloatContainer>
-                    </div>
+                        </Box>
+                    </FloatContainer>
                 </div>
-                <Box height={80}/>
                 <div style={{background: '#E7F1F7', height: 400, borderRadius: 8}}>
                 </div>
             </Container>
