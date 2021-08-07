@@ -9,7 +9,7 @@ const useStyles = makeStyles((theme) => ({
         marginLeft: 20,
         transition: 'opacity 0.5s ease',
         '&:hover': {
-            opacity: 0.7
+            opacity: 0.5
         }
     }
 }));

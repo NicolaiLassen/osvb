@@ -1,16 +1,28 @@
-import {Box, Container} from "@material-ui/core";
+import {Box, Container, makeStyles} from "@material-ui/core";
 import TextIconWrapper from "../icons/TextIconWrapper";
 import React from "react";
 import HeaderLink from "./HeaderLink";
-import RouteNames from "../../constants/RouteNames";
 import {useLocation} from "react-router";
 import {RouteToColor} from "../../constants/Navigation";
+import MobileNavigation from "./MobileNavigation";
+import DesktopNavigation from "./DesktopNavigation";
+
+const useStyles = makeStyles((theme) => ({
+    root: {
+        position: "absolute",
+        zIndex: 10,
+        left: 0,
+        right: 0
+    }
+}));
 
 export const HeaderNavigation: React.FC = () => {
     const location = useLocation();
     const color = RouteToColor[location.pathname] ?? '#273A6B';
+    const classes = useStyles();
+
     return (
-        <div style={{position: "absolute", zIndex: 10, left: 0, right: 0}}>
+        <div className={classes.root}>
             <Container>
                 <Box display='flex' alignItems='center'>
                     <Box pt={3} pb={3}>
@@ -21,17 +33,8 @@ export const HeaderNavigation: React.FC = () => {
                         </TextIconWrapper>
                     </Box>
                     <Box flex={1}/>
-                    <Box display='flex' alignItems='center'>
-                        <HeaderLink to={RouteNames.about} color={color}>
-                            About
-                        </HeaderLink>
-                        <HeaderLink to={RouteNames.research} color={color}>
-                            Research
-                        </HeaderLink>
-                        <HeaderLink to={RouteNames.developer} color={color}>
-                            Developer
-                        </HeaderLink>
-                    </Box>
+                    <MobileNavigation/>
+                    <DesktopNavigation color={color}/>
                 </Box>
             </Container>
         </div>
