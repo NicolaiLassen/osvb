@@ -38,16 +38,18 @@ function LandingPage() {
                                 pl={1}
                                 display='flex'
                                 alignItems='center'
-                                justifyContent='center'>
+                                justifyContent='center'
+                                height='100%'
+                                style={{borderRight: '1px solid #F5F9FF'}}>
                                 <Autocomplete
                                     options={sex}
-                                    style={{width: 140}}
+                                    style={{width: 150}}
                                     getOptionLabel={(option: any) => option.title}
                                     renderInput={(params: any) => <TextField
                                         {...params} label="Sex"
                                         size='small'
-                                        fullWidth
                                         variant="outlined"
+                                        style={{border: 'none'}}
                                     />
                                     }
                                 />
