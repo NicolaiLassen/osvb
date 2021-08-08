@@ -8,6 +8,7 @@ const useStyles = makeStyles((theme) => ({
         textDecoration: 'none',
         marginLeft: 20,
         transition: 'opacity 0.5s ease',
+        fontWeight: 400,
         '&:hover': {
             opacity: 0.5
         }

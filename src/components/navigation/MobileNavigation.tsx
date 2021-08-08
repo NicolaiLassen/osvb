@@ -28,7 +28,8 @@ const useStyles = makeStyles<Theme, MobileNavigationStyleProps>((theme) => ({
         transformOrigin: '100% 0',
         pointerEvents: props => props.open ? "auto" : "none",
         transform: props => props.open ? 'scale(1)' : 'scale(.94)',
-        transition: 'all 0.25s cubic-bezier(0.33, 1, 0.68, 1)'
+        transition: 'all 0.25s cubic-bezier(0.33, 1, 0.68, 1)',
+        boxShadow:  '0px 16px 40px rgba(112, 144, 176,0.5) !important'
     },
     mobileCloseButton: {
         background: 'rgba(39, 58, 107,0.05)',
