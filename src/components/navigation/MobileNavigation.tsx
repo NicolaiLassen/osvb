@@ -5,6 +5,9 @@ import CloseLineIcon from "remixicon-react/CloseLineIcon";
 import HeaderLink from "./HeaderLink";
 import RouteNames from "../../constants/RouteNames";
 import React, {useState} from "react";
+import FingerprintLineIcon from "remixicon-react/FingerprintLineIcon";
+import PieChart2LineIcon from "remixicon-react/PieChart2LineIcon";
+import KeyLineIcon from "remixicon-react/KeyLineIcon";
 
 interface MobileNavigationStyleProps {
     open: boolean;
@@ -29,7 +32,7 @@ const useStyles = makeStyles<Theme, MobileNavigationStyleProps>((theme) => ({
         pointerEvents: props => props.open ? "auto" : "none",
         transform: props => props.open ? 'scale(1)' : 'scale(.94)',
         transition: 'all 0.25s cubic-bezier(0.33, 1, 0.68, 1)',
-        boxShadow:  '0px 16px 40px rgba(112, 144, 176,0.5) !important'
+        boxShadow: '0px 16px 40px rgba(112, 144, 176,0.5) !important'
     },
     mobileCloseButton: {
         background: 'rgba(39, 58, 107,0.05)',
@@ -73,36 +76,50 @@ export const MobileNavigation: React.FC<MobileNavigationProps> = ({color}) => {
                             <CloseLineIcon color='#273A6B' size={22}/>
                         </IconButton>
                     </Box>
-                    <Box>
-                        <HeaderLink
-                            onClick={handleClickOpen}
-                            to={RouteNames.about}
-                            color='#273A6B'
-                            style={{display: 'block', fontWeight: 'bold', marginBottom: 8}}
+                    <HeaderLink
+                        onClick={handleClickOpen}
+                        to={RouteNames.about}
+                        color='#273A6B'
+                        style={{display: 'block', fontSize: 17, fontWeight: '500' as 'bold'}}
+                    >
+                        <Box
+                            mb={1.5}
+                            display='flex'
+                            alignItems='center'
                         >
-                            About
-                        </HeaderLink>
-                    </Box>
-                    <Box>
-                        <HeaderLink
-                            onClick={handleClickOpen}
-                            to={RouteNames.research}
-                            color='#273A6B'
-                            style={{display: 'block', fontWeight: 'bold', marginBottom: 8}}
+                            <FingerprintLineIcon size={21}/>
+                            <Box pl={1.5}>About</Box>
+                        </Box>
+                    </HeaderLink>
+                    <HeaderLink
+                        onClick={handleClickOpen}
+                        to={RouteNames.research}
+                        color='#273A6B'
+                        style={{display: 'block', fontSize: 17, fontWeight: '500' as 'bold'}}
+                    >
+                        <Box
+                            mb={1.5}
+                            display='flex'
+                            alignItems='center'
                         >
-                            Research
-                        </HeaderLink>
-                    </Box>
-                    <Box>
-                        <HeaderLink
-                            onClick={handleClickOpen}
-                            to={RouteNames.developer}
-                            color='#273A6B'
-                            style={{fontWeight: 'bold'}}
+                            <PieChart2LineIcon size={21}/>
+                            <Box pl={1.5}>Research</Box>
+                        </Box>
+                    </HeaderLink>
+                    <HeaderLink
+                        onClick={handleClickOpen}
+                        to={RouteNames.developer}
+                        color='#273A6B'
+                        style={{display: 'block', fontSize: 17, fontWeight: '500' as 'bold'}}
+                    >
+                        <Box
+                            display='flex'
+                            alignItems='center'
                         >
-                            Developer
-                        </HeaderLink>
-                    </Box>
+                            <KeyLineIcon size={21}/>
+                            <Box pl={1.5}>Developer</Box>
+                        </Box>
+                    </HeaderLink>
                 </FloatContainer>
             </Box>
         </ClickAwayListener>
