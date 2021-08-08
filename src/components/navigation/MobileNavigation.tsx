@@ -21,7 +21,7 @@ const useStyles = makeStyles<Theme, MobileNavigationStyleProps>((theme) => ({
         left: 16,
         right: 16,
         top: 8,
-        paddingTop: 46,
+        paddingTop: 32,
         paddingBottom: 32,
         position: 'absolute',
         opacity: props => props.open ? 1 : 0,
@@ -29,6 +29,13 @@ const useStyles = makeStyles<Theme, MobileNavigationStyleProps>((theme) => ({
         pointerEvents: props => props.open ? "auto" : "none",
         transform: props => props.open ? 'scale(1)' : 'scale(.94)',
         transition: 'all 0.25s cubic-bezier(0.33, 1, 0.68, 1)'
+    },
+    mobileCloseButton: {
+        background: 'rgba(39, 58, 107,0.05)',
+        position: 'absolute',
+        right: 8,
+        top: 8,
+        zIndex: 10
     }
 }));
 
@@ -60,12 +67,7 @@ export const MobileNavigation: React.FC<MobileNavigationProps> = ({color}) => {
                     <Box>
                         <IconButton
                             onClick={handleClickOpen}
-                            style={{
-                                background: 'rgba(39, 58, 107,0.05)',
-                                position: 'absolute',
-                                right: 8,
-                                top: 8,
-                            }}
+                            className={classes.mobileCloseButton}
                         >
                             <CloseLineIcon color='#273A6B' size={22}/>
                         </IconButton>

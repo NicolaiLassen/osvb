@@ -16,10 +16,10 @@ export const FooterNavigation = () => {
                     <TextIconWrapper>
                         NSVB
                     </TextIconWrapper>
-                    <Box height={16}/>
-                    <p>
+                    <Box height={32}/>
+                    <span>
                         © {n} NSVB
-                    </p>
+                    </span>
                 </Box>
             </Container>
         </Box>
