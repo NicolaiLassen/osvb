@@ -3,6 +3,7 @@ import {Box, Container, TextField} from "@material-ui/core";
 import FloatContainer from "../components/containers/FloatContainer";
 import {Autocomplete} from '@material-ui/lab';
 import gradient from '../assets/sec-top-gradient.png';
+import BorderlessTextField from "../components/inputs/BorderlessTextField";
 
 const sex = [
     {title: 'Male'},
@@ -53,10 +54,10 @@ function LandingPage() {
                                     style={{width: 150}}
                                     getOptionLabel={(option: any) => option.title}
                                     renderInput={(params: any) => <TextField
-                                        {...params} label="Sex"
+                                        {...params}
+                                        label="Sex"
                                         size='small'
                                         variant="outlined"
-                                        style={{border: 'none'}}
                                     />
                                     }
                                 />
