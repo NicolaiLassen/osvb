@@ -2,7 +2,7 @@ import React from 'react';
 import {Box, Container, TextField} from "@material-ui/core";
 import FloatContainer from "../components/containers/FloatContainer";
 import {Autocomplete} from '@material-ui/lab';
-// import gradient from '../assets/top-gradient.png';
+import gradient from '../assets/sec-top-gradient.png';
 
 const sex = [
     {title: 'Male'},
@@ -15,11 +15,18 @@ function LandingPage() {
             <Box display='flex' alignItems='center'
                  style={{
                      height: 400,
-                     background: '#231E23'
+                     background: '#F5F9FF',
+                     backgroundImage: `url(${gradient})`,
+                     backgroundSize: 'cover',
+                     backgroundPosition: 'center',
+                     backgroundRepeat: 'no-repeat'
                  }}>
                 <Container>
-                    <p style={{color: 'white', fontWeight: 'bold', fontSize: 34}}>
+                    <p style={{fontWeight: 'bold', fontSize: 34, marginTop: 0, marginBottom: 16}}>
                         Nordic Social Value Bank
+                    </p>
+                    <p style={{fontSize: 20, margin: 0}}>
+                        For wiser socioeconomics decisions.
                     </p>
                 </Container>
             </Box>
@@ -40,7 +47,7 @@ function LandingPage() {
                                 alignItems='center'
                                 justifyContent='center'
                                 height='100%'
-                                style={{borderRight: '1px solid #F5F9FF'}}>
+                                style={{borderRight: '2px solid #F5F9FF'}}>
                                 <Autocomplete
                                     options={sex}
                                     style={{width: 150}}
