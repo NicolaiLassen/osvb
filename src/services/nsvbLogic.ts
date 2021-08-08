@@ -1,9 +1,16 @@
+export const ID: string[] = []
+
 export const sex = [
     {title: 'Male'},
     {title: 'Female'},
 ];
 
-export const wellbeingCoefficient = [-0.78,
+export const ageRatio: string[] = [];
+
+export const education: string[] = [];
+
+export const wellbeingCoefficient: number[] = [
+    -0.78,
     -0.75,
     -0.75,
     -0.74,
@@ -55,4 +62,6 @@ export const wellbeingCoefficient = [-0.78,
     -0.41,
     -0.39,
     -0.36,
-    -0.31]
+    -0.31
+];
+
