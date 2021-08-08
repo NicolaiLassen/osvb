@@ -1,13 +1,10 @@
 import React from 'react';
-import {Box, Container, TextField} from "@material-ui/core";
+import {Box, Container, IconButton, TextField} from "@material-ui/core";
 import FloatContainer from "../components/containers/FloatContainer";
+import FileExcelLineIcon from "remixicon-react/FileExcelLineIcon";
 import {Autocomplete} from '@material-ui/lab';
 import gradient from '../assets/sec-top-gradient.png';
-
-const sex = [
-    {title: 'Male'},
-    {title: 'Female'},
-];
+import {sex} from "../services/nsvbLogic";
 
 function LandingPage() {
     return (
@@ -32,7 +29,7 @@ function LandingPage() {
             </Box>
             <Container>
                 <div style={{transform: 'translateY(-44px)'}}>
-                    <FloatContainer style={{height: 88}}>
+                    <FloatContainer style={{height: 88, overflow: 'hidden'}}>
                         <Box
                             display='flex'
                             alignItems='center'
@@ -40,6 +37,15 @@ function LandingPage() {
                             pr={1}
                             pl={1}
                         >
+                            <Box
+                                pr={1}
+                                pl={1}
+                                display='flex'
+                                alignItems='center'
+                                justifyContent='center'
+                                height='100%'
+                                style={{borderRight: '2px solid #F5F9FF'}}>
+                            </Box>
                             <Box
                                 pr={1}
                                 pl={1}
@@ -60,6 +66,13 @@ function LandingPage() {
                                     />
                                     }
                                 />
+                            </Box>
+                            <Box
+                                pr={1}
+                                pl={1}>
+                                <IconButton size='small'>
+                                    <FileExcelLineIcon/>
+                                </IconButton>
                             </Box>
                         </Box>
                     </FloatContainer>

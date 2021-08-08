@@ -13,11 +13,11 @@ export const FooterNavigation = () => {
         }}>
             <Container>
                 <Box pt={3} pb={3}>
-                    <TextIconWrapper>
+                    <TextIconWrapper style={{fontSize: 20}}>
                         NSVB
                     </TextIconWrapper>
                     <Box height={32}/>
-                    <span>
+                    <span style={{fontSize: 13}}>
                         © {n} NSVB
                     </span>
                 </Box>
