@@ -4,10 +4,9 @@ import FloatContainer from "../components/containers/FloatContainer";
 import {Autocomplete} from '@material-ui/lab';
 // import gradient from '../assets/top-gradient.png';
 
-const top100Films = [
-    {title: 'The Shawshank Redemption', year: 1994},
-    {title: 'The Godfather', year: 1972},
-    {title: 'The Godfather: Part II', year: 1974}
+const sex = [
+    {title: 'Male'},
+    {title: 'Female'},
 ];
 
 function LandingPage() {
@@ -39,19 +38,16 @@ function LandingPage() {
                                 pl={1}
                                 display='flex'
                                 alignItems='center'
-                                justifyContent='center'
-                                height='100%'
-                                style={{borderRight: '1px solid #E7F1F7'}}>
+                                justifyContent='center'>
                                 <Autocomplete
-                                    id="combo-box-demo"
-                                    options={top100Films}
+                                    options={sex}
+                                    style={{width: 140}}
                                     getOptionLabel={(option: any) => option.title}
-                                    style={{width: 300}}
                                     renderInput={(params: any) => <TextField
-                                        {...params} label="Combo box"
+                                        {...params} label="Sex"
                                         size='small'
+                                        fullWidth
                                         variant="outlined"
-                                        style={{border: 'none'}}
                                     />
                                     }
                                 />
