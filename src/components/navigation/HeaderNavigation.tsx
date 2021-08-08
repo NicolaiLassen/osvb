@@ -29,6 +29,7 @@ export const HeaderNavigation: React.FC = () => {
                         <TextIconWrapper>
                             <HeaderLink to='/' color={color} style={{margin: 0}}>
                                 NSVB
+                                <span style={{fontSize: 9, position: 'absolute'}}>beta</span>
                             </HeaderLink>
                         </TextIconWrapper>
                     </Box>
