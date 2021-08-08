@@ -4,16 +4,22 @@ import TextIconWrapper from "../icons/TextIconWrapper";
 
 
 export const FooterNavigation = () => {
+    const d = new Date();
+    const n = d.getFullYear();
 
     return (
-        <Box mt={2} style={{
+        <Box style={{
             background: '#F5F9FF'
         }}>
             <Container>
-                <Box pt={5} pb={5}>
+                <Box pt={3} pb={3}>
                     <TextIconWrapper>
                         NSVB
                     </TextIconWrapper>
+                    <Box height={16}/>
+                    <p>
+                        © {n} NSVB
+                    </p>
                 </Box>
             </Container>
         </Box>

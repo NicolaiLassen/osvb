@@ -55,9 +55,9 @@ function DeveloperPage() {
                                         justifyContent='center'
                                         borderRadius={8}
                                         style={{background: 'rgba(99,163,238,0.2)', height: 45, width: 45}}>
-                                        <Slideshow3LineIcon color='#63A3EE' size={22}/>
+                                        <KeyLineIcon color='#63A3EE' size={22}/>
                                     </Box>
-                                    <h3 style={{margin: 0}}>Examples</h3>
+                                    <h3 style={{margin: 0}}>API key</h3>
                                 </Box>
                             </FloatContainer>
                         </Grid>
@@ -72,9 +72,9 @@ function DeveloperPage() {
                                         justifyContent='center'
                                         borderRadius={8}
                                         style={{background: 'rgba(99,163,238,0.2)', height: 45, width: 45}}>
-                                        <KeyLineIcon color='#63A3EE' size={22}/>
+                                        <Slideshow3LineIcon color='#63A3EE' size={22}/>
                                     </Box>
-                                    <h3 style={{margin: 0}}>API key</h3>
+                                    <h3 style={{margin: 0}}>Examples</h3>
                                 </Box>
                             </FloatContainer>
                         </Grid>
