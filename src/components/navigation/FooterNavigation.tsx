@@ -17,9 +17,15 @@ export const FooterNavigation = () => {
                         NSVB
                     </TextIconWrapper>
                     <Box height={32}/>
-                    <span style={{fontSize: 13}}>
-                        © {n} NSVB
-                    </span>
+                    <Box display='flex'>
+                        <div style={{fontSize: 13}}>
+                            © {n} NSVB
+                        </div>
+                        <Box flex={1}/>
+                        <div style={{fontWeight: 500, fontSize: 13}}>
+                            beta 0.0.1
+                        </div>
+                    </Box>
                 </Box>
             </Container>
         </Box>

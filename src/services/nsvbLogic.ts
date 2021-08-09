@@ -1,13 +1,28 @@
 export const ID: string[] = []
 
-export const sex = [
-    {title: 'Male'},
-    {title: 'Female'},
+export interface NSVBSearch {
+    theme: string;
+    sex: string;
+}
+
+export interface CategoricSelect {
+    type: string;
+}
+
+export const theme = [
+    {type: 'Loneliness'}
 ];
 
-export const ageRatio: string[] = [];
+export const sex = [
+    {type: 'Male'},
+    {type: 'Female'},
+];
+
+export const ageRange: string[] = [];
 
 export const education: string[] = [];
+
+export const logIncomeCoefficient = 1.96;
 
 export const wellbeingCoefficient: number[] = [
     -0.78,

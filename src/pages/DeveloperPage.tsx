@@ -6,6 +6,8 @@ import LifebuoyLineIcon from 'remixicon-react/LifebuoyLineIcon';
 import KeyLineIcon from 'remixicon-react/KeyLineIcon';
 import FileList3LineIcon from "remixicon-react/FileList3LineIcon";
 import Slideshow3LineIcon from "remixicon-react/Slideshow3LineIcon";
+import {Link} from "react-router-dom";
+import RouteNames from "../constants/RouteNames";
 
 function DeveloperPage() {
     return (
@@ -28,21 +30,28 @@ function DeveloperPage() {
                 <div style={{transform: 'translateY(-55px)'}}>
                     <Grid container spacing={3}>
                         <Grid item md={6} sm={12} xs={12}>
-                            <FloatContainer>
-                                <Box p={4} flexDirection='column' display='flex'
-                                     justifyContent='center'>
-                                    <Box
-                                        mb={2}
-                                        display='flex'
-                                        alignItems='center'
-                                        justifyContent='center'
-                                        borderRadius={8}
-                                        style={{background: 'rgba(99,163,238,0.2)', height: 45, width: 45}}>
-                                        <FileList3LineIcon color='#63A3EE' size={22}/>
+                            <Link to={RouteNames.docs} style={{
+                                textDecoration: 'none'
+                            }}>
+                                <FloatContainer>
+                                    <Box p={4} flexDirection='column' display='flex'
+                                         justifyContent='center'>
+                                        <Box
+                                            mb={2}
+                                            display='flex'
+                                            alignItems='center'
+                                            justifyContent='center'
+                                            borderRadius={8}
+                                            style={{background: 'rgba(99,163,238,0.2)', height: 45, width: 45}}>
+                                            <FileList3LineIcon color='#63A3EE' size={22}/>
+                                        </Box>
+                                        <h3 style={{
+                                            fontWeight: 400,
+                                            margin: 0
+                                        }}>Documentation</h3>
                                     </Box>
-                                    <h3 style={{fontWeight: 400, margin: 0}}>Documentation</h3>
-                                </Box>
-                            </FloatContainer>
+                                </FloatContainer>
+                            </Link>
                         </Grid>
                         <Grid item md={6} sm={12} xs={12}>
                             <FloatContainer>

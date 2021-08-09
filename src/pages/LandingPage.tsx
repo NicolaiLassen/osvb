@@ -1,12 +1,18 @@
-import React from 'react';
-import {Box, Container, IconButton, TextField} from "@material-ui/core";
+import React, {useState} from 'react';
+import {Box, Container, IconButton, TextField, Tooltip} from "@material-ui/core";
 import FloatContainer from "../components/containers/FloatContainer";
 import FileExcelLineIcon from "remixicon-react/FileExcelLineIcon";
 import {Autocomplete} from '@material-ui/lab';
 import gradient from '../assets/sec-top-gradient.png';
-import {sex} from "../services/nsvbLogic";
+import {CategoricSelect, NSVBSearch, sex, theme} from "../services/nsvbLogic";
+
+// https://material-ui.com/components/autocomplete/
 
 function LandingPage() {
+
+    const [search, setSearch] = useState<NSVBSearch | undefined>(undefined);
+    const [fakeLoad, setFakeLoad] = useState(false);
+
     return (
         <div>
             <Box display='flex' alignItems='center'
@@ -45,6 +51,22 @@ function LandingPage() {
                                 justifyContent='center'
                                 height='100%'
                                 style={{borderRight: '2px solid #F5F9FF'}}>
+                                <Autocomplete
+                                    freeSolo
+                                    disableClearable
+                                    options={theme}
+                                    style={{width: 150}}
+                                    getOptionLabel={(option: CategoricSelect) => option.type}
+                                    renderInput={(params: any) => <TextField
+                                        {...params}
+                                        label="Theme"
+                                        fullWidth
+                                        size='small'
+                                        variant="outlined"
+                                        InputProps={{...params.InputProps}}
+                                    />
+                                    }
+                                />
                             </Box>
                             <Box
                                 pr={1}
@@ -55,27 +77,51 @@ function LandingPage() {
                                 height='100%'
                                 style={{borderRight: '2px solid #F5F9FF'}}>
                                 <Autocomplete
+                                    freeSolo
+                                    disableClearable
                                     options={sex}
                                     style={{width: 150}}
-                                    getOptionLabel={(option: any) => option.title}
+                                    getOptionLabel={(option: CategoricSelect) => option.type}
                                     renderInput={(params: any) => <TextField
                                         {...params}
                                         label="Sex"
                                         size='small'
                                         variant="outlined"
+                                        InputProps={{...params.InputProps}}
                                     />
                                     }
                                 />
                             </Box>
-                            <Box
-                                pr={1}
-                                pl={1}>
-                                <IconButton size='small'>
-                                    <FileExcelLineIcon/>
-                                </IconButton>
-                            </Box>
                         </Box>
                     </FloatContainer>
+                    <Box
+                        pt={2}
+                    >
+                        <Tooltip title='Export csv'>
+                            <IconButton>
+                                <FileExcelLineIcon/>
+                            </IconButton>
+                        </Tooltip>
+                    </Box>
+                    <Box
+                        display='flex'
+                        alignItems='center'
+                        width='100%'
+                        minHeight={150}
+                        justifyContent='center'
+                    >
+                        {!search &&
+                        <p style={{textAlign: 'center', fontSize: 18}}>
+                            Please Select a filter...
+                        </p>
+                        }
+
+                        {fakeLoad &&
+                        <div>
+                            loading
+                        </div>
+                        }
+                    </Box>
                 </div>
             </Container>
         </div>

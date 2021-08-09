@@ -12,6 +12,10 @@ body {
     color: #273A6B;
 }
 
+a {
+    color: #273A6B;
+}
+
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

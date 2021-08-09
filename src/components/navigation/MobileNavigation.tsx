@@ -80,7 +80,7 @@ export const MobileNavigation: React.FC<MobileNavigationProps> = ({color}) => {
                         onClick={handleClickOpen}
                         to={RouteNames.about}
                         color='#273A6B'
-                        style={{display: 'block', fontSize: 17, fontWeight: '500' as 'bold'}}
+                        style={{display: 'block', fontSize: 17, fontWeight: 500}}
                     >
                         <Box
                             mb={1.5}
@@ -95,7 +95,7 @@ export const MobileNavigation: React.FC<MobileNavigationProps> = ({color}) => {
                         onClick={handleClickOpen}
                         to={RouteNames.research}
                         color='#273A6B'
-                        style={{display: 'block', fontSize: 17, fontWeight: '500' as 'bold'}}
+                        style={{display: 'block', fontSize: 17, fontWeight: 500}}
                     >
                         <Box
                             mb={1.5}
@@ -110,7 +110,7 @@ export const MobileNavigation: React.FC<MobileNavigationProps> = ({color}) => {
                         onClick={handleClickOpen}
                         to={RouteNames.developer}
                         color='#273A6B'
-                        style={{display: 'block', fontSize: 17, fontWeight: '500' as 'bold'}}
+                        style={{display: 'block', fontSize: 17, fontWeight: 500}}
                     >
                         <Box
                             display='flex'
