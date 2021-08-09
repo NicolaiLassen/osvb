@@ -38,7 +38,7 @@ function App() {
                     </Switch>
                     <FooterNavigation/>
                 </Box>
-                <CookieBanner/>
+                {/*<CookieBanner/>*/}
             </Router>
         </ThemeProvider>
     );
