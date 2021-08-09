@@ -21,8 +21,8 @@ const useStyles = makeStyles<Theme, MobileNavigationStyleProps>((theme) => ({
         }
     },
     mobilNavigation: {
-        left: 16,
-        right: 16,
+        left: 8,
+        right: 8,
         top: 8,
         paddingTop: 32,
         paddingBottom: 32,

@@ -4,18 +4,28 @@ import FloatContainer from "../components/containers/FloatContainer";
 import FileExcelLineIcon from "remixicon-react/FileExcelLineIcon";
 import {Autocomplete} from '@material-ui/lab';
 import gradient from '../assets/sec-top-gradient.png';
-import {CategoricSelect, NSVBSearch, sex, theme, wellbeingCoefficient} from "../services/nsvbLogic";
+import {CategoricSelect, emptyNSVBSearch, NSVBEntry, NSVBSearch, sex, theme} from "../services/nsvbLogic";
+import {fakeDB} from "../services/fakeDB";
 
 // https://material-ui.com/components/autocomplete/
 
 function LandingPage() {
 
-    const [search, setSearch] = useState<NSVBSearch | undefined>(undefined);
+    const [search, setSearch] = useState<NSVBSearch>(emptyNSVBSearch);
     const [fakeLoad, setFakeLoad] = useState(false);
 
-    const handleSearch = () => {
-        setSearch(undefined);
-        setFakeLoad(true);
+    const handleSearch = (param: CategoricSelect) => {
+        if (!search.theme) {
+            setFakeLoad(true);
+            setTimeout(() => {
+                setFakeLoad(false)
+                // @ts-ignore
+                setSearch({...search, [param.type]: param.value});
+            }, 500)
+        } else {
+            // @ts-ignore
+            setSearch({...search, [param.type]: param.value});
+        }
     }
 
     return (
@@ -47,7 +57,6 @@ function LandingPage() {
                             height='100%'
                             pr={1}
                             pl={1}
-                            onClick={handleSearch}
                         >
                             <Box
                                 pr={1}
@@ -59,14 +68,19 @@ function LandingPage() {
                                 style={{borderRight: '2px solid #F5F9FF'}}>
                                 <Autocomplete
                                     freeSolo
+                                    value={search?.theme}
+                                    onChange={(event, newValue: any) => {
+                                        handleSearch(newValue);
+                                    }}
                                     disableClearable
                                     options={theme}
                                     style={{width: 150}}
-                                    getOptionLabel={(option: CategoricSelect) => option.type}
+                                    getOptionLabel={(option: CategoricSelect) => option.value}
                                     renderInput={(params: any) => <TextField
                                         {...params}
                                         label="Theme"
                                         fullWidth
+                                        required
                                         size='small'
                                         variant="outlined"
                                         InputProps={{...params.InputProps}}
@@ -84,10 +98,15 @@ function LandingPage() {
                                 style={{borderRight: '2px solid #F5F9FF'}}>
                                 <Autocomplete
                                     freeSolo
+                                    value={search?.sex}
+                                    disabled={!search.theme}
+                                    onChange={(event, newValue: any) => {
+                                        handleSearch(newValue);
+                                    }}
                                     disableClearable
                                     options={sex}
                                     style={{width: 150}}
-                                    getOptionLabel={(option: CategoricSelect) => option.type}
+                                    getOptionLabel={(option: CategoricSelect) => option.value}
                                     renderInput={(params: any) => <TextField
                                         {...params}
                                         label="Sex"
@@ -119,27 +138,27 @@ function LandingPage() {
                                         alignItems='center'
                                         justifyContent='center'
                                     >
-                                        {(!search && !fakeLoad) &&
-                                        <p style={{textAlign: 'center', fontWeight: 500, fontSize: 17}}>
-                                            Please Select a filter...
-                                        </p>
-                                        }
+                                        <Box>
+                                            {(!search.theme && !fakeLoad) &&
+                                            <p style={{textAlign: 'center', fontWeight: 500, fontSize: 17}}>
+                                                Please Select a theme...
+                                            </p>
+                                            }
 
-                                        {fakeLoad &&
-                                        <div>
-                                            <CircularProgress/>
-                                        </div>
-                                        }
-                                        {
-                                            wellbeingCoefficient.map((entry) => {
-                                                return (
-                                                    <div>{entry}</div>
-                                                )
-                                            })
-                                        }
+                                            {fakeLoad &&
+                                            <div>
+                                                <CircularProgress style={{color: '#273A6B'}}/>
+                                            </div>
+                                            }
+                                        </Box>
+                                        {search.theme &&
+                                        fakeDB.map((entry: NSVBEntry) => {
+                                            return (
+                                                <div>{entry.age}</div>
+                                            )
+                                        })}
                                     </Box>
                                 </Paper>
-
                             </Box>
                         </Grid>
                         <Grid item xs={12} sm={12} md={1}>
