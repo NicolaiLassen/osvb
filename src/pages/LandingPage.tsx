@@ -50,11 +50,8 @@ function LandingPage() {
     }
 
     const filterEntry: NSVBEntry[] = fakeDB.filter((entry: NSVBEntry) => {
-
-        if (search.sex?.includes(entry.sex)) {
-            return true;
-        }
-        return false;
+        let bool = true;
+        return bool;
     });
 
     return (
