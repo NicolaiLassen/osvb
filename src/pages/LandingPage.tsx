@@ -34,7 +34,7 @@ function LandingPage() {
                         Nordic Social Value Bank
                     </p>
                     <p style={{fontSize: 20, margin: 0}}>
-                        For wiser socioeconomics decisions.
+                        Metrics for wiser socioeconomics decisions.
                     </p>
                 </Container>
             </Box>
@@ -100,8 +100,11 @@ function LandingPage() {
                             </Box>
                         </Box>
                     </FloatContainer>
-                    <Grid container spacing={3} style={{paddingTop: 32}}>
-                        <Grid item md={11}>
+                    <Grid container
+                          spacing={3}
+                          style={{marginTop: 16, flexWrap: "wrap-reverse"}}
+                    >
+                        <Grid item xs={12} sm={12} md={11}>
                             <Box
                                 display='flex'
                                 flexDirection='column'
@@ -111,14 +114,13 @@ function LandingPage() {
                                 <Paper style={{width: '100%'}}>
                                     <Box
                                         p={3}
-                                        width='100%'
                                         display='flex'
                                         flexDirection='column'
                                         alignItems='center'
                                         justifyContent='center'
                                     >
                                         {(!search && !fakeLoad) &&
-                                        <p style={{textAlign: 'center', fontSize: 18}}>
+                                        <p style={{textAlign: 'center', fontWeight: 500, fontSize: 17}}>
                                             Please Select a filter...
                                         </p>
                                         }
@@ -140,7 +142,7 @@ function LandingPage() {
 
                             </Box>
                         </Grid>
-                        <Grid item md={1}>
+                        <Grid item xs={12} sm={12} md={1}>
                             <Paper>
                                 <Box p={1} display='flex' alignItems='center' justifyContent='center'>
                                     <Tooltip title='Export csv'>
