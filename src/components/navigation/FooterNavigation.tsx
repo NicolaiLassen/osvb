@@ -23,7 +23,7 @@ export const FooterNavigation = () => {
                         </div>
                         <Box flex={1}/>
                         <div style={{fontWeight: 500, fontSize: 13}}>
-                            beta 0.0.1
+                            alpha 0.0.1
                         </div>
                     </Box>
                 </Box>

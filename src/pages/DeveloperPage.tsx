@@ -27,7 +27,7 @@ function DeveloperPage() {
                 </Container>
             </Box>
             <Container>
-                <div style={{transform: 'translateY(-55px)'}}>
+                <div style={{transform: 'translateY(-60px)'}}>
                     <Grid container spacing={3}>
                         <Grid item md={6} sm={12} xs={12}>
                             <Link to={RouteNames.docs} style={{
