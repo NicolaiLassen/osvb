@@ -1,10 +1,24 @@
 import React, {useState} from 'react';
-import {Box, CircularProgress, Container, Grid, IconButton, Paper, TextField, Tooltip} from "@material-ui/core";
+import {
+    Box,
+    CircularProgress,
+    Container,
+    Grid,
+    IconButton,
+    Paper,
+    Table,
+    TableBody,
+    TableCell,
+    TableHead,
+    TableRow,
+    TextField,
+    Tooltip
+} from "@material-ui/core";
 import FloatContainer from "../components/containers/FloatContainer";
 import FileExcelLineIcon from "remixicon-react/FileExcelLineIcon";
 import {Autocomplete} from '@material-ui/lab';
 import gradient from '../assets/sec-top-gradient.png';
-import {CategoricSelect, emptyNSVBSearch, NSVBEntry, NSVBSearch, sex, theme} from "../services/nsvbLogic";
+import {age, CategoricSelect, education, emptyNSVBSearch, NSVBEntry, NSVBSearch, theme} from "../services/nsvbLogic";
 import {fakeDB} from "../services/fakeDB";
 
 // TEMP DINDONG PAGE
@@ -19,7 +33,7 @@ function LandingPage() {
             setFakeLoad(true);
             setTimeout(() => {
                 setFakeLoad(false)
-            }, 500)
+            }, 400)
         }
         // @ts-ignore
         setSearch({...search, [param.type]: param.value});
@@ -95,18 +109,79 @@ function LandingPage() {
                                 style={{borderRight: '2px solid #F5F9FF'}}>
                                 <Autocomplete
                                     freeSolo
+                                    multiple
+                                    value={search?.age}
+                                    disabled={!search.theme}
+                                    onChange={(event, newValue: any) => {
+                                        handleSearch(newValue);
+                                    }}
+                                    disableClearable
+                                    options={age}
+                                    style={{width: 150}}
+                                    getOptionLabel={(option: CategoricSelect) => option.value}
+                                    renderInput={(params: any) => <TextField
+                                        {...params}
+                                        label="Age"
+                                        size='small'
+                                        variant="outlined"
+                                        InputProps={{...params.InputProps}}
+                                    />
+                                    }
+                                />
+                            </Box>
+                            <Box
+                                pr={1}
+                                pl={1}
+                                display='flex'
+                                alignItems='center'
+                                justifyContent='center'
+                                height='100%'
+                                style={{borderRight: '2px solid #F5F9FF'}}>
+                                <Autocomplete
+                                    freeSolo
+                                    multiple
                                     value={search?.sex}
                                     disabled={!search.theme}
                                     onChange={(event, newValue: any) => {
                                         handleSearch(newValue);
                                     }}
                                     disableClearable
-                                    options={sex}
+                                    options={age}
                                     style={{width: 150}}
                                     getOptionLabel={(option: CategoricSelect) => option.value}
                                     renderInput={(params: any) => <TextField
                                         {...params}
                                         label="Sex"
+                                        size='small'
+                                        variant="outlined"
+                                        InputProps={{...params.InputProps}}
+                                    />
+                                    }
+                                />
+                            </Box>
+                            <Box
+                                pr={1}
+                                pl={1}
+                                display='flex'
+                                alignItems='center'
+                                justifyContent='center'
+                                height='100%'
+                            >
+                                <Autocomplete
+                                    freeSolo
+                                    multiple
+                                    value={search?.education}
+                                    disabled={!search.theme}
+                                    onChange={(event, newValue: any) => {
+                                        handleSearch(newValue);
+                                    }}
+                                    disableClearable
+                                    options={education}
+                                    style={{width: 150}}
+                                    getOptionLabel={(option: CategoricSelect) => option.value}
+                                    renderInput={(params: any) => <TextField
+                                        {...params}
+                                        label="Education"
                                         size='small'
                                         variant="outlined"
                                         InputProps={{...params.InputProps}}
@@ -150,24 +225,48 @@ function LandingPage() {
                                         <h4 style={{fontWeight: 500, margin: 0}}>{search.theme}</h4>
                                     </Box>
                                     <Box
-                                        p={3}
                                         display='flex'
                                         flexDirection='column'
                                         alignItems='center'
                                         justifyContent='center'
                                     >
                                         {fakeLoad &&
-                                        <div>
+                                        <Box p={3}>
                                             <CircularProgress style={{color: '#273A6B'}}/>
-                                        </div>
+                                        </Box>
                                         }
 
                                         {!fakeLoad &&
-                                        fakeDB.map((entry: NSVBEntry) => {
-                                            return (
-                                                <div>{entry.age}</div>
-                                            )
-                                        })}
+                                        <Table aria-label="simple table">
+                                            <TableHead>
+                                                <TableRow>
+                                                    <TableCell>Age</TableCell>
+                                                    <TableCell align="right">Sex</TableCell>
+                                                    <TableCell align="right">Education</TableCell>
+                                                    <TableCell align="right">Wellbeing Coefficient</TableCell>
+                                                    <TableCell align="right">1 point loss</TableCell>
+                                                    <TableCell align="right">1 point gain</TableCell>
+                                                </TableRow>
+                                            </TableHead>
+                                            <TableBody>
+                                                {fakeDB.map((entry: NSVBEntry) => (
+                                                    <TableRow key={entry.id}>
+                                                        <TableCell component="th" scope="row">
+                                                            {entry.age}
+                                                        </TableCell>
+                                                        <TableCell align="right">{entry.sex}</TableCell>
+                                                        <TableCell align="right">{entry.education}</TableCell>
+                                                        <TableCell
+                                                            align="right">{entry.wellbeingCoefficient}</TableCell>
+                                                        <TableCell
+                                                            align="right">{entry.wellbeingCoefficient}</TableCell>
+                                                        <TableCell
+                                                            align="right">{entry.wellbeingCoefficient}</TableCell>
+                                                    </TableRow>
+                                                ))}
+                                            </TableBody>
+                                        </Table>
+                                        }
                                     </Box>
                                 </Paper>
                                 }
@@ -175,7 +274,11 @@ function LandingPage() {
                         </Grid>
                         <Grid item xs={12} sm={12} md={1}>
                             <Paper>
-                                <Box p={1} display='flex' alignItems='center' justifyContent='center'>
+                                <Box p={1}
+                                     display='flex'
+                                     alignItems='center'
+                                     justifyContent='center'
+                                >
                                     <Tooltip title='Export csv'>
                                         <IconButton>
                                             <FileExcelLineIcon/>
