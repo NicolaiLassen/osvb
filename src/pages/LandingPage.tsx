@@ -244,7 +244,7 @@ function LandingPage() {
                                                     <TableCell style={{fontWeight: 'bold'}}>Sex</TableCell>
                                                     <TableCell style={{fontWeight: 'bold'}}>Education</TableCell>
                                                     <TableCell style={{fontWeight: 'bold'}}>Wellbeing
-                                                        Coefficient</TableCell>
+                                                        coefficient</TableCell>
                                                     <TableCell style={{fontWeight: 'bold'}}>1 point loss</TableCell>
                                                     <TableCell style={{fontWeight: 'bold'}}>1 point gain</TableCell>
                                                 </TableRow>
