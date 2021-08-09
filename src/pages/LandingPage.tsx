@@ -1,10 +1,10 @@
 import React, {useState} from 'react';
-import {Box, Container, IconButton, TextField, Tooltip} from "@material-ui/core";
+import {Box, Container, Grid, IconButton, Paper, TextField, Tooltip} from "@material-ui/core";
 import FloatContainer from "../components/containers/FloatContainer";
 import FileExcelLineIcon from "remixicon-react/FileExcelLineIcon";
 import {Autocomplete} from '@material-ui/lab';
 import gradient from '../assets/sec-top-gradient.png';
-import {CategoricSelect, NSVBSearch, sex, theme} from "../services/nsvbLogic";
+import {CategoricSelect, NSVBSearch, sex, theme, wellbeingCoefficient} from "../services/nsvbLogic";
 
 // https://material-ui.com/components/autocomplete/
 
@@ -100,34 +100,51 @@ function LandingPage() {
                             </Box>
                         </Box>
                     </FloatContainer>
-                    <Box
-                        pt={2}
-                    >
-                        <Tooltip title='Export csv'>
-                            <IconButton>
-                                <FileExcelLineIcon/>
-                            </IconButton>
-                        </Tooltip>
-                    </Box>
-                    <Box
-                        display='flex'
-                        alignItems='center'
-                        width='100%'
-                        minHeight={150}
-                        justifyContent='center'
-                    >
-                        {!search &&
-                        <p style={{textAlign: 'center', fontSize: 18}}>
-                            Please Select a filter...
-                        </p>
-                        }
+                    <Grid container spacing={3} style={{paddingTop: 32}}>
+                        <Grid item md={11}>
+                            <Box
+                                display='flex'
+                                flexDirection='column'
+                                alignItems='center'
+                                justifyContent='center'
+                            >
+                                {!search && !fakeLoad &&
+                                <p style={{textAlign: 'center', fontSize: 18}}>
+                                    Please Select a filter...
+                                </p>
+                                }
 
-                        {fakeLoad &&
-                        <div>
-                            loading
-                        </div>
-                        }
-                    </Box>
+                                <Paper style={{width: '100%'}}>
+                                    <Box p={3} width='100%'>
+                                        {
+                                            wellbeingCoefficient.map((entry) => {
+                                                return (
+                                                    <div>{entry}</div>
+                                                )
+                                            })
+                                        }
+                                    </Box>
+                                </Paper>
+
+                                {fakeLoad &&
+                                <div>
+                                    loading
+                                </div>
+                                }
+                            </Box>
+                        </Grid>
+                        <Grid item md={1}>
+                            <Paper>
+                                <Box p={1} display='flex' alignItems='center' justifyContent='center'>
+                                    <Tooltip title='Export csv'>
+                                        <IconButton>
+                                            <FileExcelLineIcon/>
+                                        </IconButton>
+                                    </Tooltip>
+                                </Box>
+                            </Paper>
+                        </Grid>
+                    </Grid>
                 </div>
             </Container>
         </div>
