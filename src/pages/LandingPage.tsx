@@ -240,12 +240,13 @@ function LandingPage() {
                                         <Table aria-label="simple table">
                                             <TableHead>
                                                 <TableRow>
-                                                    <TableCell>Age</TableCell>
-                                                    <TableCell align="right">Sex</TableCell>
-                                                    <TableCell align="right">Education</TableCell>
-                                                    <TableCell align="right">Wellbeing Coefficient</TableCell>
-                                                    <TableCell align="right">1 point loss</TableCell>
-                                                    <TableCell align="right">1 point gain</TableCell>
+                                                    <TableCell style={{fontWeight: 'bold'}}>Age</TableCell>
+                                                    <TableCell style={{fontWeight: 'bold'}}>Sex</TableCell>
+                                                    <TableCell style={{fontWeight: 'bold'}}>Education</TableCell>
+                                                    <TableCell style={{fontWeight: 'bold'}}>Wellbeing
+                                                        Coefficient</TableCell>
+                                                    <TableCell style={{fontWeight: 'bold'}}>1 point loss</TableCell>
+                                                    <TableCell style={{fontWeight: 'bold'}}>1 point gain</TableCell>
                                                 </TableRow>
                                             </TableHead>
                                             <TableBody>
@@ -254,14 +255,11 @@ function LandingPage() {
                                                         <TableCell component="th" scope="row">
                                                             {entry.age}
                                                         </TableCell>
-                                                        <TableCell align="right">{entry.sex}</TableCell>
-                                                        <TableCell align="right">{entry.education}</TableCell>
-                                                        <TableCell
-                                                            align="right">{entry.wellbeingCoefficient}</TableCell>
-                                                        <TableCell
-                                                            align="right">{entry.wellbeingCoefficient}</TableCell>
-                                                        <TableCell
-                                                            align="right">{entry.wellbeingCoefficient}</TableCell>
+                                                        <TableCell>{entry.sex}</TableCell>
+                                                        <TableCell>{entry.education}</TableCell>
+                                                        <TableCell>{entry.wellbeingCoefficient}</TableCell>
+                                                        <TableCell>{entry.pointGain}</TableCell>
+                                                        <TableCell>{entry.pointLoss}</TableCell>
                                                     </TableRow>
                                                 ))}
                                             </TableBody>

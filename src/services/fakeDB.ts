@@ -2,23 +2,6 @@ import {NSVBEntry} from "./nsvbLogic";
 
 export const fakeDB: NSVBEntry [] & any = [
     {
-        "id": "UCLA24",
-        "age": "75 og derover",
-        "sex": "Mand",
-        "education": "Lang videregående uddannelse",
-        "wellbeingCoefficient": 0.05,
-        "Std..Error": 0.26,
-        "t.value": 0.2,
-        "Pr...t..": 0.85,
-        "antal ensomme i sample (>6 på UCLA)": 3,
-        "i %": 5.08,
-        "sample": 59,
-        "% af samlet befolkning": 0.31,
-        "Antal ensomme": 916,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "22.292.33 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "20.430.019 kr."
-    },
-    {
         "id": "UCLA36",
         "age": "75 og derover",
         "sex": "Both",
@@ -32,8 +15,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 64,
         "% af samlet befolkning": 0.33,
         "Antal ensomme": 916,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "21.649.53 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "19.840.923 kr."
+        "pointLoss": "21.649.53 kr.",
+        "pointGain": "19.840.923 kr."
     },
     {
         "id": "UCLA38",
@@ -49,8 +32,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 15,
         "% af samlet befolkning": 0.08,
         "Antal ensomme": 0,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "3.936.16 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "0 kr."
+        "pointLoss": "3.936.16 kr.",
+        "pointGain": "0 kr."
     },
     {
         "id": "UCLA58",
@@ -66,8 +49,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 20,
         "% af samlet befolkning": 0.1,
         "Antal ensomme": 305,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "33.880.08 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "10.349.909 kr."
+        "pointLoss": "33.880.08 kr.",
+        "pointGain": "10.349.909 kr."
     },
     {
         "id": "UCLA61",
@@ -83,8 +66,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 388,
         "% af samlet befolkning": 2.03,
         "Antal ensomme": 9776,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "123.762.15 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "1.209.845.605 kr."
+        "pointLoss": "123.762.15 kr.",
+        "pointGain": "1.209.845.605 kr."
     },
     {
         "id": "UCLA144",
@@ -100,8 +83,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 67,
         "% af samlet befolkning": 0.35,
         "Antal ensomme": 916,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "44.632.59 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "40.903.966 kr."
+        "pointLoss": "44.632.59 kr.",
+        "pointGain": "40.903.966 kr."
     },
     {
         "id": "UCLA74",
@@ -117,8 +100,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 29,
         "% af samlet befolkning": 0.15,
         "Antal ensomme": 916,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "49.728.42 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "45.574.096 kr."
+        "pointLoss": "49.728.42 kr.",
+        "pointGain": "45.574.096 kr."
     },
     {
         "id": "UCLA135",
@@ -134,8 +117,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 112,
         "% af samlet befolkning": 0.59,
         "Antal ensomme": 2138,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "118.901.78 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "254.260.276 kr."
+        "pointLoss": "118.901.78 kr.",
+        "pointGain": "254.260.276 kr."
     },
     {
         "id": "UCLA85",
@@ -151,8 +134,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 270,
         "% af samlet befolkning": 1.41,
         "Antal ensomme": 5499,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "118.238.34 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "650.164.055 kr."
+        "pointLoss": "118.238.34 kr.",
+        "pointGain": "650.164.055 kr."
     },
     {
         "id": "UCLA8",
@@ -168,8 +151,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 50,
         "% af samlet befolkning": 0.26,
         "Antal ensomme": 1527,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "58.589.28 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "89.491.187 kr."
+        "pointLoss": "58.589.28 kr.",
+        "pointGain": "89.491.187 kr."
     },
     {
         "id": "UCLA134",
@@ -185,8 +168,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 237,
         "% af samlet befolkning": 1.24,
         "Antal ensomme": 6110,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "115.944.88 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "708.392.082 kr."
+        "pointLoss": "115.944.88 kr.",
+        "pointGain": "708.392.082 kr."
     },
     {
         "id": "UCLA11",
@@ -202,8 +185,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 120,
         "% af samlet befolkning": 0.63,
         "Antal ensomme": 5499,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "109.197.48 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "600.450.531 kr."
+        "pointLoss": "109.197.48 kr.",
+        "pointGain": "600.450.531 kr."
     },
     {
         "id": "UCLA96",
@@ -219,8 +202,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 227,
         "% af samlet befolkning": 1.19,
         "Antal ensomme": 4888,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "109.192.59 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "533.709.922 kr."
+        "pointLoss": "109.192.59 kr.",
+        "pointGain": "533.709.922 kr."
     },
     {
         "id": "UCLA29",
@@ -236,8 +219,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 35,
         "% af samlet befolkning": 0.18,
         "Antal ensomme": 611,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "63.242.25 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "38.639.317 kr."
+        "pointLoss": "63.242.25 kr.",
+        "pointGain": "38.639.317 kr."
     },
     {
         "id": "UCLA15",
@@ -253,8 +236,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 108,
         "% af samlet befolkning": 0.56,
         "Antal ensomme": 3360,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "63.605.40 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "213.736.547 kr."
+        "pointLoss": "63.605.40 kr.",
+        "pointGain": "213.736.547 kr."
     },
     {
         "id": "UCLA105",
@@ -270,8 +253,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 246,
         "% af samlet befolkning": 1.29,
         "Antal ensomme": 4582,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "63.619.07 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "291.521.555 kr."
+        "pointLoss": "63.619.07 kr.",
+        "pointGain": "291.521.555 kr."
     },
     {
         "id": "UCLA35",
@@ -287,8 +270,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 91,
         "% af samlet befolkning": 0.48,
         "Antal ensomme": 1833,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "63.835.06 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "117.004.526 kr."
+        "pointLoss": "63.835.06 kr.",
+        "pointGain": "117.004.526 kr."
     },
     {
         "id": "UCLA86",
@@ -304,8 +287,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 749,
         "% af samlet befolkning": 3.92,
         "Antal ensomme": 10998,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "108.456.02 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "1.192.746.833 kr."
+        "pointLoss": "108.456.02 kr.",
+        "pointGain": "1.192.746.833 kr."
     },
     {
         "id": "UCLA23",
@@ -321,8 +304,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 56,
         "% af samlet befolkning": 0.29,
         "Antal ensomme": 1222,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "64.881.57 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "79.281.790 kr."
+        "pointLoss": "64.881.57 kr.",
+        "pointGain": "79.281.790 kr."
     },
     {
         "id": "UCLA129",
@@ -338,8 +321,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 266,
         "% af samlet befolkning": 1.39,
         "Antal ensomme": 5499,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "64.917.98 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "356.968.255 kr."
+        "pointLoss": "64.917.98 kr.",
+        "pointGain": "356.968.255 kr."
     },
     {
         "id": "UCLA110",
@@ -355,8 +338,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 444,
         "% af samlet befolkning": 2.32,
         "Antal ensomme": 6721,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "105.684.41 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "710.273.654 kr."
+        "pointLoss": "105.684.41 kr.",
+        "pointGain": "710.273.654 kr."
     },
     {
         "id": "UCLA93",
@@ -372,8 +355,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 200,
         "% af samlet befolkning": 1.05,
         "Antal ensomme": 7637,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "102.324.87 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "781.471.790 kr."
+        "pointLoss": "102.324.87 kr.",
+        "pointGain": "781.471.790 kr."
     },
     {
         "id": "UCLA54",
@@ -389,8 +372,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 1554,
         "% af samlet befolkning": 8.12,
         "Antal ensomme": 12830,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "67.452.07 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "865.439.483 kr."
+        "pointLoss": "67.452.07 kr.",
+        "pointGain": "865.439.483 kr."
     },
     {
         "id": "UCLA119",
@@ -406,8 +389,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 457,
         "% af samlet befolkning": 2.39,
         "Antal ensomme": 5499,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "101.253.57 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "556.768.872 kr."
+        "pointLoss": "101.253.57 kr.",
+        "pointGain": "556.768.872 kr."
     },
     {
         "id": "UCLA16",
@@ -423,8 +406,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 40,
         "% af samlet befolkning": 0.21,
         "Antal ensomme": 1833,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "67.752.37 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "124.184.635 kr."
+        "pointLoss": "67.752.37 kr.",
+        "pointGain": "124.184.635 kr."
     },
     {
         "id": "UCLA152",
@@ -440,8 +423,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 122,
         "% af samlet befolkning": 0.64,
         "Antal ensomme": 1222,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "68.258.98 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "83.408.807 kr."
+        "pointLoss": "68.258.98 kr.",
+        "pointGain": "83.408.807 kr."
     },
     {
         "id": "UCLA79",
@@ -457,8 +440,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 844,
         "% af samlet befolkning": 4.41,
         "Antal ensomme": 11303,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "68.472.20 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "773.941.451 kr."
+        "pointLoss": "68.472.20 kr.",
+        "pointGain": "773.941.451 kr."
     },
     {
         "id": "UCLA21",
@@ -474,8 +457,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 378,
         "% af samlet befolkning": 1.98,
         "Antal ensomme": 4277,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "100.690.49 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "430.634.292 kr."
+        "pointLoss": "100.690.49 kr.",
+        "pointGain": "430.634.292 kr."
     },
     {
         "id": "UCLA114",
@@ -491,8 +474,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 23,
         "% af samlet befolkning": 0.12,
         "Antal ensomme": 611,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "68.711.62 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "41.980.951 kr."
+        "pointLoss": "68.711.62 kr.",
+        "pointGain": "41.980.951 kr."
     },
     {
         "id": "UCLA31",
@@ -508,8 +491,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 17,
         "% af samlet befolkning": 0.09,
         "Antal ensomme": 611,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "69.192.75 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "42.274.909 kr."
+        "pointLoss": "69.192.75 kr.",
+        "pointGain": "42.274.909 kr."
     },
     {
         "id": "UCLA27",
@@ -525,8 +508,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 277,
         "% af samlet befolkning": 1.45,
         "Antal ensomme": 4888,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "98.879.13 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "483.299.929 kr."
+        "pointLoss": "98.879.13 kr.",
+        "pointGain": "483.299.929 kr."
     },
     {
         "id": "UCLA2",
@@ -542,8 +525,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 58,
         "% af samlet befolkning": 0.3,
         "Antal ensomme": 1833,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "69.487.50 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "127.364.981 kr."
+        "pointLoss": "69.487.50 kr.",
+        "pointGain": "127.364.981 kr."
     },
     {
         "id": "UCLA53",
@@ -559,8 +542,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 894,
         "% af samlet befolkning": 4.67,
         "Antal ensomme": 11914,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "69.820.75 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "831.842.753 kr."
+        "pointLoss": "69.820.75 kr.",
+        "pointGain": "831.842.753 kr."
     },
     {
         "id": "UCLA56",
@@ -576,8 +559,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 252,
         "% af samlet befolkning": 1.32,
         "Antal ensomme": 2138,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "69.897.67 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "149.469.587 kr."
+        "pointLoss": "69.897.67 kr.",
+        "pointGain": "149.469.587 kr."
     },
     {
         "id": "UCLA88",
@@ -593,8 +576,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 183,
         "% af samlet befolkning": 0.96,
         "Antal ensomme": 1833,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "97.169.49 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "178.103.849 kr."
+        "pointLoss": "97.169.49 kr.",
+        "pointGain": "178.103.849 kr."
     },
     {
         "id": "UCLA75",
@@ -610,8 +593,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 2111,
         "% af samlet befolkning": 11.04,
         "Antal ensomme": 36047,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "71.377.67 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "2.572.980.473 kr."
+        "pointLoss": "71.377.67 kr.",
+        "pointGain": "2.572.980.473 kr."
     },
     {
         "id": "UCLA34",
@@ -627,8 +610,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 301,
         "% af samlet befolkning": 1.57,
         "Antal ensomme": 2444,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "71.468.12 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "174.660.404 kr."
+        "pointLoss": "71.468.12 kr.",
+        "pointGain": "174.660.404 kr."
     },
     {
         "id": "UCLA161",
@@ -644,8 +627,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 685,
         "% af samlet befolkning": 3.58,
         "Antal ensomme": 12525,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "71.788.46 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "899.146.793 kr."
+        "pointLoss": "71.788.46 kr.",
+        "pointGain": "899.146.793 kr."
     },
     {
         "id": "UCLA177",
@@ -661,8 +644,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 1186,
         "% af samlet befolkning": 6.2,
         "Antal ensomme": 17718,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "72.655.68 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "1.287.329.354 kr."
+        "pointLoss": "72.655.68 kr.",
+        "pointGain": "1.287.329.354 kr."
     },
     {
         "id": "UCLA51",
@@ -678,8 +661,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 1847,
         "% af samlet befolkning": 9.66,
         "Antal ensomme": 17107,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "72.698.36 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "1.243.668.922 kr."
+        "pointLoss": "72.698.36 kr.",
+        "pointGain": "1.243.668.922 kr."
     },
     {
         "id": "UCLA59",
@@ -695,8 +678,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 3735,
         "% af samlet befolkning": 19.53,
         "Antal ensomme": 35436,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "73.153.94 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "2.592.315.404 kr."
+        "pointLoss": "73.153.94 kr.",
+        "pointGain": "2.592.315.404 kr."
     },
     {
         "id": "UCLA64",
@@ -712,8 +695,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 168,
         "% af samlet befolkning": 0.88,
         "Antal ensomme": 2749,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "94.792.64 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "260.620.906 kr."
+        "pointLoss": "94.792.64 kr.",
+        "pointGain": "260.620.906 kr."
     },
     {
         "id": "UCLA169",
@@ -729,8 +712,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 501,
         "% af samlet befolkning": 2.62,
         "Antal ensomme": 5193,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "73.752.22 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "383.015.302 kr."
+        "pointLoss": "73.752.22 kr.",
+        "pointGain": "383.015.302 kr."
     },
     {
         "id": "UCLA95",
@@ -746,8 +729,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 538,
         "% af samlet befolkning": 2.81,
         "Antal ensomme": 7332,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "91.848.65 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "673.404.695 kr."
+        "pointLoss": "91.848.65 kr.",
+        "pointGain": "673.404.695 kr."
     },
     {
         "id": "UCLA109",
@@ -763,8 +746,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 114,
         "% af samlet befolkning": 0.6,
         "Antal ensomme": 7026,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "91.587.54 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "643.511.542 kr."
+        "pointLoss": "91.587.54 kr.",
+        "pointGain": "643.511.542 kr."
     },
     {
         "id": "UCLA78",
@@ -780,8 +763,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 1713,
         "% af samlet befolkning": 8.96,
         "Antal ensomme": 22911,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "75.277.52 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "1.724.720.298 kr."
+        "pointLoss": "75.277.52 kr.",
+        "pointGain": "1.724.720.298 kr."
     },
     {
         "id": "UCLA44",
@@ -797,8 +780,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 1888,
         "% af samlet befolkning": 9.87,
         "Antal ensomme": 18329,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "75.319.22 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "1.380.540.559 kr."
+        "pointLoss": "75.319.22 kr.",
+        "pointGain": "1.380.540.559 kr."
     },
     {
         "id": "UCLA62",
@@ -814,8 +797,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 903,
         "% af samlet befolkning": 4.72,
         "Antal ensomme": 9776,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "91.254.53 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "892.065.090 kr."
+        "pointLoss": "91.254.53 kr.",
+        "pointGain": "892.065.090 kr."
     },
     {
         "id": "UCLA72",
@@ -831,8 +814,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 226,
         "% af samlet befolkning": 1.18,
         "Antal ensomme": 4277,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "90.790.81 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "388.295.201 kr."
+        "pointLoss": "90.790.81 kr.",
+        "pointGain": "388.295.201 kr."
     },
     {
         "id": "UCLA32",
@@ -848,8 +831,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 719,
         "% af samlet befolkning": 3.76,
         "Antal ensomme": 17413,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "76.793.19 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "1.337.179.334 kr."
+        "pointLoss": "76.793.19 kr.",
+        "pointGain": "1.337.179.334 kr."
     },
     {
         "id": "UCLA148",
@@ -865,8 +848,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 345,
         "% af samlet befolkning": 1.8,
         "Antal ensomme": 14663,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "77.424.88 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "1.135.308.475 kr."
+        "pointLoss": "77.424.88 kr.",
+        "pointGain": "1.135.308.475 kr."
     },
     {
         "id": "UCLA25",
@@ -882,8 +865,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 885,
         "% af samlet befolkning": 4.63,
         "Antal ensomme": 13441,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "78.391.26 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "1.053.688.979 kr."
+        "pointLoss": "78.391.26 kr.",
+        "pointGain": "1.053.688.979 kr."
     },
     {
         "id": "UCLA22",
@@ -899,8 +882,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 133,
         "% af samlet befolkning": 0.7,
         "Antal ensomme": 1833,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "90.401.03 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "165.697.792 kr."
+        "pointLoss": "90.401.03 kr.",
+        "pointGain": "165.697.792 kr."
     },
     {
         "id": "UCLA37",
@@ -916,8 +899,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 1852,
         "% af samlet befolkning": 9.68,
         "Antal ensomme": 32382,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "78.865.70 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "2.553.795.485 kr."
+        "pointLoss": "78.865.70 kr.",
+        "pointGain": "2.553.795.485 kr."
     },
     {
         "id": "UCLA48",
@@ -933,8 +916,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 440,
         "% af samlet befolkning": 2.3,
         "Antal ensomme": 3971,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "89.732.49 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "356.356.893 kr."
+        "pointLoss": "89.732.49 kr.",
+        "pointGain": "356.356.893 kr."
     },
     {
         "id": "UCLA30",
@@ -950,8 +933,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 967,
         "% af samlet befolkning": 5.06,
         "Antal ensomme": 18940,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "80.146.35 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "1.517.985.299 kr."
+        "pointLoss": "80.146.35 kr.",
+        "pointGain": "1.517.985.299 kr."
     },
     {
         "id": "UCLA87",
@@ -967,8 +950,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 228,
         "% af samlet befolkning": 1.19,
         "Antal ensomme": 4888,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "88.176.90 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "430.989.712 kr."
+        "pointLoss": "88.176.90 kr.",
+        "pointGain": "430.989.712 kr."
     },
     {
         "id": "UCLA82",
@@ -984,8 +967,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 59,
         "% af samlet befolkning": 0.31,
         "Antal ensomme": 1222,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "82.082.54 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "100.300.447 kr."
+        "pointLoss": "82.082.54 kr.",
+        "pointGain": "100.300.447 kr."
     },
     {
         "id": "UCLA130",
@@ -1001,8 +984,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 50,
         "% af samlet befolkning": 0.26,
         "Antal ensomme": 1833,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "82.238.32 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "150.736.208 kr."
+        "pointLoss": "82.238.32 kr.",
+        "pointGain": "150.736.208 kr."
     },
     {
         "id": "UCLA132",
@@ -1018,8 +1001,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 135,
         "% af samlet befolkning": 0.71,
         "Antal ensomme": 5499,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "87.695.71 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "482.217.485 kr."
+        "pointLoss": "87.695.71 kr.",
+        "pointGain": "482.217.485 kr."
     },
     {
         "id": "UCLA83",
@@ -1035,8 +1018,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 4004,
         "% af samlet befolkning": 20.93,
         "Antal ensomme": 63541,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "82.478.81 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "5.240.803.149 kr."
+        "pointLoss": "82.478.81 kr.",
+        "pointGain": "5.240.803.149 kr."
     },
     {
         "id": "UCLA94",
@@ -1052,8 +1035,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 789,
         "% af samlet befolkning": 4.12,
         "Antal ensomme": 14052,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "87.538.92 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "1.230.130.355 kr."
+        "pointLoss": "87.538.92 kr.",
+        "pointGain": "1.230.130.355 kr."
     },
     {
         "id": "UCLA166",
@@ -1069,8 +1052,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 3325,
         "% af samlet befolkning": 17.38,
         "Antal ensomme": 60486,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "82.811.13 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "5.008.942.157 kr."
+        "pointLoss": "82.811.13 kr.",
+        "pointGain": "5.008.942.157 kr."
     },
     {
         "id": "UCLA164",
@@ -1086,8 +1069,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 1200,
         "% af samlet befolkning": 6.27,
         "Antal ensomme": 55904,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "82.833.84 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "4.630.746.511 kr."
+        "pointLoss": "82.833.84 kr.",
+        "pointGain": "4.630.746.511 kr."
     },
     {
         "id": "UCLA142",
@@ -1103,8 +1086,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 256,
         "% af samlet befolkning": 1.34,
         "Antal ensomme": 11608,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "86.960.62 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "1.009.481.464 kr."
+        "pointLoss": "86.960.62 kr.",
+        "pointGain": "1.009.481.464 kr."
     },
     {
         "id": "UCLA143",
@@ -1120,8 +1103,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 302,
         "% af samlet befolkning": 1.58,
         "Antal ensomme": 5804,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "85.437.00 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "495.897.260 kr."
+        "pointLoss": "85.437.00 kr.",
+        "pointGain": "495.897.260 kr."
     },
     {
         "id": "UCLA124",
@@ -1137,8 +1120,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 162,
         "% af samlet befolkning": 0.85,
         "Antal ensomme": 6415,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "83.655.76 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "536.669.945 kr."
+        "pointLoss": "83.655.76 kr.",
+        "pointGain": "536.669.945 kr."
     },
     {
         "id": "UCLA41",
@@ -1154,8 +1137,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 321,
         "% af samlet befolkning": 1.68,
         "Antal ensomme": 1833,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "84.871.83 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "155.563.215 kr."
+        "pointLoss": "84.871.83 kr.",
+        "pointGain": "155.563.215 kr."
     },
     {
         "id": "UCLA167",
@@ -1171,8 +1154,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 2532,
         "% af samlet befolkning": 13.24,
         "Antal ensomme": 32993,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "83.968.74 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "2.770.342.786 kr."
+        "pointLoss": "83.968.74 kr.",
+        "pointGain": "2.770.342.786 kr."
     },
     {
         "id": "UCLA113",
@@ -1188,8 +1171,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 139,
         "% af samlet befolkning": 0.73,
         "Antal ensomme": 3666,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "83.974.55 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "307.837.155 kr."
+        "pointLoss": "83.974.55 kr.",
+        "pointGain": "307.837.155 kr."
     },
     {
         "id": "UCLA175",
@@ -1205,8 +1188,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 3769,
         "% af samlet befolkning": 19.7,
         "Antal ensomme": 49183,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "84.153.72 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "4.138.960.591 kr."
+        "pointLoss": "84.153.72 kr.",
+        "pointGain": "4.138.960.591 kr."
     },
     {
         "id": "UCLA128",
@@ -1222,8 +1205,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 199,
         "% af samlet befolkning": 1.04,
         "Antal ensomme": 3055,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "84.222.37 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "257.288.033 kr."
+        "pointLoss": "84.222.37 kr.",
+        "pointGain": "257.288.033 kr."
     },
     {
         "id": "UCLA159",
@@ -1239,8 +1222,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 1237,
         "% af samlet befolkning": 6.47,
         "Antal ensomme": 16191,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "84.752.27 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "1.372.206.075 kr."
+        "pointLoss": "84.752.27 kr.",
+        "pointGain": "1.372.206.075 kr."
     },
     {
         "id": "UCLA118",
@@ -1256,8 +1239,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 432,
         "% af samlet befolkning": 2.26,
         "Antal ensomme": 8554,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "83.705.62 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "715.986.346 kr."
+        "pointLoss": "83.705.62 kr.",
+        "pointGain": "715.986.346 kr."
     },
     {
         "id": "UCLA13",
@@ -1273,8 +1256,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 1333,
         "% af samlet befolkning": 6.97,
         "Antal ensomme": 53155,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "85.187.32 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "4.528.103.458 kr."
+        "pointLoss": "85.187.32 kr.",
+        "pointGain": "4.528.103.458 kr."
     },
     {
         "id": "UCLA138",
@@ -1290,8 +1273,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 22,
         "% af samlet befolkning": 0.12,
         "Antal ensomme": 1833,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "85.385.87 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "156.505.412 kr."
+        "pointLoss": "85.385.87 kr.",
+        "pointGain": "156.505.412 kr."
     },
     {
         "id": "UCLA6",
@@ -1307,8 +1290,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 759,
         "% af samlet befolkning": 3.97,
         "Antal ensomme": 37269,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "83.343.59 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "3.106.162.146 kr."
+        "pointLoss": "83.343.59 kr.",
+        "pointGain": "3.106.162.146 kr."
     },
     {
         "id": "UCLA5",
@@ -1324,8 +1307,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 775,
         "% af samlet befolkning": 4.05,
         "Antal ensomme": 23828,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "85.755.74 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "2.043.383.682 kr."
+        "pointLoss": "85.755.74 kr.",
+        "pointGain": "2.043.383.682 kr."
     },
     {
         "id": "UCLA172",
@@ -1341,8 +1324,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 2056,
         "% af samlet befolkning": 10.75,
         "Antal ensomme": 81565,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "85.779.80 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "6.996.622.004 kr."
+        "pointLoss": "85.779.80 kr.",
+        "pointGain": "6.996.622.004 kr."
     },
     {
         "id": "UCLA122",
@@ -1358,8 +1341,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 27,
         "% af samlet befolkning": 0.14,
         "Antal ensomme": 1222,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "85.884.57 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "104.946.332 kr."
+        "pointLoss": "85.884.57 kr.",
+        "pointGain": "104.946.332 kr."
     },
     {
         "id": "UCLA153",
@@ -1375,8 +1358,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 174,
         "% af samlet befolkning": 0.91,
         "Antal ensomme": 2749,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "86.000.26 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "236.447.319 kr."
+        "pointLoss": "86.000.26 kr.",
+        "pointGain": "236.447.319 kr."
     },
     {
         "id": "UCLA81",
@@ -1392,8 +1375,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 203,
         "% af samlet befolkning": 1.06,
         "Antal ensomme": 1833,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "86.042.76 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "157.709.443 kr."
+        "pointLoss": "86.042.76 kr.",
+        "pointGain": "157.709.443 kr."
     },
     {
         "id": "UCLA145",
@@ -1409,8 +1392,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 103,
         "% af samlet befolkning": 0.54,
         "Antal ensomme": 1222,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "83.243.50 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "101.719.079 kr."
+        "pointLoss": "83.243.50 kr.",
+        "pointGain": "101.719.079 kr."
     },
     {
         "id": "UCLA55",
@@ -1426,8 +1409,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 761,
         "% af samlet befolkning": 3.98,
         "Antal ensomme": 5804,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "87.353.05 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "507.018.482 kr."
+        "pointLoss": "87.353.05 kr.",
+        "pointGain": "507.018.482 kr."
     },
     {
         "id": "UCLA147",
@@ -1443,8 +1426,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 1018,
         "% af samlet befolkning": 5.32,
         "Antal ensomme": 33298,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "87.426.06 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "2.911.116.189 kr."
+        "pointLoss": "87.426.06 kr.",
+        "pointGain": "2.911.116.189 kr."
     },
     {
         "id": "UCLA",
@@ -1460,8 +1443,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 574,
         "% af samlet befolkning": 3,
         "Antal ensomme": 15885,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "82.525.52 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "1.310.942.767 kr."
+        "pointLoss": "82.525.52 kr.",
+        "pointGain": "1.310.942.767 kr."
     },
     {
         "id": "UCLA39",
@@ -1477,8 +1460,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 395,
         "% af samlet befolkning": 2.07,
         "Antal ensomme": 6721,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "82.309.40 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "553.177.173 kr."
+        "pointLoss": "82.309.40 kr.",
+        "pointGain": "553.177.173 kr."
     },
     {
         "id": "UCLA171",
@@ -1494,8 +1477,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 10320,
         "% af samlet befolkning": 53.95,
         "Antal ensomme": 224533,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "87.811.81 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "19.716.617.299 kr."
+        "pointLoss": "87.811.81 kr.",
+        "pointGain": "19.716.617.299 kr."
     },
     {
         "id": "UCLA9",
@@ -1511,8 +1494,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 30,
         "% af samlet befolkning": 0.16,
         "Antal ensomme": 1222,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "87.935.35 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "107.452.273 kr."
+        "pointLoss": "87.935.35 kr.",
+        "pointGain": "107.452.273 kr."
     },
     {
         "id": "UCLA168",
@@ -1528,8 +1511,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 785,
         "% af samlet befolkning": 4.1,
         "Antal ensomme": 13441,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "88.029.14 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "1.183.235.650 kr."
+        "pointLoss": "88.029.14 kr.",
+        "pointGain": "1.183.235.650 kr."
     },
     {
         "id": "UCLA123",
@@ -1545,8 +1528,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 1352,
         "% af samlet befolkning": 7.07,
         "Antal ensomme": 28410,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "88.109.44 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "2.503.211.363 kr."
+        "pointLoss": "88.109.44 kr.",
+        "pointGain": "2.503.211.363 kr."
     },
     {
         "id": "UCLA42",
@@ -1562,8 +1545,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 140,
         "% af samlet befolkning": 0.73,
         "Antal ensomme": 1527,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "80.205.71 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "122.508.839 kr."
+        "pointLoss": "80.205.71 kr.",
+        "pointGain": "122.508.839 kr."
     },
     {
         "id": "UCLA4",
@@ -1579,8 +1562,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 64,
         "% af samlet befolkning": 0.33,
         "Antal ensomme": 2138,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "88.729.04 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "189.738.706 kr."
+        "pointLoss": "88.729.04 kr.",
+        "pointGain": "189.738.706 kr."
     },
     {
         "id": "UCLA26",
@@ -1596,8 +1579,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 470,
         "% af samlet befolkning": 2.46,
         "Antal ensomme": 12219,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "79.496.87 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "971.409.001 kr."
+        "pointLoss": "79.496.87 kr.",
+        "pointGain": "971.409.001 kr."
     },
     {
         "id": "UCLA156",
@@ -1613,8 +1596,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 856,
         "% af samlet befolkning": 4.48,
         "Antal ensomme": 25661,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "89.905.89 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "2.307.063.561 kr."
+        "pointLoss": "89.905.89 kr.",
+        "pointGain": "2.307.063.561 kr."
     },
     {
         "id": "UCLA137",
@@ -1630,8 +1613,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 71,
         "% af samlet befolkning": 0.37,
         "Antal ensomme": 1527,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "89.960.47 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "137.408.572 kr."
+        "pointLoss": "89.960.47 kr.",
+        "pointGain": "137.408.572 kr."
     },
     {
         "id": "UCLA19",
@@ -1647,8 +1630,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 1791,
         "% af samlet befolkning": 9.36,
         "Antal ensomme": 74539,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "90.373.39 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "6.736.316.731 kr."
+        "pointLoss": "90.373.39 kr.",
+        "pointGain": "6.736.316.731 kr."
     },
     {
         "id": "UCLA65",
@@ -1664,8 +1647,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 133,
         "% af samlet befolkning": 0.7,
         "Antal ensomme": 1527,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "78.686.19 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "120.187.862 kr."
+        "pointLoss": "78.686.19 kr.",
+        "pointGain": "120.187.862 kr."
     },
     {
         "id": "UCLA174",
@@ -1681,8 +1664,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 6937,
         "% af samlet befolkning": 36.27,
         "Antal ensomme": 106309,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "90.558.67 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "9.627.230.858 kr."
+        "pointLoss": "90.558.67 kr.",
+        "pointGain": "9.627.230.858 kr."
     },
     {
         "id": "UCLA103",
@@ -1698,8 +1681,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 766,
         "% af samlet befolkning": 4,
         "Antal ensomme": 12219,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "90.581.59 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "1.106.858.372 kr."
+        "pointLoss": "90.581.59 kr.",
+        "pointGain": "1.106.858.372 kr."
     },
     {
         "id": "UCLA69",
@@ -1715,8 +1698,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 353,
         "% af samlet befolkning": 1.85,
         "Antal ensomme": 7943,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "76.255.47 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "605.670.583 kr."
+        "pointLoss": "76.255.47 kr.",
+        "pointGain": "605.670.583 kr."
     },
     {
         "id": "UCLA12",
@@ -1732,8 +1715,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 1016,
         "% af samlet befolkning": 5.31,
         "Antal ensomme": 50711,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "90.857.25 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "4.607.441.288 kr."
+        "pointLoss": "90.857.25 kr.",
+        "pointGain": "4.607.441.288 kr."
     },
     {
         "id": "UCLA92",
@@ -1749,8 +1732,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 78,
         "% af samlet befolkning": 0.41,
         "Antal ensomme": 2749,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "90.984.64 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "250.151.268 kr."
+        "pointLoss": "90.984.64 kr.",
+        "pointGain": "250.151.268 kr."
     },
     {
         "id": "UCLA176",
@@ -1766,8 +1749,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 1494,
         "% af samlet befolkning": 7.81,
         "Antal ensomme": 22911,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "91.040.04 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "2.085.863.116 kr."
+        "pointLoss": "91.040.04 kr.",
+        "pointGain": "2.085.863.116 kr."
     },
     {
         "id": "UCLA179",
@@ -1783,8 +1766,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 19128,
         "% af samlet befolkning": 100,
         "Antal ensomme": 380025,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "91.146.71 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "34.638.054.724 kr."
+        "pointLoss": "91.146.71 kr.",
+        "pointGain": "34.638.054.724 kr."
     },
     {
         "id": "UCLA63",
@@ -1800,8 +1783,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 247,
         "% af samlet befolkning": 1.29,
         "Antal ensomme": 2749,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "76.223.65 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "209.567.703 kr."
+        "pointLoss": "76.223.65 kr.",
+        "pointGain": "209.567.703 kr."
     },
     {
         "id": "UCLA120",
@@ -1817,8 +1800,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 107,
         "% af samlet befolkning": 0.56,
         "Antal ensomme": 1833,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "75.224.65 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "137.880.722 kr."
+        "pointLoss": "75.224.65 kr.",
+        "pointGain": "137.880.722 kr."
     },
     {
         "id": "UCLA140",
@@ -1834,8 +1817,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 210,
         "% af samlet befolkning": 1.1,
         "Antal ensomme": 9165,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "74.170.28 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "679.740.734 kr."
+        "pointLoss": "74.170.28 kr.",
+        "pointGain": "679.740.734 kr."
     },
     {
         "id": "UCLA131",
@@ -1851,8 +1834,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 2406,
         "% af samlet befolkning": 12.58,
         "Antal ensomme": 51322,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "92.191.76 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "4.731.441.953 kr."
+        "pointLoss": "92.191.76 kr.",
+        "pointGain": "4.731.441.953 kr."
     },
     {
         "id": "UCLA127",
@@ -1868,8 +1851,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 643,
         "% af samlet befolkning": 3.36,
         "Antal ensomme": 7637,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "92.392.29 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "705.615.109 kr."
+        "pointLoss": "92.392.29 kr.",
+        "pointGain": "705.615.109 kr."
     },
     {
         "id": "UCLA80",
@@ -1885,8 +1868,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 394,
         "% af samlet befolkning": 2.06,
         "Antal ensomme": 7026,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "92.616.31 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "650.739.847 kr."
+        "pointLoss": "92.616.31 kr.",
+        "pointGain": "650.739.847 kr."
     },
     {
         "id": "UCLA126",
@@ -1902,8 +1885,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 876,
         "% af samlet befolkning": 4.58,
         "Antal ensomme": 15274,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "93.296.42 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "1.425.040.083 kr."
+        "pointLoss": "93.296.42 kr.",
+        "pointGain": "1.425.040.083 kr."
     },
     {
         "id": "UCLA99",
@@ -1919,8 +1902,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 2009,
         "% af samlet befolkning": 10.5,
         "Antal ensomme": 40019,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "93.348.44 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "3.735.687.076 kr."
+        "pointLoss": "93.348.44 kr.",
+        "pointGain": "3.735.687.076 kr."
     },
     {
         "id": "UCLA57",
@@ -1936,8 +1919,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 226,
         "% af samlet befolkning": 1.18,
         "Antal ensomme": 2138,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "93.497.66 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "199.935.958 kr."
+        "pointLoss": "93.497.66 kr.",
+        "pointGain": "199.935.958 kr."
     },
     {
         "id": "UCLA151",
@@ -1953,8 +1936,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 414,
         "% af samlet befolkning": 2.16,
         "Antal ensomme": 7943,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "93.553.59 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "743.063.477 kr."
+        "pointLoss": "93.553.59 kr.",
+        "pointGain": "743.063.477 kr."
     },
     {
         "id": "UCLA160",
@@ -1970,8 +1953,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 709,
         "% af samlet befolkning": 3.71,
         "Antal ensomme": 9470,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "94.279.85 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "892.838.092 kr."
+        "pointLoss": "94.279.85 kr.",
+        "pointGain": "892.838.092 kr."
     },
     {
         "id": "UCLA155",
@@ -1987,8 +1970,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 1715,
         "% af samlet befolkning": 8.97,
         "Antal ensomme": 53155,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "94.603.52 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "5.028.617.904 kr."
+        "pointLoss": "94.603.52 kr.",
+        "pointGain": "5.028.617.904 kr."
     },
     {
         "id": "UCLA20",
@@ -2004,8 +1987,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 249,
         "% af samlet befolkning": 1.3,
         "Antal ensomme": 5193,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "73.268.27 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "380.502.045 kr."
+        "pointLoss": "73.268.27 kr.",
+        "pointGain": "380.502.045 kr."
     },
     {
         "id": "UCLA102",
@@ -2021,8 +2004,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 1538,
         "% af samlet befolkning": 8.04,
         "Antal ensomme": 25050,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "96.019.00 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "2.405.266.118 kr."
+        "pointLoss": "96.019.00 kr.",
+        "pointGain": "2.405.266.118 kr."
     },
     {
         "id": "UCLA60",
@@ -2038,8 +2021,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 24,
         "% af samlet befolkning": 0.13,
         "Antal ensomme": 611,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "96.214.66 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "58.784.571 kr."
+        "pointLoss": "96.214.66 kr.",
+        "pointGain": "58.784.571 kr."
     },
     {
         "id": "UCLA107",
@@ -2055,8 +2038,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 3625,
         "% af samlet befolkning": 18.95,
         "Antal ensomme": 69651,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "96.314.93 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "6.708.424.821 kr."
+        "pointLoss": "96.314.93 kr.",
+        "pointGain": "6.708.424.821 kr."
     },
     {
         "id": "UCLA165",
@@ -2072,8 +2055,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 1721,
         "% af samlet befolkning": 9,
         "Antal ensomme": 45823,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "96.485.76 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "4.421.265.667 kr."
+        "pointLoss": "96.485.76 kr.",
+        "pointGain": "4.421.265.667 kr."
     },
     {
         "id": "UCLA163",
@@ -2089,8 +2072,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 8808,
         "% af samlet befolkning": 46.05,
         "Antal ensomme": 155493,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "96.704.82 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "15.036.890.434 kr."
+        "pointLoss": "96.704.82 kr.",
+        "pointGain": "15.036.890.434 kr."
     },
     {
         "id": "UCLA111",
@@ -2106,8 +2089,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 186,
         "% af samlet befolkning": 0.97,
         "Antal ensomme": 2138,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "70.229.33 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "150.178.822 kr."
+        "pointLoss": "70.229.33 kr.",
+        "pointGain": "150.178.822 kr."
     },
     {
         "id": "UCLA150",
@@ -2123,8 +2106,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 493,
         "% af samlet befolkning": 2.58,
         "Antal ensomme": 17718,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "97.407.18 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "1.725.881.938 kr."
+        "pointLoss": "97.407.18 kr.",
+        "pointGain": "1.725.881.938 kr."
     },
     {
         "id": "UCLA67",
@@ -2140,8 +2123,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 1893,
         "% af samlet befolkning": 9.9,
         "Antal ensomme": 27494,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "98.214.05 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "2.700.276.453 kr."
+        "pointLoss": "98.214.05 kr.",
+        "pointGain": "2.700.276.453 kr."
     },
     {
         "id": "UCLA115",
@@ -2157,8 +2140,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 1054,
         "% af samlet befolkning": 5.51,
         "Antal ensomme": 22911,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "98.288.04 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "2.251.925.663 kr."
+        "pointLoss": "98.288.04 kr.",
+        "pointGain": "2.251.925.663 kr."
     },
     {
         "id": "UCLA77",
@@ -2174,8 +2157,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 741,
         "% af samlet befolkning": 3.87,
         "Antal ensomme": 17718,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "98.428.75 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "1.743.982.313 kr."
+        "pointLoss": "98.428.75 kr.",
+        "pointGain": "1.743.982.313 kr."
     },
     {
         "id": "UCLA162",
@@ -2191,8 +2174,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 179,
         "% af samlet befolkning": 0.94,
         "Antal ensomme": 6415,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "98.468.19 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "631.694.885 kr."
+        "pointLoss": "98.468.19 kr.",
+        "pointGain": "631.694.885 kr."
     },
     {
         "id": "UCLA47",
@@ -2208,8 +2191,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 711,
         "% af samlet befolkning": 3.72,
         "Antal ensomme": 6721,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "69.282.87 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "465.629.657 kr."
+        "pointLoss": "69.282.87 kr.",
+        "pointGain": "465.629.657 kr."
     },
     {
         "id": "UCLA10",
@@ -2225,8 +2208,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 11,
         "% af samlet befolkning": 0.06,
         "Antal ensomme": 305,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "99.529.28 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "30.404.859 kr."
+        "pointLoss": "99.529.28 kr.",
+        "pointGain": "30.404.859 kr."
     },
     {
         "id": "UCLA33",
@@ -2242,8 +2225,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 655,
         "% af samlet befolkning": 3.42,
         "Antal ensomme": 9165,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "99.621.80 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "912.993.646 kr."
+        "pointLoss": "99.621.80 kr.",
+        "pointGain": "912.993.646 kr."
     },
     {
         "id": "UCLA173",
@@ -2259,8 +2242,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 3251,
         "% af samlet befolkning": 17,
         "Antal ensomme": 85231,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "100.460.80 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "8.562.349.149 kr."
+        "pointLoss": "100.460.80 kr.",
+        "pointGain": "8.562.349.149 kr."
     },
     {
         "id": "UCLA40",
@@ -2276,8 +2259,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 843,
         "% af samlet befolkning": 4.41,
         "Antal ensomme": 6110,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "68.600.35 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "419.129.712 kr."
+        "pointLoss": "68.600.35 kr.",
+        "pointGain": "419.129.712 kr."
     },
     {
         "id": "UCLA18",
@@ -2293,8 +2276,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 184,
         "% af samlet befolkning": 0.96,
         "Antal ensomme": 7637,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "100.813.32 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "769.927.888 kr."
+        "pointLoss": "100.813.32 kr.",
+        "pointGain": "769.927.888 kr."
     },
     {
         "id": "UCLA100",
@@ -2310,8 +2293,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 121,
         "% af samlet befolkning": 0.63,
         "Antal ensomme": 4888,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "100.894.90 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "493.152.576 kr."
+        "pointLoss": "100.894.90 kr.",
+        "pointGain": "493.152.576 kr."
     },
     {
         "id": "UCLA89",
@@ -2327,8 +2310,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 114,
         "% af samlet befolkning": 0.6,
         "Antal ensomme": 3055,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "67.552.03 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "206.362.385 kr."
+        "pointLoss": "67.552.03 kr.",
+        "pointGain": "206.362.385 kr."
     },
     {
         "id": "UCLA91",
@@ -2344,8 +2327,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 1616,
         "% af samlet befolkning": 8.45,
         "Antal ensomme": 29632,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "101.283.99 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "3.001.267.180 kr."
+        "pointLoss": "101.283.99 kr.",
+        "pointGain": "3.001.267.180 kr."
     },
     {
         "id": "UCLA158",
@@ -2361,8 +2344,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 3612,
         "% af samlet befolkning": 18.88,
         "Antal ensomme": 45823,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "101.730.59 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "4.661.599.354 kr."
+        "pointLoss": "101.730.59 kr.",
+        "pointGain": "4.661.599.354 kr."
     },
     {
         "id": "UCLA112",
@@ -2378,8 +2361,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 92,
         "% af samlet befolkning": 0.48,
         "Antal ensomme": 1222,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "101.763.55 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "124.349.590 kr."
+        "pointLoss": "101.763.55 kr.",
+        "pointGain": "124.349.590 kr."
     },
     {
         "id": "UCLA43",
@@ -2395,8 +2378,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 164,
         "% af samlet befolkning": 0.86,
         "Antal ensomme": 1833,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "67.439.73 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "123.611.589 kr."
+        "pointLoss": "67.439.73 kr.",
+        "pointGain": "123.611.589 kr."
     },
     {
         "id": "UCLA76",
@@ -2412,8 +2395,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 50,
         "% af samlet befolkning": 0.26,
         "Antal ensomme": 1527,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "102.517.73 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "156.588.940 kr."
+        "pointLoss": "102.517.73 kr.",
+        "pointGain": "156.588.940 kr."
     },
     {
         "id": "UCLA104",
@@ -2429,8 +2412,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 410,
         "% af samlet befolkning": 2.14,
         "Antal ensomme": 6721,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "103.492.62 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "695.543.296 kr."
+        "pointLoss": "103.492.62 kr.",
+        "pointGain": "695.543.296 kr."
     },
     {
         "id": "UCLA149",
@@ -2446,8 +2429,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 124,
         "% af samlet befolkning": 0.65,
         "Antal ensomme": 5804,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "105.576.69 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "612.792.926 kr."
+        "pointLoss": "105.576.69 kr.",
+        "pointGain": "612.792.926 kr."
     },
     {
         "id": "UCLA71",
@@ -2463,8 +2446,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 597,
         "% af samlet befolkning": 3.12,
         "Antal ensomme": 8554,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "65.507.72 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "560.328.383 kr."
+        "pointLoss": "65.507.72 kr.",
+        "pointGain": "560.328.383 kr."
     },
     {
         "id": "UCLA84",
@@ -2480,8 +2463,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 43,
         "% af samlet befolkning": 0.22,
         "Antal ensomme": 2138,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "106.403.96 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "227.534.852 kr."
+        "pointLoss": "106.403.96 kr.",
+        "pointGain": "227.534.852 kr."
     },
     {
         "id": "UCLA125",
@@ -2497,8 +2480,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 210,
         "% af samlet befolkning": 1.1,
         "Antal ensomme": 11608,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "106.425.06 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "1.235.434.199 kr."
+        "pointLoss": "106.425.06 kr.",
+        "pointGain": "1.235.434.199 kr."
     },
     {
         "id": "UCLA178",
@@ -2514,8 +2497,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 435,
         "% af samlet befolkning": 2.27,
         "Antal ensomme": 17107,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "106.481.26 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "1.821.601.210 kr."
+        "pointLoss": "106.481.26 kr.",
+        "pointGain": "1.821.601.210 kr."
     },
     {
         "id": "UCLA157",
@@ -2531,8 +2514,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 1530,
         "% af samlet befolkning": 8,
         "Antal ensomme": 39408,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "107.061.82 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "4.219.067.175 kr."
+        "pointLoss": "107.061.82 kr.",
+        "pointGain": "4.219.067.175 kr."
     },
     {
         "id": "UCLA17",
@@ -2548,8 +2531,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 26,
         "% af samlet befolkning": 0.14,
         "Antal ensomme": 916,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "107.202.36 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "98.246.640 kr."
+        "pointLoss": "107.202.36 kr.",
+        "pointGain": "98.246.640 kr."
     },
     {
         "id": "UCLA141",
@@ -2565,8 +2548,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 59,
         "% af samlet befolkning": 0.31,
         "Antal ensomme": 3360,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "107.510.98 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "361.274.760 kr."
+        "pointLoss": "107.510.98 kr.",
+        "pointGain": "361.274.760 kr."
     },
     {
         "id": "UCLA139",
@@ -2582,8 +2565,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 697,
         "% af samlet befolkning": 3.64,
         "Antal ensomme": 19857,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "107.881.73 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "2.142.167.329 kr."
+        "pointLoss": "107.881.73 kr.",
+        "pointGain": "2.142.167.329 kr."
     },
     {
         "id": "UCLA70",
@@ -2599,8 +2582,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 810,
         "% af samlet befolkning": 4.23,
         "Antal ensomme": 13136,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "63.840.72 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "838.606.796 kr."
+        "pointLoss": "63.840.72 kr.",
+        "pointGain": "838.606.796 kr."
     },
     {
         "id": "UCLA133",
@@ -2616,8 +2599,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 65,
         "% af samlet befolkning": 0.34,
         "Antal ensomme": 2444,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "108.578.53 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "265.354.246 kr."
+        "pointLoss": "108.578.53 kr.",
+        "pointGain": "265.354.246 kr."
     },
     {
         "id": "UCLA116",
@@ -2633,8 +2616,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 106,
         "% af samlet befolkning": 0.55,
         "Antal ensomme": 4888,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "62.241.76 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "304.224.352 kr."
+        "pointLoss": "62.241.76 kr.",
+        "pointGain": "304.224.352 kr."
     },
     {
         "id": "UCLA46",
@@ -2650,8 +2633,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 499,
         "% af samlet befolkning": 2.61,
         "Antal ensomme": 5193,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "59.733.82 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "310.213.929 kr."
+        "pointLoss": "59.733.82 kr.",
+        "pointGain": "310.213.929 kr."
     },
     {
         "id": "UCLA136",
@@ -2667,8 +2650,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 55,
         "% af samlet befolkning": 0.29,
         "Antal ensomme": 305,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "110.595.33 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "33.785.387 kr."
+        "pointLoss": "110.595.33 kr.",
+        "pointGain": "33.785.387 kr."
     },
     {
         "id": "UCLA90",
@@ -2684,8 +2667,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 29,
         "% af samlet befolkning": 0.15,
         "Antal ensomme": 1222,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "111.118.50 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "135.780.839 kr."
+        "pointLoss": "111.118.50 kr.",
+        "pointGain": "135.780.839 kr."
     },
     {
         "id": "UCLA101",
@@ -2701,8 +2684,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 470,
         "% af samlet befolkning": 2.46,
         "Antal ensomme": 13136,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "112.507.71 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "1.477.892.577 kr."
+        "pointLoss": "112.507.71 kr.",
+        "pointGain": "1.477.892.577 kr."
     },
     {
         "id": "UCLA170",
@@ -2718,8 +2701,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 256,
         "% af samlet befolkning": 1.34,
         "Antal ensomme": 10692,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "113.110.32 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "1.209.378.939 kr."
+        "pointLoss": "113.110.32 kr.",
+        "pointGain": "1.209.378.939 kr."
     },
     {
         "id": "UCLA73",
@@ -2735,8 +2718,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 70,
         "% af samlet befolkning": 0.37,
         "Antal ensomme": 305,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "113.255.06 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "34.597.898 kr."
+        "pointLoss": "113.255.06 kr.",
+        "pointGain": "34.597.898 kr."
     },
     {
         "id": "UCLA68",
@@ -2752,8 +2735,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 26,
         "% af samlet befolkning": 0.14,
         "Antal ensomme": 916,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "114.836.51 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "105.243.031 kr."
+        "pointLoss": "114.836.51 kr.",
+        "pointGain": "105.243.031 kr."
     },
     {
         "id": "UCLA97",
@@ -2769,8 +2752,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 132,
         "% af samlet befolkning": 0.69,
         "Antal ensomme": 1527,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "58.721.68 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "89.693.426 kr."
+        "pointLoss": "58.721.68 kr.",
+        "pointGain": "89.693.426 kr."
     },
     {
         "id": "UCLA49",
@@ -2786,8 +2769,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 112,
         "% af samlet befolkning": 0.59,
         "Antal ensomme": 611,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "55.202.06 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "33.726.978 kr."
+        "pointLoss": "55.202.06 kr.",
+        "pointGain": "33.726.978 kr."
     },
     {
         "id": "UCLA3",
@@ -2803,8 +2786,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 15,
         "% af samlet befolkning": 0.08,
         "Antal ensomme": 611,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "118.716.35 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "72.532.500 kr."
+        "pointLoss": "118.716.35 kr.",
+        "pointGain": "72.532.500 kr."
     },
     {
         "id": "UCLA28",
@@ -2820,8 +2803,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 168,
         "% af samlet befolkning": 0.88,
         "Antal ensomme": 611,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "50.834.60 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "31.058.576 kr."
+        "pointLoss": "50.834.60 kr.",
+        "pointGain": "31.058.576 kr."
     },
     {
         "id": "UCLA52",
@@ -2837,8 +2820,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 28,
         "% af samlet befolkning": 0.15,
         "Antal ensomme": 305,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "120.894.53 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "36.931.656 kr."
+        "pointLoss": "120.894.53 kr.",
+        "pointGain": "36.931.656 kr."
     },
     {
         "id": "UCLA106",
@@ -2854,8 +2837,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 74,
         "% af samlet befolkning": 0.39,
         "Antal ensomme": 3055,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "121.229.51 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "370.339.874 kr."
+        "pointLoss": "121.229.51 kr.",
+        "pointGain": "370.339.874 kr."
     },
     {
         "id": "UCLA121",
@@ -2871,8 +2854,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 127,
         "% af samlet befolkning": 0.66,
         "Antal ensomme": 1833,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "44.047.30 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "80.735.154 kr."
+        "pointLoss": "44.047.30 kr.",
+        "pointGain": "80.735.154 kr."
     },
     {
         "id": "UCLA154",
@@ -2888,8 +2871,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 43,
         "% af samlet befolkning": 0.22,
         "Antal ensomme": 3055,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "125.079.53 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "382.101.153 kr."
+        "pointLoss": "125.079.53 kr.",
+        "pointGain": "382.101.153 kr."
     },
     {
         "id": "UCLA98",
@@ -2905,8 +2888,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 45,
         "% af samlet befolkning": 0.24,
         "Antal ensomme": 1833,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "126.479.38 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "231.826.503 kr."
+        "pointLoss": "126.479.38 kr.",
+        "pointGain": "231.826.503 kr."
     },
     {
         "id": "UCLA108",
@@ -2922,8 +2905,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 56,
         "% af samlet befolkning": 0.29,
         "Antal ensomme": 1527,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "127.349.53 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "194.517.848 kr."
+        "pointLoss": "127.349.53 kr.",
+        "pointGain": "194.517.848 kr."
     },
     {
         "id": "UCLA117",
@@ -2939,8 +2922,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 96,
         "% af samlet befolkning": 0.5,
         "Antal ensomme": 4582,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "128.323.71 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "588.017.542 kr."
+        "pointLoss": "128.323.71 kr.",
+        "pointGain": "588.017.542 kr."
     },
     {
         "id": "UCLA1",
@@ -2956,8 +2939,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 49,
         "% af samlet befolkning": 0.26,
         "Antal ensomme": 2749,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "132.860.43 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "365.283.695 kr."
+        "pointLoss": "132.860.43 kr.",
+        "pointGain": "365.283.695 kr."
     },
     {
         "id": "UCLA66",
@@ -2973,8 +2956,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 30,
         "% af samlet befolkning": 0.16,
         "Antal ensomme": 305,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "135.575.99 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "41.416.643 kr."
+        "pointLoss": "135.575.99 kr.",
+        "pointGain": "41.416.643 kr."
     },
     {
         "id": "UCLA7",
@@ -2990,8 +2973,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 44,
         "% af samlet befolkning": 0.23,
         "Antal ensomme": 4888,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "138.267.83 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "675.823.443 kr."
+        "pointLoss": "138.267.83 kr.",
+        "pointGain": "675.823.443 kr."
     },
     {
         "id": "UCLA14",
@@ -3007,8 +2990,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 93,
         "% af samlet befolkning": 0.49,
         "Antal ensomme": 7637,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "139.674.10 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "1.066.714.006 kr."
+        "pointLoss": "139.674.10 kr.",
+        "pointGain": "1.066.714.006 kr."
     },
     {
         "id": "UCLA50",
@@ -3024,8 +3007,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 62,
         "% af samlet befolkning": 0.32,
         "Antal ensomme": 305,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "166.627.44 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "50.902.445 kr."
+        "pointLoss": "166.627.44 kr.",
+        "pointGain": "50.902.445 kr."
     },
     {
         "id": "UCLA146",
@@ -3041,8 +3024,8 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 21,
         "% af samlet befolkning": 0.11,
         "Antal ensomme": 1222,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "177.186.59 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "216.512.493 kr."
+        "pointLoss": "177.186.59 kr.",
+        "pointGain": "216.512.493 kr."
     },
     {
         "id": "UCLA45",
@@ -3058,7 +3041,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "sample": 13,
         "% af samlet befolkning": 0.07,
         "Antal ensomme": 305,
-        "Værditab ved 1 point på ensomhedsskala (Pr person).": "238.007.70 kr.",
-        "Værdigevinst hvis alle ensomme i socialgruppe blev 1 point mindre ensomme": "72.708.155 kr."
+        "pointLoss": "238.007.70 kr.",
+        "pointGain": "72.708.155 kr."
     }
 ]

@@ -57,7 +57,8 @@ export interface NSVBEntry {
     sex: string;
     education: string;
     wellbeingCoefficient: number;
-
+    pointGain: string;
+    pointLoss: string;
 }
 
 
