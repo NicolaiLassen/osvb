@@ -13,6 +13,11 @@ function LandingPage() {
     const [search, setSearch] = useState<NSVBSearch | undefined>(undefined);
     const [fakeLoad, setFakeLoad] = useState(false);
 
+    const handleSearch = () => {
+        setSearch(undefined);
+        setFakeLoad(true);
+    }
+
     return (
         <div>
             <Box display='flex' alignItems='center'
@@ -42,6 +47,7 @@ function LandingPage() {
                             height='100%'
                             pr={1}
                             pl={1}
+                            onClick={handleSearch}
                         >
                             <Box
                                 pr={1}
