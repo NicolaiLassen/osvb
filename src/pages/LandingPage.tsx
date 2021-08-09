@@ -7,7 +7,7 @@ import gradient from '../assets/sec-top-gradient.png';
 import {CategoricSelect, emptyNSVBSearch, NSVBEntry, NSVBSearch, sex, theme} from "../services/nsvbLogic";
 import {fakeDB} from "../services/fakeDB";
 
-// https://material-ui.com/components/autocomplete/
+// TEMP DINDONG PAGE
 
 function LandingPage() {
 
@@ -19,13 +19,10 @@ function LandingPage() {
             setFakeLoad(true);
             setTimeout(() => {
                 setFakeLoad(false)
-                // @ts-ignore
-                setSearch({...search, [param.type]: param.value});
             }, 500)
-        } else {
-            // @ts-ignore
-            setSearch({...search, [param.type]: param.value});
         }
+        // @ts-ignore
+        setSearch({...search, [param.type]: param.value});
     }
 
     return (
@@ -119,9 +116,10 @@ function LandingPage() {
                             </Box>
                         </Box>
                     </FloatContainer>
-                    <Grid container
-                          spacing={3}
-                          style={{marginTop: 16, flexWrap: "wrap-reverse"}}
+                    <Grid
+                        container
+                        spacing={3}
+                        style={{marginTop: 16, flexWrap: "wrap-reverse"}}
                     >
                         <Grid item xs={12} sm={12} md={11}>
                             <Box
@@ -130,7 +128,27 @@ function LandingPage() {
                                 alignItems='center'
                                 justifyContent='center'
                             >
+                                <Box
+                                    display='flex'
+                                    flexDirection='column'
+                                    alignItems='center'
+                                    justifyContent='center'
+                                >
+                                    {(!search.theme && !fakeLoad) &&
+                                    <p style={{textAlign: 'center', fontWeight: 500, fontSize: 17}}>
+                                        Please Select a theme...
+                                    </p>
+                                    }
+                                </Box>
+                                {(search.theme || fakeLoad) &&
                                 <Paper style={{width: '100%'}}>
+                                    <Box
+                                        p={3}
+                                        display='flex'
+                                        style={{background: '#F5F9FF'}}
+                                    >
+                                        <h4 style={{fontWeight: 500, margin: 0}}>{search.theme}</h4>
+                                    </Box>
                                     <Box
                                         p={3}
                                         display='flex'
@@ -138,20 +156,13 @@ function LandingPage() {
                                         alignItems='center'
                                         justifyContent='center'
                                     >
-                                        <Box>
-                                            {(!search.theme && !fakeLoad) &&
-                                            <p style={{textAlign: 'center', fontWeight: 500, fontSize: 17}}>
-                                                Please Select a theme...
-                                            </p>
-                                            }
+                                        {fakeLoad &&
+                                        <div>
+                                            <CircularProgress style={{color: '#273A6B'}}/>
+                                        </div>
+                                        }
 
-                                            {fakeLoad &&
-                                            <div>
-                                                <CircularProgress style={{color: '#273A6B'}}/>
-                                            </div>
-                                            }
-                                        </Box>
-                                        {search.theme &&
+                                        {!fakeLoad &&
                                         fakeDB.map((entry: NSVBEntry) => {
                                             return (
                                                 <div>{entry.age}</div>
@@ -159,6 +170,7 @@ function LandingPage() {
                                         })}
                                     </Box>
                                 </Paper>
+                                }
                             </Box>
                         </Grid>
                         <Grid item xs={12} sm={12} md={1}>

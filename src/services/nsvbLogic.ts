@@ -28,6 +28,7 @@ export const theme = [
 export const sex = [
     {type: 'sex', value: 'Male'},
     {type: 'sex', value: 'Female'},
+    {type: 'sex', value: 'Both'}
 ];
 
 export interface NSVBEntry {
