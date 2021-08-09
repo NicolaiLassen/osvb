@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {Box, Container, Grid, IconButton, Paper, TextField, Tooltip} from "@material-ui/core";
+import {Box, CircularProgress, Container, Grid, IconButton, Paper, TextField, Tooltip} from "@material-ui/core";
 import FloatContainer from "../components/containers/FloatContainer";
 import FileExcelLineIcon from "remixicon-react/FileExcelLineIcon";
 import {Autocomplete} from '@material-ui/lab';
@@ -108,14 +108,26 @@ function LandingPage() {
                                 alignItems='center'
                                 justifyContent='center'
                             >
-                                {!search && !fakeLoad &&
-                                <p style={{textAlign: 'center', fontSize: 18}}>
-                                    Please Select a filter...
-                                </p>
-                                }
-
                                 <Paper style={{width: '100%'}}>
-                                    <Box p={3} width='100%'>
+                                    <Box
+                                        p={3}
+                                        width='100%'
+                                        display='flex'
+                                        flexDirection='column'
+                                        alignItems='center'
+                                        justifyContent='center'
+                                    >
+                                        {(!search && !fakeLoad) &&
+                                        <p style={{textAlign: 'center', fontSize: 18}}>
+                                            Please Select a filter...
+                                        </p>
+                                        }
+
+                                        {fakeLoad &&
+                                        <div>
+                                            <CircularProgress/>
+                                        </div>
+                                        }
                                         {
                                             wellbeingCoefficient.map((entry) => {
                                                 return (
@@ -126,11 +138,6 @@ function LandingPage() {
                                     </Box>
                                 </Paper>
 
-                                {fakeLoad &&
-                                <div>
-                                    loading
-                                </div>
-                                }
                             </Box>
                         </Grid>
                         <Grid item md={1}>
