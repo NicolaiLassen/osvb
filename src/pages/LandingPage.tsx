@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import {
     Box,
+    Chip,
     CircularProgress,
     Container,
     Grid,
@@ -18,7 +19,16 @@ import FloatContainer from "../components/containers/FloatContainer";
 import FileExcelLineIcon from "remixicon-react/FileExcelLineIcon";
 import {Autocomplete} from '@material-ui/lab';
 import gradient from '../assets/sec-top-gradient.png';
-import {age, CategoricSelect, education, emptyNSVBSearch, NSVBEntry, NSVBSearch, theme} from "../services/nsvbLogic";
+import {
+    age,
+    CategoricSelect,
+    education,
+    emptyNSVBSearch,
+    NSVBEntry,
+    NSVBSearch,
+    sex,
+    theme
+} from "../services/nsvbLogic";
 import {fakeDB} from "../services/fakeDB";
 
 // TEMP DINDONG PAGE
@@ -38,6 +48,14 @@ function LandingPage() {
         // @ts-ignore
         setSearch({...search, [param.type]: param.value});
     }
+
+    const filterEntry: NSVBEntry[] = fakeDB.filter((entry: NSVBEntry) => {
+
+        if (search.sex?.includes(entry.sex)) {
+            return true;
+        }
+        return false;
+    });
 
     return (
         <div>
@@ -66,16 +84,18 @@ function LandingPage() {
                             display='flex'
                             alignItems='center'
                             height='100%'
+                            position='relative'
                             pr={1}
                             pl={1}
                         >
                             <Box
-                                pr={1}
-                                pl={1}
+                                pr={2}
+                                pl={2}
                                 display='flex'
                                 alignItems='center'
                                 justifyContent='center'
                                 height='100%'
+                                width='100%'
                                 style={{borderRight: '2px solid #F5F9FF'}}>
                                 <Autocomplete
                                     freeSolo
@@ -85,7 +105,7 @@ function LandingPage() {
                                     }}
                                     disableClearable
                                     options={theme}
-                                    style={{width: 150}}
+                                    style={{width: '100%'}}
                                     getOptionLabel={(option: CategoricSelect) => option.value}
                                     renderInput={(params: any) => <TextField
                                         {...params}
@@ -93,98 +113,129 @@ function LandingPage() {
                                         fullWidth
                                         required
                                         size='small'
-                                        variant="outlined"
-                                        InputProps={{...params.InputProps}}
+                                        InputProps={{...params.InputProps, disableUnderline: true}}
                                     />
                                     }
                                 />
                             </Box>
                             <Box
-                                pr={1}
-                                pl={1}
+                                pr={2}
+                                pl={2}
                                 display='flex'
                                 alignItems='center'
                                 justifyContent='center'
                                 height='100%'
+                                width='100%'
                                 style={{borderRight: '2px solid #F5F9FF'}}>
                                 <Autocomplete
                                     freeSolo
                                     multiple
-                                    value={search?.age}
+                                    // value={search?.age}
                                     disabled={!search.theme}
-                                    onChange={(event, newValue: any) => {
-                                        handleSearch(newValue);
-                                    }}
+                                    // onChange={(event, newValue: any) => {
+                                    //     handleSearch(newValue);
+                                    // }}
                                     disableClearable
                                     options={age}
-                                    style={{width: 150}}
+                                    style={{width: '100%'}}
                                     getOptionLabel={(option: CategoricSelect) => option.value}
+                                    renderTags={(value, getTagProps) =>
+                                        value.map((option, index) => (
+                                            <Chip
+                                                variant="outlined"
+                                                label={option.value}
+                                                size="small"
+                                                {...getTagProps({index})}
+                                            />
+                                        ))
+                                    }
                                     renderInput={(params: any) => <TextField
                                         {...params}
                                         label="Age"
                                         size='small'
-                                        variant="outlined"
-                                        InputProps={{...params.InputProps}}
+                                        InputProps={{...params.InputProps, disableUnderline: true}}
                                     />
                                     }
                                 />
                             </Box>
                             <Box
-                                pr={1}
-                                pl={1}
+                                pr={2}
+                                pl={2}
                                 display='flex'
                                 alignItems='center'
                                 justifyContent='center'
                                 height='100%'
+                                width='100%'
                                 style={{borderRight: '2px solid #F5F9FF'}}>
                                 <Autocomplete
                                     freeSolo
                                     multiple
-                                    value={search?.sex}
+                                    // value={search?.sex}
                                     disabled={!search.theme}
-                                    onChange={(event, newValue: any) => {
-                                        handleSearch(newValue);
-                                    }}
+                                    // onChange={(event, newValue: any) => {
+                                    //     handleSearch(newValue);
+                                    // }}
                                     disableClearable
-                                    options={age}
-                                    style={{width: 150}}
+                                    options={sex}
+                                    style={{width: '100%'}}
                                     getOptionLabel={(option: CategoricSelect) => option.value}
+                                    renderTags={(value, getTagProps) =>
+                                        value.map((option, index) => (
+                                            <Chip
+                                                variant="outlined"
+                                                label={option.value}
+                                                size="small"
+                                                {...getTagProps({index})}
+                                            />
+                                        ))
+                                    }
                                     renderInput={(params: any) => <TextField
                                         {...params}
                                         label="Sex"
                                         size='small'
-                                        variant="outlined"
-                                        InputProps={{...params.InputProps}}
+                                        fullWidth
+                                        InputProps={{...params.InputProps, disableUnderline: true}}
                                     />
                                     }
                                 />
                             </Box>
                             <Box
-                                pr={1}
-                                pl={1}
+                                pr={2}
+                                pl={2}
                                 display='flex'
                                 alignItems='center'
                                 justifyContent='center'
                                 height='100%'
+                                width='100%'
                             >
                                 <Autocomplete
                                     freeSolo
                                     multiple
-                                    value={search?.education}
+                                    // value={search?.education}
                                     disabled={!search.theme}
-                                    onChange={(event, newValue: any) => {
-                                        handleSearch(newValue);
-                                    }}
+                                    // onChange={(event, newValue: any) => {
+                                    //     handleSearch(newValue);
+                                    // }}
                                     disableClearable
                                     options={education}
-                                    style={{width: 150}}
+                                    style={{width: '100%'}}
                                     getOptionLabel={(option: CategoricSelect) => option.value}
+                                    renderTags={(value, getTagProps) =>
+                                        value.map((option, index) => (
+                                            <Chip
+                                                variant="outlined"
+                                                label={option.value}
+                                                size="small"
+                                                {...getTagProps({index})}
+                                            />
+                                        ))
+                                    }
                                     renderInput={(params: any) => <TextField
                                         {...params}
                                         label="Education"
                                         size='small'
-                                        variant="outlined"
-                                        InputProps={{...params.InputProps}}
+                                        fullWidth
+                                        InputProps={{...params.InputProps, disableUnderline: true}}
                                     />
                                     }
                                 />
@@ -250,7 +301,7 @@ function LandingPage() {
                                                 </TableRow>
                                             </TableHead>
                                             <TableBody>
-                                                {fakeDB.map((entry: NSVBEntry) => (
+                                                {filterEntry.map((entry: NSVBEntry) => (
                                                     <TableRow key={entry.id}>
                                                         <TableCell component="th" scope="row">
                                                             {entry.age}
