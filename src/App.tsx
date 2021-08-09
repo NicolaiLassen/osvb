@@ -12,7 +12,6 @@ import ErrorPage from "./pages/ErrorPage";
 import DocsPage from "./pages/DocsPage";
 import {ThemeProvider} from '@material-ui/core/styles';
 import appTheme from "./theme/appTheme";
-import CookieBanner from "./components/CookieBanner";
 
 function App() {
     return (
