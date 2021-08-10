@@ -2,10 +2,10 @@ export const ID: string[] = []
 
 export interface NSVBSearch {
     theme: string | undefined;
-    sex: string[] | undefined;
-    age: string[] | undefined;
-    education: string[] | undefined;
-    wellbeingCoefficient: number[] | undefined;
+    sex: string[];
+    age: string[];
+    education: string[];
+    wellbeingCoefficient: number[];
 }
 
 export const emptyNSVBSearch: NSVBSearch = {
@@ -22,33 +22,32 @@ export interface CategoricSelect {
 }
 
 export const theme = [
-    {type: 'theme', value: 'Loneliness'}
+    'Ensomhed'
 ];
 
 export const age = [
-    {type: 'age', value: '16 to 24'},
-    {type: 'age', value: '25 to 34'},
-    {type: 'age', value: '35 to 44'},
-    {type: 'age', value: '45 to 54'},
-    {type: 'age', value: '55 to 64'},
-    {type: 'age', value: '65 to 74'},
-    {type: 'age', value: '75 og derover'},
+    '16 to 24',
+    '25 to 34',
+    '35 to 44',
+    '45 to 54',
+    '55 to 64',
+    '65 to 74',
+    '75 og derover'
 ]
 
 export const education = [
-    {type: 'education', value: 'Grundskole'},
-    {type: 'education', value: 'Lang videregående uddannelse',},
-    {type: 'education', value: 'Kort videregående uddannelse'},
-    {type: 'education', value: 'Erhvervsfaglig uddannelse'},
-    {type: 'education', value: 'Gymnasiel uddannelse'},
-    {type: 'education', value: 'Gymnasiel uddannelse'},
-    {type: 'education', value: 'Under uddannelse'},
+    'Grundskole',
+    'Lang videregående uddannelse',
+    'Kort videregående uddannelse',
+    'Erhvervsfaglig uddannelse',
+    'Gymnasiel uddannelse',
+    'Under uddannelse'
 ]
 
 export const sex = [
-    {type: 'sex', value: 'Male'},
-    {type: 'sex', value: 'Female'},
-    {type: 'sex', value: 'Both'}
+    'Kvinde',
+    'Mand',
+    'Both'
 ];
 
 export interface NSVBEntry {

@@ -19,38 +19,42 @@ import FloatContainer from "../components/containers/FloatContainer";
 import FileExcelLineIcon from "remixicon-react/FileExcelLineIcon";
 import {Autocomplete} from '@material-ui/lab';
 import gradient from '../assets/sec-top-gradient.png';
-import {
-    age,
-    CategoricSelect,
-    education,
-    emptyNSVBSearch,
-    NSVBEntry,
-    NSVBSearch,
-    sex,
-    theme
-} from "../services/nsvbLogic";
+import {age, education, emptyNSVBSearch, NSVBEntry, NSVBSearch, sex, theme} from "../services/nsvbLogic";
 import {fakeDB} from "../services/fakeDB";
-
-// TEMP DINDONG PAGE
 
 function LandingPage() {
 
     const [search, setSearch] = useState<NSVBSearch>(emptyNSVBSearch);
     const [fakeLoad, setFakeLoad] = useState(false);
 
-    const handleSearch = (param: CategoricSelect) => {
+    const handleSetTheme = (param: string) => {
         if (!search.theme) {
             setFakeLoad(true);
             setTimeout(() => {
                 setFakeLoad(false)
             }, 400)
         }
-        // @ts-ignore
-        setSearch({...search, [param.type]: param.value});
+        setSearch({...search, theme: param});
     }
 
-    const filterEntry: NSVBEntry[] = fakeDB.filter((entry: NSVBEntry) => {
+
+    const filteredFakeDB: NSVBEntry[] = fakeDB.filter((entry: NSVBEntry) => {
         let bool = true;
+
+        // TODO: This is quick and dirty plz be smarter
+        if (search.age.length > 0 && !search.age.includes(entry.age)) {
+            bool = false;
+        }
+
+
+        if (search.sex.length > 0 && !search.sex.includes(entry.sex)) {
+            bool = false;
+        }
+
+        if (search.education.length > 0 && !search.education.includes(entry.education)) {
+            bool = false;
+        }
+
         return bool;
     });
 
@@ -97,13 +101,13 @@ function LandingPage() {
                                 <Autocomplete
                                     freeSolo
                                     value={search?.theme}
-                                    onChange={(event, newValue: any) => {
-                                        handleSearch(newValue);
+                                    onChange={(event, newValue: string) => {
+                                        handleSetTheme(newValue);
                                     }}
                                     disableClearable
                                     options={theme}
                                     style={{width: '100%'}}
-                                    getOptionLabel={(option: CategoricSelect) => option.value}
+                                    getOptionLabel={(option: string) => option}
                                     renderInput={(params: any) => <TextField
                                         {...params}
                                         label="Theme"
@@ -127,20 +131,20 @@ function LandingPage() {
                                 <Autocomplete
                                     freeSolo
                                     multiple
-                                    // value={search?.age}
+                                    value={search.age}
                                     disabled={!search.theme}
-                                    // onChange={(event, newValue: any) => {
-                                    //     handleSearch(newValue);
-                                    // }}
+                                    onChange={(event, newValue: string[]) => {
+                                        setSearch({...search, age: newValue});
+                                    }}
                                     disableClearable
                                     options={age}
                                     style={{width: '100%'}}
-                                    getOptionLabel={(option: CategoricSelect) => option.value}
+                                    getOptionLabel={(option: string) => option}
                                     renderTags={(value, getTagProps) =>
                                         value.map((option, index) => (
                                             <Chip
                                                 variant="outlined"
-                                                label={option.value}
+                                                label={option}
                                                 size="small"
                                                 {...getTagProps({index})}
                                             />
@@ -167,20 +171,20 @@ function LandingPage() {
                                 <Autocomplete
                                     freeSolo
                                     multiple
-                                    // value={search?.sex}
+                                    value={search.sex}
                                     disabled={!search.theme}
-                                    // onChange={(event, newValue: any) => {
-                                    //     handleSearch(newValue);
-                                    // }}
+                                    onChange={(event, newValue: string[]) => {
+                                        setSearch({...search, sex: newValue});
+                                    }}
                                     disableClearable
                                     options={sex}
                                     style={{width: '100%'}}
-                                    getOptionLabel={(option: CategoricSelect) => option.value}
+                                    getOptionLabel={(option: string) => option}
                                     renderTags={(value, getTagProps) =>
                                         value.map((option, index) => (
                                             <Chip
                                                 variant="outlined"
-                                                label={option.value}
+                                                label={option}
                                                 size="small"
                                                 {...getTagProps({index})}
                                             />
@@ -208,20 +212,20 @@ function LandingPage() {
                                 <Autocomplete
                                     freeSolo
                                     multiple
-                                    // value={search?.education}
+                                    value={search.education}
                                     disabled={!search.theme}
-                                    // onChange={(event, newValue: any) => {
-                                    //     handleSearch(newValue);
-                                    // }}
+                                    onChange={(event, newValue: string[]) => {
+                                        setSearch({...search, education: newValue});
+                                    }}
                                     disableClearable
                                     options={education}
                                     style={{width: '100%'}}
-                                    getOptionLabel={(option: CategoricSelect) => option.value}
+                                    getOptionLabel={(option: string) => option}
                                     renderTags={(value, getTagProps) =>
                                         value.map((option, index) => (
                                             <Chip
                                                 variant="outlined"
-                                                label={option.value}
+                                                label={option}
                                                 size="small"
                                                 {...getTagProps({index})}
                                             />
@@ -298,7 +302,7 @@ function LandingPage() {
                                                 </TableRow>
                                             </TableHead>
                                             <TableBody>
-                                                {filterEntry.map((entry: NSVBEntry) => (
+                                                {filteredFakeDB.map((entry: NSVBEntry) => (
                                                     <TableRow key={entry.id}>
                                                         <TableCell component="th" scope="row">
                                                             {entry.age}
