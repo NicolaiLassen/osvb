@@ -21,6 +21,7 @@ import {Autocomplete} from '@material-ui/lab';
 import gradient from '../assets/sec-top-gradient.png';
 import {age, education, emptyNSVBSearch, NSVBEntry, NSVBSearch, sex, theme} from "../services/nsvbLogic";
 import {fakeDB} from "../services/fakeDB";
+import { CSVLink } from "react-csv";
 
 function LandingPage() {
 
@@ -45,7 +46,6 @@ function LandingPage() {
         if (search.age.length > 0 && !search.age.includes(entry.age)) {
             bool = false;
         }
-
 
         if (search.sex.length > 0 && !search.sex.includes(entry.sex)) {
             bool = false;
@@ -330,9 +330,16 @@ function LandingPage() {
                                      justifyContent='center'
                                 >
                                     <Tooltip title='Export csv'>
-                                        <IconButton>
-                                            <FileExcelLineIcon/>
-                                        </IconButton>
+                                        <CSVLink
+                                            data={filteredFakeDB}
+                                            filename={"nsvb.csv"}
+                                            separator={";"}
+                                        >
+
+                                            <IconButton>
+                                                <FileExcelLineIcon/>
+                                            </IconButton>
+                                        </CSVLink>
                                     </Tooltip>
                                 </Box>
                             </Paper>
