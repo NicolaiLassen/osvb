@@ -297,8 +297,8 @@ function LandingPage() {
                                                     <TableCell style={{fontWeight: 'bold'}}>Education</TableCell>
                                                     <TableCell style={{fontWeight: 'bold'}}>Wellbeing
                                                         coefficient</TableCell>
-                                                    <TableCell style={{fontWeight: 'bold'}}>1 point loss</TableCell>
                                                     <TableCell style={{fontWeight: 'bold'}}>1 point gain</TableCell>
+                                                    <TableCell style={{fontWeight: 'bold'}}>1 point loss</TableCell>
                                                 </TableRow>
                                             </TableHead>
                                             <TableBody>
