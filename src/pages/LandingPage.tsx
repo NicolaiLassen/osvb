@@ -263,7 +263,7 @@ function LandingPage() {
                                 >
                                     {(!search.theme && !fakeLoad) &&
                                     <p style={{textAlign: 'center', fontWeight: 500, fontSize: 17}}>
-                                        Please Select a theme...
+                                        Please select a theme...
                                     </p>
                                     }
                                 </Box>
