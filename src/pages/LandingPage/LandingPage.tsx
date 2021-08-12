@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import {
     Box,
     Chip,
@@ -25,31 +25,24 @@ import {CSVLink} from "react-csv";
 
 function LandingPage() {
     const [search, setSearch] = useState<NSVBSearch>(emptyNSVBSearch);
-    const [fakeLoad, setFakeLoad] = useState(false);
+    const [fakeLoad, setFakeLoad] = useState(true);
 
-    const handleSetTheme = (param: string) => {
-        if (!search.theme) {
-            setFakeLoad(true);
-            setTimeout(() => {
-                setFakeLoad(false)
-            }, 400)
-        }
-        setSearch({...search, theme: param});
-    }
+    useEffect(() => {
+        setTimeout(() => {
+            setFakeLoad(false)
+        }, 400)
+    }, [fakeLoad]);
 
 
     const filteredFakeDB: NSVBEntry[] = fakeDB.filter((entry: NSVBEntry) => {
         let bool = true;
 
-        // TODO: This is quick and dirty plz be smarter
         if (search.age.length > 0 && !search.age.includes(entry.age)) {
             bool = false;
         }
-
         if (search.sex.length > 0 && !search.sex.includes(entry.sex)) {
             bool = false;
         }
-
         if (search.education.length > 0 && !search.education.includes(entry.education)) {
             bool = false;
         }
@@ -99,9 +92,8 @@ function LandingPage() {
                                 style={{borderRight: '2px solid #F5F9FF'}}>
                                 <Autocomplete
                                     freeSolo
-                                    value={search?.theme}
+                                    value={search.theme}
                                     onChange={(event, newValue: string) => {
-                                        handleSetTheme(newValue);
                                     }}
                                     disableClearable
                                     options={theme}
@@ -111,7 +103,6 @@ function LandingPage() {
                                         {...params}
                                         label="Theme"
                                         fullWidth
-                                        required
                                         size='small'
                                         InputProps={{...params.InputProps, disableUnderline: true}}
                                     />
@@ -131,7 +122,6 @@ function LandingPage() {
                                     freeSolo
                                     multiple
                                     value={search.age}
-                                    disabled={!search.theme}
                                     onChange={(event, newValue: string[]) => {
                                         setSearch({...search, age: newValue});
                                     }}
@@ -171,7 +161,6 @@ function LandingPage() {
                                     freeSolo
                                     multiple
                                     value={search.sex}
-                                    disabled={!search.theme}
                                     onChange={(event, newValue: string[]) => {
                                         setSearch({...search, sex: newValue});
                                     }}
@@ -212,7 +201,6 @@ function LandingPage() {
                                     freeSolo
                                     multiple
                                     value={search.education}
-                                    disabled={!search.theme}
                                     onChange={(event, newValue: string[]) => {
                                         setSearch({...search, education: newValue});
                                     }}
@@ -254,44 +242,24 @@ function LandingPage() {
                                 alignItems='center'
                                 justifyContent='center'
                             >
-                                <Box
-                                    display='flex'
-                                    flexDirection='column'
-                                    alignItems='center'
-                                    justifyContent='center'
-                                >
-                                    {(!search.theme && !fakeLoad) &&
-                                    <p style={{textAlign: 'center', fontWeight: 500, fontSize: 17}}>
-                                        Select a theme...
-                                    </p>
-                                    }
+                                {fakeLoad &&
+                                <Box p={3}>
+                                    <CircularProgress style={{color: '#273A6B'}}/>
                                 </Box>
-                                {(search.theme || fakeLoad) &&
+                                }
+                                {!fakeLoad &&
                                 <Paper style={{width: '100%'}}>
-                                    <Box
-                                        p={3}
-                                        display='flex'
-                                        style={{background: '#F5F9FF'}}
-                                    >
-                                        <h4 style={{fontWeight: 500, margin: 0}}>{search.theme}</h4>
-                                    </Box>
                                     <Box
                                         display='flex'
                                         flexDirection='column'
                                         alignItems='center'
                                         justifyContent='center'
                                     >
-                                        {fakeLoad &&
-                                        <Box p={3}>
-                                            <CircularProgress style={{color: '#273A6B'}}/>
-                                        </Box>
-                                        }
-
-                                        {!fakeLoad &&
-                                        <Table aria-label="simple table">
-                                            <TableHead>
+                                        <Table size="small">
+                                            <TableHead
+                                                style={{background: '#F5F9FF'}}>
                                                 <TableRow>
-                                                    <TableCell style={{fontWeight: 'bold'}}>Age</TableCell>
+                                                    <TableCell style={{fontWeight: 'bold', padding: 16}}>Age</TableCell>
                                                     <TableCell style={{fontWeight: 'bold'}}>Sex</TableCell>
                                                     <TableCell style={{fontWeight: 'bold'}}>Education</TableCell>
                                                     <TableCell style={{fontWeight: 'bold'}}>Wellbeing
@@ -301,21 +269,22 @@ function LandingPage() {
                                                 </TableRow>
                                             </TableHead>
                                             <TableBody>
-                                                {filteredFakeDB.map((entry: NSVBEntry) => (
-                                                    <TableRow key={entry.id}>
-                                                        <TableCell component="th" scope="row">
-                                                            {entry.age}
-                                                        </TableCell>
-                                                        <TableCell>{entry.sex}</TableCell>
-                                                        <TableCell>{entry.education}</TableCell>
-                                                        <TableCell>{entry.wellbeingCoefficient}</TableCell>
-                                                        <TableCell>{entry.pointGain}</TableCell>
-                                                        <TableCell>{entry.pointLoss}</TableCell>
-                                                    </TableRow>
-                                                ))}
+                                                {
+                                                    filteredFakeDB.map((entry: NSVBEntry) => (
+                                                        <TableRow key={entry.id}>
+                                                            <TableCell component="th" scope="row">
+                                                                {entry.age}
+                                                            </TableCell>
+                                                            <TableCell>{entry.sex}</TableCell>
+                                                            <TableCell>{entry.education}</TableCell>
+                                                            <TableCell>{entry.wellbeingCoefficient}</TableCell>
+                                                            <TableCell>{entry.pointGain}</TableCell>
+                                                            <TableCell>{entry.pointLoss}</TableCell>
+                                                        </TableRow>
+                                                    ))
+                                                }
                                             </TableBody>
                                         </Table>
-                                        }
                                     </Box>
                                 </Paper>
                                 }
