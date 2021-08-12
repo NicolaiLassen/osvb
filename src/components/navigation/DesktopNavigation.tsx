@@ -1,7 +1,8 @@
-import {Box, makeStyles} from "@material-ui/core";
+import {makeStyles} from "@material-ui/core";
 import HeaderLink from "./HeaderLink";
-import RouteNames from "../../constants/RouteNames";
 import React from "react";
+import RouteNames from "../../constants/RouteNames";
+import {headerNavigationRoutes} from "../../constants/Navigation";
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -19,20 +20,31 @@ export const DesktopNavigation: React.FC<DesktopNavigationProps> = ({color}) => 
     const classes = useStyles();
 
     return (
-        <Box
-            className={classes.root}
-            display='flex'
-            alignItems='center'>
-            <HeaderLink to={RouteNames.about} color={color}>
-                About
-            </HeaderLink>
-            <HeaderLink to={RouteNames.research} color={color}>
-                Research
-            </HeaderLink>
-            <HeaderLink to={RouteNames.developer} color={color}>
-                Developer
-            </HeaderLink>
-        </Box>
+        <>
+            <div className={classes.root}>
+                {
+                    headerNavigationRoutes.map((route =>
+                            <HeaderLink
+                                to={route.link}
+                                color={color}
+                            >
+                                {route.name}
+                            </HeaderLink>
+                    ))
+                }
+                <HeaderLink
+                    to={RouteNames.panel}
+                    style={{
+                        padding: '4px 24px',
+                        borderRadius: 100,
+                        background: `${color}11`,
+                        color: color
+                    }}
+                >
+                    Panel
+                </HeaderLink>
+            </div>
+        </>
     )
 }
 

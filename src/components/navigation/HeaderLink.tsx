@@ -6,9 +6,9 @@ import {makeStyles} from "@material-ui/core";
 const useStyles = makeStyles((theme) => ({
     root: {
         textDecoration: 'none',
-        marginLeft: 20,
+        marginLeft: 38,
         transition: 'opacity 0.5s ease',
-        fontWeight: 400,
+        fontWeight: 500,
         '&:hover': {
             opacity: 0.5
         }

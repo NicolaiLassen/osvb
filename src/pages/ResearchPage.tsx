@@ -1,5 +1,5 @@
 import React from 'react';
-import gradient from "../assets/sec-top-gradient.png";
+import gradient from '../assets/gradients/main-top-gradient.png';
 import {Box, Container} from "@material-ui/core";
 
 function ResearchPage() {

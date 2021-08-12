@@ -5,6 +5,9 @@ class RouteNames {
     static readonly research = '/research'
     static readonly about = '/about'
 
+    // panel
+    static readonly panel = '/panel'
+
     // developer
     static readonly docs = '/developer/docs'
 }

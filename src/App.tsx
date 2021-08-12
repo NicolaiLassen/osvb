@@ -1,7 +1,7 @@
 import React from 'react';
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import RouteNames from "./constants/RouteNames";
-import LandingPage from "./pages/LandingPage";
+import LandingPage from "./pages/LandingPage/LandingPage";
 import {HeaderNavigation} from "./components/navigation/HeaderNavigation";
 import DeveloperPage from "./pages/DeveloperPage";
 import ResearchPage from "./pages/ResearchPage";
@@ -12,13 +12,13 @@ import ErrorPage from "./pages/ErrorPage";
 import DocsPage from "./pages/DocsPage";
 import {ThemeProvider} from '@material-ui/core/styles';
 import appTheme from "./theme/appTheme";
+import PanelPage from "./pages/Panel/PanelPage";
 
 function App() {
     return (
         <ThemeProvider theme={appTheme}>
             <Router>
                 <HeaderNavigation/>
-
                 <Box
                     position='relative'
                     display='flex'
@@ -28,6 +28,8 @@ function App() {
                     <Switch>
                         <Route path={RouteNames.about} component={AboutPage}/>
                         <Route path={RouteNames.research} component={ResearchPage}/>
+
+                        <Route path={RouteNames.panel} component={PanelPage}/>
 
                         <Route path={RouteNames.docs} component={DocsPage}/>
                         <Route path={RouteNames.developer} component={DeveloperPage}/>

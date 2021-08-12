@@ -1,13 +1,13 @@
 import React from 'react';
 import FloatContainer from "../components/containers/FloatContainer";
 import {Box, Container, Grid} from "@material-ui/core";
-import gradient from "../assets/sec-top-gradient.png";
 import LifebuoyLineIcon from 'remixicon-react/LifebuoyLineIcon';
 import KeyLineIcon from 'remixicon-react/KeyLineIcon';
 import FileList3LineIcon from "remixicon-react/FileList3LineIcon";
 import Slideshow3LineIcon from "remixicon-react/Slideshow3LineIcon";
 import {Link} from "react-router-dom";
 import RouteNames from "../constants/RouteNames";
+import gradient from "../assets/gradients/main-top-gradient.png";
 
 function DeveloperPage() {
     return (

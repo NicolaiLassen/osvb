@@ -15,16 +15,15 @@ import {
     TextField,
     Tooltip
 } from "@material-ui/core";
-import FloatContainer from "../components/containers/FloatContainer";
+import FloatContainer from "../../components/containers/FloatContainer";
 import FileExcelLineIcon from "remixicon-react/FileExcelLineIcon";
 import {Autocomplete} from '@material-ui/lab';
-import gradient from '../assets/sec-top-gradient.png';
-import {age, education, emptyNSVBSearch, NSVBEntry, NSVBSearch, sex, theme} from "../services/nsvbLogic";
-import {fakeDB} from "../services/fakeDB";
+import gradient from '../../assets/gradients/main-top-gradient.png';
+import {age, education, emptyNSVBSearch, NSVBEntry, NSVBSearch, sex, theme} from "../../services/nsvbLogic";
+import {fakeDB} from "../../services/fakeDB";
 import { CSVLink } from "react-csv";
 
 function LandingPage() {
-
     const [search, setSearch] = useState<NSVBSearch>(emptyNSVBSearch);
     const [fakeLoad, setFakeLoad] = useState(false);
 

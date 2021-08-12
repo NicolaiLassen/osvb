@@ -5,9 +5,7 @@ import CloseLineIcon from "remixicon-react/CloseLineIcon";
 import HeaderLink from "./HeaderLink";
 import RouteNames from "../../constants/RouteNames";
 import React, {useState} from "react";
-import FingerprintLineIcon from "remixicon-react/FingerprintLineIcon";
-import PieChart2LineIcon from "remixicon-react/PieChart2LineIcon";
-import KeyLineIcon from "remixicon-react/KeyLineIcon";
+import {headerNavigationRoutes} from "../../constants/Navigation";
 
 interface MobileNavigationStyleProps {
     open: boolean;
@@ -25,7 +23,7 @@ const useStyles = makeStyles<Theme, MobileNavigationStyleProps>((theme) => ({
         right: 8,
         top: 8,
         paddingTop: 32,
-        paddingBottom: 32,
+        overflow: 'hidden',
         position: 'absolute',
         opacity: props => props.open ? 1 : 0,
         transformOrigin: '100% 0',
@@ -76,50 +74,49 @@ export const MobileNavigation: React.FC<MobileNavigationProps> = ({color}) => {
                             <CloseLineIcon color='#273A6B' size={22}/>
                         </IconButton>
                     </Box>
-                    <HeaderLink
-                        onClick={handleClickOpen}
-                        to={RouteNames.about}
-                        color='#273A6B'
-                        style={{display: 'block', fontSize: 17, fontWeight: 500}}
-                    >
-                        <Box
-                            mb={1.5}
-                            display='flex'
-                            alignItems='center'
+                    {
+                        headerNavigationRoutes.map((route) =>
+                            <HeaderLink
+                                onClick={handleClickOpen}
+                                to={route.link}
+                                color='#273A6B'
+                                style={{display: 'block', fontSize: 17, fontWeight: 500}}
+                            >
+                                <Box
+                                    mb={1.5}
+                                    display='flex'
+                                    alignItems='center'
+                                >
+                                    {<route.icon size={21}/>}
+                                    <Box pl={1.5}>{route.name}</Box>
+                                </Box>
+                            </HeaderLink>
+                        )
+                    }
+                    <Box
+                        display='flex'
+                        alignItems='center'
+                        justifyContent='center'
+                        height={62}
+                        mt={2}
+                        style={{background: '#F5F9FF'}}>
+                        <HeaderLink
+                            onClick={handleClickOpen}
+                            to={RouteNames.panel}
+                            color='white'
+                            style={{
+                                display: 'block',
+                                fontSize: 17,
+                                fontWeight: 500,
+                                margin: 0,
+                                padding: '4px 24px',
+                                borderRadius: 100,
+                                background: '#273A6B'
+                            }}
                         >
-                            <FingerprintLineIcon size={21}/>
-                            <Box pl={1.5}>About</Box>
-                        </Box>
-                    </HeaderLink>
-                    <HeaderLink
-                        onClick={handleClickOpen}
-                        to={RouteNames.research}
-                        color='#273A6B'
-                        style={{display: 'block', fontSize: 17, fontWeight: 500}}
-                    >
-                        <Box
-                            mb={1.5}
-                            display='flex'
-                            alignItems='center'
-                        >
-                            <PieChart2LineIcon size={21}/>
-                            <Box pl={1.5}>Research</Box>
-                        </Box>
-                    </HeaderLink>
-                    <HeaderLink
-                        onClick={handleClickOpen}
-                        to={RouteNames.developer}
-                        color='#273A6B'
-                        style={{display: 'block', fontSize: 17, fontWeight: 500}}
-                    >
-                        <Box
-                            display='flex'
-                            alignItems='center'
-                        >
-                            <KeyLineIcon size={21}/>
-                            <Box pl={1.5}>Developer</Box>
-                        </Box>
-                    </HeaderLink>
+                            <Box>Panel</Box>
+                        </HeaderLink>
+                    </Box>
                 </FloatContainer>
             </Box>
         </ClickAwayListener>
