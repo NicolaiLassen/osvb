@@ -3,7 +3,7 @@ import TextIconWrapper from "../icons/TextIconWrapper";
 import React from "react";
 import HeaderLink from "./HeaderLink";
 import {useLocation} from "react-router";
-import {notFoundHeaderStyleProps, headerRouteProps} from "../../constants/Navigation";
+import {headerRouteProps, notFoundHeaderStyleProps} from "../../constants/Navigation";
 import MobileNavigation from "./MobileNavigation";
 import DesktopNavigation from "./DesktopNavigation";
 
@@ -18,11 +18,11 @@ const useStyles = makeStyles((theme) => ({
 
 export const HeaderNavigation: React.FC = () => {
     const location = useLocation();
-    const color = headerRouteProps[location.pathname] ?? notFoundHeaderStyleProps;
+    const routeProps = headerRouteProps[location.pathname] ?? notFoundHeaderStyleProps;
     const classes = useStyles();
 
     return (
-        <div className={classes.root}>
+        <div className={classes.root} {...routeProps?.containerProps}>
             <Container>
                 <Box
                     display='flex'
@@ -31,14 +31,14 @@ export const HeaderNavigation: React.FC = () => {
                 >
                     <Box pt={3} pb={3}>
                         <TextIconWrapper>
-                            <HeaderLink to='/' color={color.logo} style={{margin: 0}}>
+                            <HeaderLink to='/' color={routeProps.logo} style={{margin: 0}}>
                                 NSVB
                                 <span style={{fontSize: 9, position: 'absolute'}}>alpha</span>
                             </HeaderLink>
                         </TextIconWrapper>
                     </Box>
-                    <DesktopNavigation color={color.mainNavDesktop}/>
-                    <MobileNavigation color={color.mainNavMobile}/>
+                    <DesktopNavigation color={routeProps.mainNavDesktop}/>
+                    <MobileNavigation color={routeProps.mainNavMobile}/>
                 </Box>
             </Container>
         </div>

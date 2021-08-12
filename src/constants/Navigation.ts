@@ -3,7 +3,12 @@ import FingerprintLineIcon from "remixicon-react/FingerprintLineIcon";
 import PieChart2LineIcon from "remixicon-react/PieChart2LineIcon";
 import KeyLineIcon from "remixicon-react/KeyLineIcon";
 
-type HeaderStyleType = { mainNavDesktop: string; mainNavMobile: string; logo: string; };
+type HeaderStyleType = {
+    containerProps?: Record<any, any>;
+    mainNavDesktop: string;
+    mainNavMobile: string;
+    logo: string;
+};
 
 type HeaderNavigationStyleType = Record<string, HeaderStyleType>;
 
@@ -23,7 +28,18 @@ export const headerRouteProps: HeaderNavigationStyleType = {
     [RouteNames.about]:
         {mainNavDesktop: '#ffffff', mainNavMobile: '#273A6B', logo: '#273A6B'},
     [RouteNames.panel]:
-        {mainNavDesktop: '#ffffff', mainNavMobile: '#273A6B', logo: '#273A6B'},
+        {
+            containerProps: {
+                style: {
+                    position: 'relative',
+                    background: '#273A6B',
+                    boxShadow: '0px 8px 30px rgb(112 144 176 / 15%)',
+                }
+            },
+            mainNavDesktop: '#ffffff',
+            mainNavMobile: '#ffffff',
+            logo: '#ffffff'
+        },
 }
 
 export const headerNavigationRoutes = [

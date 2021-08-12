@@ -3,6 +3,12 @@ import {createTheme} from "@material-ui/core";
 const appTheme = {
     ...createTheme({
         overrides: {
+            MuiTableCell: {
+                root: {
+
+                    borderBottom: 'none'
+                }
+            },
             MuiPaper: {
                 root: {
                     overflow: 'hidden',

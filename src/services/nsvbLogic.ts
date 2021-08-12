@@ -1,7 +1,7 @@
 export const ID: string[] = []
 
 export interface NSVBSearch {
-    theme: string | undefined;
+    domain: string[];
     sex: string[];
     age: string[];
     education: string[];
@@ -9,19 +9,14 @@ export interface NSVBSearch {
 }
 
 export const emptyNSVBSearch: NSVBSearch = {
-    theme: undefined,
+    domain: [],
     sex: [],
     age: [],
     education: [],
     wellbeingCoefficient: []
 }
 
-export interface CategoricSelect {
-    type: string;
-    value: string;
-}
-
-export const theme = [
+export const domain = [
     'Ensomhed'
 ];
 

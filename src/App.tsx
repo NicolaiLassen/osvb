@@ -1,7 +1,6 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import RouteNames from "./constants/RouteNames";
-import LandingPage from "./pages/LandingPage/LandingPage";
 import {HeaderNavigation} from "./components/navigation/HeaderNavigation";
 import DeveloperPage from "./pages/DeveloperPage";
 import ResearchPage from "./pages/ResearchPage";
@@ -13,8 +12,18 @@ import DocsPage from "./pages/DocsPage";
 import {ThemeProvider} from '@material-ui/core/styles';
 import appTheme from "./theme/appTheme";
 import PanelPage from "./pages/Panel/PanelPage";
+import LandingPage from "./pages/LandingPage/LandingPage";
 
 function App() {
+
+    const [fakeLoad, setFakeLoad] = useState(true);
+
+    useEffect(() => {
+        setTimeout(() => {
+            setFakeLoad(false)
+        }, 400)
+    }, [fakeLoad]);
+
     return (
         <ThemeProvider theme={appTheme}>
             <Router>
@@ -22,7 +31,6 @@ function App() {
                 <Box
                     position='relative'
                     display='flex'
-                    height='100vh'
                     flexDirection='column'
                     justifyContent='space-between'>
                     <Switch>
@@ -34,7 +42,10 @@ function App() {
                         <Route path={RouteNames.docs} component={DocsPage}/>
                         <Route path={RouteNames.developer} component={DeveloperPage}/>
 
-                        <Route exact path={RouteNames.landing} component={LandingPage}/>
+                        <Route exact path={RouteNames.landing}>
+                            <LandingPage fakeLoad={fakeLoad}/>
+                        </Route>
+
                         <Route component={ErrorPage}/>
                     </Switch>
                     <FooterNavigation/>
