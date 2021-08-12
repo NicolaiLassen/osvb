@@ -37,7 +37,7 @@ export const DesktopNavigation: React.FC<DesktopNavigationProps> = ({color}) => 
                     style={{
                         padding: '4px 24px',
                         borderRadius: 100,
-                        background: `${color}11`,
+                        background: `${color}33`,
                         color: color
                     }}
                 >

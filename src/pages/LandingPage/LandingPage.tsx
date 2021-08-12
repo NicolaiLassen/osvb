@@ -21,7 +21,7 @@ import {Autocomplete} from '@material-ui/lab';
 import gradient from '../../assets/gradients/main-top-gradient.png';
 import {age, education, emptyNSVBSearch, NSVBEntry, NSVBSearch, sex, theme} from "../../services/nsvbLogic";
 import {fakeDB} from "../../services/fakeDB";
-import { CSVLink } from "react-csv";
+import {CSVLink} from "react-csv";
 
 function LandingPage() {
     const [search, setSearch] = useState<NSVBSearch>(emptyNSVBSearch);
@@ -262,7 +262,7 @@ function LandingPage() {
                                 >
                                     {(!search.theme && !fakeLoad) &&
                                     <p style={{textAlign: 'center', fontWeight: 500, fontSize: 17}}>
-                                        Please select a theme...
+                                        Select a theme...
                                     </p>
                                     }
                                 </Box>

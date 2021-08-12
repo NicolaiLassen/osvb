@@ -80,7 +80,12 @@ export const MobileNavigation: React.FC<MobileNavigationProps> = ({color}) => {
                                 onClick={handleClickOpen}
                                 to={route.link}
                                 color='#273A6B'
-                                style={{display: 'block', fontSize: 17, fontWeight: 500}}
+                                style={{
+                                    display: 'block',
+                                    fontSize: 17,
+                                    fontWeight: 500,
+                                    marginLeft: 16
+                                }}
                             >
                                 <Box
                                     mb={1.5}
