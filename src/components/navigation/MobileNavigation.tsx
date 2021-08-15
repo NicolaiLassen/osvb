@@ -77,6 +77,7 @@ export const MobileNavigation: React.FC<MobileNavigationProps> = ({color}) => {
                     {
                         headerNavigationRoutes.map((route) =>
                             <HeaderLink
+                                key={route.link}
                                 onClick={handleClickOpen}
                                 to={route.link}
                                 color='#273A6B'

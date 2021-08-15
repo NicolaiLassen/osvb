@@ -3,9 +3,11 @@ import HeaderLink from "./HeaderLink";
 import React from "react";
 import RouteNames from "../../constants/RouteNames";
 import {headerNavigationRoutes} from "../../constants/Navigation";
+import ArrowRightSLineIcon from "remixicon-react/ArrowRightSLineIcon";
 
 const useStyles = makeStyles((theme) => ({
     root: {
+        display: 'flex',
         [theme.breakpoints.down('sm')]: {
             display: 'none'
         }
@@ -25,6 +27,7 @@ export const DesktopNavigation: React.FC<DesktopNavigationProps> = ({color}) => 
                 {
                     headerNavigationRoutes.map((route =>
                             <HeaderLink
+                                key={route.link}
                                 to={route.link}
                                 color={color}
                             >
@@ -35,13 +38,16 @@ export const DesktopNavigation: React.FC<DesktopNavigationProps> = ({color}) => 
                 <HeaderLink
                     to={RouteNames.panel}
                     style={{
-                        padding: '4px 24px',
+                        padding: '4px 10px 4px 16px',
                         borderRadius: 100,
                         background: `${color}33`,
-                        color: color
+                        color: color,
+                        display: 'flex',
+                        alignItems: 'center'
                     }}
                 >
                     Panel
+                    <ArrowRightSLineIcon size={18} style={{marginLeft: 2}}/>
                 </HeaderLink>
             </div>
         </>
