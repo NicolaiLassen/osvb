@@ -1,6 +1,7 @@
 import {Link, LinkProps} from "react-router-dom";
 import React from "react";
 import {makeStyles} from "@material-ui/core";
+import clsx from 'clsx';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -20,7 +21,7 @@ export const HeaderLink: React.FC<LinkProps & { color?: string }>
     = (props) => {
     const classes = useStyles();
     return (
-        <Link {...props} className={classes.root} style={{color: props.color, ...props.style}}/>
+        <Link {...props} className={clsx(classes.root, props.className)} style={{color: props.color, ...props.style}}/>
     )
 }
 
