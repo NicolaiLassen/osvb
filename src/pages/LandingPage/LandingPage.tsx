@@ -56,7 +56,7 @@ const LandingPage: React.FC<LandingPageProps> = ({fakeLoad}) => {
                         Nordic Social Value Bank
                     </p>
                     <p style={{fontSize: 20, margin: 0}}>
-                        Metrics for wiser socioeconomics decisions.
+                        Metrics for wiser socioeconomic decisions.
                     </p>
                 </Container>
             </Box>
