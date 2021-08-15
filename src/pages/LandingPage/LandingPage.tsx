@@ -4,18 +4,22 @@ import {
     Chip,
     CircularProgress,
     Container,
+    IconButton,
     Table,
     TableBody,
     TableCell,
     TableHead,
     TableRow,
-    TextField
+    TextField,
+    Tooltip
 } from "@material-ui/core";
 import FloatContainer from "../../components/containers/FloatContainer";
 import {Autocomplete} from '@material-ui/lab';
 import gradient from '../../assets/gradients/main-top-gradient.png';
-import {domain, emptyNSVBSearch, NSVBEntry, NSVBSearch} from "../../services/nsvbLogic";
+import {age, domain, education, emptyNSVBSearch, NSVBEntry, NSVBSearch, sex} from "../../services/nsvbLogic";
 import {fakeDB} from "../../services/fakeDB";
+import {CSVLink} from "react-csv";
+import FileExcelLineIcon from "remixicon-react/FileExcelLineIcon";
 
 interface LandingPageProps {
     fakeLoad: boolean;
@@ -62,16 +66,143 @@ const LandingPage: React.FC<LandingPageProps> = ({fakeLoad}) => {
             </Box>
             <Container>
                 <FloatContainer style={{overflow: 'hidden', transform: 'translateY(-80px)'}}>'
-                    <Box p={2}>
+                    <Box
+                        display='flex'
+                        alignItems='center'
+                        height='100%'
+                        position='relative'
+                        pr={1}
+                        pl={1}
+                    >
+                        <Box
+                            pr={2}
+                            pl={2}
+                            display='flex'
+                            alignItems='center'
+                            justifyContent='center'
+                            height='100%'
+                            width='100%'
+                            style={{borderRight: '2px solid #F5F9FF'}}>
+                            <Autocomplete
+                                freeSolo
+                                multiple
+                                value={search.domain}
+                                onChange={(event, newValue: string[]) => {
+                                    setSearch({...search, domain: newValue});
+                                }}
+                                disableClearable
+                                options={domain}
+                                style={{width: '100%'}}
+                                getOptionLabel={(option: string) => option}
+                                renderTags={(value, getTagProps) =>
+                                    value.map((option, index) => (
+                                        <Chip
+                                            variant="outlined"
+                                            label={option}
+                                            size="small"
+                                            {...getTagProps({index})}
+                                        />
+                                    ))
+                                }
+                                renderInput={(params: any) => <TextField
+                                    {...params}
+                                    label="Domain"
+                                    fullWidth
+                                    size='small'
+                                    InputProps={{...params.InputProps, disableUnderline: true}}
+                                />
+                                }
+                            />
+                        </Box>
+                        <Box
+                            pr={2}
+                            pl={2}
+                            display='flex'
+                            alignItems='center'
+                            justifyContent='center'
+                            height='100%'
+                            width='100%'
+                            style={{borderRight: '2px solid #F5F9FF'}}>
+                            <Autocomplete
+                                freeSolo
+                                multiple
+                                value={search.age}
+                                onChange={(event, newValue: string[]) => {
+                                    setSearch({...search, age: newValue});
+                                }}
+                                disableClearable
+                                options={age}
+                                style={{width: '100%'}}
+                                getOptionLabel={(option: string) => option}
+                                renderTags={(value, getTagProps) =>
+                                    value.map((option, index) => (
+                                        <Chip
+                                            variant="outlined"
+                                            label={option}
+                                            size="small"
+                                            {...getTagProps({index})}
+                                        />
+                                    ))
+                                }
+                                renderInput={(params: any) => <TextField
+                                    {...params}
+                                    label="Age"
+                                    size='small'
+                                    InputProps={{...params.InputProps, disableUnderline: true}}
+                                />
+                                }
+                            />
+                        </Box>
+                        <Box
+                            pr={2}
+                            pl={2}
+                            display='flex'
+                            alignItems='center'
+                            justifyContent='center'
+                            height='100%'
+                            width='100%'
+                            style={{borderRight: '2px solid #F5F9FF'}}>
+                            <Autocomplete
+                                freeSolo
+                                multiple
+                                value={search.sex}
+                                onChange={(event, newValue: string[]) => {
+                                    setSearch({...search, sex: newValue});
+                                }}
+                                disableClearable
+                                options={sex}
+                                style={{width: '100%'}}
+                                getOptionLabel={(option: string) => option}
+                                renderTags={(value, getTagProps) =>
+                                    value.map((option, index) => (
+                                        <Chip
+                                            variant="outlined"
+                                            label={option}
+                                            size="small"
+                                            {...getTagProps({index})}
+                                        />
+                                    ))
+                                }
+                                renderInput={(params: any) => <TextField
+                                    {...params}
+                                    label="Sex"
+                                    size='small'
+                                    fullWidth
+                                    InputProps={{...params.InputProps, disableUnderline: true}}
+                                />
+                                }
+                            />
+                        </Box>
                         <Autocomplete
                             freeSolo
                             multiple
-                            value={search.domain}
+                            value={search.education}
                             onChange={(event, newValue: string[]) => {
-                                setSearch({...search, domain: newValue});
+                                setSearch({...search, education: newValue});
                             }}
                             disableClearable
-                            options={domain}
+                            options={education}
+                            style={{width: '100%'}}
                             getOptionLabel={(option: string) => option}
                             renderTags={(value, getTagProps) =>
                                 value.map((option, index) => (
@@ -85,187 +216,27 @@ const LandingPage: React.FC<LandingPageProps> = ({fakeLoad}) => {
                             }
                             renderInput={(params: any) => <TextField
                                 {...params}
-                                label="Domain"
+                                label="Education"
                                 size='small'
-                                variant='filled'
-                                InputProps={{...params.InputProps, disableUnderline: true}}
+                                fullWidth
+                                variant='outlined'
+                                InputProps={{...params.InputProps}}
                             />
                             }
                         />
                     </Box>
 
-                    {/*<Box*/}
-                    {/*    display='flex'*/}
-                    {/*    alignItems='center'*/}
-                    {/*    height='100%'*/}
-                    {/*    position='relative'*/}
-                    {/*    pr={1}*/}
-                    {/*    pl={1}*/}
-                    {/*>*/}
-                    {/*    <Box*/}
-                    {/*        pr={2}*/}
-                    {/*        pl={2}*/}
-                    {/*        display='flex'*/}
-                    {/*        alignItems='center'*/}
-                    {/*        justifyContent='center'*/}
-                    {/*        height='100%'*/}
-                    {/*        width='100%'*/}
-                    {/*        style={{borderRight: '2px solid #F5F9FF'}}>*/}
-                    {/*        <Autocomplete*/}
-                    {/*            freeSolo*/}
-                    {/*            multiple*/}
-                    {/*            value={search.domain}*/}
-                    {/*            onChange={(event, newValue: string[]) => {*/}
-                    {/*                setSearch({...search, domain: newValue});*/}
-                    {/*            }}*/}
-                    {/*            disableClearable*/}
-                    {/*            options={domain}*/}
-                    {/*            style={{width: '100%'}}*/}
-                    {/*            getOptionLabel={(option: string) => option}*/}
-                    {/*            renderTags={(value, getTagProps) =>*/}
-                    {/*                value.map((option, index) => (*/}
-                    {/*                    <Chip*/}
-                    {/*                        variant="outlined"*/}
-                    {/*                        label={option}*/}
-                    {/*                        size="small"*/}
-                    {/*                        {...getTagProps({index})}*/}
-                    {/*                    />*/}
-                    {/*                ))*/}
-                    {/*            }*/}
-                    {/*            renderInput={(params: any) => <TextField*/}
-                    {/*                {...params}*/}
-                    {/*                label="Domain"*/}
-                    {/*                fullWidth*/}
-                    {/*                size='small'*/}
-                    {/*                InputProps={{...params.InputProps, disableUnderline: true}}*/}
-                    {/*            />*/}
-                    {/*            }*/}
-                    {/*        />*/}
-                    {/*    </Box>*/}
-                    {/*    <Box*/}
-                    {/*        pr={2}*/}
-                    {/*        pl={2}*/}
-                    {/*        display='flex'*/}
-                    {/*        alignItems='center'*/}
-                    {/*        justifyContent='center'*/}
-                    {/*        height='100%'*/}
-                    {/*        width='100%'*/}
-                    {/*        style={{borderRight: '2px solid #F5F9FF'}}>*/}
-                    {/*        <Autocomplete*/}
-                    {/*            freeSolo*/}
-                    {/*            multiple*/}
-                    {/*            value={search.age}*/}
-                    {/*            onChange={(event, newValue: string[]) => {*/}
-                    {/*                setSearch({...search, age: newValue});*/}
-                    {/*            }}*/}
-                    {/*            disableClearable*/}
-                    {/*            options={age}*/}
-                    {/*            style={{width: '100%'}}*/}
-                    {/*            getOptionLabel={(option: string) => option}*/}
-                    {/*            renderTags={(value, getTagProps) =>*/}
-                    {/*                value.map((option, index) => (*/}
-                    {/*                    <Chip*/}
-                    {/*                        variant="outlined"*/}
-                    {/*                        label={option}*/}
-                    {/*                        size="small"*/}
-                    {/*                        {...getTagProps({index})}*/}
-                    {/*                    />*/}
-                    {/*                ))*/}
-                    {/*            }*/}
-                    {/*            renderInput={(params: any) => <TextField*/}
-                    {/*                {...params}*/}
-                    {/*                label="Age"*/}
-                    {/*                size='small'*/}
-                    {/*                InputProps={{...params.InputProps, disableUnderline: true}}*/}
-                    {/*            />*/}
-                    {/*            }*/}
-                    {/*        />*/}
-                    {/*    </Box>*/}
-                    {/*    <Box*/}
-                    {/*        pr={2}*/}
-                    {/*        pl={2}*/}
-                    {/*        display='flex'*/}
-                    {/*        alignItems='center'*/}
-                    {/*        justifyContent='center'*/}
-                    {/*        height='100%'*/}
-                    {/*        width='100%'*/}
-                    {/*        style={{borderRight: '2px solid #F5F9FF'}}>*/}
-                    {/*        <Autocomplete*/}
-                    {/*            freeSolo*/}
-                    {/*            multiple*/}
-                    {/*            value={search.sex}*/}
-                    {/*            onChange={(event, newValue: string[]) => {*/}
-                    {/*                setSearch({...search, sex: newValue});*/}
-                    {/*            }}*/}
-                    {/*            disableClearable*/}
-                    {/*            options={sex}*/}
-                    {/*            style={{width: '100%'}}*/}
-                    {/*            getOptionLabel={(option: string) => option}*/}
-                    {/*            renderTags={(value, getTagProps) =>*/}
-                    {/*                value.map((option, index) => (*/}
-                    {/*                    <Chip*/}
-                    {/*                        variant="outlined"*/}
-                    {/*                        label={option}*/}
-                    {/*                        size="small"*/}
-                    {/*                        {...getTagProps({index})}*/}
-                    {/*                    />*/}
-                    {/*                ))*/}
-                    {/*            }*/}
-                    {/*            renderInput={(params: any) => <TextField*/}
-                    {/*                {...params}*/}
-                    {/*                label="Sex"*/}
-                    {/*                size='small'*/}
-                    {/*                fullWidth*/}
-                    {/*                InputProps={{...params.InputProps, disableUnderline: true}}*/}
-                    {/*            />*/}
-                    {/*            }*/}
-                    {/*        />*/}
-                    {/*    </Box>*/}
-                    {/*    <Autocomplete*/}
-                    {/*        freeSolo*/}
-                    {/*        multiple*/}
-                    {/*        value={search.education}*/}
-                    {/*        onChange={(event, newValue: string[]) => {*/}
-                    {/*            setSearch({...search, education: newValue});*/}
-                    {/*        }}*/}
-                    {/*        disableClearable*/}
-                    {/*        options={education}*/}
-                    {/*        style={{width: '100%'}}*/}
-                    {/*        getOptionLabel={(option: string) => option}*/}
-                    {/*        renderTags={(value, getTagProps) =>*/}
-                    {/*            value.map((option, index) => (*/}
-                    {/*                <Chip*/}
-                    {/*                    variant="outlined"*/}
-                    {/*                    label={option}*/}
-                    {/*                    size="small"*/}
-                    {/*                    {...getTagProps({index})}*/}
-                    {/*                />*/}
-                    {/*            ))*/}
-                    {/*        }*/}
-                    {/*        renderInput={(params: any) => <TextField*/}
-                    {/*            {...params}*/}
-                    {/*            label="Education"*/}
-                    {/*            size='small'*/}
-                    {/*            fullWidth*/}
-                    {/*            variant='outlined'*/}
-                    {/*            InputProps={{...params.InputProps}}*/}
-                    {/*        />*/}
-                    {/*        }*/}
-                    {/*    />*/}
-                    {/*</Box>*/}
-
-                    {/*<Tooltip title='Export csv'>*/}
-                    {/*    <CSVLink*/}
-                    {/*        data={filteredFakeDB}*/}
-                    {/*        filename={"nsvb.csv"}*/}
-                    {/*        separator={";"}*/}
-                    {/*    >*/}
-
-                    {/*        <IconButton>*/}
-                    {/*            <FileExcelLineIcon/>*/}
-                    {/*        </IconButton>*/}
-                    {/*    </CSVLink>*/}
-                    {/*</Tooltip>*/}
+                    <Tooltip title='Export csv'>
+                        <CSVLink
+                            data={filteredFakeDB}
+                            filename={"nsvb.csv"}
+                            separator={";"}
+                        >
+                            <IconButton>
+                                <FileExcelLineIcon/>
+                            </IconButton>
+                        </CSVLink>
+                    </Tooltip>
 
 
                     {fakeLoad &&
