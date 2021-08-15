@@ -6,7 +6,6 @@ import DeveloperPage from "./pages/DeveloperPage";
 import ResearchPage from "./pages/ResearchPage";
 import AboutPage from "./pages/AboutPage";
 import {FooterNavigation} from "./components/navigation/FooterNavigation";
-import {Box} from "@material-ui/core";
 import ErrorPage from "./pages/ErrorPage";
 import DocsPage from "./pages/DocsPage";
 import {ThemeProvider} from '@material-ui/core/styles';
@@ -27,12 +26,8 @@ function App() {
     return (
         <ThemeProvider theme={appTheme}>
             <Router>
-                <HeaderNavigation/>
-                <Box
-                    position='relative'
-                    display='flex'
-                    flexDirection='column'
-                    justifyContent='space-between'>
+                <div style={{flex: '1 0 auto'}}>
+                    <HeaderNavigation/>
                     <Switch>
                         <Route path={RouteNames.about} component={AboutPage}/>
                         <Route path={RouteNames.research} component={ResearchPage}/>
@@ -48,8 +43,8 @@ function App() {
 
                         <Route component={ErrorPage}/>
                     </Switch>
-                    <FooterNavigation/>
-                </Box>
+                </div>
+                <FooterNavigation/>
                 {/*<CookieBanner/>*/}
             </Router>
         </ThemeProvider>

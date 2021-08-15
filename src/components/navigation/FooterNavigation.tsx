@@ -8,7 +8,7 @@ export const FooterNavigation = () => {
     const n = d.getFullYear();
 
     return (
-        <Box style={{background: '#F5F9FF'}}>
+        <Box style={{background: '#F5F9FF', flexShrink: 0}}>
             <Container>
                 <Box pt={3} pb={3}>
                     <TextIconWrapper style={{fontSize: 20}}>
