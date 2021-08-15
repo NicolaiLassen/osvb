@@ -8,6 +8,7 @@ import {
     Table,
     TableBody,
     TableCell,
+    TableContainer,
     TableHead,
     TableRow,
     TextField,
@@ -258,46 +259,54 @@ const LandingPage: React.FC<LandingPageProps> = ({fakeLoad}) => {
                         flexDirection='column'
                         alignItems='center'
                         justifyContent='center'
-                        p={2}
+                        pl={2}
+                        pr={2}
                     >
-                        <Table>
-                            <TableHead
-                                style={{background: '#F5F9FF'}}>
-                                <TableRow>
-                                    <TableCell style={{
-                                        fontWeight: 'bold',
-                                        paddingLeft: 16,
-                                        borderRadius: '100px 0px 0px 100px'
-                                    }}>Age</TableCell>
-                                    <TableCell style={{fontWeight: 'bold'}}>Sex</TableCell>
-                                    <TableCell style={{fontWeight: 'bold'}}>Education</TableCell>
-                                    <TableCell style={{fontWeight: 'bold'}}>Wellbeing
-                                        coefficient</TableCell>
-                                    <TableCell style={{fontWeight: 'bold'}}>1 point gain</TableCell>
-                                    <TableCell style={{
-                                        fontWeight: 'bold',
-                                        paddingRight: 16,
-                                        borderRadius: '0px 100px 100px 0px'
-                                    }}>1 point loss</TableCell>
-                                </TableRow>
-                            </TableHead>
-                            <TableBody>
-                                {
-                                    filteredFakeDB.map((entry: NSVBEntry) => (
-                                        <TableRow key={entry.id}>
-                                            <TableCell component="th" scope="row">
-                                                {entry.age}
-                                            </TableCell>
-                                            <TableCell>{entry.sex}</TableCell>
-                                            <TableCell>{entry.education}</TableCell>
-                                            <TableCell>{entry.wellbeingCoefficient}</TableCell>
-                                            <TableCell>{entry.pointGain}</TableCell>
-                                            <TableCell>{entry.pointLoss}</TableCell>
-                                        </TableRow>
-                                    ))
-                                }
-                            </TableBody>
-                        </Table>
+                        <TableContainer
+                            style={{
+                                overflowX: 'auto',
+                            }}
+                        >
+                            {/*https://medium.com/appnroll-publication/5-practical-solutions-to-make-responsive-data-tables-ff031c48b122*/}
+                            <Table>
+                                <TableHead
+                                    style={{background: '#F5F9FF'}}>
+                                    <TableRow>
+                                        <TableCell style={{
+                                            fontWeight: 'bold',
+                                            paddingLeft: 16,
+                                            borderRadius: '100px 0px 0px 100px'
+                                        }}>Age</TableCell>
+                                        <TableCell style={{fontWeight: 'bold'}}>Sex</TableCell>
+                                        <TableCell style={{fontWeight: 'bold'}}>Education</TableCell>
+                                        <TableCell style={{fontWeight: 'bold'}}>Wellbeing
+                                            coefficient</TableCell>
+                                        <TableCell style={{fontWeight: 'bold'}}>1 point gain</TableCell>
+                                        <TableCell style={{
+                                            fontWeight: 'bold',
+                                            paddingRight: 16,
+                                            borderRadius: '0px 100px 100px 0px'
+                                        }}>1 point loss</TableCell>
+                                    </TableRow>
+                                </TableHead>
+                                <TableBody>
+                                    {
+                                        filteredFakeDB.map((entry: NSVBEntry) => (
+                                            <TableRow key={entry.id}>
+                                                <TableCell component="th" scope="row">
+                                                    {entry.age}
+                                                </TableCell>
+                                                <TableCell>{entry.sex}</TableCell>
+                                                <TableCell>{entry.education}</TableCell>
+                                                <TableCell>{entry.wellbeingCoefficient}</TableCell>
+                                                <TableCell>{entry.pointGain}</TableCell>
+                                                <TableCell>{entry.pointLoss}</TableCell>
+                                            </TableRow>
+                                        ))
+                                    }
+                                </TableBody>
+                            </Table>
+                        </TableContainer>
                     </Box>
                     }
                 </FloatContainer>
