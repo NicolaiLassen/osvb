@@ -25,18 +25,18 @@ export const HeaderNavigation: React.FC = () => {
         <div className={classes.root} {...routeProps?.containerProps}>
             <Container>
                 <Box
+                    pt={2}
+                    pb={2}
                     display='flex'
                     alignItems='center'
                     justifyContent='space-between'
                 >
-                    <Box pt={3} pb={3}>
-                        <TextIconWrapper>
-                            <HeaderLink to='/' color={routeProps.logo} style={{margin: 0}}>
-                                NSVB
-                                <span style={{fontSize: 9, position: 'absolute'}}>alpha</span>
-                            </HeaderLink>
-                        </TextIconWrapper>
-                    </Box>
+                    <TextIconWrapper>
+                        <HeaderLink to='/' color={routeProps.logo} style={{margin: 0}}>
+                            NSVB
+                            <span style={{fontSize: 9, position: 'absolute'}}>alpha</span>
+                        </HeaderLink>
+                    </TextIconWrapper>
                     <DesktopNavigation color={routeProps.mainNavDesktop}/>
                     <MobileNavigation color={routeProps.mainNavMobile}/>
                 </Box>
