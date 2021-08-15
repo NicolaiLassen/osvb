@@ -52,7 +52,7 @@ const LandingPage: React.FC<LandingPageProps> = ({fakeLoad}) => {
                      backgroundRepeat: 'no-repeat'
                  }}>
                 <Container>
-                    <p style={{fontWeight: 'bold', fontSize: 34, marginTop: 0, marginBottom: 16}}>
+                    <p style={{fontWeight: 'bold', fontSize: 38, marginTop: 0, marginBottom: 16}}>
                         Nordic Social Value Bank
                     </p>
                     <p style={{fontSize: 20, margin: 0}}>
@@ -61,7 +61,7 @@ const LandingPage: React.FC<LandingPageProps> = ({fakeLoad}) => {
                 </Container>
             </Box>
             <Container>
-                <FloatContainer style={{overflow: 'hidden', transform: 'translateY(-60px)'}}>'
+                <FloatContainer style={{overflow: 'hidden', transform: 'translateY(-80px)'}}>'
                     <Box p={2}>
                         <Autocomplete
                             freeSolo

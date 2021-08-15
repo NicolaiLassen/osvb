@@ -10,11 +10,11 @@ export const FooterNavigation = () => {
     return (
         <Box style={{background: '#F5F9FF', flexShrink: 0}}>
             <Container>
-                <Box pt={3} pb={3}>
+                <Box pt={2} pb={2}>
                     <TextIconWrapper style={{fontSize: 20}}>
                         NSVB
                     </TextIconWrapper>
-                    <Box height={32}/>
+                    <Box height={16}/>
                     <Box display='flex'>
                         <div style={{fontSize: 13}}>
                             © {n} NSVB
