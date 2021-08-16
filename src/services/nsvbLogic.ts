@@ -16,6 +16,13 @@ export const emptyNSVBSearch: NSVBSearch = {
     wellbeingCoefficient: []
 }
 
+
+export const medianIncome = 253100;
+export const incomeCoefficientLog = 196;
+export const monetaryValue1Point = 12913265;
+export const population = 5843347;
+
+
 export const domain = [
     'Ensomhed'
 ];

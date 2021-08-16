@@ -90,6 +90,11 @@ const LandingPage: React.FC<LandingPageProps> = ({fakeLoad}) => {
                                 <Table stickyHeader>
                                     <TableHead>
                                         <TableRow>
+                                            <TableCell style={{
+                                                backgroundColor: '#273A6B',
+                                                color: 'white',
+                                                fontWeight: 'bold'
+                                            }}>Domain</TableCell>
                                             <TableCell
                                                 style={{
                                                     backgroundColor: '#273A6B',
@@ -117,28 +122,33 @@ const LandingPage: React.FC<LandingPageProps> = ({fakeLoad}) => {
                                                 backgroundColor: '#273A6B',
                                                 color: 'white',
                                                 fontWeight: 'bold'
-                                            }}>1 point
-                                                gain</TableCell>
+                                            }}>P-value</TableCell>
                                             <TableCell style={{
                                                 backgroundColor: '#273A6B',
                                                 color: 'white',
                                                 fontWeight: 'bold'
-                                            }}>1 point
-                                                loss</TableCell>
+                                            }}>Sample size</TableCell>
+                                            <TableCell style={{
+                                                backgroundColor: '#273A6B',
+                                                color: 'white',
+                                                fontWeight: 'bold'
+                                            }}>Value gain pr. person</TableCell>
                                         </TableRow>
                                     </TableHead>
                                     <TableBody>
                                         {
                                             filteredFakeDB.map((entry: NSVBEntry) => (
                                                 <TableRow key={entry.id}>
+                                                    <TableCell></TableCell>
                                                     <TableCell component="th" scope="row">
                                                         {entry.age}
                                                     </TableCell>
                                                     <TableCell>{entry.sex}</TableCell>
                                                     <TableCell>{entry.education}</TableCell>
                                                     <TableCell>{entry.wellbeingCoefficient}</TableCell>
+                                                    <TableCell></TableCell>
+                                                    <TableCell></TableCell>
                                                     <TableCell>{entry.pointGain}</TableCell>
-                                                    <TableCell>{entry.pointLoss}</TableCell>
                                                 </TableRow>
                                             ))
                                         }

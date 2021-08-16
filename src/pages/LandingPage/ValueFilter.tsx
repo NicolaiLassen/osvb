@@ -193,28 +193,16 @@ export const ValueFilter: React.FC<ValueFilterProps> = ({data, search, setSearch
                 </Box>
                 <Box p={2} >
                     <div>
-                        Medianindkomst 253.100
+                        Medianindkomst: <span style={{fontWeight: 500}}>253.100</span>
                     </div>
                     <div>
-                        Indkomstkoefficient (log) 1.96
+                        Indkomstkoefficient (log): <span style={{fontWeight: 500}}>1.96</span>
                     </div>
                     <div>
-                        Monetær værdi af 1 point på LS 129.132.65
+                        Monetær værdi af 1 point på LS: <span style={{fontWeight: 500}}>129.132.65</span>
                     </div>
                     <div>
-                        Befolkningstal (DK) 5.843.347
-                    </div>
-                    <div>
-                        Medianindkomst 253.100
-                    </div>
-                    <div>
-                        Indkomstkoefficient (log) 1.96
-                    </div>
-                    <div>
-                        Monetær værdi af 1 point på LS 129.132.65
-                    </div>
-                    <div>
-                        Befolkningstal (DK) 5.843.347
+                        Befolkningstal (DK): <span style={{fontWeight: 500}}>5.843.347</span>
                     </div>
                 </Box>
             </Popover>
