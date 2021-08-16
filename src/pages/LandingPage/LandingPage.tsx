@@ -3,21 +3,17 @@ import {
     Box,
     CircularProgress,
     Container,
-    IconButton,
     Paper,
     Table,
     TableBody,
     TableCell,
     TableContainer,
     TableHead,
-    TableRow,
-    Tooltip
+    TableRow
 } from "@material-ui/core";
 import gradient from '../../assets/gradients/main-top-gradient.png';
 import {emptyNSVBSearch, NSVBEntry, NSVBSearch} from "../../services/nsvbLogic";
 import {fakeDB} from "../../services/fakeDB";
-import {CSVLink} from "react-csv";
-import FileExcelLineIcon from "remixicon-react/FileExcelLineIcon";
 import ValueFilter from "./ValueFilter";
 
 interface LandingPageProps {
@@ -43,7 +39,6 @@ const LandingPage: React.FC<LandingPageProps> = ({fakeLoad}) => {
         return bool;
     });
 
-
     return (
         <div>
             <Box display='flex' alignItems='center'
@@ -65,22 +60,10 @@ const LandingPage: React.FC<LandingPageProps> = ({fakeLoad}) => {
                 </Container>
             </Box>
 
-
             <Container>
                 <Box style={{transform: 'translateY(-80px)'}}>
-                    <Paper elevation={2} style={{marginBottom: 16}}>
-                        <ValueFilter search={search} setSearch={setSearch}/>
-                        <Tooltip title='Export csv'>
-                            <CSVLink
-                                data={filteredFakeDB}
-                                filename={"nsvb.csv"}
-                                separator={";"}
-                            >
-                                <IconButton>
-                                    <FileExcelLineIcon/>
-                                </IconButton>
-                            </CSVLink>
-                        </Tooltip>
+                    <Paper elevation={2} style={{padding: 16, marginBottom: 16}}>
+                        <ValueFilter search={search} setSearch={setSearch} data={filteredFakeDB}/>
                     </Paper>
                     <Paper style={{overflow: 'hidden'}}>
                         {fakeLoad &&
@@ -108,18 +91,39 @@ const LandingPage: React.FC<LandingPageProps> = ({fakeLoad}) => {
                                     <TableHead>
                                         <TableRow>
                                             <TableCell
-                                                style={{backgroundColor: '#F5F9FF', fontWeight: 'bold'}}>Age</TableCell>
+                                                style={{
+                                                    backgroundColor: '#273A6B',
+                                                    color: 'white',
+                                                    fontWeight: 'bold'
+                                                }}>Age</TableCell>
                                             <TableCell
-                                                style={{backgroundColor: '#F5F9FF', fontWeight: 'bold'}}>Sex</TableCell>
+                                                style={{
+                                                    backgroundColor: '#273A6B',
+                                                    color: 'white',
+                                                    fontWeight: 'bold'
+                                                }}>Sex</TableCell>
                                             <TableCell style={{
-                                                backgroundColor: '#F5F9FF',
+                                                backgroundColor: '#273A6B',
+                                                color: 'white',
                                                 fontWeight: 'bold'
                                             }}>Education</TableCell>
-                                            <TableCell style={{backgroundColor: '#F5F9FF', fontWeight: 'bold'}}>Wellbeing
+                                            <TableCell style={{
+                                                backgroundColor: '#273A6B',
+                                                color: 'white',
+                                                fontWeight: 'bold'
+                                            }}>Wellbeing
                                                 coefficient</TableCell>
-                                            <TableCell style={{backgroundColor: '#F5F9FF', fontWeight: 'bold'}}>1 point
+                                            <TableCell style={{
+                                                backgroundColor: '#273A6B',
+                                                color: 'white',
+                                                fontWeight: 'bold'
+                                            }}>1 point
                                                 gain</TableCell>
-                                            <TableCell style={{backgroundColor: '#F5F9FF', fontWeight: 'bold'}}>1 point
+                                            <TableCell style={{
+                                                backgroundColor: '#273A6B',
+                                                color: 'white',
+                                                fontWeight: 'bold'
+                                            }}>1 point
                                                 loss</TableCell>
                                         </TableRow>
                                     </TableHead>

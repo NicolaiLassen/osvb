@@ -6,9 +6,11 @@ const appTheme = {
             MuiTableCell: {
                 root: {}
             },
+            MuiPopover: {
+            },
             MuiPaper: {
                 root: {
-                    borderRadius: '16px !important',
+                    borderRadius: '8px !important',
                     overflow: 'hidden',
                     boxShadow: '0 4px 8px rgba(0,0,0,.09)'
                 },
