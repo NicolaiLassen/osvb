@@ -130,7 +130,7 @@ export const PanelPage = () => {
                             numeric: true,
                         }, {
                             id: "successRate",
-                            label: 'Success Rate',
+                            label: 'Success rate',
                             numeric: true,
                             percent: true,
                         }, {
@@ -147,7 +147,7 @@ export const PanelPage = () => {
                             label: '',
                             numeric: true,
                             render: (e) => <IconButton onClick={() => {
-                                setElements(elements.filter((e1) => e1.name === e.name))
+                                setElements(elements.filter((e1) => e1.name !== e.name))
                             }}>
                                 <CloseFillIcon/>
                             </IconButton>
@@ -160,7 +160,7 @@ export const PanelPage = () => {
                             </TableCell>
                             {Array.from({length: 3}).map(() => <TableCell/>)}
                             <TableCell align={"right"} style={{fontWeight: 600}}>
-                                {formatNumber(elements.reduce((r, e) => r + (e.count * e.successRate * e.socialValue), 0))}
+                                {formatNumber(elements.reduce((r, e) => r + (e.count * e.successRate * e.socialValue), 0)) + ' DKK'}
                             </TableCell>
                         </TableRow>
                     </BaseTable>
