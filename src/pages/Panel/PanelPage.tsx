@@ -1,5 +1,5 @@
-import React, {useState} from "react";
-import {Box, Container} from "@material-ui/core";
+import React, {useEffect, useState} from "react";
+import {Box, Container, Divider, Paper} from "@material-ui/core";
 import BaseTable from "../../components/tables/BaseTable";
 import formatNumber from "../../lib/string/formatNumber";
 import PaperContainer from "../../components/containers/PaperContainer";
@@ -15,12 +15,16 @@ import TableCell from "@material-ui/core/TableCell";
 import TableRow from "@material-ui/core/TableRow";
 import IconButton from "@material-ui/core/IconButton";
 import CloseFillIcon from "remixicon-react/CloseFillIcon";
+import {emptyNSVBSearch, NSVBEntry, NSVBSearch} from "../../services/nsvbLogic";
+import {fakeDB} from "../../services/fakeDB";
+import ValueFilter from "../LandingPage/ValueFilter";
 
 
 export interface PanelElement {
     id: string;
     name: string;
-    count: number;
+    domain: string;
+    sampleSize: number;
     successRate: number;
     socialValue: number;
 }
@@ -28,37 +32,142 @@ export interface PanelElement {
 export const defaultPanelElement: PanelElement = {
     id: '' + randomInt(),
     name: '',
-    count: 0,
-    successRate: 1,
+    domain: '',
+    sampleSize: 0,
+    successRate: 1.0,
     socialValue: 0,
 }
 
-
 export const PanelPage = () => {
-
     const [submitButtonRef] = useSubmitButtonRef();
     const [editElement, setEditElement] = useState<PanelElement | undefined>();
     const [elements, setElements] = useState<PanelElement[]>([]);
 
+    const [search, setSearch] = useState<NSVBSearch>(emptyNSVBSearch);
 
+    // virtuallizer
+    const [filteredData, setFilteredData] = useState<NSVBEntry[]>(fakeDB.slice(0, 20))
+
+    useEffect(() => {
+        const newFilteredData: NSVBEntry[] = fakeDB.filter((entry: NSVBEntry) => {
+            let bool = true;
+
+            if (search.domain.length > 0 && !search.domain.includes(entry.domain)) {
+                bool = false;
+            }
+
+            if (search.age.length > 0 && !search.age.includes(entry.age)) {
+                bool = false;
+            }
+
+            if (search.sex.length > 0 && !search.sex.includes(entry.sex)) {
+                bool = false;
+            }
+
+            if (search.education.length > 0 && !search.education.includes(entry.education)) {
+                bool = false;
+            }
+
+            return bool;
+        });
+        // virtuallizer
+        setFilteredData(newFilteredData.slice(0, 20));
+    }, [search])
 
     return (
         <Box pt={2} pb={2}>
             <CrudDialog<PanelElement>
                 element={editElement}
+                maxWidth='lg'
                 onCancel={() => setEditElement(undefined)}
                 submitButtonRef={submitButtonRef}
             >
+                <ValueFilter search={search} setSearch={setSearch} data={filteredData}/>
+
                 <Formik<PanelElement>
-                    onSubmit={(element) => {
+                    onSubmit={(element: PanelElement) => {
                         setEditElement(undefined);
                         setElements([...elements, element]);
                     }}
                     initialValues={defaultPanelElement}
                     enableReinitialize={true}
                 >
-                    {() => (
+                    {({setFieldValue, values}) => (
                         <Form>
+                            <Box mt={1} mb={3} maxHeight={250}
+                                 style={{background: '#f5f9ff', borderRadius: 8, overflow: 'hidden'}}>
+                                <Box p={1}
+                                     display='flex'
+                                     flexWrap='wrap'
+                                     maxHeight={250} style={{overflowY: 'auto', overflowX: 'auto'}}>
+                                    {
+                                        filteredData.map((entry: NSVBEntry, index) => {
+                                            const string2number = entry.valueGainPerson
+                                                .replaceAll(".", "")
+                                                .replaceAll(" ", "")
+                                                .replaceAll("kr.", "")
+                                            const value: number = parseInt(string2number)
+                                            return (
+                                                <Box minWidth={'24%'} pb={1} pr={1} key={entry.id}>
+                                                    <Paper
+                                                        style={{
+                                                            cursor: 'pointer',
+                                                            border: 'solid 1px ' + (values.socialValue === value ? '#3f51b5' : 'white')
+                                                        }}
+                                                        onClick={() => {
+                                                            setFieldValue('domain', entry.domain)
+                                                            setFieldValue('socialValue', value)
+                                                        }}>
+                                                        <Box p={1} justifyContent='space-between' display='flex'>
+                                                            <Box>
+                                                                Domain
+                                                            </Box>
+                                                            <Box style={{fontSize: 14}}>
+                                                                {entry.domain}
+                                                            </Box>
+                                                        </Box>
+                                                        <Divider/>
+                                                        <Box p={1} justifyContent='space-between' display='flex'>
+                                                            <Box>
+                                                                Age
+                                                            </Box>
+                                                            <Box style={{fontSize: 14}}>
+                                                                {entry.age}
+                                                            </Box>
+                                                        </Box>
+                                                        <Divider/>
+                                                        <Box p={1} justifyContent='space-between' display='flex'>
+                                                            <Box>
+                                                                Education
+                                                            </Box>
+                                                            <Box style={{fontSize: 14}}>
+                                                                {entry.education}
+                                                            </Box>
+                                                        </Box>
+                                                        <Divider/>
+                                                        <Box p={1} justifyContent='space-between' display='flex'>
+                                                            <Box>
+                                                                Sex
+                                                            </Box>
+                                                            <Box style={{fontSize: 14}}>
+                                                                {entry.sex}
+                                                            </Box>
+                                                        </Box>
+                                                        <Divider/>
+                                                        <Box p={1} justifyContent='space-between' display='flex'>
+                                                            <Box>
+                                                                Value gain
+                                                            </Box>
+                                                            <Box style={{fontSize: 14}}>
+                                                                {entry.valueGainPerson}
+                                                            </Box>
+                                                        </Box>
+                                                    </Paper>
+                                                </Box>
+                                            )
+                                        })}
+                                </Box>
+                            </Box>
                             <button
                                 aria-label="submit"
                                 type="submit"
@@ -66,22 +175,14 @@ export const PanelPage = () => {
                                 ref={submitButtonRef}
                             />
                             <Grid container spacing={2}>
-                                <Grid item xs={12}>
-                                    <Field
-                                        as={TextField}
-                                        name="name"
-                                        label="Name"
-                                        type="text"
-                                        fullWidth
-                                        autoFocus
-                                    />
-                                </Grid>
                                 <Grid item xs={6}>
                                     <Field
                                         as={TextField}
-                                        name="count"
-                                        label="Count"
+                                        name="sampleSize"
+                                        label="Sample Size"
                                         type="number"
+                                        variant='outlined'
+                                        size='small'
                                         fullWidth
                                     />
                                 </Grid>
@@ -91,18 +192,19 @@ export const PanelPage = () => {
                                         name="successRate"
                                         label="Success Rate"
                                         type="number"
+                                        variant='outlined'
+                                        size='small'
                                         fullWidth
                                     />
 
                                 </Grid>
-                                <Grid item xs={6}>
-                                    <Field
-                                        as={TextField}
-                                        name="socialValue"
-                                        label="Social value"
-                                        type="number"
-                                        fullWidth
-                                    />
+                                <Grid item xs={12} md={12}>
+                                    <Box style={{fontWeight: 'bold'}}>
+                                        Estimate
+                                    </Box>
+                                    <Box>
+                                        {formatNumber(values.sampleSize * values.successRate * values.socialValue)} kr.
+                                    </Box>
                                 </Grid>
                             </Grid>
                         </Form>
@@ -122,11 +224,11 @@ export const PanelPage = () => {
                 >
                     <BaseTable<PanelElement>
                         heads={[{
-                            id: "name",
-                            label: 'Name',
+                            id: "domain",
+                            label: 'Domain',
                         }, {
-                            id: "count",
-                            label: 'Count',
+                            id: "sampleSize",
+                            label: 'Sample size',
                             numeric: true,
                         }, {
                             id: "successRate",
@@ -137,17 +239,18 @@ export const PanelPage = () => {
                             id: "socialValue",
                             label: 'Social value',
                             numeric: true,
+                            render: (e) => formatNumber(e.socialValue) + ' kr.'
                         }, {
                             id: "id",
                             label: 'Estimat',
                             numeric: true,
-                            render: (e) => formatNumber(e.count * e.successRate * e.socialValue) + ' DKK'
+                            render: (e) => formatNumber(e.sampleSize * e.successRate * e.socialValue) + ' DKK'
                         }, {
                             id: "id",
                             label: '',
                             numeric: true,
                             render: (e) => <IconButton onClick={() => {
-                                setElements(elements.filter((e1) => e1.name === e.name))
+                                setElements(elements.filter((e1) => e1.domain === e.domain))
                             }}>
                                 <CloseFillIcon/>
                             </IconButton>
@@ -158,13 +261,12 @@ export const PanelPage = () => {
                             <TableCell align={"left"} style={{fontWeight: 600}}>
                                 TOTAL
                             </TableCell>
-                            {Array.from({length: 3}).map(() => <TableCell/>)}
+                            {Array.from({length: 3}).map((_, index) => <TableCell key={index}/>)}
                             <TableCell align={"right"} style={{fontWeight: 600}}>
-                                {formatNumber(elements.reduce((r, e) => r + (e.count * e.successRate * e.socialValue), 0))}
+                                {formatNumber(elements.reduce((r, e) => r + (e.sampleSize * e.successRate * e.socialValue), 0))}
                             </TableCell>
                         </TableRow>
                     </BaseTable>
-
                 </PaperContainer>
             </Container>
         </Box>

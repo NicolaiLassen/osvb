@@ -14,7 +14,7 @@ import {
 import gradient from '../../assets/gradients/main-top-gradient.png';
 import {emptyNSVBSearch, NSVBEntry, NSVBSearch} from "../../services/nsvbLogic";
 import {fakeDB} from "../../services/fakeDB";
-import ValueFilter from "./ValueFilter";
+import ActionBarValueFilter from "./ActionBarValueFilter";
 
 interface LandingPageProps {
     fakeLoad: boolean;
@@ -24,7 +24,7 @@ const LandingPage: React.FC<LandingPageProps> = ({fakeLoad}) => {
     const [search, setSearch] = useState<NSVBSearch>(emptyNSVBSearch);
 
     // virtuallizer
-    const [filteredData, setFilteredData] = useState<NSVBEntry[]>(fakeDB.slice(0,50))
+    const [filteredData, setFilteredData] = useState<NSVBEntry[]>(fakeDB.slice(0, 50))
 
     useEffect(() => {
         const newFilteredData: NSVBEntry[] = fakeDB.filter((entry: NSVBEntry) => {
@@ -49,7 +49,7 @@ const LandingPage: React.FC<LandingPageProps> = ({fakeLoad}) => {
             return bool;
         });
         // virtuallizer
-        setFilteredData(newFilteredData.slice(0,50));
+        setFilteredData(newFilteredData.slice(0, 50));
     }, [search])
 
     return (
@@ -76,7 +76,7 @@ const LandingPage: React.FC<LandingPageProps> = ({fakeLoad}) => {
             <Container>
                 <Box style={{transform: 'translateY(-80px)'}}>
                     <Paper elevation={2} style={{padding: 16, marginBottom: 16}}>
-                        <ValueFilter search={search} setSearch={setSearch} data={filteredData}/>
+                        <ActionBarValueFilter search={search} setSearch={setSearch} data={filteredData}/>
                     </Paper>
                     <Paper style={{overflow: 'hidden'}}>
                         {fakeLoad &&
@@ -98,9 +98,7 @@ const LandingPage: React.FC<LandingPageProps> = ({fakeLoad}) => {
                             alignItems='center'
                             justifyContent='center'
                         >
-
                             <TableContainer style={{maxHeight: 500}}>
-                                {/*https://medium.com/appnroll-publication/5-practical-solutions-to-make-responsive-data-tables-ff031c48b122*/}
                                 <Table stickyHeader>
                                     <TableHead>
                                         <TableRow>
