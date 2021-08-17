@@ -1,10 +1,14 @@
 import React from "react";
-import {Box} from "@material-ui/core";
-
+import {Box, Container, Paper} from "@material-ui/core";
 
 export const PanelPage = () => {
     return (
-        <Box>
+        <Box pt={2} pb={2}>
+            <Container>
+                <Paper>
+                    test
+                </Paper>
+            </Container>
         </Box>
     )
 }
