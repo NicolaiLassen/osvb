@@ -28,13 +28,14 @@ export const ValueFilter: React.FC<ValueFilterProps> = ({data, search, setSearch
 
     return (
         <Grid container alignItems='center' spacing={2}>
-            <Grid item>
+            <Grid item md={3}>
                 <Autocomplete
                     multiple
                     value={search.domain}
                     onChange={(event, newValue: string[]) => {
                         setSearch({...search, domain: newValue});
                     }}
+                    fullWidth
                     disableClearable
                     options={domain}
                     getOptionLabel={(option: string) => option}
@@ -58,7 +59,7 @@ export const ValueFilter: React.FC<ValueFilterProps> = ({data, search, setSearch
                 />
             </Grid>
 
-            <Grid item>
+            <Grid item md={2}>
                 <Autocomplete
                     multiple
                     value={search.age}
@@ -88,7 +89,7 @@ export const ValueFilter: React.FC<ValueFilterProps> = ({data, search, setSearch
                 />
             </Grid>
 
-            <Grid item>
+            <Grid item md={2}>
                 <Autocomplete
                     multiple
                     value={search.sex}
@@ -120,7 +121,7 @@ export const ValueFilter: React.FC<ValueFilterProps> = ({data, search, setSearch
                 />
             </Grid>
 
-            <Grid item>
+            <Grid item md={3}>
                 <Autocomplete
                     multiple
                     value={search.education}
@@ -152,7 +153,7 @@ export const ValueFilter: React.FC<ValueFilterProps> = ({data, search, setSearch
                     }
                 />
             </Grid>
-            <Grid>
+            <Grid item md={2}>
                 <Tooltip title='Assumptions'>
                     <IconButton onClick={handleClick}
                                 style={{marginRight: 4, boxShadow: 'inset 0 0 0 1px #273A6B'}}>
@@ -188,7 +189,7 @@ export const ValueFilter: React.FC<ValueFilterProps> = ({data, search, setSearch
                 <Box p={2} style={{background: 'rgb(245, 249, 255)', fontWeight: 500}}>
                     Assumptions
                 </Box>
-                <Box p={2} >
+                <Box p={2}>
                     <div>
                         Medianindkomst: <span style={{fontWeight: 500}}>253.100</span>
                     </div>
