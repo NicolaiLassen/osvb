@@ -26,7 +26,7 @@ const LandingPage: React.FC<LandingPageProps> = ({fakeLoad}) => {
     const filteredFakeDB: NSVBEntry[] = fakeDB.filter((entry: NSVBEntry) => {
         let bool = true;
 
-        if (search.age.length > 0 && !search.domain.includes(entry.domain)) {
+        if (search.domain.length > 0 && !search.domain.includes(entry.domain)) {
             bool = false;
         }
 

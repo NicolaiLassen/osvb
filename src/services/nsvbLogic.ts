@@ -26,33 +26,43 @@ export const population = 5843347;
 
 
 export const domain = [
-    'Ensomhed'
-];
+    "Svær ensomhed ",
+    "Langvarig mental sygdom ",
+    "Arbejdsløshed ",
+    "Begrænset i at gennemføre daglige gøremål ",
+    "Kortvarig mental sygdom ",
+    "Kronisk smerte og ubehag ",
+    "Problemer med personlig pleje ",
+    "Begrænset fysisk mobilitet "
+]
 
 export const age = [
-    '16 to 24',
-    '25 to 34',
-    '35 to 44',
-    '45 to 54',
-    '55 to 64',
-    '65 to 74',
-    '75 og derover'
+    "Gennemsnit",
+    "45-54",
+    "55-64",
+    "65-74",
+    "35-44",
+    "75+",
+    "16-24",
+    "25-34"
 ]
 
 export const education = [
-    'Grundskole',
-    'Lang videregående uddannelse',
-    'Kort videregående uddannelse',
-    'Erhvervsfaglig uddannelse',
-    'Gymnasiel uddannelse',
-    'Under uddannelse'
+    "Gennemsnit",
+    "Erhvervsfaglig uddannelse",
+    "Grundskole",
+    "Mellemlang videregående uddannelse",
+    "Under uddannelse",
+    "Kort videregående uddannelse",
+    "Lang videregående uddannelse",
+    "Gymnasiel uddannelse"
 ]
 
 export const sex = [
-    'Kvinde',
-    'Mand',
-    'Both'
-];
+    "Gennemsnit",
+    "Kvinde",
+    "Mand"
+]
 
 export interface NSVBEntry {
     id: string;
@@ -67,6 +77,21 @@ export interface NSVBEntry {
     valueGainGroup: string;
 }
 
+// const t = fakeDB.map((entry: NSVBEntry) => {
+//     return (entry.education)
+// });
+//
+// // @ts-ignore
+// function uniq(a) {
+//     var seen = {};
+//     // @ts-ignore
+//     return a.filter(function(item) {
+//         // @ts-ignore
+//         return seen.hasOwnProperty(item) ? false : (seen[item] = true);
+//     });
+// }
+//
+// console.log([...uniq(t)])
 
 // console.log(fakeDB.map((entry: NSVBEntry) => {
 //     return ({

@@ -16,8 +16,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 6.5,
         "populationAffected": "380.025.29",
         "valueGainPerson": "724.435.77 kr.",
-        "valueGainGroup": "275.303.911.154 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "275.303.911.154 kr."
     },
     {
         "id": "`Mental illness - More than six months`177",
@@ -34,8 +33,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 10.03,
         "populationAffected": "580.729.96",
         "valueGainPerson": "327.788.99 kr.",
-        "valueGainGroup": "190.356.886.994 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "190.356.886.994 kr."
     },
     {
         "id": "Unemployed123",
@@ -52,8 +50,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 2.05,
         "populationAffected": "121.278.17",
         "valueGainPerson": "285.917.87 kr.",
-        "valueGainGroup": "34.675.594.650 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "34.675.594.650 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`171",
@@ -70,8 +67,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 30.53,
         "populationAffected": "970.836.30",
         "valueGainPerson": "204.180.81 kr.",
-        "valueGainGroup": "198.226.142.982 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "198.226.142.982 kr."
     },
     {
         "id": "`Mental illness - Less than six months`177",
@@ -88,8 +84,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 9.84,
         "populationAffected": "569.121.47",
         "valueGainPerson": "255.640.78 kr.",
-        "valueGainGroup": "145.490.654.437 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "145.490.654.437 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`171",
@@ -106,8 +101,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 54.58,
         "populationAffected": "1.736.996.60",
         "valueGainPerson": "99.777.78 kr.",
-        "valueGainGroup": "173.313.660.328 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "173.313.660.328 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`170",
@@ -124,8 +118,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 7.12,
         "populationAffected": "224.532.62",
         "valueGainPerson": "684.176.92 kr.",
-        "valueGainGroup": "153.620.040.224 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "153.620.040.224 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`163",
@@ -142,8 +135,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 25.13,
         "populationAffected": "682.151.50",
         "valueGainPerson": "225.095.74 kr.",
-        "valueGainGroup": "153.549.398.577 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "153.549.398.577 kr."
     },
     {
         "id": "`Personlig pleje`167",
@@ -160,8 +152,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 4.75,
         "populationAffected": "280.131.18",
         "valueGainPerson": "240.247.70 kr.",
-        "valueGainGroup": "67.300.870.997 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "67.300.870.997 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`179",
@@ -178,8 +169,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 28.04,
         "populationAffected": "1.652.987.80",
         "valueGainPerson": "212.437.39 kr.",
-        "valueGainGroup": "351.156.406.235 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "351.156.406.235 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`163",
@@ -196,8 +186,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 49.9,
         "populationAffected": "1.355.138.40",
         "valueGainPerson": "102.927.43 kr.",
-        "valueGainGroup": "139.480.918.307 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "139.480.918.307 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`174",
@@ -214,8 +203,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 56.35,
         "populationAffected": "1.204.839.01",
         "valueGainPerson": "104.050.70 kr.",
-        "valueGainGroup": "125.364.338.973 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "125.364.338.973 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`162",
@@ -232,8 +220,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 5.78,
         "populationAffected": "155.492.66",
         "valueGainPerson": "785.488.25 kr.",
-        "valueGainGroup": "122.137.658.234 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "122.137.658.234 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`174",
@@ -250,8 +237,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 28.04,
         "populationAffected": "599.364.64",
         "valueGainPerson": "194.059.04 kr.",
-        "valueGainGroup": "116.312.129.300 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "116.312.129.300 kr."
     },
     {
         "id": "`Mental illness - More than six months`169",
@@ -268,8 +254,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 12.18,
         "populationAffected": "379.719.80",
         "valueGainPerson": "300.090.13 kr.",
-        "valueGainGroup": "113.950.164.591 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "113.950.164.591 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`173",
@@ -286,8 +271,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 63.93,
         "populationAffected": "650.380.90",
         "valueGainPerson": "153.659.62 kr.",
-        "valueGainGroup": "99.937.279.455 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "99.937.279.455 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`173",
@@ -304,8 +288,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 40.81,
         "populationAffected": "414.239.78",
         "valueGainPerson": "240.707.17 kr.",
-        "valueGainGroup": "99.710.487.125 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "99.710.487.125 kr."
     },
     {
         "id": "`Mental illness - Less than six months`169",
@@ -322,8 +305,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 12.22,
         "populationAffected": "380.330.77",
         "valueGainPerson": "233.688.61 kr.",
-        "valueGainGroup": "88.878.970.447 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "88.878.970.447 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`107",
@@ -340,8 +322,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 26.88,
         "populationAffected": "298.460.37",
         "valueGainPerson": "283.623.90 kr.",
-        "valueGainGroup": "84.650.496.092 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "84.650.496.092 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`173",
@@ -358,8 +339,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 5.02,
         "populationAffected": "106.309.32",
         "valueGainPerson": "748.764.07 kr.",
-        "valueGainGroup": "79.600.602.662 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "79.600.602.662 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`83",
@@ -376,8 +356,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 29.99,
         "populationAffected": "367.500.34",
         "valueGainPerson": "216.196.64 kr.",
-        "valueGainGroup": "79.452.337.473 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "79.452.337.473 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`107",
@@ -394,8 +373,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 54.57,
         "populationAffected": "605.779.86",
         "valueGainPerson": "128.468.64 kr.",
-        "valueGainGroup": "77.823.711.406 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "77.823.711.406 kr."
     },
     {
         "id": "`Mental illness - More than six months`161",
@@ -412,8 +390,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 7.53,
         "populationAffected": "201.010.16",
         "valueGainPerson": "386.296.26 kr.",
-        "valueGainGroup": "77.649.471.996 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "77.649.471.996 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`83",
@@ -430,8 +407,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 59.12,
         "populationAffected": "724.919.62",
         "valueGainPerson": "106.617.52 kr.",
-        "valueGainGroup": "77.289.135.011 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "77.289.135.011 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`162",
@@ -448,8 +424,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 17.78,
         "populationAffected": "482.974.26",
         "valueGainPerson": "156.137.89 kr.",
-        "valueGainGroup": "75.410.582.213 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "75.410.582.213 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`170",
@@ -466,8 +441,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 19.43,
         "populationAffected": "617.999.32",
         "valueGainPerson": "115.872.20 kr.",
-        "valueGainGroup": "71.608.937.716 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "71.608.937.716 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`172",
@@ -484,8 +458,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 8.58,
         "populationAffected": "85.230.75",
         "valueGainPerson": "818.870.29 kr.",
-        "valueGainGroup": "69.792.930.518 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "69.792.930.518 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`178",
@@ -502,8 +475,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 18.67,
         "populationAffected": "1.100.973.58",
         "valueGainPerson": "133.278.13 kr.",
-        "valueGainGroup": "146.735.700.310 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "146.735.700.310 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`158",
@@ -520,8 +492,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 53.63,
         "populationAffected": "597.837.21",
         "valueGainPerson": "107.606.92 kr.",
-        "valueGainGroup": "64.331.423.080 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "64.331.423.080 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`59",
@@ -538,8 +509,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 55.3,
         "populationAffected": "639.077.89",
         "valueGainPerson": "100.278.92 kr.",
-        "valueGainGroup": "64.086.040.847 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "64.086.040.847 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`166",
@@ -556,8 +526,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 59.31,
         "populationAffected": "607.001.80",
         "valueGainPerson": "100.992.55 kr.",
-        "valueGainGroup": "61.302.658.795 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "61.302.658.795 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`158",
@@ -574,8 +543,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 25.93,
         "populationAffected": "288.684.80",
         "valueGainPerson": "208.484.30 kr.",
-        "valueGainGroup": "60.186.249.059 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "60.186.249.059 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`106",
@@ -592,8 +560,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 6.29,
         "populationAffected": "69.650.94",
         "valueGainPerson": "850.612.86 kr.",
-        "valueGainGroup": "59.245.982.644 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "59.245.982.644 kr."
     },
     {
         "id": "`Mental illness - Less than six months`161",
@@ -610,8 +577,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 7.07,
         "populationAffected": "188.790.70",
         "valueGainPerson": "305.160.50 kr.",
-        "valueGainGroup": "57.611.463.711 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "57.611.463.711 kr."
     },
     {
         "id": "`Mental illness - More than six months`172",
@@ -628,8 +594,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 8.48,
         "populationAffected": "178.404.15",
         "valueGainPerson": "319.394.86 kr.",
-        "valueGainGroup": "56.981.368.927 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "56.981.368.927 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`166",
@@ -646,8 +611,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 30.35,
         "populationAffected": "310.679.84",
         "valueGainPerson": "181.454.80 kr.",
-        "valueGainGroup": "56.374.348.666 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "56.374.348.666 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`165",
@@ -664,8 +628,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 45.74,
         "populationAffected": "247.444.12",
         "valueGainPerson": "224.813.41 kr.",
-        "valueGainGroup": "55.628.756.026 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "55.628.756.026 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`131",
@@ -682,8 +645,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 23.9,
         "populationAffected": "175.960.26",
         "valueGainPerson": "310.923.75 kr.",
-        "valueGainGroup": "54.710.224.726 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "54.710.224.726 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`165",
@@ -700,8 +662,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 65.6,
         "populationAffected": "355.891.85",
         "valueGainPerson": "151.705.31 kr.",
-        "valueGainGroup": "53.990.682.432 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "53.990.682.432 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`172",
@@ -718,8 +679,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 31.58,
         "populationAffected": "320.760.89",
         "valueGainPerson": "165.065.72 kr.",
-        "valueGainGroup": "52.946.627.548 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "52.946.627.548 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`173",
@@ -736,8 +696,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 18.81,
         "populationAffected": "402.325.81",
         "valueGainPerson": "129.498.60 kr.",
-        "valueGainGroup": "52.100.629.746 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "52.100.629.746 kr."
     },
     {
         "id": "`Mental illness - More than six months`171",
@@ -754,8 +713,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 12.03,
         "populationAffected": "115.779.41",
         "valueGainPerson": "448.334.79 kr.",
-        "valueGainGroup": "51.907.935.989 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "51.907.935.989 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`99",
@@ -772,8 +730,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 30.31,
         "populationAffected": "186.652.29",
         "valueGainPerson": "272.392.21 kr.",
-        "valueGainGroup": "50.842.629.735 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "50.842.629.735 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`59",
@@ -790,8 +747,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 27.56,
         "populationAffected": "318.622.49",
         "valueGainPerson": "153.972.04 kr.",
-        "valueGainGroup": "49.058.954.876 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "49.058.954.876 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`175",
@@ -808,8 +764,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 25.26,
         "populationAffected": "291.739.67",
         "valueGainPerson": "167.230.55 kr.",
-        "valueGainGroup": "48.787.784.370 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "48.787.784.370 kr."
     },
     {
         "id": "`Mental illness - Less than six months`172",
@@ -826,8 +781,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 8.81,
         "populationAffected": "185.124.86",
         "valueGainPerson": "256.981.86 kr.",
-        "valueGainGroup": "47.573.730.947 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "47.573.730.947 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`175",
@@ -844,8 +798,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 50.01,
         "populationAffected": "577.369.61",
         "valueGainPerson": "81.427.32 kr.",
-        "valueGainGroup": "47.013.660.409 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "47.013.660.409 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`37",
@@ -862,8 +815,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 45.31,
         "populationAffected": "268.522.69",
         "valueGainPerson": "174.564.43 kr.",
-        "valueGainGroup": "46.874.509.118 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "46.874.509.118 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`157",
@@ -880,8 +832,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 35.18,
         "populationAffected": "166.795.66",
         "valueGainPerson": "280.616.67 kr.",
-        "valueGainGroup": "46.805.643.223 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "46.805.643.223 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`82",
@@ -898,8 +849,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 5.19,
         "populationAffected": "63.541.21",
         "valueGainPerson": "736.595.99 kr.",
-        "valueGainGroup": "46.804.197.094 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "46.804.197.094 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`157",
@@ -916,8 +866,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 62.03,
         "populationAffected": "294.489.05",
         "valueGainPerson": "158.931.46 kr.",
-        "valueGainGroup": "46.803.575.412 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "46.803.575.412 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`99",
@@ -934,8 +883,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 57.34,
         "populationAffected": "353.142.47",
         "valueGainPerson": "132.397.89 kr.",
-        "valueGainGroup": "46.755.319.259 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "46.755.319.259 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`171",
@@ -952,8 +900,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 12.99,
         "populationAffected": "81.564.91",
         "valueGainPerson": "564.556.55 kr.",
-        "valueGainGroup": "46.048.005.932 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "46.048.005.932 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`131",
@@ -970,8 +917,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 49.42,
         "populationAffected": "363.834.50",
         "valueGainPerson": "125.488.10 kr.",
-        "valueGainGroup": "45.656.901.318 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "45.656.901.318 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`37",
@@ -988,8 +934,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 61.29,
         "populationAffected": "364.750.96",
         "valueGainPerson": "124.786.44 kr.",
-        "valueGainGroup": "45.515.973.266 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "45.515.973.266 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`19",
@@ -1006,8 +951,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 19.24,
         "populationAffected": "105.698.35",
         "valueGainPerson": "424.124.41 kr.",
-        "valueGainGroup": "44.829.251.133 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "44.829.251.133 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`19",
@@ -1024,8 +968,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 13.62,
         "populationAffected": "74.538.72",
         "valueGainPerson": "597.600.98 kr.",
-        "valueGainGroup": "44.544.413.413 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "44.544.413.413 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`172",
@@ -1042,8 +985,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 21.01,
         "populationAffected": "132.886.66",
         "valueGainPerson": "330.704.40 kr.",
-        "valueGainGroup": "43.946.201.286 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "43.946.201.286 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`67",
@@ -1060,8 +1002,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 57.75,
         "populationAffected": "335.729.73",
         "valueGainPerson": "128.303.17 kr.",
-        "valueGainGroup": "43.075.187.485 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "43.075.187.485 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`67",
@@ -1078,8 +1019,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 28.29,
         "populationAffected": "164.351.77",
         "valueGainPerson": "254.395.03 kr.",
-        "valueGainGroup": "41.810.273.596 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "41.810.273.596 kr."
     },
     {
         "id": "`Mental illness - More than six months`81",
@@ -1096,8 +1036,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 8.76,
         "populationAffected": "106.309.32",
         "valueGainPerson": "391.196.69 kr.",
-        "valueGainGroup": "41.587.855.289 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "41.587.855.289 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`165",
@@ -1114,8 +1053,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 5.95,
         "populationAffected": "60.486.34",
         "valueGainPerson": "686.299.98 kr.",
-        "valueGainGroup": "41.511.773.985 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "41.511.773.985 kr."
     },
     {
         "id": "`Mental illness - More than six months`105",
@@ -1132,8 +1070,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 10.7,
         "populationAffected": "117.612.33",
         "valueGainPerson": "346.578.42 kr.",
-        "valueGainGroup": "40.761.894.419 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "40.761.894.419 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`106",
@@ -1150,8 +1087,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 15.44,
         "populationAffected": "171.377.96",
         "valueGainPerson": "236.649.60 kr.",
-        "valueGainGroup": "40.556.526.015 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "40.556.526.015 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`155",
@@ -1168,8 +1104,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 22.51,
         "populationAffected": "118.223.30",
         "valueGainPerson": "339.345.22 kr.",
-        "valueGainGroup": "40.118.512.412 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "40.118.512.412 kr."
     },
     {
         "id": "`Mental illness - Less than six months`171",
@@ -1186,8 +1121,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 11.11,
         "populationAffected": "106.920.30",
         "valueGainPerson": "368.493.70 kr.",
-        "valueGainGroup": "39.399.455.781 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "39.399.455.781 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`157",
@@ -1204,8 +1138,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 4.15,
         "populationAffected": "45.822.98",
         "valueGainPerson": "841.099.78 kr.",
-        "valueGainGroup": "38.541.702.464 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "38.541.702.464 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`58",
@@ -1222,8 +1155,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 21.69,
         "populationAffected": "250.804.47",
         "valueGainPerson": "151.879.87 kr.",
-        "valueGainGroup": "38.092.151.405 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "38.092.151.405 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`75",
@@ -1240,8 +1172,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 31.53,
         "populationAffected": "203.148.57",
         "valueGainPerson": "186.765.39 kr.",
-        "valueGainGroup": "37.941.120.336 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "37.941.120.336 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`82",
@@ -1258,8 +1189,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 19.54,
         "populationAffected": "239.501.47",
         "valueGainPerson": "157.847.06 kr.",
-        "valueGainGroup": "37.804.602.191 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "37.804.602.191 kr."
     },
     {
         "id": "`Mental illness - Less than six months`105",
@@ -1276,8 +1206,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 11.25,
         "populationAffected": "123.416.57",
         "valueGainPerson": "304.403.62 kr.",
-        "valueGainGroup": "37.568.451.226 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "37.568.451.226 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`130",
@@ -1294,8 +1223,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 6.98,
         "populationAffected": "51.321.74",
         "valueGainPerson": "730.731.65 kr.",
-        "valueGainGroup": "37.502.421.745 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "37.502.421.745 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`51",
@@ -1312,8 +1240,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 57.89,
         "populationAffected": "331.758.41",
         "valueGainPerson": "110.527.01 kr.",
-        "valueGainGroup": "36.668.264.423 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "36.668.264.423 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`102",
@@ -1330,8 +1257,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 59.17,
         "populationAffected": "278.909.23",
         "valueGainPerson": "130.221.05 kr.",
-        "valueGainGroup": "36.319.852.803 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "36.319.852.803 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`167",
@@ -1348,8 +1274,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 51.2,
         "populationAffected": "396.521.56",
         "valueGainPerson": "90.934.30 kr.",
-        "valueGainGroup": "36.057.410.868 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "36.057.410.868 kr."
     },
     {
         "id": "`Personlig pleje`151",
@@ -1366,8 +1291,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 4.7,
         "populationAffected": "127.693.38",
         "valueGainPerson": "282.232.01 kr.",
-        "valueGainGroup": "36.039.160.945 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "36.039.160.945 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`156",
@@ -1384,8 +1308,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 8.43,
         "populationAffected": "39.407.77",
         "valueGainPerson": "908.224.85 kr.",
-        "valueGainGroup": "35.791.113.035 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "35.791.113.035 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`174",
@@ -1402,8 +1325,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 4.27,
         "populationAffected": "49.183.34",
         "valueGainPerson": "726.821.19 kr.",
-        "valueGainGroup": "35.747.491.572 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "35.747.491.572 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`167",
@@ -1420,8 +1342,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 26.14,
         "populationAffected": "202.537.59",
         "valueGainPerson": "173.510.05 kr.",
-        "valueGainGroup": "35.142.308.720 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "35.142.308.720 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`91",
@@ -1438,8 +1359,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 22.62,
         "populationAffected": "111.808.08",
         "valueGainPerson": "310.899.98 kr.",
-        "valueGainGroup": "34.761.130.502 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "34.761.130.502 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`179",
@@ -1456,8 +1376,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 52.42,
         "populationAffected": "3.092.135.00",
         "valueGainPerson": "101.186.91 kr.",
-        "valueGainGroup": "312.883.580.542 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "312.883.580.542 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`123",
@@ -1474,8 +1393,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 25.42,
         "populationAffected": "105.087.38",
         "valueGainPerson": "329.155.91 kr.",
-        "valueGainGroup": "34.590.131.374 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "34.590.131.374 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`36",
@@ -1492,8 +1410,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 40.53,
         "populationAffected": "240.723.41",
         "valueGainPerson": "142.817.89 kr.",
-        "valueGainGroup": "34.379.610.058 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "34.379.610.058 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`164",
@@ -1510,8 +1427,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 8.72,
         "populationAffected": "45.822.98",
         "valueGainPerson": "748.741.37 kr.",
-        "valueGainGroup": "34.309.564.185 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "34.309.564.185 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`75",
@@ -1528,8 +1444,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 60.35,
         "populationAffected": "389.189.88",
         "valueGainPerson": "87.957.42 kr.",
-        "valueGainGroup": "34.232.136.280 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "34.232.136.280 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`154",
@@ -1546,8 +1461,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 10.15,
         "populationAffected": "53.154.66",
         "valueGainPerson": "626.186.54 kr.",
-        "valueGainGroup": "33.284.734.136 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "33.284.734.136 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`102",
@@ -1564,8 +1478,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 28,
         "populationAffected": "131.970.20",
         "valueGainPerson": "249.385.88 kr.",
-        "valueGainGroup": "32.911.502.834 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "32.911.502.834 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`91",
@@ -1582,8 +1495,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 51.11,
         "populationAffected": "252.637.39",
         "valueGainPerson": "125.858.88 kr.",
-        "valueGainGroup": "31.796.658.939 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "31.796.658.939 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`157",
@@ -1600,8 +1512,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 18.59,
         "populationAffected": "207.119.89",
         "valueGainPerson": "153.163.34 kr.",
-        "valueGainGroup": "31.723.174.688 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "31.723.174.688 kr."
     },
     {
         "id": "`Personlig pleje`159",
@@ -1618,8 +1529,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 4.79,
         "populationAffected": "152.437.80",
         "valueGainPerson": "207.548.88 kr.",
-        "valueGainGroup": "31.638.294.170 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "31.638.294.170 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`19",
@@ -1636,8 +1546,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 32.74,
         "populationAffected": "179.931.59",
         "valueGainPerson": "173.729.66 kr.",
-        "valueGainGroup": "31.259.453.540 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "31.259.453.540 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`164",
@@ -1654,8 +1563,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 24.61,
         "populationAffected": "90.729.51",
         "valueGainPerson": "333.719.99 kr.",
-        "valueGainGroup": "30.278.250.957 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "30.278.250.957 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`98",
@@ -1672,8 +1580,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 6.52,
         "populationAffected": "40.018.74",
         "valueGainPerson": "752.314.61 kr.",
-        "valueGainGroup": "30.106.682.709 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "30.106.682.709 kr."
     },
     {
         "id": "`Mental illness - More than six months`153",
@@ -1690,8 +1597,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 16.98,
         "populationAffected": "88.896.59",
         "valueGainPerson": "337.605.79 kr.",
-        "valueGainGroup": "30.012.003.718 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "30.012.003.718 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`164",
@@ -1708,8 +1614,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 34.8,
         "populationAffected": "188.179.72",
         "valueGainPerson": "158.715.98 kr.",
-        "valueGainGroup": "29.867.128.969 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "29.867.128.969 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`90",
@@ -1726,8 +1631,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 6,
         "populationAffected": "29.632.20",
         "valueGainPerson": "999.329.53 kr.",
-        "valueGainGroup": "29.612.329.317 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "29.612.329.317 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`123",
@@ -1744,8 +1648,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 50.66,
         "populationAffected": "209.563.78",
         "valueGainPerson": "141.129.06 kr.",
-        "valueGainGroup": "29.575.539.519 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "29.575.539.519 kr."
     },
     {
         "id": "`Mental illness - More than six months`164",
@@ -1762,8 +1665,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 10.63,
         "populationAffected": "106.920.30",
         "valueGainPerson": "276.607.45 kr.",
-        "valueGainGroup": "29.574.951.332 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "29.574.951.332 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`172",
@@ -1780,8 +1682,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 36.35,
         "populationAffected": "230.336.87",
         "valueGainPerson": "127.726.03 kr.",
-        "valueGainGroup": "29.420.013.577 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "29.420.013.577 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`12",
@@ -1798,8 +1699,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 16.34,
         "populationAffected": "50.710.77",
         "valueGainPerson": "577.244.45 kr.",
-        "valueGainGroup": "29.272.510.261 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "29.272.510.261 kr."
     },
     {
         "id": "`Mental illness - More than six months`129",
@@ -1816,8 +1716,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 13.1,
         "populationAffected": "95.922.78",
         "valueGainPerson": "304.902.25 kr.",
-        "valueGainGroup": "29.247.072.058 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "29.247.072.058 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`176",
@@ -1834,8 +1733,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 49.43,
         "populationAffected": "226.365.54",
         "valueGainPerson": "128.911.30 kr.",
-        "valueGainGroup": "29.181.076.939 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "29.181.076.939 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`77",
@@ -1852,8 +1750,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 72.04,
         "populationAffected": "163.740.80",
         "valueGainPerson": "177.723.62 kr.",
-        "valueGainGroup": "29.100.608.156 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "29.100.608.156 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`13",
@@ -1870,8 +1767,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 18.57,
         "populationAffected": "76.066.15",
         "valueGainPerson": "381.041.02 kr.",
-        "valueGainGroup": "28.984.324.796 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "28.984.324.796 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`155",
@@ -1888,8 +1784,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 40.7,
         "populationAffected": "213.840.59",
         "valueGainPerson": "135.452.21 kr.",
-        "valueGainGroup": "28.965.181.490 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "28.965.181.490 kr."
     },
     {
         "id": "`Mental illness - More than six months`173",
@@ -1906,8 +1801,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 8.97,
         "populationAffected": "102.643.49",
         "valueGainPerson": "281.941.84 kr.",
-        "valueGainGroup": "28.939.492.895 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "28.939.492.895 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`30",
@@ -1924,8 +1818,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 65.16,
         "populationAffected": "202.843.08",
         "valueGainPerson": "142.227.85 kr.",
-        "valueGainGroup": "28.849.934.552 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "28.849.934.552 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`44",
@@ -1942,8 +1835,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 52.75,
         "populationAffected": "307.319.48",
         "valueGainPerson": "93.539.12 kr.",
-        "valueGainGroup": "28.746.392.568 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "28.746.392.568 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`13",
@@ -1960,8 +1852,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 13.05,
         "populationAffected": "53.154.66",
         "valueGainPerson": "540.543.70 kr.",
-        "valueGainGroup": "28.732.417.989 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "28.732.417.989 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`12",
@@ -1978,8 +1869,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 24.61,
         "populationAffected": "76.677.13",
         "valueGainPerson": "370.627.08 kr.",
-        "valueGainGroup": "28.418.619.921 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "28.418.619.921 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`163",
@@ -1996,8 +1886,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 15.25,
         "populationAffected": "55.904.04",
         "valueGainPerson": "504.908.23 kr.",
-        "valueGainGroup": "28.226.410.690 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "28.226.410.690 kr."
     },
     {
         "id": "`Mental illness - More than six months`156",
@@ -2014,8 +1903,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 6.51,
         "populationAffected": "71.483.86",
         "valueGainPerson": "393.613.42 kr.",
-        "valueGainGroup": "28.137.004.724 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "28.137.004.724 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`66",
@@ -2032,8 +1920,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 4.75,
         "populationAffected": "27.493.79",
         "valueGainPerson": "1.021.278.42 kr.",
-        "valueGainGroup": "28.078.815.163 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "28.078.815.163 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`176",
@@ -2050,8 +1937,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 24.58,
         "populationAffected": "112.724.54",
         "valueGainPerson": "246.468.79 kr.",
-        "valueGainGroup": "27.783.081.719 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "27.783.081.719 kr."
     },
     {
         "id": "`Mental illness - More than six months`97",
@@ -2068,8 +1954,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 12.59,
         "populationAffected": "76.677.13",
         "valueGainPerson": "358.933.50 kr.",
-        "valueGainGroup": "27.521.989.772 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "27.521.989.772 kr."
     },
     {
         "id": "`Mental illness - Less than six months`164",
@@ -2086,8 +1971,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 11.35,
         "populationAffected": "113.946.49",
         "valueGainPerson": "237.580.22 kr.",
-        "valueGainGroup": "27.071.431.243 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "27.071.431.243 kr."
     },
     {
         "id": "`Mental illness - More than six months`163",
@@ -2104,8 +1988,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 13.98,
         "populationAffected": "70.872.88",
         "valueGainPerson": "378.104.10 kr.",
-        "valueGainGroup": "26.797.327.796 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "26.797.327.796 kr."
     },
     {
         "id": "`Mental illness - More than six months`155",
@@ -2122,8 +2005,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 9.87,
         "populationAffected": "44.906.52",
         "valueGainPerson": "590.295.37 kr.",
-        "valueGainGroup": "26.508.113.753 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "26.508.113.753 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`78",
@@ -2140,8 +2022,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 28.5,
         "populationAffected": "149.688.42",
         "valueGainPerson": "172.583.17 kr.",
-        "valueGainGroup": "25.833.701.828 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "25.833.701.828 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`66",
@@ -2158,8 +2039,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 19.82,
         "populationAffected": "115.168.43",
         "valueGainPerson": "223.884.50 kr.",
-        "valueGainGroup": "25.784.427.960 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "25.784.427.960 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`51",
@@ -2176,8 +2056,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 30.06,
         "populationAffected": "172.294.42",
         "valueGainPerson": "149.221.71 kr.",
-        "valueGainGroup": "25.710.067.755 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "25.710.067.755 kr."
     },
     {
         "id": "`Personlig pleje`162",
@@ -2194,8 +2073,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 4.41,
         "populationAffected": "94.395.35",
         "valueGainPerson": "272.126.82 kr.",
-        "valueGainGroup": "25.687.505.752 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "25.687.505.752 kr."
     },
     {
         "id": "`Mental illness - Less than six months`81",
@@ -2212,8 +2090,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 9.37,
         "populationAffected": "113.641.00",
         "valueGainPerson": "224.123.33 kr.",
-        "valueGainGroup": "25.469.599.832 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "25.469.599.832 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`77",
@@ -2230,8 +2107,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 42.66,
         "populationAffected": "96.839.24",
         "valueGainPerson": "261.391.21 kr.",
-        "valueGainGroup": "25.312.926.797 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "25.312.926.797 kr."
     },
     {
         "id": "`Mental illness - Less than six months`97",
@@ -2248,8 +2124,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 13.83,
         "populationAffected": "84.008.81",
         "valueGainPerson": "298.463.15 kr.",
-        "valueGainGroup": "25.073.532.807 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "25.073.532.807 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`54",
@@ -2266,8 +2141,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 56.17,
         "populationAffected": "269.744.64",
         "valueGainPerson": "91.055.50 kr.",
-        "valueGainGroup": "24.561.732.969 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "24.561.732.969 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`166",
@@ -2284,8 +2158,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 4.27,
         "populationAffected": "32.992.55",
         "valueGainPerson": "740.905.23 kr.",
-        "valueGainGroup": "24.444.352.007 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "24.444.352.007 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`78",
@@ -2302,8 +2175,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 59.51,
         "populationAffected": "312.512.76",
         "valueGainPerson": "78.012.38 kr.",
-        "valueGainGroup": "24.379.864.512 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "24.379.864.512 kr."
     },
     {
         "id": "`Personlig pleje`32",
@@ -2320,8 +2192,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 14.36,
         "populationAffected": "85.536.24",
         "valueGainPerson": "283.044.88 kr.",
-        "valueGainGroup": "24.210.594.041 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "24.210.594.041 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`156",
@@ -2338,8 +2209,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 27.91,
         "populationAffected": "132.581.17",
         "valueGainPerson": "182.233.92 kr.",
-        "valueGainGroup": "24.160.786.648 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "24.160.786.648 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`44",
@@ -2356,8 +2226,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 25.1,
         "populationAffected": "146.328.06",
         "valueGainPerson": "164.006.27 kr.",
-        "valueGainGroup": "23.998.720.039 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "23.998.720.039 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`30",
@@ -2374,8 +2243,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 48.92,
         "populationAffected": "151.826.82",
         "valueGainPerson": "154.826.56 kr.",
-        "valueGainGroup": "23.506.824.722 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "23.506.824.722 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`25",
@@ -2392,8 +2260,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 41.34,
         "populationAffected": "116.695.87",
         "valueGainPerson": "200.627.47 kr.",
-        "valueGainGroup": "23.412.396.935 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "23.412.396.935 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`147",
@@ -2410,8 +2277,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 24.12,
         "populationAffected": "75.149.69",
         "valueGainPerson": "310.393.54 kr.",
-        "valueGainGroup": "23.325.979.628 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "23.325.979.628 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`94",
@@ -2428,8 +2294,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 63.92,
         "populationAffected": "154.270.71",
         "valueGainPerson": "149.470.09 kr.",
-        "valueGainGroup": "23.058.856.942 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "23.058.856.942 kr."
     },
     {
         "id": "`Mental illness - Less than six months`163",
@@ -2446,8 +2311,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 12.77,
         "populationAffected": "64.763.15",
         "valueGainPerson": "348.790.71 kr.",
-        "valueGainGroup": "22.588.785.605 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "22.588.785.605 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`98",
@@ -2464,8 +2328,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 17.22,
         "populationAffected": "106.003.84",
         "valueGainPerson": "210.492.37 kr.",
-        "valueGainGroup": "22.312.999.399 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "22.312.999.399 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`168",
@@ -2482,8 +2345,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 52.42,
         "populationAffected": "125.860.46",
         "valueGainPerson": "176.856.18 kr.",
-        "valueGainGroup": "22.259.201.120 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "22.259.201.120 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`130",
@@ -2500,8 +2362,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 12.61,
         "populationAffected": "92.867.92",
         "valueGainPerson": "238.701.63 kr.",
-        "valueGainGroup": "22.167.722.795 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "22.167.722.795 kr."
     },
     {
         "id": "`Mental illness - More than six months`65",
@@ -2518,8 +2379,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 7.19,
         "populationAffected": "41.240.69",
         "valueGainPerson": "529.326.66 kr.",
-        "valueGainGroup": "21.829.794.855 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "21.829.794.855 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`146",
@@ -2536,8 +2396,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 10.71,
         "populationAffected": "33.298.04",
         "valueGainPerson": "651.050.37 kr.",
-        "valueGainGroup": "21.678.698.204 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "21.678.698.204 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`53",
@@ -2554,8 +2413,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 58.39,
         "populationAffected": "163.740.80",
         "valueGainPerson": "131.291.68 kr.",
-        "valueGainGroup": "21.497.803.958 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "21.497.803.958 kr."
     },
     {
         "id": "`Mental illness - Less than six months`156",
@@ -2572,8 +2430,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 6.49,
         "populationAffected": "71.178.37",
         "valueGainPerson": "295.105.96 kr.",
-        "valueGainGroup": "21.005.161.051 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "21.005.161.051 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`101",
@@ -2590,8 +2447,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 5.33,
         "populationAffected": "25.049.90",
         "valueGainPerson": "835.992.76 kr.",
-        "valueGainGroup": "20.941.533.691 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "20.941.533.691 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`58",
@@ -2608,8 +2464,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 3.11,
         "populationAffected": "35.436.44",
         "valueGainPerson": "588.922.71 kr.",
-        "valueGainGroup": "20.869.325.016 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "20.869.325.016 kr."
     },
     {
         "id": "`Mental illness - More than six months`18",
@@ -2626,8 +2481,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 12.85,
         "populationAffected": "70.567.40",
         "valueGainPerson": "293.672.70 kr.",
-        "valueGainGroup": "20.723.717.842 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "20.723.717.842 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`165",
@@ -2644,8 +2498,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 19.06,
         "populationAffected": "195.205.91",
         "valueGainPerson": "105.778.31 kr.",
-        "valueGainGroup": "20.648.551.340 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "20.648.551.340 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`115",
@@ -2662,8 +2515,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 21.95,
         "populationAffected": "70.872.88",
         "valueGainPerson": "291.135.11 kr.",
-        "valueGainGroup": "20.633.584.716 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "20.633.584.716 kr."
     },
     {
         "id": "`Mental illness - More than six months`73",
@@ -2680,8 +2532,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 10.16,
         "populationAffected": "65.068.64",
         "valueGainPerson": "316.608.83 kr.",
-        "valueGainGroup": "20.601.305.657 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "20.601.305.657 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`32",
@@ -2698,8 +2549,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 64.45,
         "populationAffected": "151.215.85",
         "valueGainPerson": "135.016.28 kr.",
-        "valueGainGroup": "20.416.601.892 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "20.416.601.892 kr."
     },
     {
         "id": "`Mental illness - More than six months`165",
@@ -2716,8 +2566,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 9.91,
         "populationAffected": "76.066.15",
         "valueGainPerson": "267.231.28 kr.",
-        "valueGainGroup": "20.327.256.032 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "20.327.256.032 kr."
     },
     {
         "id": "Unemployed107",
@@ -2734,8 +2583,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 1.69,
         "populationAffected": "46.128.47",
         "valueGainPerson": "439.749.78 kr.",
-        "valueGainGroup": "20.284.985.281 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "20.284.985.281 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`74",
@@ -2752,8 +2600,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 5.59,
         "populationAffected": "36.047.41",
         "valueGainPerson": "562.296.08 kr.",
-        "valueGainGroup": "20.269.320.056 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "20.269.320.056 kr."
     },
     {
         "id": "`Mental illness - Less than six months`173",
@@ -2770,8 +2617,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 9.95,
         "populationAffected": "113.641.00",
         "valueGainPerson": "175.862.24 kr.",
-        "valueGainGroup": "19.985.161.215 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "19.985.161.215 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`114",
@@ -2788,8 +2634,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 7.12,
         "populationAffected": "22.911.49",
         "valueGainPerson": "864.670.96 kr.",
-        "valueGainGroup": "19.810.901.950 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "19.810.901.950 kr."
     },
     {
         "id": "`Mental illness - Less than six months`153",
@@ -2806,8 +2651,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 15.69,
         "populationAffected": "82.175.89",
         "valueGainPerson": "240.827.56 kr.",
-        "valueGainGroup": "19.790.218.130 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "19.790.218.130 kr."
     },
     {
         "id": "`Personlig pleje`161",
@@ -2824,8 +2668,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 9.34,
         "populationAffected": "95.006.32",
         "valueGainPerson": "207.744.41 kr.",
-        "valueGainGroup": "19.737.032.295 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "19.737.032.295 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`126",
@@ -2842,8 +2685,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 23.34,
         "populationAffected": "62.319.26",
         "valueGainPerson": "316.642.13 kr.",
-        "valueGainGroup": "19.732.902.910 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "19.732.902.910 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`61",
@@ -2860,8 +2702,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 71.65,
         "populationAffected": "84.925.26",
         "valueGainPerson": "232.185.32 kr.",
-        "valueGainGroup": "19.718.399.687 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "19.718.399.687 kr."
     },
     {
         "id": "`Mental illness - More than six months`170",
@@ -2878,8 +2719,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 14.02,
         "populationAffected": "87.980.13",
         "valueGainPerson": "217.565.36 kr.",
-        "valueGainGroup": "19.141.429.069 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "19.141.429.069 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`43",
@@ -2896,8 +2736,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 22.02,
         "populationAffected": "128.304.36",
         "valueGainPerson": "148.218.01 kr.",
-        "valueGainGroup": "19.017.015.936 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "19.017.015.936 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`50",
@@ -2914,8 +2753,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 21.35,
         "populationAffected": "122.500.11",
         "valueGainPerson": "155.220.40 kr.",
-        "valueGainGroup": "19.014.516.499 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "19.014.516.499 kr."
     },
     {
         "id": "`Mental illness - More than six months`121",
@@ -2932,8 +2770,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 16.58,
         "populationAffected": "68.123.50",
         "valueGainPerson": "276.940.35 kr.",
-        "valueGainGroup": "18.866.147.280 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "18.866.147.280 kr."
     },
     {
         "id": "`Personlig pleje`99",
@@ -2950,8 +2787,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 4.02,
         "populationAffected": "44.601.04",
         "valueGainPerson": "421.799.80 kr.",
-        "valueGainGroup": "18.812.708.899 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "18.812.708.899 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`126",
@@ -2968,8 +2804,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 50.86,
         "populationAffected": "135.941.52",
         "valueGainPerson": "137.346.71 kr.",
-        "valueGainGroup": "18.671.120.502 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "18.671.120.502 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`90",
@@ -2986,8 +2821,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 13.23,
         "populationAffected": "65.374.12",
         "valueGainPerson": "284.356.32 kr.",
-        "valueGainGroup": "18.589.545.656 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "18.589.545.656 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`12",
@@ -3004,8 +2838,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 36.92,
         "populationAffected": "115.168.43",
         "valueGainPerson": "160.539.10 kr.",
-        "valueGainGroup": "18.489.036.423 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "18.489.036.423 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`53",
@@ -3022,8 +2855,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 34.02,
         "populationAffected": "95.311.81",
         "valueGainPerson": "192.599.37 kr.",
-        "valueGainGroup": "18.356.994.473 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "18.356.994.473 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`32",
@@ -3040,8 +2872,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 49.87,
         "populationAffected": "116.084.89",
         "valueGainPerson": "157.558.32 kr.",
-        "valueGainGroup": "18.290.141.004 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "18.290.141.004 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`101",
@@ -3058,8 +2889,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 36.73,
         "populationAffected": "52.849.18",
         "valueGainPerson": "345.878.30 kr.",
-        "valueGainGroup": "18.279.383.193 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "18.279.383.193 kr."
     },
     {
         "id": "`Mental illness - Less than six months`170",
@@ -3076,8 +2906,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 11.81,
         "populationAffected": "74.233.24",
         "valueGainPerson": "244.490.05 kr.",
-        "valueGainGroup": "18.149.287.341 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "18.149.287.341 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`33",
@@ -3094,8 +2923,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 41.31,
         "populationAffected": "86.452.70",
         "valueGainPerson": "209.230.02 kr.",
-        "valueGainGroup": "18.088.500.047 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "18.088.500.047 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`6",
@@ -3112,8 +2940,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 23.72,
         "populationAffected": "55.293.07",
         "valueGainPerson": "327.011.93 kr.",
-        "valueGainGroup": "18.081.493.084 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "18.081.493.084 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`122",
@@ -3130,8 +2957,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 6.88,
         "populationAffected": "28.410.25",
         "valueGainPerson": "633.896.31 kr.",
-        "valueGainGroup": "18.009.153.045 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "18.009.153.045 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`77",
@@ -3148,8 +2974,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 4.38,
         "populationAffected": "22.911.49",
         "valueGainPerson": "785.701.31 kr.",
-        "valueGainGroup": "18.001.589.573 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "18.001.589.573 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`94",
@@ -3166,8 +2991,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 32.41,
         "populationAffected": "78.204.56",
         "valueGainPerson": "229.245.55 kr.",
-        "valueGainGroup": "17.928.047.665 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "17.928.047.665 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`6",
@@ -3184,8 +3008,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 16.07,
         "populationAffected": "37.269.36",
         "valueGainPerson": "480.277.58 kr.",
-        "valueGainGroup": "17.899.638.565 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "17.899.638.565 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`13",
@@ -3202,8 +3025,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 31.22,
         "populationAffected": "127.998.87",
         "valueGainPerson": "139.761.65 kr.",
-        "valueGainGroup": "17.889.332.985 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "17.889.332.985 kr."
     },
     {
         "id": "`Mental illness - Less than six months`129",
@@ -3220,8 +3042,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 13.34,
         "populationAffected": "97.450.21",
         "valueGainPerson": "182.691.47 kr.",
-        "valueGainGroup": "17.803.323.036 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "17.803.323.036 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`25",
@@ -3238,8 +3059,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 57.05,
         "populationAffected": "161.907.88",
         "valueGainPerson": "109.197.90 kr.",
-        "valueGainGroup": "17.680.000.195 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "17.680.000.195 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`139",
@@ -3256,8 +3076,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 20.17,
         "populationAffected": "43.073.61",
         "valueGainPerson": "405.739.89 kr.",
-        "valueGainGroup": "17.476.679.995 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "17.476.679.995 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`24",
@@ -3274,8 +3093,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 37.42,
         "populationAffected": "106.309.32",
         "valueGainPerson": "164.293.04 kr.",
-        "valueGainGroup": "17.465.881.764 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "17.465.881.764 kr."
     },
     {
         "id": "`Mental illness - Less than six months`155",
@@ -3292,8 +3110,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 9.26,
         "populationAffected": "42.157.15",
         "valueGainPerson": "412.968.09 kr.",
-        "valueGainGroup": "17.409.555.863 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "17.409.555.863 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`155",
@@ -3310,8 +3127,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 9.81,
         "populationAffected": "25.660.87",
         "valueGainPerson": "676.090.83 kr.",
-        "valueGainGroup": "17.349.079.829 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "17.349.079.829 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`101",
@@ -3328,8 +3144,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 66.03,
         "populationAffected": "95.006.32",
         "valueGainPerson": "181.417.39 kr.",
-        "valueGainGroup": "17.235.799.277 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "17.235.799.277 kr."
     },
     {
         "id": "`Personlig pleje`75",
@@ -3346,8 +3161,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 4.59,
         "populationAffected": "56.209.53",
         "valueGainPerson": "303.774.31 kr.",
-        "valueGainGroup": "17.075.010.394 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "17.075.010.394 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`168",
@@ -3364,8 +3178,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 26.97,
         "populationAffected": "64.763.15",
         "valueGainPerson": "263.621.23 kr.",
-        "valueGainGroup": "17.072.941.805 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "17.072.941.805 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`164",
@@ -3382,8 +3195,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 40.46,
         "populationAffected": "149.688.42",
         "valueGainPerson": "113.837.45 kr.",
-        "valueGainGroup": "17.040.147.946 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "17.040.147.946 kr."
     },
     {
         "id": "`Mental illness - More than six months`145",
@@ -3400,8 +3212,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 19.12,
         "populationAffected": "59.569.88",
         "valueGainPerson": "284.583.06 kr.",
-        "valueGainGroup": "16.952.578.721 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "16.952.578.721 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`54",
@@ -3418,8 +3229,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 26.26,
         "populationAffected": "126.165.95",
         "valueGainPerson": "134.126.49 kr.",
-        "valueGainGroup": "16.922.195.753 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "16.922.195.753 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`29",
@@ -3436,8 +3246,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 43.39,
         "populationAffected": "134.414.09",
         "valueGainPerson": "125.820.29 kr.",
-        "valueGainGroup": "16.912.020.003 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "16.912.020.003 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`171",
@@ -3454,8 +3263,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 10.96,
         "populationAffected": "69.345.45",
         "valueGainPerson": "241.853.89 kr.",
-        "valueGainGroup": "16.771.466.658 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "16.771.466.658 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`177",
@@ -3472,8 +3280,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 16.61,
         "populationAffected": "60.486.34",
         "valueGainPerson": "277.070.41 kr.",
-        "valueGainGroup": "16.758.974.670 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "16.758.974.670 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`147",
@@ -3490,8 +3297,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 43.39,
         "populationAffected": "135.330.55",
         "valueGainPerson": "123.232.98 kr.",
-        "valueGainGroup": "16.677.187.319 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "16.677.187.319 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`62",
@@ -3508,8 +3314,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 27.89,
         "populationAffected": "77.288.10",
         "valueGainPerson": "215.732.98 kr.",
-        "valueGainGroup": "16.673.591.968 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "16.673.591.968 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`115",
@@ -3526,8 +3331,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 47.82,
         "populationAffected": "154.270.71",
         "valueGainPerson": "107.826.07 kr.",
-        "valueGainGroup": "16.634.404.200 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "16.634.404.200 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`178",
@@ -3544,8 +3348,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 31.34,
         "populationAffected": "41.546.17",
         "valueGainPerson": "399.343.04 kr.",
-        "valueGainGroup": "16.591.175.069 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "16.591.175.069 kr."
     },
     {
         "id": "`Personlig pleje`146",
@@ -3562,8 +3365,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 4.69,
         "populationAffected": "52.238.20",
         "valueGainPerson": "310.851.33 kr.",
-        "valueGainGroup": "16.238.314.723 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "16.238.314.723 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`62",
@@ -3580,8 +3382,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 58.37,
         "populationAffected": "161.907.88",
         "valueGainPerson": "99.932.73 kr.",
-        "valueGainGroup": "16.179.897.086 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "16.179.897.086 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`33",
@@ -3598,8 +3399,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 58.93,
         "populationAffected": "124.027.55",
         "valueGainPerson": "130.447.67 kr.",
-        "valueGainGroup": "16.179.104.289 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "16.179.104.289 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`101",
@@ -3616,8 +3416,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 16.01,
         "populationAffected": "75.455.18",
         "valueGainPerson": "211.198.94 kr.",
-        "valueGainGroup": "15.936.054.633 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "15.936.054.633 kr."
     },
     {
         "id": "`Mental illness - Less than six months`100",
@@ -3634,8 +3433,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 10.73,
         "populationAffected": "50.099.80",
         "valueGainPerson": "312.337.45 kr.",
-        "valueGainGroup": "15.648.042.845 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "15.648.042.845 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`86",
@@ -3652,8 +3450,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 23.37,
         "populationAffected": "53.765.64",
         "valueGainPerson": "290.873.14 kr.",
-        "valueGainGroup": "15.638.979.304 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "15.638.979.304 kr."
     },
     {
         "id": "Unemployed115",
@@ -3670,8 +3467,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 2.36,
         "populationAffected": "75.149.69",
         "valueGainPerson": "207.975.82 kr.",
-        "valueGainGroup": "15.629.319.422 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "15.629.319.422 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`26",
@@ -3688,8 +3484,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 66.4,
         "populationAffected": "102.032.51",
         "valueGainPerson": "152.275.82 kr.",
-        "valueGainGroup": "15.537.084.677 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "15.537.084.677 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`77",
@@ -3706,8 +3501,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 18.37,
         "populationAffected": "96.533.75",
         "valueGainPerson": "159.244.25 kr.",
-        "valueGainGroup": "15.372.445.434 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "15.372.445.434 kr."
     },
     {
         "id": "`Mental illness - More than six months`11",
@@ -3724,8 +3518,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 15.75,
         "populationAffected": "49.183.34",
         "valueGainPerson": "310.168.39 kr.",
-        "valueGainGroup": "15.255.116.278 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "15.255.116.278 kr."
     },
     {
         "id": "`Mental illness - More than six months`174",
@@ -3742,8 +3535,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 9.66,
         "populationAffected": "43.990.07",
         "valueGainPerson": "346.248.86 kr.",
-        "valueGainGroup": "15.231.509.874 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "15.231.509.874 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`52",
@@ -3760,8 +3552,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 27.26,
         "populationAffected": "76.371.64",
         "valueGainPerson": "198.338.99 kr.",
-        "valueGainGroup": "15.147.474.197 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "15.147.474.197 kr."
     },
     {
         "id": "`Mental illness - More than six months`100",
@@ -3778,8 +3569,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 9.95,
         "populationAffected": "46.433.96",
         "valueGainPerson": "324.740.17 kr.",
-        "valueGainGroup": "15.078.971.467 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "15.078.971.467 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`37",
@@ -3796,8 +3586,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 5.72,
         "populationAffected": "32.381.58",
         "valueGainPerson": "464.356.16 kr.",
-        "valueGainGroup": "15.036.584.201 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "15.036.584.201 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`175",
@@ -3814,8 +3603,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 5.02,
         "populationAffected": "22.911.49",
         "valueGainPerson": "653.333.61 kr.",
-        "valueGainGroup": "14.968.848.068 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "14.968.848.068 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`18",
@@ -3832,8 +3620,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 8.85,
         "populationAffected": "48.572.36",
         "valueGainPerson": "307.877.31 kr.",
-        "valueGainGroup": "14.954.328.903 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "14.954.328.903 kr."
     },
     {
         "id": "`Mental illness - Less than six months`18",
@@ -3850,8 +3637,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 10.23,
         "populationAffected": "56.209.53",
         "valueGainPerson": "265.443.29 kr.",
-        "valueGainGroup": "14.920.441.792 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "14.920.441.792 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`86",
@@ -3868,8 +3654,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 54.18,
         "populationAffected": "124.638.52",
         "valueGainPerson": "118.451.78 kr.",
-        "valueGainGroup": "14.763.654.042 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "14.763.654.042 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`32",
@@ -3886,8 +3671,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 39.24,
         "populationAffected": "82.481.37",
         "valueGainPerson": "178.342.67 kr.",
-        "valueGainGroup": "14.709.948.075 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "14.709.948.075 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`100",
@@ -3904,8 +3688,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 9.15,
         "populationAffected": "13.135.92",
         "valueGainPerson": "1.108.318.88 kr.",
-        "valueGainGroup": "14.558.790.679 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "14.558.790.679 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`5",
@@ -3922,8 +3705,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 12.21,
         "populationAffected": "29.021.22",
         "valueGainPerson": "495.902.17 kr.",
-        "valueGainGroup": "14.391.687.827 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "14.391.687.827 kr."
     },
     {
         "id": "`Mental illness - More than six months`137",
@@ -3940,8 +3722,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 13.83,
         "populationAffected": "29.326.71",
         "valueGainPerson": "486.213.16 kr.",
-        "valueGainGroup": "14.259.032.453 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "14.259.032.453 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`174",
@@ -3958,8 +3739,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 15.32,
         "populationAffected": "176.876.72",
         "valueGainPerson": "80.494.54 kr.",
-        "valueGainGroup": "14.237.609.665 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "14.237.609.665 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`76",
@@ -3976,8 +3756,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 7.83,
         "populationAffected": "17.718.22",
         "valueGainPerson": "782.408.67 kr.",
-        "valueGainGroup": "13.862.889.563 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "13.862.889.563 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`5",
@@ -3994,8 +3773,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 10.06,
         "populationAffected": "23.827.95",
         "valueGainPerson": "581.383.92 kr.",
-        "valueGainGroup": "13.853.188.142 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "13.853.188.142 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`159",
@@ -4012,8 +3790,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 23.47,
         "populationAffected": "89.202.08",
         "valueGainPerson": "154.951.15 kr.",
-        "valueGainGroup": "13.821.964.602 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "13.821.964.602 kr."
     },
     {
         "id": "`Personlig pleje`25",
@@ -4030,8 +3807,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 14.89,
         "populationAffected": "46.433.96",
         "valueGainPerson": "294.916.91 kr.",
-        "valueGainGroup": "13.694.159.250 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "13.694.159.250 kr."
     },
     {
         "id": "`Mental illness - More than six months`89",
@@ -4048,8 +3824,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 8.35,
         "populationAffected": "40.935.20",
         "valueGainPerson": "333.622.33 kr.",
-        "valueGainGroup": "13.656.896.729 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "13.656.896.729 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`100",
@@ -4066,8 +3841,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 26.17,
         "populationAffected": "37.574.85",
         "valueGainPerson": "360.953.53 kr.",
-        "valueGainGroup": "13.562.773.927 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "13.562.773.927 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`46",
@@ -4084,8 +3858,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 60.31,
         "populationAffected": "94.700.83",
         "valueGainPerson": "142.651.33 kr.",
-        "valueGainGroup": "13.509.199.649 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "13.509.199.649 kr."
     },
     {
         "id": "`Mental illness - More than six months`76",
@@ -4102,8 +3875,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 6.87,
         "populationAffected": "35.741.93",
         "valueGainPerson": "374.242.90 kr.",
-        "valueGainGroup": "13.376.162.639 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "13.376.162.639 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`61",
@@ -4120,8 +3892,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 39.69,
         "populationAffected": "47.044.93",
         "valueGainPerson": "284.164.22 kr.",
-        "valueGainGroup": "13.368.486.313 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "13.368.486.313 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`122",
@@ -4138,8 +3909,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 13.74,
         "populationAffected": "56.820.50",
         "valueGainPerson": "234.919.74 kr.",
-        "valueGainGroup": "13.348.257.052 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "13.348.257.052 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`40",
@@ -4156,8 +3926,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 54.64,
         "populationAffected": "142.051.25",
         "valueGainPerson": "93.796.31 kr.",
-        "valueGainGroup": "13.323.883.638 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "13.323.883.638 kr."
     },
     {
         "id": "`Mental illness - Less than six months`165",
@@ -4174,8 +3943,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 11.87,
         "populationAffected": "90.729.51",
         "valueGainPerson": "144.478.16 kr.",
-        "valueGainGroup": "13.108.432.465 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "13.108.432.465 kr."
     },
     {
         "id": "`Mental illness - More than six months`162",
@@ -4192,8 +3960,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 16.82,
         "populationAffected": "61.708.29",
         "valueGainPerson": "212.096.84 kr.",
-        "valueGainGroup": "13.088.132.513 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "13.088.132.513 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`156",
@@ -4210,8 +3977,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 15.99,
         "populationAffected": "42.157.15",
         "valueGainPerson": "310.301.04 kr.",
-        "valueGainGroup": "13.081.406.335 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "13.081.406.335 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`74",
@@ -4228,8 +3994,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 19.28,
         "populationAffected": "124.333.03",
         "valueGainPerson": "105.198.74 kr.",
-        "valueGainGroup": "13.079.678.828 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "13.079.678.828 kr."
     },
     {
         "id": "`Mental illness - Less than six months`65",
@@ -4246,8 +4011,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 7.24,
         "populationAffected": "41.546.17",
         "valueGainPerson": "314.610.78 kr.",
-        "valueGainGroup": "13.070.873.869 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "13.070.873.869 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`76",
@@ -4264,8 +4028,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 31.72,
         "populationAffected": "72.094.83",
         "valueGainPerson": "181.196.46 kr.",
-        "valueGainGroup": "13.063.327.862 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "13.063.327.862 kr."
     },
     {
         "id": "`Mental illness - Less than six months`89",
@@ -4282,8 +4045,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 8.04,
         "populationAffected": "39.407.77",
         "valueGainPerson": "331.245.58 kr.",
-        "valueGainGroup": "13.053.648.403 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "13.053.648.403 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`139",
@@ -4300,8 +4062,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 36.77,
         "populationAffected": "78.510.05",
         "valueGainPerson": "165.866.31 kr.",
-        "valueGainGroup": "13.022.172.095 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "13.022.172.095 kr."
     },
     {
         "id": "Unemployed117",
@@ -4318,8 +4079,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 2.33,
         "populationAffected": "23.827.95",
         "valueGainPerson": "544.625.76 kr.",
-        "valueGainGroup": "12.977.316.371 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "12.977.316.371 kr."
     },
     {
         "id": "`Mental illness - Less than six months`73",
@@ -4336,8 +4096,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 11.29,
         "populationAffected": "72.094.83",
         "valueGainPerson": "178.975.22 kr.",
-        "valueGainGroup": "12.903.187.648 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "12.903.187.648 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`103",
@@ -4354,8 +4113,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 23.24,
         "populationAffected": "54.376.61",
         "valueGainPerson": "236.473.38 kr.",
-        "valueGainGroup": "12.858.620.167 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "12.858.620.167 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`177",
@@ -4372,8 +4130,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 12.87,
         "populationAffected": "17.107.25",
         "valueGainPerson": "751.432.98 kr.",
-        "valueGainGroup": "12.854.950.065 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "12.854.950.065 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`79",
@@ -4390,8 +4147,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 25.98,
         "populationAffected": "66.901.56",
         "valueGainPerson": "190.909.94 kr.",
-        "valueGainGroup": "12.772.172.440 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "12.772.172.440 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`85",
@@ -4408,8 +4164,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 4.81,
         "populationAffected": "10.997.52",
         "valueGainPerson": "1.156.361.35 kr.",
-        "valueGainGroup": "12.717.102.821 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "12.717.102.821 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`177",
@@ -4426,8 +4181,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 38.76,
         "populationAffected": "141.134.79",
         "valueGainPerson": "89.971.01 kr.",
-        "valueGainGroup": "12.698.040.323 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "12.698.040.323 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`79",
@@ -4444,8 +4198,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 52.25,
         "populationAffected": "134.719.57",
         "valueGainPerson": "93.366.15 kr.",
-        "valueGainGroup": "12.578.247.809 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "12.578.247.809 kr."
     },
     {
         "id": "`Mental illness - Less than six months`121",
@@ -4462,8 +4215,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 17.21,
         "populationAffected": "70.567.40",
         "valueGainPerson": "178.197.09 kr.",
-        "valueGainGroup": "12.574.904.550 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "12.574.904.550 kr."
     },
     {
         "id": "Unemployed118",
@@ -4480,8 +4232,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 2.41,
         "populationAffected": "51.627.23",
         "valueGainPerson": "243.329.85 kr.",
-        "valueGainGroup": "12.562.445.903 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "12.562.445.903 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`53",
@@ -4498,8 +4249,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 20.06,
         "populationAffected": "96.533.75",
         "valueGainPerson": "128.717.27 kr.",
-        "valueGainGroup": "12.425.560.926 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "12.425.560.926 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`149",
@@ -4516,8 +4266,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 11.76,
         "populationAffected": "17.718.22",
         "valueGainPerson": "700.008.59 kr.",
-        "valueGainGroup": "12.402.906.634 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "12.402.906.634 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`69",
@@ -4534,8 +4283,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 45.92,
         "populationAffected": "49.794.31",
         "valueGainPerson": "244.973.35 kr.",
-        "valueGainGroup": "12.198.279.092 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "12.198.279.092 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`21",
@@ -4552,8 +4300,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 39.59,
         "populationAffected": "47.655.90",
         "valueGainPerson": "255.799.66 kr.",
-        "valueGainGroup": "12.190.364.086 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "12.190.364.086 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`31",
@@ -4570,8 +4317,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 45.55,
         "populationAffected": "106.309.32",
         "valueGainPerson": "113.567.39 kr.",
-        "valueGainGroup": "12.073.272.800 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "12.073.272.800 kr."
     },
     {
         "id": "`Mental illness - Less than six months`145",
@@ -4588,8 +4334,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 17.86,
         "populationAffected": "55.598.55",
         "valueGainPerson": "216.822.58 kr.",
-        "valueGainGroup": "12.055.022.237 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "12.055.022.237 kr."
     },
     {
         "id": "`Personlig pleje`59",
@@ -4606,8 +4351,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 5.15,
         "populationAffected": "29.937.68",
         "valueGainPerson": "401.601.43 kr.",
-        "valueGainGroup": "12.023.016.382 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "12.023.016.382 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`150",
@@ -4624,8 +4368,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 25.51,
         "populationAffected": "38.491.31",
         "valueGainPerson": "311.841.57 kr.",
-        "valueGainGroup": "12.003.189.468 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "12.003.189.468 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`138",
@@ -4642,8 +4385,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 9.33,
         "populationAffected": "19.856.63",
         "valueGainPerson": "597.932.95 kr.",
-        "valueGainGroup": "11.872.931.314 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "11.872.931.314 kr."
     },
     {
         "id": "`Mental illness - More than six months`75",
@@ -4660,8 +4402,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 13.44,
         "populationAffected": "29.937.68",
         "valueGainPerson": "393.419.76 kr.",
-        "valueGainGroup": "11.778.076.163 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "11.778.076.163 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`26",
@@ -4678,8 +4419,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 53.8,
         "populationAffected": "82.175.89",
         "valueGainPerson": "142.601.32 kr.",
-        "valueGainGroup": "11.718.390.141 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "11.718.390.141 kr."
     },
     {
         "id": "`Mental illness - More than six months`113",
@@ -4696,8 +4436,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 8.65,
         "populationAffected": "27.799.28",
         "valueGainPerson": "418.702.22 kr.",
-        "valueGainGroup": "11.639.619.124 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "11.639.619.124 kr."
     },
     {
         "id": "`Mental illness - Less than six months`174",
@@ -4714,8 +4453,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 9.32,
         "populationAffected": "42.462.63",
         "valueGainPerson": "273.794.73 kr.",
-        "valueGainGroup": "11.626.044.985 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "11.626.044.985 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`55",
@@ -4732,8 +4470,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 53.27,
         "populationAffected": "124.333.03",
         "valueGainPerson": "93.065.85 kr.",
-        "valueGainGroup": "11.571.159.203 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "11.571.159.203 kr."
     },
     {
         "id": "`Mental illness - More than six months`12",
@@ -4750,8 +4487,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 11.8,
         "populationAffected": "48.266.88",
         "valueGainPerson": "239.321.33 kr.",
-        "valueGainGroup": "11.551.293.101 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "11.551.293.101 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`159",
@@ -4768,8 +4504,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 47.59,
         "populationAffected": "180.848.05",
         "valueGainPerson": "63.580.22 kr.",
-        "valueGainGroup": "11.498.359.315 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "11.498.359.315 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`47",
@@ -4786,8 +4521,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 57.98,
         "populationAffected": "127.693.38",
         "valueGainPerson": "89.776.97 kr.",
-        "valueGainGroup": "11.463.924.695 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "11.463.924.695 kr."
     },
     {
         "id": "`Mental illness - More than six months`176",
@@ -4804,8 +4538,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 20.18,
         "populationAffected": "26.882.82",
         "valueGainPerson": "421.110.09 kr.",
-        "valueGainGroup": "11.320.625.861 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "11.320.625.861 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`158",
@@ -4822,8 +4555,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 4.28,
         "populationAffected": "16.190.79",
         "valueGainPerson": "698.691.57 kr.",
-        "valueGainGroup": "11.312.367.097 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "11.312.367.097 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`50",
@@ -4840,8 +4572,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 3.03,
         "populationAffected": "17.107.25",
         "valueGainPerson": "660.537.65 kr.",
-        "valueGainGroup": "11.299.981.067 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "11.299.981.067 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`156",
@@ -4858,8 +4589,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 30.59,
         "populationAffected": "80.648.45",
         "valueGainPerson": "139.980.88 kr.",
-        "valueGainGroup": "11.289.241.546 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "11.289.241.546 kr."
     },
     {
         "id": "`Mental illness - More than six months`166",
@@ -4876,8 +4606,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 13.59,
         "populationAffected": "32.381.58",
         "valueGainPerson": "347.738.69 kr.",
-        "valueGainGroup": "11.260.326.791 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "11.260.326.791 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`60",
@@ -4894,8 +4623,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 8.25,
         "populationAffected": "9.775.57",
         "valueGainPerson": "1.151.464.81 kr.",
-        "valueGainGroup": "11.256.224.877 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "11.256.224.877 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`6",
@@ -4912,8 +4640,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 36.26,
         "populationAffected": "84.619.78",
         "valueGainPerson": "131.754.81 kr.",
-        "valueGainGroup": "11.149.063.068 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "11.149.063.068 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`5",
@@ -4930,8 +4657,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 27.25,
         "populationAffected": "64.763.15",
         "valueGainPerson": "170.389.99 kr.",
-        "valueGainGroup": "11.034.992.503 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "11.034.992.503 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`80",
@@ -4948,8 +4674,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 26.21,
         "populationAffected": "31.465.12",
         "valueGainPerson": "347.884.70 kr.",
-        "valueGainGroup": "10.946.232.607 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "10.946.232.607 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`61",
@@ -4966,8 +4691,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 18.83,
         "populationAffected": "52.238.20",
         "valueGainPerson": "208.413.05 kr.",
-        "valueGainGroup": "10.887.123.083 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "10.887.123.083 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`20",
@@ -4984,8 +4708,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 38.79,
         "populationAffected": "47.044.93",
         "valueGainPerson": "230.570.47 kr.",
-        "valueGainGroup": "10.847.171.746 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "10.847.171.746 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`125",
@@ -5002,8 +4725,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 5.71,
         "populationAffected": "15.274.33",
         "valueGainPerson": "703.683.02 kr.",
-        "valueGainGroup": "10.748.285.350 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "10.748.285.350 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`166",
@@ -5020,8 +4742,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 15.27,
         "populationAffected": "118.223.30",
         "valueGainPerson": "90.339.18 kr.",
-        "valueGainGroup": "10.680.196.351 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "10.680.196.351 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`118",
@@ -5038,8 +4759,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 26.51,
         "populationAffected": "34.825.47",
         "valueGainPerson": "306.434.39 kr.",
-        "valueGainGroup": "10.671.721.184 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "10.671.721.184 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`160",
@@ -5056,8 +4776,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 21.96,
         "populationAffected": "47.961.39",
         "valueGainPerson": "219.953.16 kr.",
-        "valueGainGroup": "10.549.259.393 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "10.549.259.393 kr."
     },
     {
         "id": "`Personlig pleje`20",
@@ -5074,8 +4793,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 13.78,
         "populationAffected": "39.102.28",
         "valueGainPerson": "269.498.30 kr.",
-        "valueGainGroup": "10.537.997.876 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "10.537.997.876 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`175",
@@ -5092,8 +4810,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 15.61,
         "populationAffected": "71.483.86",
         "valueGainPerson": "147.034.10 kr.",
-        "valueGainGroup": "10.510.564.333 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "10.510.564.333 kr."
     },
     {
         "id": "`Mental illness - Less than six months`162",
@@ -5110,8 +4827,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 13.92,
         "populationAffected": "51.016.26",
         "valueGainPerson": "205.760.04 kr.",
-        "valueGainGroup": "10.497.107.140 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "10.497.107.140 kr."
     },
     {
         "id": "`Personlig pleje`145",
@@ -5128,8 +4844,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 7.72,
         "populationAffected": "36.658.39",
         "valueGainPerson": "284.917.55 kr.",
-        "valueGainGroup": "10.444.618.165 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "10.444.618.165 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`46",
@@ -5146,8 +4861,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 36.45,
         "populationAffected": "57.125.99",
         "valueGainPerson": "181.729.87 kr.",
-        "valueGainGroup": "10.381.498.118 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "10.381.498.118 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`103",
@@ -5164,8 +4878,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 50.26,
         "populationAffected": "117.612.33",
         "valueGainPerson": "87.996.21 kr.",
-        "valueGainGroup": "10.349.439.028 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "10.349.439.028 kr."
     },
     {
         "id": "`Mental illness - Less than six months`12",
@@ -5182,8 +4895,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 9.62,
         "populationAffected": "39.407.77",
         "valueGainPerson": "262.370.76 kr.",
-        "valueGainGroup": "10.339.445.788 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "10.339.445.788 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`104",
@@ -5200,8 +4912,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 45.01,
         "populationAffected": "56.515.01",
         "valueGainPerson": "182.342.65 kr.",
-        "valueGainGroup": "10.305.097.383 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "10.305.097.383 kr."
     },
     {
         "id": "`Mental illness - Less than six months`57",
@@ -5218,8 +4929,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 6.01,
         "populationAffected": "67.512.53",
         "valueGainPerson": "150.517.68 kr.",
-        "valueGainGroup": "10.161.829.816 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "10.161.829.816 kr."
     },
     {
         "id": "`Mental illness - More than six months`148",
@@ -5236,8 +4946,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 16.87,
         "populationAffected": "25.355.38",
         "valueGainPerson": "397.740.20 kr.",
-        "valueGainGroup": "10.084.855.894 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "10.084.855.894 kr."
     },
     {
         "id": "`Personlig pleje`27",
@@ -5254,8 +4963,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 16.3,
         "populationAffected": "38.185.82",
         "valueGainPerson": "263.158.76 kr.",
-        "valueGainGroup": "10.048.933.219 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "10.048.933.219 kr."
     },
     {
         "id": "`Personlig pleje`28",
@@ -5272,8 +4980,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 13.48,
         "populationAffected": "28.410.25",
         "valueGainPerson": "353.645.31 kr.",
-        "valueGainGroup": "10.047.151.744 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "10.047.151.744 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`85",
@@ -5290,8 +4997,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 29.37,
         "populationAffected": "24.133.44",
         "valueGainPerson": "414.313.88 kr.",
-        "valueGainGroup": "9.998.818.509 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "9.998.818.509 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`127",
@@ -5308,8 +5014,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 23.02,
         "populationAffected": "45.212.01",
         "valueGainPerson": "221.014.34 kr.",
-        "valueGainGroup": "9.992.502.738 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "9.992.502.738 kr."
     },
     {
         "id": "`Personlig pleje`153",
@@ -5326,8 +5031,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 10.77,
         "populationAffected": "58.347.93",
         "valueGainPerson": "169.675.17 kr.",
-        "valueGainGroup": "9.900.195.744 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "9.900.195.744 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`154",
@@ -5344,8 +5048,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 10.87,
         "populationAffected": "57.125.99",
         "valueGainPerson": "172.850.02 kr.",
-        "valueGainGroup": "9.874.227.839 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "9.874.227.839 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`71",
@@ -5362,8 +5065,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 27.78,
         "populationAffected": "50.405.28",
         "valueGainPerson": "195.685.59 kr.",
-        "valueGainGroup": "9.863.587.436 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "9.863.587.436 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`69",
@@ -5380,8 +5082,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 72.47,
         "populationAffected": "78.815.53",
         "valueGainPerson": "124.933.25 kr.",
-        "valueGainGroup": "9.846.681.095 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "9.846.681.095 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`155",
@@ -5398,8 +5099,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 8.69,
         "populationAffected": "22.911.49",
         "valueGainPerson": "429.613.63 kr.",
-        "valueGainGroup": "9.843.089.436 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "9.843.089.436 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`12",
@@ -5416,8 +5116,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 8.05,
         "populationAffected": "32.992.55",
         "valueGainPerson": "296.691.44 kr.",
-        "valueGainGroup": "9.788.606.887 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "9.788.606.887 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`85",
@@ -5434,8 +5133,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 13.28,
         "populationAffected": "30.548.66",
         "valueGainPerson": "317.700.98 kr.",
-        "valueGainGroup": "9.705.338.000 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "9.705.338.000 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`170",
@@ -5452,8 +5150,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 35.55,
         "populationAffected": "27.799.28",
         "valueGainPerson": "348.229.96 kr.",
-        "valueGainGroup": "9.680.541.171 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "9.680.541.171 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`61",
@@ -5470,8 +5167,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 3.54,
         "populationAffected": "9.775.57",
         "valueGainPerson": "990.101.19 kr.",
-        "valueGainGroup": "9.678.803.577 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "9.678.803.577 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`95",
@@ -5488,8 +5184,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 25.42,
         "populationAffected": "41.851.66",
         "valueGainPerson": "231.116.19 kr.",
-        "valueGainGroup": "9.672.595.914 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "9.672.595.914 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`30",
@@ -5506,8 +5201,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 6.41,
         "populationAffected": "18.940.17",
         "valueGainPerson": "510.565.32 kr.",
-        "valueGainGroup": "9.670.192.429 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "9.670.192.429 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`124",
@@ -5524,8 +5218,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 18.1,
         "populationAffected": "11.608.49",
         "valueGainPerson": "831.695.20 kr.",
-        "valueGainGroup": "9.654.724.967 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "9.654.724.967 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`43",
@@ -5542,8 +5235,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 3.18,
         "populationAffected": "18.329.19",
         "valueGainPerson": "525.906.91 kr.",
-        "valueGainGroup": "9.639.449.751 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "9.639.449.751 kr."
     },
     {
         "id": "`Personlig pleje`154",
@@ -5560,8 +5252,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 4.11,
         "populationAffected": "42.157.15",
         "valueGainPerson": "228.223.96 kr.",
-        "valueGainGroup": "9.621.270.694 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "9.621.270.694 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`",
@@ -5578,8 +5269,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 9.06,
         "populationAffected": "15.885.30",
         "valueGainPerson": "599.717.48 kr.",
-        "valueGainGroup": "9.526.692.880 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "9.526.692.880 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`150",
@@ -5596,8 +5286,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 47.98,
         "populationAffected": "72.400.32",
         "valueGainPerson": "130.732.20 kr.",
-        "valueGainGroup": "9.465.052.724 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "9.465.052.724 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`70",
@@ -5614,8 +5303,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 29.19,
         "populationAffected": "72.400.32",
         "valueGainPerson": "130.669.58 kr.",
-        "valueGainGroup": "9.460.518.553 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "9.460.518.553 kr."
     },
     {
         "id": "`Personlig pleje`91",
@@ -5632,8 +5320,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 4.02,
         "populationAffected": "24.744.41",
         "valueGainPerson": "382.322.85 kr.",
-        "valueGainGroup": "9.460.353.993 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "9.460.353.993 kr."
     },
     {
         "id": "`Mental illness - More than six months`57",
@@ -5650,8 +5337,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 6.56,
         "populationAffected": "73.927.75",
         "valueGainPerson": "127.784.43 kr.",
-        "valueGainGroup": "9.446.815.339 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "9.446.815.339 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`102",
@@ -5668,8 +5354,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 5.22,
         "populationAffected": "12.219.46",
         "valueGainPerson": "771.797.85 kr.",
-        "valueGainGroup": "9.430.954.902 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "9.430.954.902 kr."
     },
     {
         "id": "`Personlig pleje`83",
@@ -5686,8 +5371,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 4.02,
         "populationAffected": "19.856.63",
         "valueGainPerson": "474.441.79 kr.",
-        "valueGainGroup": "9.420.813.426 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "9.420.813.426 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`118",
@@ -5704,8 +5388,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 52.44,
         "populationAffected": "69.039.96",
         "valueGainPerson": "136.421.78 kr.",
-        "valueGainGroup": "9.418.554.691 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "9.418.554.691 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`80",
@@ -5722,8 +5405,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 57.25,
         "populationAffected": "68.734.48",
         "valueGainPerson": "135.770.71 kr.",
-        "valueGainGroup": "9.332.128.878 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "9.332.128.878 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`85",
@@ -5740,8 +5422,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 63.57,
         "populationAffected": "52.238.20",
         "valueGainPerson": "178.470.86 kr.",
-        "valueGainGroup": "9.322.996.818 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "9.322.996.818 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`125",
@@ -5758,8 +5439,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 39.15,
         "populationAffected": "25.355.38",
         "valueGainPerson": "366.048.63 kr.",
-        "valueGainGroup": "9.281.303.767 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "9.281.303.767 kr."
     },
     {
         "id": "`Mental illness - More than six months`92",
@@ -5776,8 +5456,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 11.79,
         "populationAffected": "28.104.76",
         "valueGainPerson": "329.373.40 kr.",
-        "valueGainGroup": "9.256.961.527 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "9.256.961.527 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`167",
@@ -5794,8 +5473,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 5.61,
         "populationAffected": "13.441.41",
         "valueGainPerson": "686.842.31 kr.",
-        "valueGainGroup": "9.232.128.253 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "9.232.128.253 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`104",
@@ -5812,8 +5490,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 22.14,
         "populationAffected": "27.799.28",
         "valueGainPerson": "330.925.52 kr.",
-        "valueGainGroup": "9.199.490.318 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "9.199.490.318 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`110",
@@ -5830,8 +5507,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 49.32,
         "populationAffected": "66.901.56",
         "valueGainPerson": "136.960.19 kr.",
-        "valueGainGroup": "9.162.849.840 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "9.162.849.840 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`",
@@ -5848,8 +5524,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 11.76,
         "populationAffected": "20.773.09",
         "valueGainPerson": "440.702.98 kr.",
-        "valueGainGroup": "9.154.761.053 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "9.154.761.053 kr."
     },
     {
         "id": "`Mental illness - More than six months`77",
@@ -5866,8 +5541,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 9.05,
         "populationAffected": "23.216.98",
         "valueGainPerson": "393.619.11 kr.",
-        "valueGainGroup": "9.138.646.504 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "9.138.646.504 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`48",
@@ -5884,8 +5558,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 56.33,
         "populationAffected": "76.066.15",
         "valueGainPerson": "119.904.12 kr.",
-        "valueGainGroup": "9.120.645.041 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "9.120.645.041 kr."
     },
     {
         "id": "`Mental illness - Less than six months`75",
@@ -5902,8 +5575,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 14.09,
         "populationAffected": "31.465.12",
         "valueGainPerson": "289.447.10 kr.",
-        "valueGainGroup": "9.107.486.622 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "9.107.486.622 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`176",
@@ -5920,8 +5592,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 4.89,
         "populationAffected": "17.718.22",
         "valueGainPerson": "509.771.86 kr.",
-        "valueGainGroup": "9.032.250.354 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "9.032.250.354 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`178",
@@ -5938,8 +5609,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 46.44,
         "populationAffected": "61.708.29",
         "valueGainPerson": "146.004.84 kr.",
-        "valueGainGroup": "9.009.708.477 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "9.009.708.477 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`114",
@@ -5956,8 +5626,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 11.17,
         "populationAffected": "36.047.41",
         "valueGainPerson": "249.844.30 kr.",
-        "valueGainGroup": "9.006.240.986 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "9.006.240.986 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`93",
@@ -5974,8 +5643,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 5.83,
         "populationAffected": "14.052.38",
         "valueGainPerson": "639.584.01 kr.",
-        "valueGainGroup": "8.987.678.852 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "8.987.678.852 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`110",
@@ -5992,8 +5660,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 20.27,
         "populationAffected": "27.493.79",
         "valueGainPerson": "326.652.95 kr.",
-        "valueGainGroup": "8.980.927.955 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "8.980.927.955 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`169",
@@ -6010,8 +5677,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 13.67,
         "populationAffected": "10.692.03",
         "valueGainPerson": "834.765.00 kr.",
-        "valueGainGroup": "8.925.332.205 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "8.925.332.205 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`40",
@@ -6028,8 +5694,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 24.91,
         "populationAffected": "64.763.15",
         "valueGainPerson": "137.492.97 kr.",
-        "valueGainGroup": "8.904.478.382 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "8.904.478.382 kr."
     },
     {
         "id": "`Mental illness - More than six months`157",
@@ -6046,8 +5711,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 7.04,
         "populationAffected": "26.577.33",
         "valueGainPerson": "330.811.74 kr.",
-        "valueGainGroup": "8.792.093.056 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "8.792.093.056 kr."
     },
     {
         "id": "`Personlig pleje`51",
@@ -6064,8 +5728,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 4.38,
         "populationAffected": "50.710.77",
         "valueGainPerson": "172.293.25 kr.",
-        "valueGainGroup": "8.737.123.117 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "8.737.123.117 kr."
     },
     {
         "id": "`Mental illness - More than six months`124",
@@ -6082,8 +5745,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 11.58,
         "populationAffected": "30.854.14",
         "valueGainPerson": "282.802.69 kr.",
-        "valueGainGroup": "8.725.634.584 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "8.725.634.584 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`161",
@@ -6100,8 +5762,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 15.97,
         "populationAffected": "33.603.52",
         "valueGainPerson": "259.423.56 kr.",
-        "valueGainGroup": "8.717.545.398 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "8.717.545.398 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`69",
@@ -6118,8 +5779,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 5.31,
         "populationAffected": "13.135.92",
         "valueGainPerson": "662.863.63 kr.",
-        "valueGainGroup": "8.707.325.077 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "8.707.325.077 kr."
     },
     {
         "id": "`Mental illness - More than six months`123",
@@ -6136,8 +5796,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 26.44,
         "populationAffected": "16.801.76",
         "valueGainPerson": "517.476.63 kr.",
-        "valueGainGroup": "8.694.518.618 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "8.694.518.618 kr."
     },
     {
         "id": "`Mental illness - Less than six months`92",
@@ -6154,8 +5813,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 13.08,
         "populationAffected": "31.159.63",
         "valueGainPerson": "277.162.70 kr.",
-        "valueGainGroup": "8.636.286.957 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "8.636.286.957 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`39",
@@ -6172,8 +5830,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 55.94,
         "populationAffected": "69.039.96",
         "valueGainPerson": "124.266.58 kr.",
-        "valueGainGroup": "8.579.360.427 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "8.579.360.427 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`96",
@@ -6190,8 +5847,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 51.75,
         "populationAffected": "36.047.41",
         "valueGainPerson": "237.734.31 kr.",
-        "valueGainGroup": "8.569.707.062 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "8.569.707.062 kr."
     },
     {
         "id": "`Mental illness - Less than six months`137",
@@ -6208,8 +5864,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 12.52,
         "populationAffected": "26.577.33",
         "valueGainPerson": "317.628.02 kr.",
-        "valueGainGroup": "8.441.705.100 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "8.441.705.100 kr."
     },
     {
         "id": "`Personlig pleje`123",
@@ -6226,8 +5881,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 2.91,
         "populationAffected": "21.384.06",
         "valueGainPerson": "394.756.19 kr.",
-        "valueGainGroup": "8.441.489.923 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "8.441.489.923 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`39",
@@ -6244,8 +5898,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 30.94,
         "populationAffected": "38.185.82",
         "valueGainPerson": "221.035.41 kr.",
-        "valueGainGroup": "8.440.418.481 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "8.440.418.481 kr."
     },
     {
         "id": "`Mental illness - More than six months`5",
@@ -6262,8 +5915,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 14.66,
         "populationAffected": "34.214.50",
         "valueGainPerson": "245.670.99 kr.",
-        "valueGainGroup": "8.405.508.881 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "8.405.508.881 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`27",
@@ -6280,8 +5932,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 67.12,
         "populationAffected": "59.875.37",
         "valueGainPerson": "140.114.91 kr.",
-        "valueGainGroup": "8.389.431.534 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "8.389.431.534 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`96",
@@ -6298,8 +5949,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 29.39,
         "populationAffected": "20.467.60",
         "valueGainPerson": "409.616.51 kr.",
-        "valueGainGroup": "8.383.866.823 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "8.383.866.823 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`71",
@@ -6316,8 +5966,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 54.29,
         "populationAffected": "98.672.16",
         "valueGainPerson": "84.466.22 kr.",
-        "valueGainGroup": "8.334.464.461 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "8.334.464.461 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`161",
@@ -6334,8 +5983,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 37.45,
         "populationAffected": "78.815.53",
         "valueGainPerson": "105.740.14 kr.",
-        "valueGainGroup": "8.333.965.175 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "8.333.965.175 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`70",
@@ -6352,8 +6000,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 60.79,
         "populationAffected": "150.604.88",
         "valueGainPerson": "55.309.10 kr.",
-        "valueGainGroup": "8.329.820.686 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "8.329.820.686 kr."
     },
     {
         "id": "`Mental illness - Less than six months`76",
@@ -6370,8 +6017,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 7.36,
         "populationAffected": "38.185.82",
         "valueGainPerson": "218.091.13 kr.",
-        "valueGainGroup": "8.327.988.707 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "8.327.988.707 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`25",
@@ -6388,8 +6034,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 48.5,
         "populationAffected": "73.927.75",
         "valueGainPerson": "112.360.73 kr.",
-        "valueGainGroup": "8.306.576.067 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "8.306.576.067 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`45",
@@ -6406,8 +6051,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 27.1,
         "populationAffected": "42.462.63",
         "valueGainPerson": "194.787.79 kr.",
-        "valueGainGroup": "8.271.202.261 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "8.271.202.261 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`47",
@@ -6424,8 +6068,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 27.84,
         "populationAffected": "61.402.80",
         "valueGainPerson": "132.851.76 kr.",
-        "valueGainGroup": "8.157.470.221 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "8.157.470.221 kr."
     },
     {
         "id": "`Mental illness - More than six months`168",
@@ -6442,8 +6085,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 23.35,
         "populationAffected": "18.329.19",
         "valueGainPerson": "443.617.53 kr.",
-        "valueGainGroup": "8.131.151.676 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "8.131.151.676 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`169",
@@ -6460,8 +6102,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 17.5,
         "populationAffected": "26.882.82",
         "valueGainPerson": "299.063.21 kr.",
-        "valueGainGroup": "8.039.661.833 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "8.039.661.833 kr."
     },
     {
         "id": "Unemployed101",
@@ -6478,8 +6119,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 2.56,
         "populationAffected": "12.219.46",
         "valueGainPerson": "657.551.92 kr.",
-        "valueGainGroup": "8.034.931.065 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "8.034.931.065 kr."
     },
     {
         "id": "`Mental illness - More than six months`60",
@@ -6496,8 +6136,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 5.9,
         "populationAffected": "16.190.79",
         "valueGainPerson": "495.466.91 kr.",
-        "valueGainGroup": "8.021.999.581 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "8.021.999.581 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`55",
@@ -6514,8 +6153,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 24.61,
         "populationAffected": "57.431.47",
         "valueGainPerson": "139.661.46 kr.",
-        "valueGainGroup": "8.020.963.527 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "8.020.963.527 kr."
     },
     {
         "id": "`Mental illness - Less than six months`166",
@@ -6532,8 +6170,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 12.18,
         "populationAffected": "29.021.22",
         "valueGainPerson": "275.223.86 kr.",
-        "valueGainGroup": "7.987.333.135 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "7.987.333.135 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`125",
@@ -6550,8 +6187,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 12.13,
         "populationAffected": "32.381.58",
         "valueGainPerson": "245.448.21 kr.",
-        "valueGainGroup": "7.947.999.762 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "7.947.999.762 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`21",
@@ -6568,8 +6204,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 52.9,
         "populationAffected": "64.152.18",
         "valueGainPerson": "123.541.69 kr.",
-        "valueGainGroup": "7.925.468.780 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "7.925.468.780 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`11",
@@ -6586,8 +6221,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 11.29,
         "populationAffected": "35.130.95",
         "valueGainPerson": "224.541.36 kr.",
-        "valueGainGroup": "7.888.352.548 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "7.888.352.548 kr."
     },
     {
         "id": "`Personlig pleje`94",
@@ -6604,8 +6238,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 3.69,
         "populationAffected": "17.412.73",
         "valueGainPerson": "451.543.85 kr.",
-        "valueGainGroup": "7.862.612.988 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "7.862.612.988 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`160",
@@ -6622,8 +6255,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 46.14,
         "populationAffected": "100.505.08",
         "valueGainPerson": "78.157.55 kr.",
-        "valueGainGroup": "7.855.230.437 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "7.855.230.437 kr."
     },
     {
         "id": "`Mental illness - Less than six months`11",
@@ -6640,8 +6272,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 12.82,
         "populationAffected": "40.018.74",
         "valueGainPerson": "195.920.57 kr.",
-        "valueGainGroup": "7.840.494.366 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "7.840.494.366 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`176",
@@ -6658,8 +6289,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 10.99,
         "populationAffected": "40.018.74",
         "valueGainPerson": "194.649.28 kr.",
-        "valueGainGroup": "7.789.618.981 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "7.789.618.981 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`127",
@@ -6676,8 +6306,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 48.68,
         "populationAffected": "95.617.29",
         "valueGainPerson": "81.024.84 kr.",
-        "valueGainGroup": "7.747.376.026 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "7.747.376.026 kr."
     },
     {
         "id": "`Mental illness - More than six months`101",
@@ -6694,8 +6323,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 9.46,
         "populationAffected": "21.995.03",
         "valueGainPerson": "349.943.51 kr.",
-        "valueGainGroup": "7.697.018.938 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "7.697.018.938 kr."
     },
     {
         "id": "`Mental illness - More than six months`99",
@@ -6712,8 +6340,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 15.18,
         "populationAffected": "21.384.06",
         "valueGainPerson": "358.319.58 kr.",
-        "valueGainGroup": "7.662.327.164 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "7.662.327.164 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`142",
@@ -6730,8 +6357,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 28.52,
         "populationAffected": "22.300.52",
         "valueGainPerson": "342.350.87 kr.",
-        "valueGainGroup": "7.634.602.189 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "7.634.602.189 kr."
     },
     {
         "id": "`Mental illness - Less than six months`157",
@@ -6748,8 +6374,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 6.08,
         "populationAffected": "22.911.49",
         "valueGainPerson": "332.246.45 kr.",
-        "valueGainGroup": "7.612.262.073 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "7.612.262.073 kr."
     },
     {
         "id": "`Mental illness - More than six months`59",
@@ -6766,8 +6391,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 11.87,
         "populationAffected": "13.746.90",
         "valueGainPerson": "553.691.08 kr.",
-        "valueGainGroup": "7.611.533.320 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "7.611.533.320 kr."
     },
     {
         "id": "Unemployed35",
@@ -6784,8 +6408,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 2.19,
         "populationAffected": "26.882.82",
         "valueGainPerson": "280.984.68 kr.",
-        "valueGainGroup": "7.553.660.042 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "7.553.660.042 kr."
     },
     {
         "id": "`Personlig pleje`21",
@@ -6802,8 +6425,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 17.33,
         "populationAffected": "26.577.33",
         "valueGainPerson": "280.601.74 kr.",
-        "valueGainGroup": "7.457.645.285 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "7.457.645.285 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`60",
@@ -6820,8 +6442,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 30.15,
         "populationAffected": "35.741.93",
         "valueGainPerson": "207.756.08 kr.",
-        "valueGainGroup": "7.425.602.701 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "7.425.602.701 kr."
     },
     {
         "id": "`Mental illness - More than six months`102",
@@ -6838,8 +6459,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 11.25,
         "populationAffected": "14.052.38",
         "valueGainPerson": "527.668.82 kr.",
-        "valueGainGroup": "7.415.003.825 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "7.415.003.825 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`163",
@@ -6856,8 +6476,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 12.57,
         "populationAffected": "46.433.96",
         "valueGainPerson": "159.340.94 kr.",
-        "valueGainGroup": "7.398.830.278 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "7.398.830.278 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`39",
@@ -6874,8 +6493,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 21.15,
         "populationAffected": "54.987.58",
         "valueGainPerson": "134.167.34 kr.",
-        "valueGainGroup": "7.377.537.577 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "7.377.537.577 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`95",
@@ -6892,8 +6510,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 51.76,
         "populationAffected": "85.230.75",
         "valueGainPerson": "86.525.93 kr.",
-        "valueGainGroup": "7.374.670.031 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "7.374.670.031 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`119",
@@ -6910,8 +6527,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 21.66,
         "populationAffected": "30.243.17",
         "valueGainPerson": "243.340.51 kr.",
-        "valueGainGroup": "7.359.388.312 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "7.359.388.312 kr."
     },
     {
         "id": "`Mental illness - Less than six months`84",
@@ -6928,8 +6544,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 8.29,
         "populationAffected": "18.940.17",
         "valueGainPerson": "386.867.60 kr.",
-        "valueGainGroup": "7.327.336.907 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "7.327.336.907 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`84",
@@ -6946,8 +6561,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 6.67,
         "populationAffected": "5.498.76",
         "valueGainPerson": "1.328.299.03 kr.",
-        "valueGainGroup": "7.303.995.146 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "7.303.995.146 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`160",
@@ -6964,8 +6578,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 5.99,
         "populationAffected": "12.524.95",
         "valueGainPerson": "582.054.40 kr.",
-        "valueGainGroup": "7.290.201.735 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "7.290.201.735 kr."
     },
     {
         "id": "`Mental illness - Less than six months`154",
@@ -6982,8 +6595,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 8.87,
         "populationAffected": "23.216.98",
         "valueGainPerson": "312.590.06 kr.",
-        "valueGainGroup": "7.257.396.777 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "7.257.396.777 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`93",
@@ -7000,8 +6612,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 69.31,
         "populationAffected": "42.768.12",
         "valueGainPerson": "167.481.21 kr.",
-        "valueGainGroup": "7.162.856.143 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "7.162.856.143 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`32",
@@ -7018,8 +6629,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 7.93,
         "populationAffected": "17.412.73",
         "valueGainPerson": "408.490.00 kr.",
-        "valueGainGroup": "7.112.927.855 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "7.112.927.855 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`93",
@@ -7036,8 +6646,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 46.53,
         "populationAffected": "28.715.74",
         "valueGainPerson": "245.871.55 kr.",
-        "valueGainGroup": "7.060.382.789 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "7.060.382.789 kr."
     },
     {
         "id": "Unemployed99",
@@ -7054,8 +6663,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 6.04,
         "populationAffected": "31.770.60",
         "valueGainPerson": "220.977.29 kr.",
-        "valueGainGroup": "7.020.581.784 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "7.020.581.784 kr."
     },
     {
         "id": "`Personlig pleje`163",
@@ -7072,8 +6680,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 3.63,
         "populationAffected": "41.851.66",
         "valueGainPerson": "167.345.47 kr.",
-        "valueGainGroup": "7.003.685.522 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "7.003.685.522 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`78",
@@ -7090,8 +6697,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 4.38,
         "populationAffected": "11.303.00",
         "valueGainPerson": "612.930.43 kr.",
-        "valueGainGroup": "6.927.954.401 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "6.927.954.401 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`38",
@@ -7108,8 +6714,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 27.48,
         "populationAffected": "33.909.01",
         "valueGainPerson": "202.083.46 kr.",
-        "valueGainGroup": "6.852.449.872 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "6.852.449.872 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`93",
@@ -7126,8 +6731,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 18.61,
         "populationAffected": "44.906.52",
         "valueGainPerson": "151.789.15 kr.",
-        "valueGainGroup": "6.816.323.028 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "6.816.323.028 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`72",
@@ -7144,8 +6748,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 59.82,
         "populationAffected": "40.935.20",
         "valueGainPerson": "166.194.55 kr.",
-        "valueGainGroup": "6.803.206.933 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "6.803.206.933 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`92",
@@ -7162,8 +6765,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 12.5,
         "populationAffected": "7.637.16",
         "valueGainPerson": "882.870.23 kr.",
-        "valueGainGroup": "6.742.624.835 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "6.742.624.835 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`20",
@@ -7180,8 +6782,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 42.37,
         "populationAffected": "33.909.01",
         "valueGainPerson": "198.700.02 kr.",
-        "valueGainGroup": "6.737.720.661 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "6.737.720.661 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`52",
@@ -7198,8 +6799,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 4.36,
         "populationAffected": "11.913.98",
         "valueGainPerson": "565.239.27 kr.",
-        "valueGainGroup": "6.734.247.102 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "6.734.247.102 kr."
     },
     {
         "id": "Unemployed119",
@@ -7216,8 +6816,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 1.98,
         "populationAffected": "22.911.49",
         "valueGainPerson": "293.176.22 kr.",
-        "valueGainGroup": "6.717.104.753 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "6.717.104.753 kr."
     },
     {
         "id": "Unemployed102",
@@ -7234,8 +6833,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 1.83,
         "populationAffected": "20.467.60",
         "valueGainPerson": "324.086.09 kr.",
-        "valueGainGroup": "6.633.264.296 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "6.633.264.296 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`133",
@@ -7252,8 +6850,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 8.44,
         "populationAffected": "6.109.73",
         "valueGainPerson": "1.083.893.26 kr.",
-        "valueGainGroup": "6.622.296.557 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "6.622.296.557 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`141",
@@ -7270,8 +6867,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 14.84,
         "populationAffected": "11.608.49",
         "valueGainPerson": "568.290.53 kr.",
-        "valueGainGroup": "6.596.994.617 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "6.596.994.617 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`92",
@@ -7288,8 +6884,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 30.85,
         "populationAffected": "18.940.17",
         "valueGainPerson": "344.750.43 kr.",
-        "valueGainGroup": "6.529.630.694 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "6.529.630.694 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`148",
@@ -7306,8 +6901,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 22.83,
         "populationAffected": "24.133.44",
         "valueGainPerson": "269.342.48 kr.",
-        "valueGainGroup": "6.500.160.242 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "6.500.160.242 kr."
     },
     {
         "id": "`Mental illness - More than six months`69",
@@ -7324,8 +6918,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 9.78,
         "populationAffected": "17.718.22",
         "valueGainPerson": "366.791.13 kr.",
-        "valueGainGroup": "6.498.886.286 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "6.498.886.286 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`5",
@@ -7342,8 +6935,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 5.66,
         "populationAffected": "13.441.41",
         "valueGainPerson": "482.487.73 kr.",
-        "valueGainGroup": "6.485.314.775 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "6.485.314.775 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`84",
@@ -7360,8 +6952,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 22.68,
         "populationAffected": "18.634.68",
         "valueGainPerson": "347.380.22 kr.",
-        "valueGainGroup": "6.473.319.471 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "6.473.319.471 kr."
     },
     {
         "id": "`Mental illness - Less than six months`4",
@@ -7378,8 +6969,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 6.82,
         "populationAffected": "16.190.79",
         "valueGainPerson": "393.200.17 kr.",
-        "valueGainGroup": "6.366.220.588 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "6.366.220.588 kr."
     },
     {
         "id": "`Mental illness - Less than six months`102",
@@ -7396,8 +6986,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 11.79,
         "populationAffected": "14.663.36",
         "valueGainPerson": "427.427.09 kr.",
-        "valueGainGroup": "6.267.515.156 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "6.267.515.156 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`119",
@@ -7414,8 +7003,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 47.48,
         "populationAffected": "66.290.58",
         "valueGainPerson": "94.415.99 kr.",
-        "valueGainGroup": "6.258.890.999 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "6.258.890.999 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`147",
@@ -7432,8 +7020,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 13.91,
         "populationAffected": "14.663.36",
         "valueGainPerson": "426.095.71 kr.",
-        "valueGainGroup": "6.247.992.661 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "6.247.992.661 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`117",
@@ -7450,8 +7037,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 6.48,
         "populationAffected": "8.553.62",
         "valueGainPerson": "725.173.62 kr.",
-        "valueGainGroup": "6.202.862.297 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "6.202.862.297 kr."
     },
     {
         "id": "`Mental illness - Less than six months`101",
@@ -7468,8 +7054,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 12.14,
         "populationAffected": "28.104.76",
         "valueGainPerson": "220.232.87 kr.",
-        "valueGainGroup": "6.189.592.782 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "6.189.592.782 kr."
     },
     {
         "id": "`Mental illness - Less than six months`99",
@@ -7486,8 +7071,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 12.39,
         "populationAffected": "17.412.73",
         "valueGainPerson": "353.499.12 kr.",
-        "valueGainGroup": "6.155.386.146 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "6.155.386.146 kr."
     },
     {
         "id": "`Mental illness - Less than six months`148",
@@ -7504,8 +7088,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 17.04,
         "populationAffected": "25.660.87",
         "valueGainPerson": "239.777.49 kr.",
-        "valueGainGroup": "6.152.899.454 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "6.152.899.454 kr."
     },
     {
         "id": "Unemployed110",
@@ -7522,8 +7105,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 3.03,
         "populationAffected": "31.159.63",
         "valueGainPerson": "196.806.29 kr.",
-        "valueGainGroup": "6.132.410.986 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "6.132.410.986 kr."
     },
     {
         "id": "`Mental illness - Less than six months`113",
@@ -7540,8 +7122,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 8.38,
         "populationAffected": "26.882.82",
         "valueGainPerson": "226.146.35 kr.",
-        "valueGainGroup": "6.079.451.146 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "6.079.451.146 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`33",
@@ -7558,8 +7139,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 4.58,
         "populationAffected": "9.164.60",
         "valueGainPerson": "663.049.19 kr.",
-        "valueGainGroup": "6.076.578.592 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "6.076.578.592 kr."
     },
     {
         "id": "`Personlig pleje`164",
@@ -7576,8 +7156,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 3.8,
         "populationAffected": "17.412.73",
         "valueGainPerson": "348.814.16 kr.",
-        "valueGainGroup": "6.073.808.284 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "6.073.808.284 kr."
     },
     {
         "id": "`Mental illness - Less than six months`49",
@@ -7594,8 +7173,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 7.17,
         "populationAffected": "39.713.25",
         "valueGainPerson": "152.445.18 kr.",
-        "valueGainGroup": "6.054.093.951 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "6.054.093.951 kr."
     },
     {
         "id": "`Mental illness - More than six months`84",
@@ -7612,8 +7190,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 8.03,
         "populationAffected": "18.329.19",
         "valueGainPerson": "328.067.24 kr.",
-        "valueGainGroup": "6.013.208.065 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "6.013.208.065 kr."
     },
     {
         "id": "`Mental illness - More than six months`94",
@@ -7630,8 +7207,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 16.37,
         "populationAffected": "11.303.00",
         "valueGainPerson": "531.205.85 kr.",
-        "valueGainGroup": "6.004.221.293 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "6.004.221.293 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`27",
@@ -7648,8 +7224,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 43.64,
         "populationAffected": "38.796.79",
         "valueGainPerson": "152.864.13 kr.",
-        "valueGainGroup": "5.930.638.112 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "5.930.638.112 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`138",
@@ -7666,8 +7241,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 8.58,
         "populationAffected": "18.329.19",
         "valueGainPerson": "320.760.74 kr.",
-        "valueGainGroup": "5.879.285.811 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "5.879.285.811 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`34",
@@ -7684,8 +7258,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 45.63,
         "populationAffected": "43.073.61",
         "valueGainPerson": "136.489.34 kr.",
-        "valueGainGroup": "5.879.087.980 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "5.879.087.980 kr."
     },
     {
         "id": "`Personlig pleje`54",
@@ -7702,8 +7275,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 5.18,
         "populationAffected": "14.357.87",
         "valueGainPerson": "409.124.02 kr.",
-        "valueGainGroup": "5.874.148.886 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "5.874.148.886 kr."
     },
     {
         "id": "`Mental illness - More than six months`93",
@@ -7720,8 +7292,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 9.72,
         "populationAffected": "15.885.30",
         "valueGainPerson": "369.215.36 kr.",
-        "valueGainGroup": "5.865.097.206 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "5.865.097.206 kr."
     },
     {
         "id": "`Mental illness - More than six months`42",
@@ -7738,8 +7309,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 5.14,
         "populationAffected": "29.326.71",
         "valueGainPerson": "197.629.20 kr.",
-        "valueGainGroup": "5.795.814.139 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "5.795.814.139 kr."
     },
     {
         "id": "Unemployed59",
@@ -7756,8 +7326,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 3.11,
         "populationAffected": "34.519.98",
         "valueGainPerson": "167.632.70 kr.",
-        "valueGainGroup": "5.786.677.618 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "5.786.677.618 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`54",
@@ -7774,8 +7343,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 2.5,
         "populationAffected": "5.804.24",
         "valueGainPerson": "996.918.71 kr.",
-        "valueGainGroup": "5.786.360.183 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "5.786.360.183 kr."
     },
     {
         "id": "`Mental illness - Less than six months`124",
@@ -7792,8 +7360,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 12.2,
         "populationAffected": "32.381.58",
         "valueGainPerson": "178.146.46 kr.",
-        "valueGainGroup": "5.768.663.192 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "5.768.663.192 kr."
     },
     {
         "id": "`Mental illness - Less than six months`36",
@@ -7810,8 +7377,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 5.27,
         "populationAffected": "28.715.74",
         "valueGainPerson": "200.181.06 kr.",
-        "valueGainGroup": "5.748.346.662 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "5.748.346.662 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`68",
@@ -7828,8 +7394,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 33.43,
         "populationAffected": "36.352.90",
         "valueGainPerson": "157.839.12 kr.",
-        "valueGainGroup": "5.737.909.938 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "5.737.909.938 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`53",
@@ -7846,8 +7411,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 2.7,
         "populationAffected": "12.830.44",
         "valueGainPerson": "447.189.16 kr.",
-        "valueGainGroup": "5.737.631.787 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "5.737.631.787 kr."
     },
     {
         "id": "`Mental illness - More than six months`108",
@@ -7864,8 +7428,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 6.77,
         "populationAffected": "9.164.60",
         "valueGainPerson": "624.558.74 kr.",
-        "valueGainGroup": "5.723.829.145 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "5.723.829.145 kr."
     },
     {
         "id": "`Mental illness - More than six months`68",
@@ -7882,8 +7445,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 7.95,
         "populationAffected": "19.551.14",
         "valueGainPerson": "291.591.96 kr.",
-        "valueGainGroup": "5.700.955.191 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "5.700.955.191 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`159",
@@ -7900,8 +7462,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 4.37,
         "populationAffected": "9.470.08",
         "valueGainPerson": "595.681.62 kr.",
-        "valueGainGroup": "5.641.154.665 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "5.641.154.665 kr."
     },
     {
         "id": "`Mental illness - Less than six months`5",
@@ -7918,8 +7479,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 12.04,
         "populationAffected": "28.104.76",
         "valueGainPerson": "200.390.39 kr.",
-        "valueGainGroup": "5.631.924.578 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "5.631.924.578 kr."
     },
     {
         "id": "`Personlig pleje`160",
@@ -7936,8 +7496,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 1.98,
         "populationAffected": "12.524.95",
         "valueGainPerson": "446.656.74 kr.",
-        "valueGainGroup": "5.594.352.957 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "5.594.352.957 kr."
     },
     {
         "id": "`Mental illness - Less than six months`176",
@@ -7954,8 +7513,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 15.67,
         "populationAffected": "20.773.09",
         "valueGainPerson": "268.992.50 kr.",
-        "valueGainGroup": "5.587.804.523 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "5.587.804.523 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`142",
@@ -7972,8 +7530,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 6.29,
         "populationAffected": "5.804.24",
         "valueGainPerson": "962.296.81 kr.",
-        "valueGainGroup": "5.585.406.196 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "5.585.406.196 kr."
     },
     {
         "id": "`Mental illness - More than six months`140",
@@ -7990,8 +7547,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 20.31,
         "populationAffected": "15.885.30",
         "valueGainPerson": "350.424.18 kr.",
-        "valueGainGroup": "5.566.593.775 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "5.566.593.775 kr."
     },
     {
         "id": "`Personlig pleje`67",
@@ -8008,8 +7564,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 4.08,
         "populationAffected": "26.271.84",
         "valueGainPerson": "211.392.14 kr.",
-        "valueGainGroup": "5.553.661.506 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "5.553.661.506 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`94",
@@ -8026,8 +7581,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 4.46,
         "populationAffected": "7.331.68",
         "valueGainPerson": "750.022.05 kr.",
-        "valueGainGroup": "5.498.919.835 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "5.498.919.835 kr."
     },
     {
         "id": "`Mental illness - More than six months`154",
@@ -8044,8 +7598,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 10.08,
         "populationAffected": "26.271.84",
         "valueGainPerson": "208.077.16 kr.",
-        "valueGainGroup": "5.466.570.676 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "5.466.570.676 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`25",
@@ -8062,8 +7615,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 4.97,
         "populationAffected": "13.441.41",
         "valueGainPerson": "405.139.84 kr.",
-        "valueGainGroup": "5.445.650.282 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "5.445.650.282 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`167",
@@ -8080,8 +7632,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 16.28,
         "populationAffected": "39.102.28",
         "valueGainPerson": "138.714.08 kr.",
-        "valueGainGroup": "5.424.036.974 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "5.424.036.974 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`26",
@@ -8098,8 +7649,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 8.51,
         "populationAffected": "12.219.46",
         "valueGainPerson": "443.274.22 kr.",
-        "valueGainGroup": "5.416.572.694 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "5.416.572.694 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`103",
@@ -8116,8 +7666,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 5.37,
         "populationAffected": "6.720.70",
         "valueGainPerson": "801.076.48 kr.",
-        "valueGainGroup": "5.383.798.235 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "5.383.798.235 kr."
     },
     {
         "id": "Unemployed66",
@@ -8134,8 +7683,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 2.65,
         "populationAffected": "8.553.62",
         "valueGainPerson": "623.955.62 kr.",
-        "valueGainGroup": "5.337.081.643 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "5.337.081.643 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`20",
@@ -8152,8 +7700,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 60.75,
         "populationAffected": "49.183.34",
         "valueGainPerson": "108.367.40 kr.",
-        "valueGainGroup": "5.329.870.152 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "5.329.870.152 kr."
     },
     {
         "id": "Unemployed79",
@@ -8170,8 +7717,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 2.82,
         "populationAffected": "20.773.09",
         "valueGainPerson": "255.022.00 kr.",
-        "valueGainGroup": "5.297.593.996 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "5.297.593.996 kr."
     },
     {
         "id": "`Personlig pleje`22",
@@ -8188,8 +7734,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 13.99,
         "populationAffected": "12.524.95",
         "valueGainPerson": "421.250.38 kr.",
-        "valueGainGroup": "5.276.139.555 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "5.276.139.555 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`148",
@@ -8206,8 +7751,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 40.92,
         "populationAffected": "43.379.09",
         "valueGainPerson": "120.994.64 kr.",
-        "valueGainGroup": "5.248.637.468 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "5.248.637.468 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`105",
@@ -8224,8 +7768,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 17.48,
         "populationAffected": "13.135.92",
         "valueGainPerson": "397.894.35 kr.",
-        "valueGainGroup": "5.226.709.276 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "5.226.709.276 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`54",
@@ -8242,8 +7785,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 20.55,
         "populationAffected": "47.961.39",
         "valueGainPerson": "108.909.37 kr.",
-        "valueGainGroup": "5.223.444.660 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "5.223.444.660 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`",
@@ -8260,8 +7802,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 24.57,
         "populationAffected": "43.379.09",
         "valueGainPerson": "120.300.39 kr.",
-        "valueGainGroup": "5.218.521.901 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "5.218.521.901 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`6",
@@ -8278,8 +7819,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 10.48,
         "populationAffected": "24.438.93",
         "valueGainPerson": "209.948.22 kr.",
-        "valueGainGroup": "5.130.908.780 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "5.130.908.780 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`140",
@@ -8296,8 +7836,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 25.12,
         "populationAffected": "16.190.79",
         "valueGainPerson": "313.025.23 kr.",
-        "valueGainGroup": "5.068.125.048 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "5.068.125.048 kr."
     },
     {
         "id": "Unemployed109",
@@ -8314,8 +7853,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 2.13,
         "populationAffected": "11.608.49",
         "valueGainPerson": "436.460.78 kr.",
-        "valueGainGroup": "5.066.650.335 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "5.066.650.335 kr."
     },
     {
         "id": "`Personlig pleje`70",
@@ -8332,8 +7870,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 4.01,
         "populationAffected": "21.078.57",
         "valueGainPerson": "239.951.02 kr.",
-        "valueGainGroup": "5.057.825.137 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "5.057.825.137 kr."
     },
     {
         "id": "`Mental illness - Less than six months`93",
@@ -8350,8 +7887,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 13.72,
         "populationAffected": "22.300.52",
         "valueGainPerson": "225.905.02 kr.",
-        "valueGainGroup": "5.037.799.163 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "5.037.799.163 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`159",
@@ -8368,8 +7904,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 14.87,
         "populationAffected": "32.381.58",
         "valueGainPerson": "154.633.27 kr.",
-        "valueGainGroup": "5.007.268.939 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "5.007.268.939 kr."
     },
     {
         "id": "`Personlig pleje`165",
@@ -8386,8 +7921,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 3.69,
         "populationAffected": "13.441.41",
         "valueGainPerson": "371.774.30 kr.",
-        "valueGainGroup": "4.997.170.390 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "4.997.170.390 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`46",
@@ -8404,8 +7938,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 18.78,
         "populationAffected": "41.546.17",
         "valueGainPerson": "120.038.68 kr.",
-        "valueGainGroup": "4.987.147.595 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "4.987.147.595 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`48",
@@ -8422,8 +7955,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 28.05,
         "populationAffected": "37.880.33",
         "valueGainPerson": "131.429.12 kr.",
-        "valueGainGroup": "4.978.578.958 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "4.978.578.958 kr."
     },
     {
         "id": "`Mental illness - Less than six months`168",
@@ -8440,8 +7972,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 20.7,
         "populationAffected": "16.190.79",
         "valueGainPerson": "306.507.27 kr.",
-        "valueGainGroup": "4.962.594.240 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "4.962.594.240 kr."
     },
     {
         "id": "`Mental illness - Less than six months`60",
@@ -8458,8 +7989,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 6.02,
         "populationAffected": "16.496.27",
         "valueGainPerson": "297.991.78 kr.",
-        "valueGainGroup": "4.915.754.244 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "4.915.754.244 kr."
     },
     {
         "id": "Unemployed92",
@@ -8476,8 +8006,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 7.82,
         "populationAffected": "24.438.93",
         "valueGainPerson": "201.097.00 kr.",
-        "valueGainGroup": "4.914.594.547 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "4.914.594.547 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`38",
@@ -8494,8 +8023,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 5.57,
         "populationAffected": "6.720.70",
         "valueGainPerson": "726.858.69 kr.",
-        "valueGainGroup": "4.885.002.376 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "4.885.002.376 kr."
     },
     {
         "id": "`Personlig pleje`155",
@@ -8512,8 +8040,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 3.63,
         "populationAffected": "28.104.76",
         "valueGainPerson": "173.811.94 kr.",
-        "valueGainGroup": "4.884.943.420 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "4.884.943.420 kr."
     },
     {
         "id": "`Mental illness - More than six months`132",
@@ -8530,8 +8057,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 13.14,
         "populationAffected": "9.470.08",
         "valueGainPerson": "514.961.59 kr.",
-        "valueGainGroup": "4.876.729.279 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "4.876.729.279 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`142",
@@ -8548,8 +8074,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 50.78,
         "populationAffected": "39.713.25",
         "valueGainPerson": "122.323.95 kr.",
-        "valueGainGroup": "4.857.882.142 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "4.857.882.142 kr."
     },
     {
         "id": "`Personlig pleje`16",
@@ -8566,8 +8091,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 13.1,
         "populationAffected": "15.885.30",
         "valueGainPerson": "304.511.50 kr.",
-        "valueGainGroup": "4.837.257.012 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "4.837.257.012 kr."
     },
     {
         "id": "`Personlig pleje`69",
@@ -8584,8 +8108,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 7.93,
         "populationAffected": "18.023.71",
         "valueGainPerson": "266.754.65 kr.",
-        "valueGainGroup": "4.807.907.725 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "4.807.907.725 kr."
     },
     {
         "id": "`Mental illness - More than six months`36",
@@ -8602,8 +8125,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 5.07,
         "populationAffected": "27.493.79",
         "valueGainPerson": "174.376.94 kr.",
-        "valueGainGroup": "4.794.283.129 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "4.794.283.129 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`69",
@@ -8620,8 +8142,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 17.86,
         "populationAffected": "44.295.55",
         "valueGainPerson": "108.170.56 kr.",
-        "valueGainGroup": "4.791.474.695 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "4.791.474.695 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`134",
@@ -8638,8 +8159,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 44.96,
         "populationAffected": "32.687.06",
         "valueGainPerson": "145.650.04 kr.",
-        "valueGainGroup": "4.760.871.945 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "4.760.871.945 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`146",
@@ -8656,8 +8176,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 12.44,
         "populationAffected": "38.796.79",
         "valueGainPerson": "122.405.02 kr.",
-        "valueGainGroup": "4.748.922.449 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "4.748.922.449 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`126",
@@ -8674,8 +8193,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 3.89,
         "populationAffected": "7.637.16",
         "valueGainPerson": "619.419.11 kr.",
-        "valueGainGroup": "4.730.605.429 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "4.730.605.429 kr."
     },
     {
         "id": "`Mental illness - More than six months`125",
@@ -8692,8 +8210,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 11.53,
         "populationAffected": "22.606.01",
         "valueGainPerson": "208.718.94 kr.",
-        "valueGainGroup": "4.718.301.666 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "4.718.301.666 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`150",
@@ -8710,8 +8227,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 6.28,
         "populationAffected": "7.942.65",
         "valueGainPerson": "593.750.28 kr.",
-        "valueGainGroup": "4.715.951.026 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "4.715.951.026 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`102",
@@ -8728,8 +8244,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 11.62,
         "populationAffected": "27.188.30",
         "valueGainPerson": "173.101.43 kr.",
-        "valueGainGroup": "4.706.334.362 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "4.706.334.362 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`134",
@@ -8746,8 +8261,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 22.27,
         "populationAffected": "16.190.79",
         "valueGainPerson": "289.577.41 kr.",
-        "valueGainGroup": "4.688.486.408 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "4.688.486.408 kr."
     },
     {
         "id": "`Mental illness - Less than six months`59",
@@ -8764,8 +8278,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 12.37,
         "populationAffected": "14.357.87",
         "valueGainPerson": "324.902.33 kr.",
-        "valueGainGroup": "4.664.904.892 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "4.664.904.892 kr."
     },
     {
         "id": "`Personlig pleje`107",
@@ -8782,8 +8295,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 2.46,
         "populationAffected": "7.942.65",
         "valueGainPerson": "583.889.27 kr.",
-        "valueGainGroup": "4.637.628.485 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "4.637.628.485 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`170",
@@ -8800,8 +8312,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 50.58,
         "populationAffected": "39.713.25",
         "valueGainPerson": "116.197.09 kr.",
-        "valueGainGroup": "4.614.564.611 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "4.614.564.611 kr."
     },
     {
         "id": "`Mental illness - More than six months`67",
@@ -8818,8 +8329,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 15.14,
         "populationAffected": "16.190.79",
         "valueGainPerson": "284.099.17 kr.",
-        "valueGainGroup": "4.599.789.327 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "4.599.789.327 kr."
     },
     {
         "id": "`Mental illness - More than six months`4",
@@ -8836,8 +8346,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 9.02,
         "populationAffected": "21.384.06",
         "valueGainPerson": "214.898.92 kr.",
-        "valueGainGroup": "4.595.411.321 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "4.595.411.321 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`70",
@@ -8854,8 +8363,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 4.69,
         "populationAffected": "8.553.62",
         "valueGainPerson": "537.032.57 kr.",
-        "valueGainGroup": "4.593.574.574 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "4.593.574.574 kr."
     },
     {
         "id": "`Personlig pleje`77",
@@ -8872,8 +8380,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 8.18,
         "populationAffected": "6.720.70",
         "valueGainPerson": "679.983.78 kr.",
-        "valueGainGroup": "4.569.970.001 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "4.569.970.001 kr."
     },
     {
         "id": "`Mental illness - More than six months`175",
@@ -8890,8 +8397,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 6.94,
         "populationAffected": "25.049.90",
         "valueGainPerson": "182.343.82 kr.",
-        "valueGainGroup": "4.567.694.064 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "4.567.694.064 kr."
     },
     {
         "id": "`Mental illness - Less than six months`67",
@@ -8908,8 +8414,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 15.95,
         "populationAffected": "17.107.25",
         "valueGainPerson": "266.507.43 kr.",
-        "valueGainGroup": "4.559.208.676 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "4.559.208.676 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`128",
@@ -8926,8 +8431,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 48,
         "populationAffected": "29.326.71",
         "valueGainPerson": "154.573.14 kr.",
-        "valueGainGroup": "4.533.121.660 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "4.533.121.660 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`124",
@@ -8944,8 +8448,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 23.11,
         "populationAffected": "14.968.84",
         "valueGainPerson": "301.876.25 kr.",
-        "valueGainGroup": "4.518.737.758 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "4.518.737.758 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`109",
@@ -8962,8 +8465,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 4.95,
         "populationAffected": "6.720.70",
         "valueGainPerson": "670.934.13 kr.",
-        "valueGainGroup": "4.509.149.995 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "4.509.149.995 kr."
     },
     {
         "id": "`Personlig pleje`44",
@@ -8980,8 +8482,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 4.95,
         "populationAffected": "28.410.25",
         "valueGainPerson": "157.718.96 kr.",
-        "valueGainGroup": "4.480.835.232 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "4.480.835.232 kr."
     },
     {
         "id": "`Personlig pleje`143",
@@ -8998,8 +8499,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 2.62,
         "populationAffected": "13.746.90",
         "valueGainPerson": "324.262.76 kr.",
-        "valueGainGroup": "4.457.606.175 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "4.457.606.175 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`72",
@@ -9016,8 +8516,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 26.79,
         "populationAffected": "18.329.19",
         "valueGainPerson": "242.290.32 kr.",
-        "valueGainGroup": "4.440.986.225 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "4.440.986.225 kr."
     },
     {
         "id": "`Personlig pleje`38",
@@ -9034,8 +8533,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 3.83,
         "populationAffected": "22.300.52",
         "valueGainPerson": "195.987.77 kr.",
-        "valueGainGroup": "4.370.629.103 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "4.370.629.103 kr."
     },
     {
         "id": "Unemployed24",
@@ -9052,8 +8550,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 2.15,
         "populationAffected": "12.524.95",
         "valueGainPerson": "348.778.46 kr.",
-        "valueGainGroup": "4.368.432.467 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "4.368.432.467 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`27",
@@ -9070,8 +8567,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 5.78,
         "populationAffected": "4.887.79",
         "valueGainPerson": "892.855.01 kr.",
-        "valueGainGroup": "4.364.083.338 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "4.364.083.338 kr."
     },
     {
         "id": "`Mental illness - Less than six months`42",
@@ -9088,8 +8584,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 4.87,
         "populationAffected": "27.799.28",
         "valueGainPerson": "155.692.40 kr.",
-        "valueGainGroup": "4.328.136.271 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "4.328.136.271 kr."
     },
     {
         "id": "`Mental illness - More than six months`78",
@@ -9106,8 +8601,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 9.44,
         "populationAffected": "11.303.00",
         "valueGainPerson": "382.296.71 kr.",
-        "valueGainGroup": "4.321.100.796 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "4.321.100.796 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`169",
@@ -9124,8 +8618,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 40.56,
         "populationAffected": "62.319.26",
         "valueGainPerson": "69.044.94 kr.",
-        "valueGainGroup": "4.302.829.247 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "4.302.829.247 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`177",
@@ -9142,8 +8635,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 15.21,
         "populationAffected": "20.162.11",
         "valueGainPerson": "212.940.91 kr.",
-        "valueGainGroup": "4.293.338.818 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "4.293.338.818 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`109",
@@ -9160,8 +8652,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 11.29,
         "populationAffected": "15.274.33",
         "valueGainPerson": "280.401.33 kr.",
-        "valueGainGroup": "4.282.941.949 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "4.282.941.949 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`95",
@@ -9178,8 +8669,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 7.05,
         "populationAffected": "4.887.79",
         "valueGainPerson": "873.112.16 kr.",
-        "valueGainGroup": "4.267.584.553 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "4.267.584.553 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`151",
@@ -9196,8 +8686,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 17.83,
         "populationAffected": "22.606.01",
         "valueGainPerson": "188.199.57 kr.",
-        "valueGainGroup": "4.254.440.475 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "4.254.440.475 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`125",
@@ -9214,8 +8703,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 64.45,
         "populationAffected": "41.546.17",
         "valueGainPerson": "100.748.45 kr.",
-        "valueGainGroup": "4.185.712.316 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "4.185.712.316 kr."
     },
     {
         "id": "`Personlig pleje`78",
@@ -9232,8 +8720,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 3.59,
         "populationAffected": "8.248.14",
         "valueGainPerson": "505.279.67 kr.",
-        "valueGainGroup": "4.167.616.043 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "4.167.616.043 kr."
     },
     {
         "id": "`Mental illness - Less than six months`94",
@@ -9250,8 +8737,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 15.18,
         "populationAffected": "10.386.54",
         "valueGainPerson": "399.664.40 kr.",
-        "valueGainGroup": "4.151.131.576 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "4.151.131.576 kr."
     },
     {
         "id": "`Personlig pleje`14",
@@ -9268,8 +8754,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 1.45,
         "populationAffected": "7.942.65",
         "valueGainPerson": "522.113.97 kr.",
-        "valueGainGroup": "4.146.968.903 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "4.146.968.903 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`",
@@ -9286,8 +8771,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 4.84,
         "populationAffected": "8.553.62",
         "valueGainPerson": "484.125.73 kr.",
-        "valueGainGroup": "4.141.029.378 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "4.141.029.378 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`151",
@@ -9304,8 +8788,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 35.9,
         "populationAffected": "45.517.50",
         "valueGainPerson": "90.937.81 kr.",
-        "valueGainGroup": "4.139.261.809 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "4.139.261.809 kr."
     },
     {
         "id": "`Personlig pleje`115",
@@ -9322,8 +8805,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 3.25,
         "populationAffected": "13.441.41",
         "valueGainPerson": "307.029.67 kr.",
-        "valueGainGroup": "4.126.911.306 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "4.126.911.306 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`26",
@@ -9340,8 +8822,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 39.86,
         "populationAffected": "35.436.44",
         "valueGainPerson": "116.052.57 kr.",
-        "valueGainGroup": "4.112.490.030 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "4.112.490.030 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`63",
@@ -9358,8 +8839,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 47.39,
         "populationAffected": "36.047.41",
         "valueGainPerson": "114.058.40 kr.",
-        "valueGainGroup": "4.111.510.256 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "4.111.510.256 kr."
     },
     {
         "id": "`Mental illness - More than six months`49",
@@ -9376,8 +8856,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 8.01,
         "populationAffected": "44.601.04",
         "valueGainPerson": "91.930.17 kr.",
-        "valueGainGroup": "4.100.180.923 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "4.100.180.923 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`47",
@@ -9394,8 +8873,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 21.27,
         "populationAffected": "28.715.74",
         "valueGainPerson": "142.344.51 kr.",
-        "valueGainGroup": "4.087.527.586 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "4.087.527.586 kr."
     },
     {
         "id": "`Mental illness - Less than six months`123",
@@ -9412,8 +8890,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 21.36,
         "populationAffected": "13.441.41",
         "valueGainPerson": "303.742.19 kr.",
-        "valueGainGroup": "4.082.723.000 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "4.082.723.000 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`160",
@@ -9430,8 +8907,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 10.89,
         "populationAffected": "22.911.49",
         "valueGainPerson": "177.654.40 kr.",
-        "valueGainGroup": "4.070.327.375 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "4.070.327.375 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`47",
@@ -9448,8 +8924,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 2.95,
         "populationAffected": "3.971.33",
         "valueGainPerson": "1.024.012.30 kr.",
-        "valueGainGroup": "4.066.686.000 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "4.066.686.000 kr."
     },
     {
         "id": "Unemployed111",
@@ -9466,8 +8941,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 2.29,
         "populationAffected": "17.718.22",
         "valueGainPerson": "227.115.76 kr.",
-        "valueGainGroup": "4.024.087.214 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "4.024.087.214 kr."
     },
     {
         "id": "`Mental illness - Less than six months`",
@@ -9484,8 +8958,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 6.41,
         "populationAffected": "11.303.00",
         "valueGainPerson": "355.736.76 kr.",
-        "valueGainGroup": "4.020.893.637 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "4.020.893.637 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`86",
@@ -9502,8 +8975,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 7.02,
         "populationAffected": "4.887.79",
         "valueGainPerson": "818.121.83 kr.",
-        "valueGainGroup": "3.998.803.625 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "3.998.803.625 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`79",
@@ -9520,8 +8992,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 5.84,
         "populationAffected": "7.026.19",
         "valueGainPerson": "564.638.44 kr.",
-        "valueGainGroup": "3.967.257.524 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "3.967.257.524 kr."
     },
     {
         "id": "`Personlig pleje`156",
@@ -9538,8 +9009,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 3.94,
         "populationAffected": "9.470.08",
         "valueGainPerson": "414.991.98 kr.",
-        "valueGainGroup": "3.930.008.716 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "3.930.008.716 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`94",
@@ -9556,8 +9026,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 13.54,
         "populationAffected": "22.300.52",
         "valueGainPerson": "176.024.23 kr.",
-        "valueGainGroup": "3.925.431.694 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "3.925.431.694 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`19",
@@ -9574,8 +9043,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 40,
         "populationAffected": "32.381.58",
         "valueGainPerson": "120.077.13 kr.",
-        "valueGainGroup": "3.888.286.642 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "3.888.286.642 kr."
     },
     {
         "id": "`Mental illness - Less than six months`116",
@@ -9592,8 +9060,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 17.61,
         "populationAffected": "22.911.49",
         "valueGainPerson": "169.059.91 kr.",
-        "valueGainGroup": "3.873.414.860 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "3.873.414.860 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`56",
@@ -9610,8 +9077,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 51.78,
         "populationAffected": "40.018.74",
         "valueGainPerson": "96.600.01 kr.",
-        "valueGainGroup": "3.865.810.580 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "3.865.810.580 kr."
     },
     {
         "id": "`Mental illness - Less than six months`31",
@@ -9628,8 +9094,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 6.52,
         "populationAffected": "13.441.41",
         "valueGainPerson": "286.982.46 kr.",
-        "valueGainGroup": "3.857.448.551 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "3.857.448.551 kr."
     },
     {
         "id": "`Personlig pleje`144",
@@ -9646,8 +9111,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 2.32,
         "populationAffected": "6.109.73",
         "valueGainPerson": "622.631.11 kr.",
-        "valueGainGroup": "3.804.108.746 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "3.804.108.746 kr."
     },
     {
         "id": "`Mental illness - More than six months`116",
@@ -9664,8 +9128,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 16.55,
         "populationAffected": "21.689.55",
         "valueGainPerson": "174.505.10 kr.",
-        "valueGainGroup": "3.784.936.484 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "3.784.936.484 kr."
     },
     {
         "id": "`Mental illness - More than six months`158",
@@ -9682,8 +9145,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 5.35,
         "populationAffected": "11.608.49",
         "valueGainPerson": "325.787.45 kr.",
-        "valueGainGroup": "3.781.900.215 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "3.781.900.215 kr."
     },
     {
         "id": "`Personlig pleje`46",
@@ -9700,8 +9162,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 3.49,
         "populationAffected": "16.801.76",
         "valueGainPerson": "224.359.18 kr.",
-        "valueGainGroup": "3.769.629.310 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "3.769.629.310 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`168",
@@ -9718,8 +9179,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 11.13,
         "populationAffected": "17.107.25",
         "valueGainPerson": "218.192.39 kr.",
-        "valueGainGroup": "3.732.671.305 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "3.732.671.305 kr."
     },
     {
         "id": "`Personlig pleje`86",
@@ -9736,8 +9196,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 3.8,
         "populationAffected": "9.164.60",
         "valueGainPerson": "407.174.10 kr.",
-        "valueGainGroup": "3.731.586.541 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "3.731.586.541 kr."
     },
     {
         "id": "`Mental illness - Less than six months`52",
@@ -9754,8 +9213,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 5.79,
         "populationAffected": "27.188.30",
         "valueGainPerson": "136.896.33 kr.",
-        "valueGainGroup": "3.721.979.156 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "3.721.979.156 kr."
     },
     {
         "id": "`Personlig pleje`93",
@@ -9772,8 +9230,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 7.01,
         "populationAffected": "10.081.06",
         "valueGainPerson": "367.848.57 kr.",
-        "valueGainGroup": "3.708.302.263 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "3.708.302.263 kr."
     },
     {
         "id": "`Mental illness - Less than six months`29",
@@ -9790,8 +9247,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 6.57,
         "populationAffected": "18.329.19",
         "valueGainPerson": "201.049.26 kr.",
-        "valueGainGroup": "3.685.070.854 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "3.685.070.854 kr."
     },
     {
         "id": "`Personlig pleje`118",
@@ -9808,8 +9264,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 2.63,
         "populationAffected": "7.026.19",
         "valueGainPerson": "523.491.65 kr.",
-        "valueGainGroup": "3.678.152.337 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "3.678.152.337 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`139",
@@ -9826,8 +9281,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 14.29,
         "populationAffected": "9.164.60",
         "valueGainPerson": "401.046.38 kr.",
-        "valueGainGroup": "3.675.428.444 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "3.675.428.444 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`34",
@@ -9844,8 +9298,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 59.61,
         "populationAffected": "55.904.04",
         "valueGainPerson": "65.691.30 kr.",
-        "valueGainGroup": "3.672.409.421 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "3.672.409.421 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`117",
@@ -9862,8 +9315,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 12.99,
         "populationAffected": "17.107.25",
         "valueGainPerson": "213.692.01 kr.",
-        "valueGainGroup": "3.655.682.198 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "3.655.682.198 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`68",
@@ -9880,8 +9332,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 7.37,
         "populationAffected": "7.942.65",
         "valueGainPerson": "458.712.89 kr.",
-        "valueGainGroup": "3.643.396.208 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "3.643.396.208 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`46",
@@ -9898,8 +9349,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 3.09,
         "populationAffected": "6.720.70",
         "valueGainPerson": "541.406.84 kr.",
-        "valueGainGroup": "3.638.635.328 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "3.638.635.328 kr."
     },
     {
         "id": "`Mental illness - Less than six months`68",
@@ -9916,8 +9366,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 8.85,
         "populationAffected": "21.689.55",
         "valueGainPerson": "167.308.32 kr.",
-        "valueGainGroup": "3.628.841.479 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "3.628.841.479 kr."
     },
     {
         "id": "`Mental illness - More than six months`149",
@@ -9934,8 +9383,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 10.39,
         "populationAffected": "13.135.92",
         "valueGainPerson": "276.157.24 kr.",
-        "valueGainGroup": "3.627.580.045 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "3.627.580.045 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`158",
@@ -9952,8 +9400,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 15.43,
         "populationAffected": "58.653.42",
         "valueGainPerson": "61.426.39 kr.",
-        "valueGainGroup": "3.602.868.036 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "3.602.868.036 kr."
     },
     {
         "id": "`Personlig pleje`157",
@@ -9970,8 +9417,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 3.18,
         "populationAffected": "4.887.79",
         "valueGainPerson": "729.458.74 kr.",
-        "valueGainGroup": "3.565.437.484 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "3.565.437.484 kr."
     },
     {
         "id": "`Mental illness - More than six months`117",
@@ -9988,8 +9434,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 12.72,
         "populationAffected": "17.718.22",
         "valueGainPerson": "200.869.80 kr.",
-        "valueGainGroup": "3.559.055.396 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "3.559.055.396 kr."
     },
     {
         "id": "`Mental illness - Less than six months`77",
@@ -10006,8 +9451,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 10.27,
         "populationAffected": "26.271.84",
         "valueGainPerson": "133.714.87 kr.",
-        "valueGainGroup": "3.512.936.402 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "3.512.936.402 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`57",
@@ -10024,8 +9468,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 20.7,
         "populationAffected": "14.357.87",
         "valueGainPerson": "241.527.25 kr.",
-        "valueGainGroup": "3.467.816.498 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "3.467.816.498 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`79",
@@ -10042,8 +9485,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 17.6,
         "populationAffected": "21.078.57",
         "valueGainPerson": "163.988.31 kr.",
-        "valueGainGroup": "3.456.639.552 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "3.456.639.552 kr."
     },
     {
         "id": "`Mental illness - More than six months`52",
@@ -10060,8 +9502,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 6.15,
         "populationAffected": "29.021.22",
         "valueGainPerson": "118.795.81 kr.",
-        "valueGainGroup": "3.447.599.774 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "3.447.599.774 kr."
     },
     {
         "id": "`Mental illness - Less than six months`158",
@@ -10078,8 +9519,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 6.19,
         "populationAffected": "13.441.41",
         "valueGainPerson": "255.328.96 kr.",
-        "valueGainGroup": "3.431.980.983 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "3.431.980.983 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`81",
@@ -10096,8 +9536,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 43.84,
         "populationAffected": "27.188.30",
         "valueGainPerson": "124.718.93 kr.",
-        "valueGainGroup": "3.390.896.169 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "3.390.896.169 kr."
     },
     {
         "id": "`Mental illness - Less than six months`140",
@@ -10114,8 +9553,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 21.88,
         "populationAffected": "17.107.25",
         "valueGainPerson": "197.544.92 kr.",
-        "valueGainGroup": "3.379.449.850 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "3.379.449.850 kr."
     },
     {
         "id": "`Mental illness - More than six months`146",
@@ -10132,8 +9570,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 22.54,
         "populationAffected": "23.827.95",
         "valueGainPerson": "140.239.40 kr.",
-        "valueGainGroup": "3.341.617.654 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "3.341.617.654 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`33",
@@ -10150,8 +9587,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 34.2,
         "populationAffected": "32.076.09",
         "valueGainPerson": "103.379.99 kr.",
-        "valueGainGroup": "3.316.025.686 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "3.316.025.686 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`41",
@@ -10168,8 +9604,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 19.88,
         "populationAffected": "19.551.14",
         "valueGainPerson": "169.462.38 kr.",
-        "valueGainGroup": "3.313.182.663 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "3.313.182.663 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`78",
@@ -10186,8 +9621,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 13.86,
         "populationAffected": "35.741.93",
         "valueGainPerson": "92.455.47 kr.",
-        "valueGainGroup": "3.304.536.689 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "3.304.536.689 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`128",
@@ -10204,8 +9638,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 23,
         "populationAffected": "14.052.38",
         "valueGainPerson": "233.577.01 kr.",
-        "valueGainGroup": "3.282.313.385 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "3.282.313.385 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`129",
@@ -10222,8 +9655,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 33.33,
         "populationAffected": "27.188.30",
         "valueGainPerson": "120.656.13 kr.",
-        "valueGainGroup": "3.280.435.471 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "3.280.435.471 kr."
     },
     {
         "id": "Unemployed29",
@@ -10240,8 +9672,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 2.22,
         "populationAffected": "14.357.87",
         "valueGainPerson": "228.096.13 kr.",
-        "valueGainGroup": "3.274.974.208 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "3.274.974.208 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`87",
@@ -10258,8 +9689,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 18.06,
         "populationAffected": "12.524.95",
         "valueGainPerson": "261.347.13 kr.",
-        "valueGainGroup": "3.273.359.451 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "3.273.359.451 kr."
     },
     {
         "id": "`Personlig pleje`72",
@@ -10276,8 +9706,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 3.56,
         "populationAffected": "4.276.81",
         "valueGainPerson": "761.919.27 kr.",
-        "valueGainGroup": "3.258.585.382 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "3.258.585.382 kr."
     },
     {
         "id": "`Mental illness - Less than six months`132",
@@ -10294,8 +9723,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 11.81,
         "populationAffected": "8.553.62",
         "valueGainPerson": "374.059.96 kr.",
-        "valueGainGroup": "3.199.568.204 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "3.199.568.204 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`41",
@@ -10312,8 +9740,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 49.07,
         "populationAffected": "48.266.88",
         "valueGainPerson": "65.632.80 kr.",
-        "valueGainGroup": "3.167.890.109 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "3.167.890.109 kr."
     },
     {
         "id": "Unemployed103",
@@ -10330,8 +9757,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 1.36,
         "populationAffected": "5.193.27",
         "valueGainPerson": "599.212.52 kr.",
-        "valueGainGroup": "3.111.873.334 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "3.111.873.334 kr."
     },
     {
         "id": "`Mental illness - Less than six months`175",
@@ -10348,8 +9774,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 7.18,
         "populationAffected": "25.966.36",
         "valueGainPerson": "119.620.04 kr.",
-        "valueGainGroup": "3.106.096.680 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "3.106.096.680 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`57",
@@ -10366,8 +9791,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 47.14,
         "populationAffected": "32.687.06",
         "valueGainPerson": "94.880.23 kr.",
-        "valueGainGroup": "3.101.355.870 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "3.101.355.870 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`147",
@@ -10384,8 +9808,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 12.97,
         "populationAffected": "13.746.90",
         "valueGainPerson": "223.035.22 kr.",
-        "valueGainGroup": "3.066.041.864 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "3.066.041.864 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`143",
@@ -10402,8 +9825,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 39.27,
         "populationAffected": "36.352.90",
         "valueGainPerson": "84.286.39 kr.",
-        "valueGainGroup": "3.064.054.881 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "3.064.054.881 kr."
     },
     {
         "id": "`Mental illness - Less than six months`53",
@@ -10420,8 +9842,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 5.73,
         "populationAffected": "13.135.92",
         "valueGainPerson": "230.914.35 kr.",
-        "valueGainGroup": "3.033.272.952 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "3.033.272.952 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`118",
@@ -10438,8 +9859,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 3.94,
         "populationAffected": "5.498.76",
         "valueGainPerson": "550.735.76 kr.",
-        "valueGainGroup": "3.028.362.777 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "3.028.362.777 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`129",
@@ -10456,8 +9876,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 12.73,
         "populationAffected": "10.386.54",
         "valueGainPerson": "290.591.70 kr.",
-        "valueGainGroup": "3.018.243.206 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "3.018.243.206 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`81",
@@ -10474,8 +9893,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 16.75,
         "populationAffected": "10.386.54",
         "valueGainPerson": "289.722.39 kr.",
-        "valueGainGroup": "3.009.214.104 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "3.009.214.104 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`56",
@@ -10492,8 +9910,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 27.17,
         "populationAffected": "21.078.57",
         "valueGainPerson": "142.402.96 kr.",
-        "valueGainGroup": "3.001.651.263 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "3.001.651.263 kr."
     },
     {
         "id": "`Mental illness - Less than six months`149",
@@ -10510,8 +9927,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 12.08,
         "populationAffected": "15.274.33",
         "valueGainPerson": "195.641.37 kr.",
-        "valueGainGroup": "2.988.290.435 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "2.988.290.435 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`87",
@@ -10528,8 +9944,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 46.7,
         "populationAffected": "32.381.58",
         "valueGainPerson": "92.146.59 kr.",
-        "valueGainGroup": "2.983.851.924 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "2.983.851.924 kr."
     },
     {
         "id": "`Personlig pleje`8",
@@ -10546,8 +9961,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 1.08,
         "populationAffected": "3.360.35",
         "valueGainPerson": "880.032.74 kr.",
-        "valueGainGroup": "2.957.219.960 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "2.957.219.960 kr."
     },
     {
         "id": "Unemployed43",
@@ -10564,8 +9978,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 2.96,
         "populationAffected": "14.663.36",
         "valueGainPerson": "199.192.09 kr.",
-        "valueGainGroup": "2.920.824.384 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "2.920.824.384 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`63",
@@ -10582,8 +9995,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 21.69,
         "populationAffected": "16.496.27",
         "valueGainPerson": "177.013.04 kr.",
-        "valueGainGroup": "2.920.055.671 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "2.920.055.671 kr."
     },
     {
         "id": "Unemployed51",
@@ -10600,8 +10012,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 3.23,
         "populationAffected": "19.856.63",
         "valueGainPerson": "145.932.83 kr.",
-        "valueGainGroup": "2.897.733.725 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "2.897.733.725 kr."
     },
     {
         "id": "`Mental illness - Less than six months`167",
@@ -10618,8 +10029,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 9.58,
         "populationAffected": "14.663.36",
         "valueGainPerson": "195.537.69 kr.",
-        "valueGainGroup": "2.867.238.522 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "2.867.238.522 kr."
     },
     {
         "id": "Unemployed55",
@@ -10636,8 +10046,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 1.83,
         "populationAffected": "4.276.81",
         "valueGainPerson": "658.770.48 kr.",
-        "valueGainGroup": "2.817.437.421 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "2.817.437.421 kr."
     },
     {
         "id": "`Mental illness - Less than six months`25",
@@ -10654,8 +10063,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 7.76,
         "populationAffected": "10.386.54",
         "valueGainPerson": "269.195.16 kr.",
-        "valueGainGroup": "2.796.007.121 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "2.796.007.121 kr."
     },
     {
         "id": "`Mental illness - More than six months`37",
@@ -10672,8 +10080,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 4.16,
         "populationAffected": "4.887.79",
         "valueGainPerson": "571.310.52 kr.",
-        "valueGainGroup": "2.792.442.992 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "2.792.442.992 kr."
     },
     {
         "id": "`Mental illness - Less than six months`45",
@@ -10690,8 +10097,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 6.67,
         "populationAffected": "14.357.87",
         "valueGainPerson": "194.060.73 kr.",
-        "valueGainGroup": "2.786.298.388 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "2.786.298.388 kr."
     },
     {
         "id": "`Mental illness - More than six months`141",
@@ -10708,8 +10114,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 11.22,
         "populationAffected": "10.386.54",
         "valueGainPerson": "264.681.97 kr.",
-        "valueGainGroup": "2.749.130.713 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "2.749.130.713 kr."
     },
     {
         "id": "Unemployed30",
@@ -10726,8 +10131,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 3.34,
         "populationAffected": "7.637.16",
         "valueGainPerson": "358.844.98 kr.",
-        "valueGainGroup": "2.740.557.993 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "2.740.557.993 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`55",
@@ -10744,8 +10148,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 20.16,
         "populationAffected": "15.579.81",
         "valueGainPerson": "175.184.27 kr.",
-        "valueGainGroup": "2.729.338.414 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "2.729.338.414 kr."
     },
     {
         "id": "`Mental illness - Less than six months`51",
@@ -10762,8 +10165,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 5.9,
         "populationAffected": "15.579.81",
         "valueGainPerson": "174.916.12 kr.",
-        "valueGainGroup": "2.725.160.826 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "2.725.160.826 kr."
     },
     {
         "id": "`Personlig pleje`15",
@@ -10780,8 +10182,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 14.34,
         "populationAffected": "11.608.49",
         "valueGainPerson": "229.533.94 kr.",
-        "valueGainGroup": "2.664.542.353 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "2.664.542.353 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`127",
@@ -10798,8 +10199,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 10,
         "populationAffected": "6.109.73",
         "valueGainPerson": "435.287.26 kr.",
-        "valueGainGroup": "2.659.488.205 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "2.659.488.205 kr."
     },
     {
         "id": "Unemployed19",
@@ -10816,8 +10216,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 4.1,
         "populationAffected": "4.887.79",
         "valueGainPerson": "541.893.07 kr.",
-        "valueGainGroup": "2.648.656.828 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "2.648.656.828 kr."
     },
     {
         "id": "`Mental illness - More than six months`61",
@@ -10834,8 +10233,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 7.29,
         "populationAffected": "5.498.76",
         "valueGainPerson": "480.351.84 kr.",
-        "valueGainGroup": "2.641.338.577 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "2.641.338.577 kr."
     },
     {
         "id": "Unemployed85",
@@ -10852,8 +10250,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 3.43,
         "populationAffected": "7.331.68",
         "valueGainPerson": "360.166.62 kr.",
-        "valueGainGroup": "2.640.625.521 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "2.640.625.521 kr."
     },
     {
         "id": "Unemployed31",
@@ -10870,8 +10267,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 2.03,
         "populationAffected": "10.692.03",
         "valueGainPerson": "244.017.25 kr.",
-        "valueGainGroup": "2.609.039.672 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "2.609.039.672 kr."
     },
     {
         "id": "`Mental illness - More than six months`29",
@@ -10888,8 +10284,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 5.96,
         "populationAffected": "16.496.27",
         "valueGainPerson": "153.755.51 kr.",
-        "valueGainGroup": "2.536.393.059 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "2.536.393.059 kr."
     },
     {
         "id": "`Mental illness - Less than six months`37",
@@ -10906,8 +10301,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 5.43,
         "populationAffected": "6.415.22",
         "valueGainPerson": "392.869.29 kr.",
-        "valueGainGroup": "2.520.342.066 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "2.520.342.066 kr."
     },
     {
         "id": "`Personlig pleje`61",
@@ -10924,8 +10318,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 9.55,
         "populationAffected": "10.386.54",
         "valueGainPerson": "238.967.46 kr.",
-        "valueGainGroup": "2.482.045.825 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "2.482.045.825 kr."
     },
     {
         "id": "`Personlig pleje`135",
@@ -10942,8 +10335,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 3.13,
         "populationAffected": "9.775.57",
         "valueGainPerson": "253.443.06 kr.",
-        "valueGainGroup": "2.477.550.418 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "2.477.550.418 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`104",
@@ -10960,8 +10352,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 6.1,
         "populationAffected": "4.582.30",
         "valueGainPerson": "539.778.50 kr.",
-        "valueGainGroup": "2.473.426.187 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "2.473.426.187 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`71",
@@ -10978,8 +10369,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 6.19,
         "populationAffected": "4.276.81",
         "valueGainPerson": "577.350.92 kr.",
-        "valueGainGroup": "2.469.221.305 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "2.469.221.305 kr."
     },
     {
         "id": "`Personlig pleje`95",
@@ -10996,8 +10386,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 3.39,
         "populationAffected": "7.942.65",
         "valueGainPerson": "310.149.76 kr.",
-        "valueGainGroup": "2.463.411.167 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "2.463.411.167 kr."
     },
     {
         "id": "`Personlig pleje`102",
@@ -11014,8 +10403,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 2.25,
         "populationAffected": "3.054.87",
         "valueGainPerson": "804.509.87 kr.",
-        "valueGainGroup": "2.457.669.551 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "2.457.669.551 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`62",
@@ -11032,8 +10420,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 3.64,
         "populationAffected": "2.749.38",
         "valueGainPerson": "884.603.25 kr.",
-        "valueGainGroup": "2.432.109.657 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "2.432.109.657 kr."
     },
     {
         "id": "`Mental illness - More than six months`51",
@@ -11050,8 +10437,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 6.12,
         "populationAffected": "16.190.79",
         "valueGainPerson": "149.636.96 kr.",
-        "valueGainGroup": "2.422.740.209 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "2.422.740.209 kr."
     },
     {
         "id": "`Personlig pleje`53",
@@ -11068,8 +10454,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 6.44,
         "populationAffected": "7.637.16",
         "valueGainPerson": "317.143.41 kr.",
-        "valueGainGroup": "2.422.076.238 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "2.422.076.238 kr."
     },
     {
         "id": "`Mental illness - Less than six months`146",
@@ -11086,8 +10471,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 15.65,
         "populationAffected": "16.496.27",
         "valueGainPerson": "145.315.02 kr.",
-        "valueGainGroup": "2.397.156.386 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "2.397.156.386 kr."
     },
     {
         "id": "Unemployed73",
@@ -11104,8 +10488,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 8.02,
         "populationAffected": "5.193.27",
         "valueGainPerson": "460.961.27 kr.",
-        "valueGainGroup": "2.393.897.072 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "2.393.897.072 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`169",
@@ -11122,8 +10505,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 17.58,
         "populationAffected": "13.746.90",
         "valueGainPerson": "174.080.78 kr.",
-        "valueGainGroup": "2.393.070.335 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "2.393.070.335 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`56",
@@ -11140,8 +10522,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 16.74,
         "populationAffected": "11.608.49",
         "valueGainPerson": "205.724.40 kr.",
-        "valueGainGroup": "2.388.149.527 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "2.388.149.527 kr."
     },
     {
         "id": "`Mental illness - More than six months`167",
@@ -11158,8 +10539,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 8.8,
         "populationAffected": "13.441.41",
         "valueGainPerson": "177.485.34 kr.",
-        "valueGainGroup": "2.385.653.006 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "2.385.653.006 kr."
     },
     {
         "id": "`Mental illness - More than six months`",
@@ -11176,8 +10556,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 8,
         "populationAffected": "14.052.38",
         "valueGainPerson": "168.471.23 kr.",
-        "valueGainGroup": "2.367.422.038 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "2.367.422.038 kr."
     },
     {
         "id": "`Personlig pleje`127",
@@ -11194,8 +10573,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 1.86,
         "populationAffected": "3.971.33",
         "valueGainPerson": "586.446.21 kr.",
-        "valueGainGroup": "2.328.968.684 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "2.328.968.684 kr."
     },
     {
         "id": "Unemployed121",
@@ -11212,8 +10590,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 1.93,
         "populationAffected": "7.026.19",
         "valueGainPerson": "329.404.84 kr.",
-        "valueGainGroup": "2.314.461.290 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "2.314.461.290 kr."
     },
     {
         "id": "`Mental illness - More than six months`38",
@@ -11230,8 +10607,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 5.02,
         "populationAffected": "12.830.44",
         "valueGainPerson": "179.447.32 kr.",
-        "valueGainGroup": "2.302.387.271 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "2.302.387.271 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`128",
@@ -11248,8 +10624,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 6.77,
         "populationAffected": "5.498.76",
         "valueGainPerson": "411.293.77 kr.",
-        "valueGainGroup": "2.261.604.987 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "2.261.604.987 kr."
     },
     {
         "id": "`Mental illness - More than six months`24",
@@ -11266,8 +10641,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 4.14,
         "populationAffected": "10.997.52",
         "valueGainPerson": "205.146.14 kr.",
-        "valueGainGroup": "2.256.098.054 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "2.256.098.054 kr."
     },
     {
         "id": "`EQ-5D: Dailty activities`143",
@@ -11284,8 +10658,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 17.82,
         "populationAffected": "16.496.27",
         "valueGainPerson": "134.811.06 kr.",
-        "valueGainGroup": "2.223.880.204 kr.",
-        "Begrænset i at gennemføre daglige gøremål (1 point)": "Begrænset i at gennemføre daglige gøremål "
+        "valueGainGroup": "2.223.880.204 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`39",
@@ -11302,8 +10675,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 2.37,
         "populationAffected": "6.109.73",
         "valueGainPerson": "363.215.57 kr.",
-        "valueGainGroup": "2.219.149.550 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "2.219.149.550 kr."
     },
     {
         "id": "`Mental illness - Less than six months`69",
@@ -11320,8 +10692,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 12.2,
         "populationAffected": "21.995.03",
         "valueGainPerson": "100.590.21 kr.",
-        "valueGainGroup": "2.212.484.958 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "2.212.484.958 kr."
     },
     {
         "id": "`Personlig pleje`148",
@@ -11338,8 +10709,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 3.65,
         "populationAffected": "7.942.65",
         "valueGainPerson": "276.124.43 kr.",
-        "valueGainGroup": "2.193.159.926 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "2.193.159.926 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`80",
@@ -11356,8 +10726,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 10.84,
         "populationAffected": "6.720.70",
         "valueGainPerson": "322.162.41 kr.",
-        "valueGainGroup": "2.165.158.298 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "2.165.158.298 kr."
     },
     {
         "id": "`Mental illness - More than six months`159",
@@ -11374,8 +10743,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 5.57,
         "populationAffected": "11.608.49",
         "valueGainPerson": "184.701.76 kr.",
-        "valueGainGroup": "2.144.108.408 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "2.144.108.408 kr."
     },
     {
         "id": "`Mental illness - More than six months`31",
@@ -11392,8 +10760,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 5.66,
         "populationAffected": "11.608.49",
         "valueGainPerson": "184.422.80 kr.",
-        "valueGainGroup": "2.140.870.150 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "2.140.870.150 kr."
     },
     {
         "id": "`Mental illness - More than six months`70",
@@ -11410,8 +10777,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 11.66,
         "populationAffected": "7.942.65",
         "valueGainPerson": "267.905.34 kr.",
-        "valueGainGroup": "2.127.878.560 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "2.127.878.560 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`140",
@@ -11428,8 +10794,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 43.4,
         "populationAffected": "28.104.76",
         "valueGainPerson": "75.669.43 kr.",
-        "valueGainGroup": "2.126.671.495 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "2.126.671.495 kr."
     },
     {
         "id": "`Mental illness - More than six months`83",
@@ -11446,8 +10811,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 10.61,
         "populationAffected": "8.553.62",
         "valueGainPerson": "248.531.51 kr.",
-        "valueGainGroup": "2.125.845.037 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "2.125.845.037 kr."
     },
     {
         "id": "`Personlig pleje`147",
@@ -11464,8 +10828,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 3.62,
         "populationAffected": "13.746.90",
         "valueGainPerson": "154.438.75 kr.",
-        "valueGainGroup": "2.123.053.405 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "2.123.053.405 kr."
     },
     {
         "id": "`Mental illness - Less than six months`78",
@@ -11482,8 +10845,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 8.67,
         "populationAffected": "10.386.54",
         "valueGainPerson": "201.623.44 kr.",
-        "valueGainGroup": "2.094.170.616 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "2.094.170.616 kr."
     },
     {
         "id": "Unemployed95",
@@ -11500,8 +10862,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 7.71,
         "populationAffected": "9.775.57",
         "valueGainPerson": "213.289.98 kr.",
-        "valueGainGroup": "2.085.031.116 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "2.085.031.116 kr."
     },
     {
         "id": "`Personlig pleje`152",
@@ -11518,8 +10879,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 1.73,
         "populationAffected": "6.415.22",
         "valueGainPerson": "324.717.29 kr.",
-        "valueGainGroup": "2.083.132.164 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "2.083.132.164 kr."
     },
     {
         "id": "Unemployed54",
@@ -11536,8 +10896,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 3.76,
         "populationAffected": "17.718.22",
         "valueGainPerson": "117.173.36 kr.",
-        "valueGainGroup": "2.076.103.386 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "2.076.103.386 kr."
     },
     {
         "id": "`Personlig pleje`29",
@@ -11554,8 +10913,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 10.71,
         "populationAffected": "10.081.06",
         "valueGainPerson": "203.763.45 kr.",
-        "valueGainGroup": "2.054.150.849 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "2.054.150.849 kr."
     },
     {
         "id": "`Mental illness - Less than six months`24",
@@ -11572,8 +10930,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 3.91,
         "populationAffected": "10.386.54",
         "valueGainPerson": "197.290.81 kr.",
-        "valueGainGroup": "2.049.169.545 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "2.049.169.545 kr."
     },
     {
         "id": "`Personlig pleje`49",
@@ -11590,8 +10947,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 3.96,
         "populationAffected": "2.749.38",
         "valueGainPerson": "733.819.95 kr.",
-        "valueGainGroup": "2.017.549.207 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "2.017.549.207 kr."
     },
     {
         "id": "`Mental illness - More than six months`32",
@@ -11608,8 +10964,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 5,
         "populationAffected": "9.775.57",
         "valueGainPerson": "206.144.25 kr.",
-        "valueGainGroup": "2.015.177.528 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "2.015.177.528 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`168",
@@ -11626,8 +10981,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 3.39,
         "populationAffected": "5.193.27",
         "valueGainPerson": "386.874.58 kr.",
-        "valueGainGroup": "2.009.144.751 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "2.009.144.751 kr."
     },
     {
         "id": "Unemployed5",
@@ -11644,8 +10998,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 1.28,
         "populationAffected": "3.054.87",
         "valueGainPerson": "653.131.57 kr.",
-        "valueGainGroup": "1.995.229.199 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "1.995.229.199 kr."
     },
     {
         "id": "`Personlig pleje`71",
@@ -11662,8 +11015,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 2.97,
         "populationAffected": "7.637.16",
         "valueGainPerson": "259.189.15 kr.",
-        "valueGainGroup": "1.979.470.040 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "1.979.470.040 kr."
     },
     {
         "id": "`Personlig pleje`149",
@@ -11680,8 +11032,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 4.06,
         "populationAffected": "8.553.62",
         "valueGainPerson": "230.959.62 kr.",
-        "valueGainGroup": "1.975.541.673 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "1.975.541.673 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`126",
@@ -11698,8 +11049,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 10.11,
         "populationAffected": "19.856.63",
         "valueGainPerson": "96.955.20 kr.",
-        "valueGainGroup": "1.925.203.240 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "1.925.203.240 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`21",
@@ -11716,8 +11066,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 3.7,
         "populationAffected": "4.276.81",
         "valueGainPerson": "450.067.05 kr.",
-        "valueGainGroup": "1.924.852.122 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "1.924.852.122 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`45",
@@ -11734,8 +11083,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 3.41,
         "populationAffected": "5.193.27",
         "valueGainPerson": "370.619.94 kr.",
-        "valueGainGroup": "1.924.729.997 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "1.924.729.997 kr."
     },
     {
         "id": "`Mental illness - Less than six months`141",
@@ -11752,8 +11100,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 13.2,
         "populationAffected": "12.219.46",
         "valueGainPerson": "155.448.33 kr.",
-        "valueGainGroup": "1.899.495.100 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "1.899.495.100 kr."
     },
     {
         "id": "`Personlig pleje`34",
@@ -11770,8 +11117,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 3.41,
         "populationAffected": "8.859.11",
         "valueGainPerson": "214.252.54 kr.",
-        "valueGainGroup": "1.898.086.888 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "1.898.086.888 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`62",
@@ -11788,8 +11134,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 13.65,
         "populationAffected": "10.386.54",
         "valueGainPerson": "182.408.10 kr.",
-        "valueGainGroup": "1.894.589.569 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "1.894.589.569 kr."
     },
     {
         "id": "`Mental illness - Less than six months`108",
@@ -11806,8 +11151,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 7,
         "populationAffected": "9.470.08",
         "valueGainPerson": "199.177.35 kr.",
-        "valueGainGroup": "1.886.226.172 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "1.886.226.172 kr."
     },
     {
         "id": "`Personlig pleje`40",
@@ -11824,8 +11168,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 3.59,
         "populationAffected": "7.942.65",
         "valueGainPerson": "236.812.78 kr.",
-        "valueGainGroup": "1.880.921.191 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "1.880.921.191 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`103",
@@ -11842,8 +11185,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 12.41,
         "populationAffected": "15.579.81",
         "valueGainPerson": "120.657.53 kr.",
-        "valueGainGroup": "1.879.821.920 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "1.879.821.920 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`34",
@@ -11860,8 +11202,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 2.66,
         "populationAffected": "2.443.89",
         "valueGainPerson": "767.937.62 kr.",
-        "valueGainGroup": "1.876.757.005 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "1.876.757.005 kr."
     },
     {
         "id": "`Mental illness - Less than six months`83",
@@ -11878,8 +11219,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 6.87,
         "populationAffected": "5.498.76",
         "valueGainPerson": "340.781.90 kr.",
-        "valueGainGroup": "1.873.877.228 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "1.873.877.228 kr."
     },
     {
         "id": "`Mental illness - More than six months`53",
@@ -11896,8 +11236,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 6.89,
         "populationAffected": "15.885.30",
         "valueGainPerson": "117.485.40 kr.",
-        "valueGainGroup": "1.866.291.003 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "1.866.291.003 kr."
     },
     {
         "id": "`Mental illness - More than six months`85",
@@ -11914,8 +11253,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 8.85,
         "populationAffected": "6.109.73",
         "valueGainPerson": "303.103.14 kr.",
-        "valueGainGroup": "1.851.878.738 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "1.851.878.738 kr."
     },
     {
         "id": "Unemployed27",
@@ -11932,8 +11270,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 1.68,
         "populationAffected": "3.054.87",
         "valueGainPerson": "602.831.42 kr.",
-        "valueGainGroup": "1.841.568.998 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "1.841.568.998 kr."
     },
     {
         "id": "Unemployed39",
@@ -11950,8 +11287,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 2.19,
         "populationAffected": "1.527.43",
         "valueGainPerson": "1.203.090.06 kr.",
-        "valueGainGroup": "1.837.639.243 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "1.837.639.243 kr."
     },
     {
         "id": "`Mental illness - Less than six months`125",
@@ -11968,8 +11304,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 13.24,
         "populationAffected": "25.966.36",
         "valueGainPerson": "69.952.24 kr.",
-        "valueGainGroup": "1.816.405.011 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "1.816.405.011 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`40",
@@ -11986,8 +11321,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 1.87,
         "populationAffected": "1.832.92",
         "valueGainPerson": "983.692.24 kr.",
-        "valueGainGroup": "1.803.028.584 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "1.803.028.584 kr."
     },
     {
         "id": "Unemployed74",
@@ -12004,8 +11338,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 3.42,
         "populationAffected": "9.164.60",
         "valueGainPerson": "194.137.78 kr.",
-        "valueGainGroup": "1.779.194.520 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "1.779.194.520 kr."
     },
     {
         "id": "`Personlig pleje`117",
@@ -12022,8 +11355,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 8.53,
         "populationAffected": "5.498.76",
         "valueGainPerson": "322.965.13 kr.",
-        "valueGainGroup": "1.775.907.130 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "1.775.907.130 kr."
     },
     {
         "id": "Unemployed94",
@@ -12040,8 +11372,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 7.47,
         "populationAffected": "11.303.00",
         "valueGainPerson": "156.806.23 kr.",
-        "valueGainGroup": "1.772.381.276 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "1.772.381.276 kr."
     },
     {
         "id": "`Personlig pleje`64",
@@ -12058,8 +11389,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 2.68,
         "populationAffected": "1.832.92",
         "valueGainPerson": "964.897.75 kr.",
-        "valueGainGroup": "1.768.579.784 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "1.768.579.784 kr."
     },
     {
         "id": "Unemployed120",
@@ -12076,8 +11406,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 2.53,
         "populationAffected": "11.608.49",
         "valueGainPerson": "152.072.92 kr.",
-        "valueGainGroup": "1.765.336.907 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "1.765.336.907 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`20",
@@ -12094,8 +11423,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 6.83,
         "populationAffected": "5.193.27",
         "valueGainPerson": "336.564.66 kr.",
-        "valueGainGroup": "1.747.871.710 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "1.747.871.710 kr."
     },
     {
         "id": "`Personlig pleje`88",
@@ -12112,8 +11440,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 4.39,
         "populationAffected": "3.054.87",
         "valueGainPerson": "565.986.92 kr.",
-        "valueGainGroup": "1.729.014.001 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "1.729.014.001 kr."
     },
     {
         "id": "`Mental illness - Less than six months`39",
@@ -12130,8 +11457,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 3.13,
         "populationAffected": "3.054.87",
         "valueGainPerson": "562.531.30 kr.",
-        "valueGainGroup": "1.718.457.545 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "1.718.457.545 kr."
     },
     {
         "id": "`Mental illness - Less than six months`46",
@@ -12148,8 +11474,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 7.66,
         "populationAffected": "10.081.06",
         "valueGainPerson": "169.602.71 kr.",
-        "valueGainGroup": "1.709.774.557 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "1.709.774.557 kr."
     },
     {
         "id": "`Personlig pleje`4",
@@ -12166,8 +11491,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 1.93,
         "populationAffected": "4.582.30",
         "valueGainPerson": "373.033.94 kr.",
-        "valueGainGroup": "1.709.352.828 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "1.709.352.828 kr."
     },
     {
         "id": "Unemployed53",
@@ -12184,8 +11508,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 5.51,
         "populationAffected": "7.942.65",
         "valueGainPerson": "214.763.54 kr.",
-        "valueGainGroup": "1.705.791.810 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "1.705.791.810 kr."
     },
     {
         "id": "`Personlig pleje`96",
@@ -12202,8 +11525,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 2.93,
         "populationAffected": "3.665.84",
         "valueGainPerson": "462.409.10 kr.",
-        "valueGainGroup": "1.695.117.217 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "1.695.117.217 kr."
     },
     {
         "id": "Unemployed122",
@@ -12220,8 +11542,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 2.52,
         "populationAffected": "3.360.35",
         "valueGainPerson": "493.497.68 kr.",
-        "valueGainGroup": "1.658.326.008 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "1.658.326.008 kr."
     },
     {
         "id": "`Personlig pleje`87",
@@ -12238,8 +11559,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 3.53,
         "populationAffected": "5.804.24",
         "valueGainPerson": "285.553.56 kr.",
-        "valueGainGroup": "1.657.422.725 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "1.657.422.725 kr."
     },
     {
         "id": "Unemployed18",
@@ -12256,8 +11576,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 1.33,
         "populationAffected": "7.331.68",
         "valueGainPerson": "223.160.49 kr.",
-        "valueGainGroup": "1.636.140.728 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "1.636.140.728 kr."
     },
     {
         "id": "Unemployed32",
@@ -12274,8 +11593,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 1.65,
         "populationAffected": "4.276.81",
         "valueGainPerson": "377.519.75 kr.",
-        "valueGainGroup": "1.614.580.951 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "1.614.580.951 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`80",
@@ -12292,8 +11610,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 2.96,
         "populationAffected": "1.832.92",
         "valueGainPerson": "857.917.11 kr.",
-        "valueGainGroup": "1.572.492.899 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "1.572.492.899 kr."
     },
     {
         "id": "`Mental illness - Less than six months`32",
@@ -12310,8 +11627,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 4.53,
         "populationAffected": "8.859.11",
         "valueGainPerson": "176.584.19 kr.",
-        "valueGainGroup": "1.564.378.826 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "1.564.378.826 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`95",
@@ -12328,8 +11644,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 14.91,
         "populationAffected": "10.386.54",
         "valueGainPerson": "150.288.03 kr.",
-        "valueGainGroup": "1.560.973.097 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "1.560.973.097 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`70",
@@ -12346,8 +11661,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 13.95,
         "populationAffected": "25.355.38",
         "valueGainPerson": "61.015.07 kr.",
-        "valueGainGroup": "1.547.060.521 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "1.547.060.521 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`104",
@@ -12364,8 +11678,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 8.13,
         "populationAffected": "6.109.73",
         "valueGainPerson": "249.414.94 kr.",
-        "valueGainGroup": "1.523.858.276 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "1.523.858.276 kr."
     },
     {
         "id": "Unemployed87",
@@ -12382,8 +11695,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 10.12,
         "populationAffected": "7.942.65",
         "valueGainPerson": "187.024.62 kr.",
-        "valueGainGroup": "1.485.471.261 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "1.485.471.261 kr."
     },
     {
         "id": "Unemployed105",
@@ -12400,8 +11712,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 1.16,
         "populationAffected": "2.443.89",
         "valueGainPerson": "603.614.73 kr.",
-        "valueGainGroup": "1.475.169.524 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "1.475.169.524 kr."
     },
     {
         "id": "`EQ-5D: Pain/discomfort`105",
@@ -12418,8 +11729,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 37.4,
         "populationAffected": "28.104.76",
         "valueGainPerson": "51.793.22 kr.",
-        "valueGainGroup": "1.455.636.270 kr.",
-        "Kronisk smerte og ubehag (1 point)": "Kronisk smerte og ubehag "
+        "valueGainGroup": "1.455.636.270 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`149",
@@ -12436,8 +11746,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 10.53,
         "populationAffected": "15.885.30",
         "valueGainPerson": "91.362.38 kr.",
-        "valueGainGroup": "1.451.318.871 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "1.451.318.871 kr."
     },
     {
         "id": "`Mental illness - More than six months`26",
@@ -12454,8 +11763,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 6.04,
         "populationAffected": "4.887.79",
         "valueGainPerson": "293.141.26 kr.",
-        "valueGainGroup": "1.432.811.475 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "1.432.811.475 kr."
     },
     {
         "id": "`Personlig pleje`9",
@@ -12472,8 +11780,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 1.12,
         "populationAffected": "4.582.30",
         "valueGainPerson": "311.406.38 kr.",
-        "valueGainGroup": "1.426.956.983 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "1.426.956.983 kr."
     },
     {
         "id": "Unemployed26",
@@ -12490,8 +11797,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 2.46,
         "populationAffected": "6.109.73",
         "valueGainPerson": "232.735.06 kr.",
-        "valueGainGroup": "1.421.948.663 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "1.421.948.663 kr."
     },
     {
         "id": "`Personlig pleje`97",
@@ -12508,8 +11814,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 3.66,
         "populationAffected": "2.749.38",
         "valueGainPerson": "517.185.71 kr.",
-        "valueGainGroup": "1.421.939.583 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "1.421.939.583 kr."
     },
     {
         "id": "`Personlig pleje`63",
@@ -12526,8 +11831,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 2.69,
         "populationAffected": "4.887.79",
         "valueGainPerson": "290.496.96 kr.",
-        "valueGainGroup": "1.419.886.676 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "1.419.886.676 kr."
     },
     {
         "id": "`Mental illness - Less than six months`61",
@@ -12544,8 +11848,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 5.67,
         "populationAffected": "4.276.81",
         "valueGainPerson": "330.468.44 kr.",
-        "valueGainGroup": "1.413.351.356 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "1.413.351.356 kr."
     },
     {
         "id": "`Personlig pleje`110",
@@ -12562,8 +11865,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 3.02,
         "populationAffected": "3.971.33",
         "valueGainPerson": "353.312.07 kr.",
-        "valueGainGroup": "1.403.117.190 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "1.403.117.190 kr."
     },
     {
         "id": "`Mental illness - More than six months`103",
@@ -12580,8 +11882,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 6.56,
         "populationAffected": "4.887.79",
         "valueGainPerson": "283.420.59 kr.",
-        "valueGainGroup": "1.385.298.897 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "1.385.298.897 kr."
     },
     {
         "id": "`Personlig pleje`47",
@@ -12598,8 +11899,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 4.58,
         "populationAffected": "10.692.03",
         "valueGainPerson": "128.124.20 kr.",
-        "valueGainGroup": "1.369.907.793 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "1.369.907.793 kr."
     },
     {
         "id": "Unemployed88",
@@ -12616,8 +11916,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 8.91,
         "populationAffected": "8.248.14",
         "valueGainPerson": "163.906.89 kr.",
-        "valueGainGroup": "1.351.926.549 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "1.351.926.549 kr."
     },
     {
         "id": "`Personlig pleje`41",
@@ -12634,8 +11933,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 5.66,
         "populationAffected": "7.637.16",
         "valueGainPerson": "176.910.50 kr.",
-        "valueGainGroup": "1.351.094.521 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "1.351.094.521 kr."
     },
     {
         "id": "`Mental illness - More than six months`45",
@@ -12652,8 +11950,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 7.48,
         "populationAffected": "16.190.79",
         "valueGainPerson": "80.833.72 kr.",
-        "valueGainGroup": "1.308.761.604 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "1.308.761.604 kr."
     },
     {
         "id": "`Mental illness - More than six months`19",
@@ -12670,8 +11967,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 3.39,
         "populationAffected": "2.443.89",
         "valueGainPerson": "533.090.05 kr.",
-        "valueGainGroup": "1.302.814.787 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "1.302.814.787 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`40",
@@ -12688,8 +11984,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 19.57,
         "populationAffected": "19.245.65",
         "valueGainPerson": "66.932.21 kr.",
-        "valueGainGroup": "1.288.154.062 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "1.288.154.062 kr."
     },
     {
         "id": "`Personlig pleje`73",
@@ -12706,8 +12001,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 3.94,
         "populationAffected": "2.443.89",
         "valueGainPerson": "521.217.46 kr.",
-        "valueGainGroup": "1.273.799.452 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "1.273.799.452 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`55",
@@ -12724,8 +12018,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 2.78,
         "populationAffected": "2.138.41",
         "valueGainPerson": "593.827.20 kr.",
-        "valueGainGroup": "1.269.843.613 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "1.269.843.613 kr."
     },
     {
         "id": "`Personlig pleje`45",
@@ -12742,8 +12035,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 6.21,
         "populationAffected": "17.412.73",
         "valueGainPerson": "72.801.24 kr.",
-        "valueGainGroup": "1.267.668.647 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "1.267.668.647 kr."
     },
     {
         "id": "Unemployed61",
@@ -12760,8 +12052,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 2.7,
         "populationAffected": "3.665.84",
         "valueGainPerson": "344.889.40 kr.",
-        "valueGainGroup": "1.264.308.932 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "1.264.308.932 kr."
     },
     {
         "id": "Unemployed47",
@@ -12778,8 +12069,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 1.67,
         "populationAffected": "2.749.38",
         "valueGainPerson": "451.494.21 kr.",
-        "valueGainGroup": "1.241.328.745 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "1.241.328.745 kr."
     },
     {
         "id": "`Mental illness - More than six months`39",
@@ -12796,8 +12086,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 4.69,
         "populationAffected": "4.582.30",
         "valueGainPerson": "269.712.23 kr.",
-        "valueGainGroup": "1.235.901.958 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "1.235.901.958 kr."
     },
     {
         "id": "`Personlig pleje`166",
@@ -12814,8 +12103,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 4.14,
         "populationAffected": "5.498.76",
         "valueGainPerson": "221.883.98 kr.",
-        "valueGainGroup": "1.220.086.327 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "1.220.086.327 kr."
     },
     {
         "id": "`Mental illness - More than six months`138",
@@ -12832,8 +12120,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 25.59,
         "populationAffected": "16.496.27",
         "valueGainPerson": "73.608.14 kr.",
-        "valueGainGroup": "1.214.260.153 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "1.214.260.153 kr."
     },
     {
         "id": "Unemployed20",
@@ -12850,8 +12137,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 1.65,
         "populationAffected": "4.582.30",
         "valueGainPerson": "264.210.03 kr.",
-        "valueGainGroup": "1.210.689.199 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "1.210.689.199 kr."
     },
     {
         "id": "`Mental illness - Less than six months`85",
@@ -12868,8 +12154,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 8.41,
         "populationAffected": "5.804.24",
         "valueGainPerson": "206.870.89 kr.",
-        "valueGainGroup": "1.200.729.277 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "1.200.729.277 kr."
     },
     {
         "id": "Unemployed38",
@@ -12886,8 +12171,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 3.31,
         "populationAffected": "7.637.16",
         "valueGainPerson": "155.875.83 kr.",
-        "valueGainGroup": "1.190.449.323 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "1.190.449.323 kr."
     },
     {
         "id": "Unemployed72",
@@ -12904,8 +12188,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 2.95,
         "populationAffected": "12.219.46",
         "valueGainPerson": "94.175.69 kr.",
-        "valueGainGroup": "1.150.776.334 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "1.150.776.334 kr."
     },
     {
         "id": "`Personlig pleje`136",
@@ -12922,8 +12205,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 2.59,
         "populationAffected": "2.749.38",
         "valueGainPerson": "408.161.31 kr.",
-        "valueGainGroup": "1.122.190.171 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "1.122.190.171 kr."
     },
     {
         "id": "`Personlig pleje`158",
@@ -12940,8 +12222,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 3.89,
         "populationAffected": "3.054.87",
         "valueGainPerson": "364.803.30 kr.",
-        "valueGainGroup": "1.114.425.062 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "1.114.425.062 kr."
     },
     {
         "id": "`Mental illness - Less than six months`38",
@@ -12958,8 +12239,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 5.04,
         "populationAffected": "12.830.44",
         "valueGainPerson": "86.475.02 kr.",
-        "valueGainGroup": "1.109.512.203 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "1.109.512.203 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`141",
@@ -12976,8 +12256,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 12.5,
         "populationAffected": "9.775.57",
         "valueGainPerson": "112.117.79 kr.",
-        "valueGainGroup": "1.096.015.277 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "1.096.015.277 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`118",
@@ -12994,8 +12273,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 8.75,
         "populationAffected": "12.219.46",
         "valueGainPerson": "89.681.44 kr.",
-        "valueGainGroup": "1.095.858.992 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "1.095.858.992 kr."
     },
     {
         "id": "`Mental illness - More than six months`25",
@@ -13012,8 +12290,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 6.9,
         "populationAffected": "9.164.60",
         "valueGainPerson": "119.040.77 kr.",
-        "valueGainGroup": "1.090.960.672 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "1.090.960.672 kr."
     },
     {
         "id": "`Mental illness - Less than six months`19",
@@ -13030,8 +12307,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 4.22,
         "populationAffected": "3.054.87",
         "valueGainPerson": "354.731.21 kr.",
-        "valueGainGroup": "1.083.656.183 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "1.083.656.183 kr."
     },
     {
         "id": "`Mental illness - Less than six months`103",
@@ -13048,8 +12324,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 7.35,
         "populationAffected": "5.498.76",
         "valueGainPerson": "196.583.80 kr.",
-        "valueGainGroup": "1.080.966.786 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "1.080.966.786 kr."
     },
     {
         "id": "`Mental illness - Less than six months`117",
@@ -13066,8 +12341,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 15.13,
         "populationAffected": "21.078.57",
         "valueGainPerson": "50.293.33 kr.",
-        "valueGainGroup": "1.060.111.529 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "1.060.111.529 kr."
     },
     {
         "id": "`Svær ensomhed (dummy)`56",
@@ -13084,8 +12358,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 3.1,
         "populationAffected": "2.138.41",
         "valueGainPerson": "493.674.64 kr.",
-        "valueGainGroup": "1.055.676.778 kr.",
-        "Svær ensomhed (dummy)": "Svær ensomhed "
+        "valueGainGroup": "1.055.676.778 kr."
     },
     {
         "id": "`Personlig pleje`48",
@@ -13102,8 +12375,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 3.54,
         "populationAffected": "2.749.38",
         "valueGainPerson": "359.477.61 kr.",
-        "valueGainGroup": "988.340.210 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "988.340.210 kr."
     },
     {
         "id": "Unemployed113",
@@ -13120,8 +12392,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 2.98,
         "populationAffected": "4.582.30",
         "valueGainPerson": "213.077.22 kr.",
-        "valueGainGroup": "976.383.424 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "976.383.424 kr."
     },
     {
         "id": "`Mental illness - Less than six months`70",
@@ -13138,8 +12409,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 9.87,
         "populationAffected": "6.720.70",
         "valueGainPerson": "139.277.06 kr.",
-        "valueGainGroup": "936.039.970 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "936.039.970 kr."
     },
     {
         "id": "Unemployed46",
@@ -13156,8 +12426,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 4.18,
         "populationAffected": "10.081.06",
         "valueGainPerson": "91.733.13 kr.",
-        "valueGainGroup": "924.766.862 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "924.766.862 kr."
     },
     {
         "id": "Unemployed104",
@@ -13174,8 +12443,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 1.4,
         "populationAffected": "3.054.87",
         "valueGainPerson": "300.910.22 kr.",
-        "valueGainGroup": "919.240.291 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "919.240.291 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`128",
@@ -13192,8 +12460,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 7.49,
         "populationAffected": "6.109.73",
         "valueGainPerson": "149.825.64 kr.",
-        "valueGainGroup": "915.394.405 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "915.394.405 kr."
     },
     {
         "id": "`Mental illness - More than six months`54",
@@ -13210,8 +12477,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 6.35,
         "populationAffected": "4.887.79",
         "valueGainPerson": "183.072.75 kr.",
-        "valueGainGroup": "894.820.258 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "894.820.258 kr."
     },
     {
         "id": "`Personlig pleje`5",
@@ -13228,8 +12494,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 0.92,
         "populationAffected": "2.138.41",
         "valueGainPerson": "418.402.32 kr.",
-        "valueGainGroup": "894.714.021 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "894.714.021 kr."
     },
     {
         "id": "`Mental illness - More than six months`127",
@@ -13246,8 +12511,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 6.82,
         "populationAffected": "5.498.76",
         "valueGainPerson": "157.256.68 kr.",
-        "valueGainGroup": "864.716.479 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "864.716.479 kr."
     },
     {
         "id": "`Mental illness - Less than six months`20",
@@ -13264,8 +12528,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 3.22,
         "populationAffected": "3.665.84",
         "valueGainPerson": "228.084.51 kr.",
-        "valueGainGroup": "836.121.043 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "836.121.043 kr."
     },
     {
         "id": "Unemployed112",
@@ -13282,8 +12545,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 3.55,
         "populationAffected": "8.553.62",
         "valueGainPerson": "97.515.39 kr.",
-        "valueGainGroup": "834.109.925 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "834.109.925 kr."
     },
     {
         "id": "`Mental illness - More than six months`46",
@@ -13300,8 +12562,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 8.51,
         "populationAffected": "11.303.00",
         "valueGainPerson": "73.662.36 kr.",
-        "valueGainGroup": "832.605.846 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "832.605.846 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`86",
@@ -13318,8 +12579,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 7.05,
         "populationAffected": "4.887.79",
         "valueGainPerson": "170.067.01 kr.",
-        "valueGainGroup": "831.250.976 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "831.250.976 kr."
     },
     {
         "id": "`Mental illness - Less than six months`79",
@@ -13336,8 +12596,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 5.42,
         "populationAffected": "3.360.35",
         "valueGainPerson": "244.456.17 kr.",
-        "valueGainGroup": "821.458.816 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "821.458.816 kr."
     },
     {
         "id": "`Personlig pleje`138",
@@ -13354,8 +12613,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 2.02,
         "populationAffected": "3.054.87",
         "valueGainPerson": "267.963.03 kr.",
-        "valueGainGroup": "818.591.069 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "818.591.069 kr."
     },
     {
         "id": "`Personlig pleje`79",
@@ -13372,8 +12630,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 3.08,
         "populationAffected": "2.138.41",
         "valueGainPerson": "382.437.52 kr.",
-        "valueGainGroup": "817.806.661 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "817.806.661 kr."
     },
     {
         "id": "Unemployed37",
@@ -13390,8 +12647,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 4.07,
         "populationAffected": "3.360.35",
         "valueGainPerson": "243.176.03 kr.",
-        "valueGainGroup": "817.157.102 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "817.157.102 kr."
     },
     {
         "id": "`Personlig pleje`33",
@@ -13408,8 +12664,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 4.95,
         "populationAffected": "6.109.73",
         "valueGainPerson": "132.769.89 kr.",
-        "valueGainGroup": "811.188.324 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "811.188.324 kr."
     },
     {
         "id": "`Mental illness - More than six months`55",
@@ -13426,8 +12681,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 9.73,
         "populationAffected": "6.720.70",
         "valueGainPerson": "116.051.96 kr.",
-        "valueGainGroup": "779.950.893 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "779.950.893 kr."
     },
     {
         "id": "`Mental illness - Less than six months`138",
@@ -13444,8 +12698,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 16.19,
         "populationAffected": "10.386.54",
         "valueGainPerson": "72.270.55 kr.",
-        "valueGainGroup": "750.641.183 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "750.641.183 kr."
     },
     {
         "id": "Unemployed45",
@@ -13462,8 +12715,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 7.43,
         "populationAffected": "4.582.30",
         "valueGainPerson": "159.444.36 kr.",
-        "valueGainGroup": "730.621.623 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "730.621.623 kr."
     },
     {
         "id": "`Mental illness - Less than six months`26",
@@ -13480,8 +12732,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 6.37,
         "populationAffected": "5.193.27",
         "valueGainPerson": "135.844.45 kr.",
-        "valueGainGroup": "705.477.117 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "705.477.117 kr."
     },
     {
         "id": "`Mental illness - Less than six months`33",
@@ -13498,8 +12749,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 4.75,
         "populationAffected": "4.276.81",
         "valueGainPerson": "156.559.80 kr.",
-        "valueGainGroup": "669.576.810 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "669.576.810 kr."
     },
     {
         "id": "`Mental illness - Less than six months`44",
@@ -13516,8 +12766,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 6.29,
         "populationAffected": "9.164.60",
         "valueGainPerson": "70.838.77 kr.",
-        "valueGainGroup": "649.208.774 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "649.208.774 kr."
     },
     {
         "id": "`Mental illness - More than six months`33",
@@ -13534,8 +12783,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 5.08,
         "populationAffected": "4.582.30",
         "valueGainPerson": "141.225.34 kr.",
-        "valueGainGroup": "647.136.668 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "647.136.668 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`71",
@@ -13552,8 +12800,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 17.86,
         "populationAffected": "12.219.46",
         "valueGainPerson": "52.857.89 kr.",
-        "valueGainGroup": "645.895.050 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "645.895.050 kr."
     },
     {
         "id": "Unemployed76",
@@ -13570,8 +12817,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 2.5,
         "populationAffected": "1.527.43",
         "valueGainPerson": "418.533.97 kr.",
-        "valueGainGroup": "639.282.518 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "639.282.518 kr."
     },
     {
         "id": "`Personlig pleje`",
@@ -13588,8 +12834,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 1.39,
         "populationAffected": "2.443.89",
         "valueGainPerson": "259.770.20 kr.",
-        "valueGainGroup": "634.850.441 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "634.850.441 kr."
     },
     {
         "id": "`Mental illness - More than six months`20",
@@ -13606,8 +12851,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 4.27,
         "populationAffected": "4.887.79",
         "valueGainPerson": "129.025.69 kr.",
-        "valueGainGroup": "630.649.849 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "630.649.849 kr."
     },
     {
         "id": "Unemployed68",
@@ -13624,8 +12868,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 4.17,
         "populationAffected": "5.498.76",
         "valueGainPerson": "110.517.87 kr.",
-        "valueGainGroup": "607.711.038 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "607.711.038 kr."
     },
     {
         "id": "`Personlig pleje`126",
@@ -13642,8 +12885,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 1.68,
         "populationAffected": "1.221.95",
         "valueGainPerson": "477.984.81 kr.",
-        "valueGainGroup": "584.071.755 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "584.071.755 kr."
     },
     {
         "id": "`Mental illness - More than six months`44",
@@ -13660,8 +12902,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 7.69,
         "populationAffected": "11.303.00",
         "valueGainPerson": "51.436.55 kr.",
-        "valueGainGroup": "581.387.437 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "581.387.437 kr."
     },
     {
         "id": "`Personlig pleje`55",
@@ -13678,8 +12919,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 3.61,
         "populationAffected": "2.749.38",
         "valueGainPerson": "211.450.02 kr.",
-        "valueGainGroup": "581.356.274 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "581.356.274 kr."
     },
     {
         "id": "`Personlig pleje`39",
@@ -13696,8 +12936,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 7.2,
         "populationAffected": "11.303.00",
         "valueGainPerson": "51.007.67 kr.",
-        "valueGainGroup": "576.539.849 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "576.539.849 kr."
     },
     {
         "id": "`Mental illness - Less than six months`127",
@@ -13714,8 +12953,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 8.37,
         "populationAffected": "6.720.70",
         "valueGainPerson": "85.193.52 kr.",
-        "valueGainGroup": "572.560.468 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "572.560.468 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`139",
@@ -13732,8 +12970,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 13.68,
         "populationAffected": "8.859.11",
         "valueGainPerson": "57.785.21 kr.",
-        "valueGainGroup": "511.925.527 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "511.925.527 kr."
     },
     {
         "id": "`Mental illness - More than six months`79",
@@ -13750,8 +12987,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 3.94,
         "populationAffected": "2.443.89",
         "valueGainPerson": "202.149.86 kr.",
-        "valueGainGroup": "494.032.534 kr.",
-        "Langvarig mental sygdom (Dummy)": "Langvarig mental sygdom "
+        "valueGainGroup": "494.032.534 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`150",
@@ -13768,8 +13004,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 9.88,
         "populationAffected": "12.524.95",
         "valueGainPerson": "37.176.83 kr.",
-        "valueGainGroup": "465.637.902 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "465.637.902 kr."
     },
     {
         "id": "`Mental illness - Less than six months`55",
@@ -13786,8 +13021,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 7.93,
         "populationAffected": "5.498.76",
         "valueGainPerson": "81.893.83 kr.",
-        "valueGainGroup": "450.314.358 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "450.314.358 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`142",
@@ -13804,8 +13038,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 11.22,
         "populationAffected": "10.386.54",
         "valueGainPerson": "43.316.65 kr.",
-        "valueGainGroup": "449.910.286 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "449.910.286 kr."
     },
     {
         "id": "`Mental illness - Less than six months`159",
@@ -13822,8 +13055,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 5.42,
         "populationAffected": "11.303.00",
         "valueGainPerson": "39.562.65 kr.",
-        "valueGainGroup": "447.176.716 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "447.176.716 kr."
     },
     {
         "id": "`Personlig pleje`119",
@@ -13840,8 +13072,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 1.56,
         "populationAffected": "3.054.87",
         "valueGainPerson": "144.478.28 kr.",
-        "valueGainGroup": "441.361.740 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "441.361.740 kr."
     },
     {
         "id": "`Begrænset fysisk mobilitet`133",
@@ -13858,8 +13089,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 8.4,
         "populationAffected": "6.109.73",
         "valueGainPerson": "71.036.08 kr.",
-        "valueGainGroup": "434.011.376 kr.",
-        "Begrænset fysisk mobilitet (1 point)": "Begrænset fysisk mobilitet "
+        "valueGainGroup": "434.011.376 kr."
     },
     {
         "id": "`Mental illness - Less than six months`54",
@@ -13876,8 +13106,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 5.93,
         "populationAffected": "4.582.30",
         "valueGainPerson": "92.815.78 kr.",
-        "valueGainGroup": "425.309.624 kr.",
-        "Kortvarig mental sygdom (Dummy)": "Kortvarig mental sygdom "
+        "valueGainGroup": "425.309.624 kr."
     },
     {
         "id": "Unemployed81",
@@ -13894,8 +13123,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 4.62,
         "populationAffected": "3.360.35",
         "valueGainPerson": "124.662.33 kr.",
-        "valueGainGroup": "418.909.339 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "418.909.339 kr."
     },
     {
         "id": "Unemployed114",
@@ -13912,8 +13140,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 1.56,
         "populationAffected": "1.221.95",
         "valueGainPerson": "337.576.17 kr.",
-        "valueGainGroup": "412.499.936 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "412.499.936 kr."
     },
     {
         "id": "Unemployed33",
@@ -13930,8 +13157,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 3.04,
         "populationAffected": "3.665.84",
         "valueGainPerson": "104.877.57 kr.",
-        "valueGainGroup": "384.464.273 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "384.464.273 kr."
     },
     {
         "id": "Unemployed25",
@@ -13948,8 +13174,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 2.51,
         "populationAffected": "2.749.38",
         "valueGainPerson": "127.464.45 kr.",
-        "valueGainGroup": "350.448.099 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "350.448.099 kr."
     },
     {
         "id": "`Personlig pleje`130",
@@ -13966,8 +13191,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 2.34,
         "populationAffected": "1.832.92",
         "valueGainPerson": "167.611.76 kr.",
-        "valueGainGroup": "307.218.836 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "307.218.836 kr."
     },
     {
         "id": "`Personlig pleje`111",
@@ -13984,8 +13208,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 1.75,
         "populationAffected": "2.443.89",
         "valueGainPerson": "114.263.92 kr.",
-        "valueGainGroup": "279.248.735 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "279.248.735 kr."
     },
     {
         "id": "`Personlig pleje`121",
@@ -14002,8 +13225,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 1.87,
         "populationAffected": "1.527.43",
         "valueGainPerson": "160.180.21 kr.",
-        "valueGainGroup": "244.664.513 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "244.664.513 kr."
     },
     {
         "id": "`Personlig pleje`85",
@@ -14020,8 +13242,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 5.45,
         "populationAffected": "3.360.35",
         "valueGainPerson": "58.177.01 kr.",
-        "valueGainGroup": "195.495.250 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "195.495.250 kr."
     },
     {
         "id": "Unemployed11",
@@ -14038,8 +13259,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 1.37,
         "populationAffected": "4.276.81",
         "valueGainPerson": "45.433.64 kr.",
-        "valueGainGroup": "194.311.136 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "194.311.136 kr."
     },
     {
         "id": "Unemployed108",
@@ -14056,8 +13276,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 0.08,
         "populationAffected": 305.49,
         "valueGainPerson": "586.771.38 kr.",
-        "valueGainGroup": "179.250.774 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "179.250.774 kr."
     },
     {
         "id": "Unemployed56",
@@ -14074,8 +13293,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 2.19,
         "populationAffected": "2.749.38",
         "valueGainPerson": "63.213.73 kr.",
-        "valueGainGroup": "173.798.512 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "173.798.512 kr."
     },
     {
         "id": "Unemployed69",
@@ -14092,8 +13310,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 1.97,
         "populationAffected": "2.749.38",
         "valueGainPerson": "57.324.12 kr.",
-        "valueGainGroup": "157.605.738 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "157.605.738 kr."
     },
     {
         "id": "`Personlig pleje`131",
@@ -14110,8 +13327,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 2.31,
         "populationAffected": "2.138.41",
         "valueGainPerson": "70.108.78 kr.",
-        "valueGainGroup": "149.921.035 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "149.921.035 kr."
     },
     {
         "id": "`Personlig pleje`35",
@@ -14128,8 +13344,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 3.11,
         "populationAffected": "3.054.87",
         "valueGainPerson": "45.062.51 kr.",
-        "valueGainGroup": "137.659.911 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "137.659.911 kr."
     },
     {
         "id": "`Personlig pleje`139",
@@ -14146,8 +13361,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 1.69,
         "populationAffected": "2.138.41",
         "valueGainPerson": "54.849.11 kr.",
-        "valueGainGroup": "117.289.672 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "117.289.672 kr."
     },
     {
         "id": "Unemployed28",
@@ -14164,8 +13378,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 3.54,
         "populationAffected": "2.443.89",
         "valueGainPerson": "47.858.75 kr.",
-        "valueGainGroup": "116.961.639 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "116.961.639 kr."
     },
     {
         "id": "Unemployed57",
@@ -14182,8 +13395,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 0.81,
         "populationAffected": 610.97,
         "valueGainPerson": "165.607.20 kr.",
-        "valueGainGroup": "101.181.549 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "101.181.549 kr."
     },
     {
         "id": "`Personlig pleje`62",
@@ -14200,8 +13412,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 2.71,
         "populationAffected": "6.720.70",
         "valueGainPerson": "11.696.54 kr.",
-        "valueGainGroup": "78.608.962 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "78.608.962 kr."
     },
     {
         "id": "Unemployed77",
@@ -14218,8 +13429,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 1.12,
         "populationAffected": 916.46,
         "valueGainPerson": "81.859.76 kr.",
-        "valueGainGroup": "75.021.167 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "75.021.167 kr."
     },
     {
         "id": "Unemployed100",
@@ -14236,8 +13446,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 0.23,
         "populationAffected": 610.97,
         "valueGainPerson": "90.958.86 kr.",
-        "valueGainGroup": "55.573.422 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "55.573.422 kr."
     },
     {
         "id": "Unemployed75",
@@ -14254,8 +13463,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 1.87,
         "populationAffected": "3.665.84",
         "valueGainPerson": "13.896.25 kr.",
-        "valueGainGroup": "50.941.417 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "50.941.417 kr."
     },
     {
         "id": "Unemployed21",
@@ -14272,8 +13480,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 1.61,
         "populationAffected": "1.221.95",
         "valueGainPerson": "40.482.99 kr.",
-        "valueGainGroup": "49.468.033 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "49.468.033 kr."
     },
     {
         "id": "`Personlig pleje`128",
@@ -14290,8 +13497,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 1.89,
         "populationAffected": "1.221.95",
         "valueGainPerson": "33.025.32 kr.",
-        "valueGainGroup": "40.355.160 kr.",
-        "Problemer med personlig pleje (1 point)": "Problemer med personlig pleje "
+        "valueGainGroup": "40.355.160 kr."
     },
     {
         "id": "Unemployed48",
@@ -14308,8 +13514,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 2.19,
         "populationAffected": "1.527.43",
         "valueGainPerson": "24.970.48 kr.",
-        "valueGainGroup": "38.140.736 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "38.140.736 kr."
     },
     {
         "id": "Arbejdsløshed",
@@ -14326,8 +13531,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 0.17,
         "populationAffected": 305.49,
         "valueGainPerson": "117.086.18 kr.",
-        "valueGainGroup": "35.768.256 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "35.768.256 kr."
     },
     {
         "id": "Unemployed12",
@@ -14344,8 +13548,7 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 0.07,
         "populationAffected": 305.49,
         "valueGainPerson": "60.816.83 kr.",
-        "valueGainGroup": "18.578.724 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "18.578.724 kr."
     },
     {
         "id": "Unemployed116",
@@ -14362,7 +13565,6 @@ export const fakeDB: NSVBEntry [] & any = [
         "i": 0.14,
         "populationAffected": 916.46,
         "valueGainPerson": "17.687.89 kr.",
-        "valueGainGroup": "16.210.238 kr.",
-        "Arbejdsløshed (dummy)": "Arbejdsløshed "
+        "valueGainGroup": "16.210.238 kr."
     }
 ]
