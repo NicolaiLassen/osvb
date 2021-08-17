@@ -1,5 +1,3 @@
-import {fakeDB} from "./fakeDB";
-
 export const ID: string[] = []
 
 export interface NSVBSearch {
@@ -26,42 +24,42 @@ export const population = 5843347;
 
 
 export const domain = [
-    "Svær ensomhed ",
-    "Langvarig mental sygdom ",
     "Arbejdsløshed ",
+    "Begrænset fysisk mobilitet ",
     "Begrænset i at gennemføre daglige gøremål ",
     "Kortvarig mental sygdom ",
     "Kronisk smerte og ubehag ",
+    "Langvarig mental sygdom ",
     "Problemer med personlig pleje ",
-    "Begrænset fysisk mobilitet "
+    "Svær ensomhed "
 ]
 
 export const age = [
     "Gennemsnit",
+    "16-24",
+    "25-34",
     "45-54",
+    "35-44",
     "55-64",
     "65-74",
-    "35-44",
     "75+",
-    "16-24",
-    "25-34"
 ]
 
 export const education = [
     "Gennemsnit",
     "Erhvervsfaglig uddannelse",
     "Grundskole",
-    "Mellemlang videregående uddannelse",
-    "Under uddannelse",
+    "Gymnasiel uddannelse",
     "Kort videregående uddannelse",
     "Lang videregående uddannelse",
-    "Gymnasiel uddannelse"
+    "Mellemlang videregående uddannelse",
+    "Under uddannelse"
 ]
 
 export const sex = [
     "Gennemsnit",
-    "Kvinde",
-    "Mand"
+    "Mand",
+    "Kvinde"
 ]
 
 export interface NSVBEntry {
@@ -79,7 +77,7 @@ export interface NSVBEntry {
 
 // SOME CLEANING LOGIC
 
-// // @ts-ignore
+// @ts-ignore
 // function sortJson(element, prop, propType, asc) {
 //     switch (propType) {
 //         case "int":
