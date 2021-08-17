@@ -91,7 +91,7 @@ const LandingPage: React.FC<LandingPageProps> = ({fakeLoad}) => {
                             alignItems='center'
                             justifyContent='center'
                         >
-                            <TableContainer>
+                            <TableContainer style={{maxHeight: 500}}>
                                 {/*https://medium.com/appnroll-publication/5-practical-solutions-to-make-responsive-data-tables-ff031c48b122*/}
                                 <Table stickyHeader>
                                     <TableHead>
