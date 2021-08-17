@@ -41,7 +41,6 @@ export const PanelPage = () => {
     const [elements, setElements] = useState<PanelElement[]>([]);
 
 
-
     return (
         <Box pt={2} pb={2}>
             <CrudDialog<PanelElement>
@@ -146,6 +145,7 @@ export const PanelPage = () => {
                             id: "id",
                             label: '',
                             numeric: true,
+                            disablePadding: true,
                             render: (e) => <IconButton onClick={() => {
                                 setElements(elements.filter((e1) => e1.name !== e.name))
                             }}>
@@ -162,6 +162,7 @@ export const PanelPage = () => {
                             <TableCell align={"right"} style={{fontWeight: 600}}>
                                 {formatNumber(elements.reduce((r, e) => r + (e.count * e.successRate * e.socialValue), 0)) + ' DKK'}
                             </TableCell>
+                            <TableCell/>
                         </TableRow>
                     </BaseTable>
 
