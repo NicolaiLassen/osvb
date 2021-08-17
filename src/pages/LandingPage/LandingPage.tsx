@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import {
     Box,
     CircularProgress,
@@ -15,6 +15,7 @@ import gradient from '../../assets/gradients/main-top-gradient.png';
 import {emptyNSVBSearch, NSVBEntry, NSVBSearch} from "../../services/nsvbLogic";
 import {fakeDB} from "../../services/fakeDB";
 import ValueFilter from "./ValueFilter";
+// import { XGrid } from '@material-ui/x-grid';
 
 interface LandingPageProps {
     fakeLoad: boolean;
@@ -22,28 +23,32 @@ interface LandingPageProps {
 
 const LandingPage: React.FC<LandingPageProps> = ({fakeLoad}) => {
     const [search, setSearch] = useState<NSVBSearch>(emptyNSVBSearch);
+    const [filteredData, setFilteredData] = useState<NSVBEntry[]>(fakeDB)
 
-    const filteredFakeDB: NSVBEntry[] = fakeDB.filter((entry: NSVBEntry) => {
-        let bool = true;
+    useEffect(() => {
+        const newFilteredData: NSVBEntry[] = fakeDB.filter((entry: NSVBEntry) => {
+            let bool = true;
 
-        if (search.domain.length > 0 && !search.domain.includes(entry.domain)) {
-            bool = false;
-        }
+            if (search.domain.length > 0 && !search.domain.includes(entry.domain)) {
+                bool = false;
+            }
 
-        if (search.age.length > 0 && !search.age.includes(entry.age)) {
-            bool = false;
-        }
+            if (search.age.length > 0 && !search.age.includes(entry.age)) {
+                bool = false;
+            }
 
-        if (search.sex.length > 0 && !search.sex.includes(entry.sex)) {
-            bool = false;
-        }
+            if (search.sex.length > 0 && !search.sex.includes(entry.sex)) {
+                bool = false;
+            }
 
-        if (search.education.length > 0 && !search.education.includes(entry.education)) {
-            bool = false;
-        }
+            if (search.education.length > 0 && !search.education.includes(entry.education)) {
+                bool = false;
+            }
 
-        return bool;
-    });
+            return bool;
+        });
+        setFilteredData(newFilteredData);
+    }, [search])
 
     return (
         <div>
@@ -69,7 +74,7 @@ const LandingPage: React.FC<LandingPageProps> = ({fakeLoad}) => {
             <Container>
                 <Box style={{transform: 'translateY(-80px)'}}>
                     <Paper elevation={2} style={{padding: 16, marginBottom: 16}}>
-                        <ValueFilter search={search} setSearch={setSearch} data={filteredFakeDB}/>
+                        <ValueFilter search={search} setSearch={setSearch} data={filteredData}/>
                     </Paper>
                     <Paper style={{overflow: 'hidden'}}>
                         {fakeLoad &&
@@ -91,6 +96,10 @@ const LandingPage: React.FC<LandingPageProps> = ({fakeLoad}) => {
                             alignItems='center'
                             justifyContent='center'
                         >
+                            {/*<XGrid*/}
+
+                            {/*/>*/}
+                            
                             <TableContainer style={{maxHeight: 500}}>
                                 {/*https://medium.com/appnroll-publication/5-practical-solutions-to-make-responsive-data-tables-ff031c48b122*/}
                                 <Table stickyHeader>
@@ -148,7 +157,7 @@ const LandingPage: React.FC<LandingPageProps> = ({fakeLoad}) => {
                                     </TableHead>
                                     <TableBody>
                                         {
-                                            filteredFakeDB.map((entry: NSVBEntry) => (
+                                            filteredData.map((entry: NSVBEntry) => (
                                                 <TableRow key={entry.id}>
                                                     <TableCell component="th"
                                                                scope="row">{entry.domain}

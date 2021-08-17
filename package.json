@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/data-grid": "^4.0.0-alpha.37",
     "@material-ui/lab": "^4.0.0-alpha.60",
+    "@material-ui/x-grid": "^4.0.0-alpha.37",
     "@types/react-csv": "^1.1.2",
     "chartjs": "^0.3.24",
     "clsx": "^1.1.1",

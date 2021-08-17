@@ -26,9 +26,14 @@ export const ValueFilter: React.FC<ValueFilterProps> = ({data, search, setSearch
 
     const open = Boolean(anchorEl);
 
+    /*
+    TODO:
+    Mobile filter should be a button you can open and close.
+    Chips should not appear inside the selector but together in a row
+    */
     return (
         <Grid container alignItems='center' spacing={2}>
-            <Grid item md={3}>
+            <Grid item xs={12} md={3}>
                 <Autocomplete
                     multiple
                     value={search.domain}
@@ -59,7 +64,7 @@ export const ValueFilter: React.FC<ValueFilterProps> = ({data, search, setSearch
                 />
             </Grid>
 
-            <Grid item md={2}>
+            <Grid item xs={12} md={2}>
                 <Autocomplete
                     multiple
                     value={search.age}
@@ -89,7 +94,7 @@ export const ValueFilter: React.FC<ValueFilterProps> = ({data, search, setSearch
                 />
             </Grid>
 
-            <Grid item md={2}>
+            <Grid item xs={12} md={2}>
                 <Autocomplete
                     multiple
                     value={search.sex}
@@ -121,7 +126,7 @@ export const ValueFilter: React.FC<ValueFilterProps> = ({data, search, setSearch
                 />
             </Grid>
 
-            <Grid item md={3}>
+            <Grid item xs={12} md={3}>
                 <Autocomplete
                     multiple
                     value={search.education}
@@ -153,7 +158,7 @@ export const ValueFilter: React.FC<ValueFilterProps> = ({data, search, setSearch
                     }
                 />
             </Grid>
-            <Grid item md={2}>
+            <Grid item xs={12} md={2}>
                 <Tooltip title='Assumptions'>
                     <IconButton onClick={handleClick}
                                 style={{marginRight: 4, boxShadow: 'inset 0 0 0 1px #273A6B'}}>
