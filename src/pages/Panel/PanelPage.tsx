@@ -34,7 +34,7 @@ export const defaultPanelElement: PanelElement = {
     name: '',
     domain: '',
     sampleSize: 0,
-    successRate: 1.0,
+    successRate: 0,
     socialValue: 0,
 }
 
@@ -118,8 +118,9 @@ export const PanelPage = () => {
                                                             setFieldValue('domain', entry.domain)
                                                             setFieldValue('socialValue', value)
                                                         }}>
-                                                        <Box p={1} justifyContent='space-between' display='flex'>
-                                                            <Box>
+                                                        <Box p={1} alignItems='center' justifyContent='space-between'
+                                                             display='flex'>
+                                                            <Box mr={1}>
                                                                 Domain
                                                             </Box>
                                                             <Box style={{fontSize: 14}}>
@@ -127,8 +128,9 @@ export const PanelPage = () => {
                                                             </Box>
                                                         </Box>
                                                         <Divider/>
-                                                        <Box p={1} justifyContent='space-between' display='flex'>
-                                                            <Box>
+                                                        <Box p={1} alignItems='center' justifyContent='space-between'
+                                                             display='flex'>
+                                                            <Box mr={1}>
                                                                 Age
                                                             </Box>
                                                             <Box style={{fontSize: 14}}>
@@ -136,8 +138,9 @@ export const PanelPage = () => {
                                                             </Box>
                                                         </Box>
                                                         <Divider/>
-                                                        <Box p={1} justifyContent='space-between' display='flex'>
-                                                            <Box>
+                                                        <Box p={1} alignItems='center' justifyContent='space-between'
+                                                             display='flex'>
+                                                            <Box mr={1}>
                                                                 Education
                                                             </Box>
                                                             <Box style={{fontSize: 14}}>
@@ -145,8 +148,9 @@ export const PanelPage = () => {
                                                             </Box>
                                                         </Box>
                                                         <Divider/>
-                                                        <Box p={1} justifyContent='space-between' display='flex'>
-                                                            <Box>
+                                                        <Box p={1} alignItems='center' justifyContent='space-between'
+                                                             display='flex'>
+                                                            <Box mr={1}>
                                                                 Sex
                                                             </Box>
                                                             <Box style={{fontSize: 14}}>
@@ -154,8 +158,9 @@ export const PanelPage = () => {
                                                             </Box>
                                                         </Box>
                                                         <Divider/>
-                                                        <Box p={1} justifyContent='space-between' display='flex'>
-                                                            <Box>
+                                                        <Box p={1} alignItems='center' justifyContent='space-between'
+                                                             display='flex'>
+                                                            <Box mr={1}>
                                                                 Value gain
                                                             </Box>
                                                             <Box style={{fontSize: 14}}>
@@ -232,7 +237,7 @@ export const PanelPage = () => {
                             numeric: true,
                         }, {
                             id: "successRate",
-                            label: 'Success Rate',
+                            label: 'Success rate',
                             numeric: true,
                             percent: true,
                         }, {
@@ -249,8 +254,9 @@ export const PanelPage = () => {
                             id: "id",
                             label: '',
                             numeric: true,
+                            disablePadding: true,
                             render: (e) => <IconButton onClick={() => {
-                                setElements(elements.filter((e1) => e1.domain === e.domain))
+                                setElements(elements.filter((e1) => e1.domain !== e.domain))
                             }}>
                                 <CloseFillIcon/>
                             </IconButton>
@@ -263,8 +269,9 @@ export const PanelPage = () => {
                             </TableCell>
                             {Array.from({length: 3}).map((_, index) => <TableCell key={index}/>)}
                             <TableCell align={"right"} style={{fontWeight: 600}}>
-                                {formatNumber(elements.reduce((r, e) => r + (e.sampleSize * e.successRate * e.socialValue), 0))}
+                                {formatNumber(elements.reduce((r, e) => r + (e.sampleSize * e.successRate * e.socialValue), 0)) + ' DKK'}
                             </TableCell>
+                            <TableCell/>
                         </TableRow>
                     </BaseTable>
                 </PaperContainer>
