@@ -13,6 +13,7 @@ import appTheme from "./theme/appTheme";
 import PanelPage from "./pages/Panel/PanelPage";
 import LandingPage from "./pages/LandingPage/LandingPage";
 
+
 function App() {
 
     const [fakeLoad, setFakeLoad] = useState(true);

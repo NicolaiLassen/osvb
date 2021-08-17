@@ -1,10 +1,11 @@
 import React from "react";
-import {Box, Chip, Grid, IconButton, Popover, TextField, Tooltip} from "@material-ui/core";
+import {Box, Chip, Grid, Popover, TextField, Tooltip} from "@material-ui/core";
 import {Autocomplete} from "@material-ui/lab";
 import {age, domain, education, sex} from "../../services/nsvbLogic";
 import FileExcelLineIcon from "remixicon-react/FileExcelLineIcon";
 import {CSVLink} from "react-csv";
 import ScalesLineIcon from "remixicon-react/ScalesLineIcon";
+import ColoredIconButton from "../../components/buttons/ColoredIconButton";
 
 interface ValueFilterProps {
     data: any;
@@ -160,10 +161,10 @@ export const ValueFilter: React.FC<ValueFilterProps> = ({data, search, setSearch
             </Grid>
             <Grid item xs={12} md={2}>
                 <Tooltip title='Assumptions'>
-                    <IconButton onClick={handleClick}
-                                style={{marginRight: 8, boxShadow: 'inset 0 0 0 1px #273A6B'}}>
-                        <ScalesLineIcon color='#273A6B' size={20}/>
-                    </IconButton>
+                    <ColoredIconButton onClick={handleClick}
+                                       style={{marginRight: 8,}}>
+                        <ScalesLineIcon color='white' size={20}/>
+                    </ColoredIconButton>
                 </Tooltip>
                 <Tooltip title='Export csv'>
                     <CSVLink
@@ -171,9 +172,9 @@ export const ValueFilter: React.FC<ValueFilterProps> = ({data, search, setSearch
                         filename={"nsvb.csv"}
                         separator={";"}
                     >
-                        <IconButton style={{boxShadow: 'inset 0 0 0 1px #273A6B'}}>
-                            <FileExcelLineIcon color='#273A6B' size={20}/>
-                        </IconButton>
+                        <ColoredIconButton>
+                            <FileExcelLineIcon color='white' size={20}/>
+                        </ColoredIconButton>
                     </CSVLink>
                 </Tooltip>
             </Grid>

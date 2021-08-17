@@ -126,28 +126,28 @@ const LandingPage: React.FC<LandingPageProps> = ({fakeLoad}) => {
                                                 color: 'white',
                                                 fontWeight: 'bold'
                                             }}>Education</TableCell>
-                                            <TableCell style={{
+                                            <TableCell align={"right"} style={{
                                                 backgroundColor: '#273A6B',
                                                 color: 'white',
                                                 fontWeight: 'bold'
                                             }}>Wellbeing
                                                 coefficient</TableCell>
-                                            <TableCell style={{
+                                            <TableCell align={"right"} style={{
                                                 backgroundColor: '#273A6B',
                                                 color: 'white',
                                                 fontWeight: 'bold'
                                             }}>P-value</TableCell>
-                                            <TableCell style={{
+                                            <TableCell align={"right"} style={{
                                                 backgroundColor: '#273A6B',
                                                 color: 'white',
                                                 fontWeight: 'bold'
                                             }}>Sample size</TableCell>
-                                            <TableCell style={{
+                                            <TableCell align={"right"} style={{
                                                 backgroundColor: '#273A6B',
                                                 color: 'white',
                                                 fontWeight: 'bold'
                                             }}>Value gain pr. person</TableCell>
-                                            <TableCell style={{
+                                            <TableCell align={"right"} style={{
                                                 backgroundColor: '#273A6B',
                                                 color: 'white',
                                                 fontWeight: 'bold'
@@ -164,11 +164,11 @@ const LandingPage: React.FC<LandingPageProps> = ({fakeLoad}) => {
                                                     <TableCell>{entry.age}</TableCell>
                                                     <TableCell>{entry.sex}</TableCell>
                                                     <TableCell>{entry.education}</TableCell>
-                                                    <TableCell>{entry.wellbeingCoefficient}</TableCell>
-                                                    <TableCell>{entry.pValue}</TableCell>
-                                                    <TableCell>{entry.n}</TableCell>
-                                                    <TableCell>{entry.valueGainPerson}</TableCell>
-                                                    <TableCell>{entry.valueGainGroup}</TableCell>
+                                                    <TableCell align={"right"}>{entry.wellbeingCoefficient}</TableCell>
+                                                    <TableCell align={"right"}>{entry.pValue}</TableCell>
+                                                    <TableCell align={"right"}>{entry.n}</TableCell>
+                                                    <TableCell align={"right"}>{entry.valueGainPerson}</TableCell>
+                                                    <TableCell align={"right"}>{entry.valueGainGroup}</TableCell>
                                                 </TableRow>
                                             ))
                                         }
