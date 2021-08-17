@@ -54,12 +54,15 @@ export const sex = [
 
 export interface NSVBEntry {
     id: string;
+    domain: string;
     age: string;
     sex: string;
     education: string;
     wellbeingCoefficient: number;
-    pointGain: string;
-    pointLoss: string;
+    pValue: number;
+    n: number;
+    valueGainPerson: string;
+    valueGainGroup: string;
 }
 
 

@@ -133,22 +133,26 @@ const LandingPage: React.FC<LandingPageProps> = ({fakeLoad}) => {
                                                 color: 'white',
                                                 fontWeight: 'bold'
                                             }}>Value gain pr. person</TableCell>
+                                            <TableCell style={{
+                                                backgroundColor: '#273A6B',
+                                                color: 'white',
+                                                fontWeight: 'bold'
+                                            }}>Value gain group</TableCell>
                                         </TableRow>
                                     </TableHead>
                                     <TableBody>
                                         {
                                             filteredFakeDB.map((entry: NSVBEntry) => (
                                                 <TableRow key={entry.id}>
-                                                    <TableCell></TableCell>
-                                                    <TableCell component="th" scope="row">
-                                                        {entry.age}
-                                                    </TableCell>
+                                                    <TableCell component="th" scope="row">{entry.domain}</TableCell>
+                                                    <TableCell>{entry.age}</TableCell>
                                                     <TableCell>{entry.sex}</TableCell>
                                                     <TableCell>{entry.education}</TableCell>
                                                     <TableCell>{entry.wellbeingCoefficient}</TableCell>
-                                                    <TableCell></TableCell>
-                                                    <TableCell></TableCell>
-                                                    <TableCell>{entry.pointGain}</TableCell>
+                                                    <TableCell>{entry.pValue}</TableCell>
+                                                    <TableCell>{entry.n}</TableCell>
+                                                    <TableCell>{entry.valueGainPerson}</TableCell>
+                                                    <TableCell>{entry.valueGainGroup}</TableCell>
                                                 </TableRow>
                                             ))
                                         }
