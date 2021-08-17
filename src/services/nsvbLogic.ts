@@ -1,3 +1,5 @@
+import {fakeDB} from "./fakeDB";
+
 export const ID: string[] = []
 
 export interface NSVBSearch {
@@ -66,3 +68,10 @@ export interface NSVBEntry {
 }
 
 
+// console.log(fakeDB.map((entry: NSVBEntry) => {
+//     return ({
+//         ...entry, 'domain': entry.domain.replace('(dummy)', '')
+//             .replace('(Dummy)', '')
+//             .replace('(1 point)', '')
+//     })
+// }))

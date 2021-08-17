@@ -53,7 +53,6 @@ export const ValueFilter: React.FC<ValueFilterProps> = ({data, search, setSearch
                         label="Domain"
                         size='small'
                         variant='outlined'
-                        InputProps={{...params.InputProps, disableUnderline: true}}
                     />
                     }
                 />
@@ -84,7 +83,6 @@ export const ValueFilter: React.FC<ValueFilterProps> = ({data, search, setSearch
                         label="Age"
                         size='small'
                         variant='outlined'
-                        InputProps={{...params.InputProps, disableUnderline: true}}
                     />
                     }
                 />
@@ -117,7 +115,6 @@ export const ValueFilter: React.FC<ValueFilterProps> = ({data, search, setSearch
                         size='small'
                         fullWidth
                         variant='outlined'
-                        InputProps={{...params.InputProps, disableUnderline: true}}
                     />
                     }
                 />

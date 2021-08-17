@@ -26,12 +26,18 @@ const LandingPage: React.FC<LandingPageProps> = ({fakeLoad}) => {
     const filteredFakeDB: NSVBEntry[] = fakeDB.filter((entry: NSVBEntry) => {
         let bool = true;
 
+        if (search.age.length > 0 && !search.domain.includes(entry.domain)) {
+            bool = false;
+        }
+
         if (search.age.length > 0 && !search.age.includes(entry.age)) {
             bool = false;
         }
+
         if (search.sex.length > 0 && !search.sex.includes(entry.sex)) {
             bool = false;
         }
+
         if (search.education.length > 0 && !search.education.includes(entry.education)) {
             bool = false;
         }
@@ -144,7 +150,9 @@ const LandingPage: React.FC<LandingPageProps> = ({fakeLoad}) => {
                                         {
                                             filteredFakeDB.map((entry: NSVBEntry) => (
                                                 <TableRow key={entry.id}>
-                                                    <TableCell component="th" scope="row">{entry.domain}</TableCell>
+                                                    <TableCell component="th"
+                                                               scope="row">{entry.domain}
+                                                    </TableCell>
                                                     <TableCell>{entry.age}</TableCell>
                                                     <TableCell>{entry.sex}</TableCell>
                                                     <TableCell>{entry.education}</TableCell>
