@@ -1,3 +1,5 @@
+import {fakeDB} from "./fakeDB";
+
 export const ID: string[] = []
 
 export interface NSVBSearch {
@@ -74,6 +76,36 @@ export interface NSVBEntry {
     valueGainPerson: string;
     valueGainGroup: string;
 }
+
+// SOME CLEANING LOGIC
+
+// // @ts-ignore
+// function sortJson(element, prop, propType, asc) {
+//     switch (propType) {
+//         case "int":
+//             // @ts-ignore
+//             element = element.sort(function (a, b) {
+//                 if (asc) {
+//                     return (parseInt(a[prop]) > parseInt(b[prop])) ? 1 : ((parseInt(a[prop]) < parseInt(b[prop])) ? -1 : 0);
+//                 } else {
+//                     return (parseInt(b[prop]) > parseInt(a[prop])) ? 1 : ((parseInt(b[prop]) < parseInt(a[prop])) ? -1 : 0);
+//                 }
+//             });
+//             break;
+//         default:
+//             // @ts-ignore
+//             element = element.sort(function (a, b) {
+//                 if (asc) {
+//                     return (a[prop].toLowerCase() > b[prop].toLowerCase()) ? 1 : ((a[prop].toLowerCase() < b[prop].toLowerCase()) ? -1 : 0);
+//                 } else {
+//                     return (b[prop].toLowerCase() > a[prop].toLowerCase()) ? 1 : ((b[prop].toLowerCase() < a[prop].toLowerCase()) ? -1 : 0);
+//                 }
+//             });
+//     }
+// }
+//
+// sortJson(fakeDB, 'domain', 'string', true)
+// console.log(fakeDB)
 
 // const t = fakeDB.map((entry: NSVBEntry) => {
 //     return (entry.education)
