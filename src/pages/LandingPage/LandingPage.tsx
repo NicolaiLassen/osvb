@@ -15,7 +15,6 @@ import gradient from '../../assets/gradients/main-top-gradient.png';
 import {emptyNSVBSearch, NSVBEntry, NSVBSearch} from "../../services/nsvbLogic";
 import {fakeDB} from "../../services/fakeDB";
 import ValueFilter from "./ValueFilter";
-// import { XGrid } from '@material-ui/x-grid';
 
 interface LandingPageProps {
     fakeLoad: boolean;
@@ -23,7 +22,9 @@ interface LandingPageProps {
 
 const LandingPage: React.FC<LandingPageProps> = ({fakeLoad}) => {
     const [search, setSearch] = useState<NSVBSearch>(emptyNSVBSearch);
-    const [filteredData, setFilteredData] = useState<NSVBEntry[]>(fakeDB)
+
+    // virtuallizer
+    const [filteredData, setFilteredData] = useState<NSVBEntry[]>(fakeDB.slice(0,50))
 
     useEffect(() => {
         const newFilteredData: NSVBEntry[] = fakeDB.filter((entry: NSVBEntry) => {
@@ -47,7 +48,8 @@ const LandingPage: React.FC<LandingPageProps> = ({fakeLoad}) => {
 
             return bool;
         });
-        setFilteredData(newFilteredData);
+        // virtuallizer
+        setFilteredData(newFilteredData.slice(0,50));
     }, [search])
 
     return (
@@ -96,10 +98,7 @@ const LandingPage: React.FC<LandingPageProps> = ({fakeLoad}) => {
                             alignItems='center'
                             justifyContent='center'
                         >
-                            {/*<XGrid*/}
 
-                            {/*/>*/}
-                            
                             <TableContainer style={{maxHeight: 500}}>
                                 {/*https://medium.com/appnroll-publication/5-practical-solutions-to-make-responsive-data-tables-ff031c48b122*/}
                                 <Table stickyHeader>

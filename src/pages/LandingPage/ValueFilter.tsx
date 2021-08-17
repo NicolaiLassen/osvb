@@ -161,7 +161,7 @@ export const ValueFilter: React.FC<ValueFilterProps> = ({data, search, setSearch
             <Grid item xs={12} md={2}>
                 <Tooltip title='Assumptions'>
                     <IconButton onClick={handleClick}
-                                style={{marginRight: 4, boxShadow: 'inset 0 0 0 1px #273A6B'}}>
+                                style={{marginRight: 8, boxShadow: 'inset 0 0 0 1px #273A6B'}}>
                         <ScalesLineIcon color='#273A6B' size={20}/>
                     </IconButton>
                 </Tooltip>
