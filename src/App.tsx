@@ -12,6 +12,7 @@ import {ThemeProvider} from '@material-ui/core/styles';
 import appTheme from "./theme/appTheme";
 import PanelPage from "./pages/Panel/PanelPage";
 import LandingPage from "./pages/LandingPage/LandingPage";
+import CookieBanner from "./components/CookieBanner";
 
 
 function App() {
@@ -46,7 +47,7 @@ function App() {
                     </Switch>
                 </div>
                 <FooterNavigation/>
-                {/*<CookieBanner/>*/}
+                <CookieBanner/>
             </Router>
         </ThemeProvider>
     );
