@@ -1,5 +1,3 @@
-import {fakeDB} from "./fakeDB";
-
 export const ID: string[] = []
 
 export interface NSVBSearch {
