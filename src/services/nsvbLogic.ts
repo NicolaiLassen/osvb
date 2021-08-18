@@ -1,3 +1,5 @@
+import {fakeDB} from "./fakeDB";
+
 export const ID: string[] = []
 
 export interface NSVBSearch {
@@ -27,6 +29,7 @@ export const domain = [
     "Arbejdsløshed ",
     "Begrænset fysisk mobilitet ",
     "Begrænset i at gennemføre daglige gøremål ",
+    "Ensomhed ",
     "Kortvarig mental sygdom ",
     "Kronisk smerte og ubehag ",
     "Langvarig mental sygdom ",

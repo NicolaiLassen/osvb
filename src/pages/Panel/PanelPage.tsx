@@ -104,9 +104,10 @@ export const PanelPage = () => {
                                         filteredData.map((entry: NSVBEntry, index) => {
                                             const string2number = entry.valueGainPerson
                                                 .replaceAll(".", "")
+                                                .replaceAll(",", ".")
                                                 .replaceAll(" ", "")
                                                 .replaceAll("kr.", "")
-                                            const value: number = parseInt(string2number)
+                                            const value: number = Math.round(parseInt(string2number))
                                             return (
                                                 <Box minWidth={'24%'} pb={1} pr={1} key={entry.id}>
                                                     <Paper
@@ -208,7 +209,7 @@ export const PanelPage = () => {
                                         Estimate
                                     </Box>
                                     <Box>
-                                        {formatNumber(values.sampleSize * values.successRate * values.socialValue)} kr.
+                                        {formatNumber(Math.round(values.sampleSize * values.successRate * values.socialValue))} kr.
                                     </Box>
                                 </Grid>
                             </Grid>
@@ -269,7 +270,7 @@ export const PanelPage = () => {
                             </TableCell>
                             {Array.from({length: 3}).map((_, index) => <TableCell key={index}/>)}
                             <TableCell align={"right"} style={{fontWeight: 600}}>
-                                {formatNumber(elements.reduce((r, e) => r + (e.sampleSize * e.successRate * e.socialValue), 0)) + ' DKK'}
+                                {formatNumber(Math.round(elements.reduce((r, e) => r + (e.sampleSize * e.successRate * e.socialValue), 0))) + ' DKK'}
                             </TableCell>
                             <TableCell/>
                         </TableRow>

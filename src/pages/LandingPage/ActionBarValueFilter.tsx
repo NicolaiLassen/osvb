@@ -48,7 +48,6 @@ export const ActionBarValueFilter: React.FC<ValueFilterProps> = ({data, search, 
                     renderTags={(value, getTagProps) =>
                         value.map((option, index) => (
                             <Chip
-                                variant="outlined"
                                 label={option}
                                 size="small"
                                 {...getTagProps({index})}
@@ -78,7 +77,6 @@ export const ActionBarValueFilter: React.FC<ValueFilterProps> = ({data, search, 
                     renderTags={(value, getTagProps) =>
                         value.map((option, index) => (
                             <Chip
-                                variant="outlined"
                                 label={option}
                                 size="small"
                                 {...getTagProps({index})}
@@ -109,7 +107,6 @@ export const ActionBarValueFilter: React.FC<ValueFilterProps> = ({data, search, 
                     renderTags={(value, getTagProps) =>
                         value.map((option, index) => (
                             <Chip
-                                variant="outlined"
                                 label={option}
                                 size="small"
                                 {...getTagProps({index})}
