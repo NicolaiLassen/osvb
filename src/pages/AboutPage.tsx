@@ -18,7 +18,7 @@ function AboutPage() {
             }}>
             <Container>
                 <p style={{fontWeight: 'bold', fontSize: 34, marginTop: 0, marginBottom: 16}}>
-                    The Project
+                    About the Project
                 </p>
             </Container>
         </Box>
