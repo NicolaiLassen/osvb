@@ -20,7 +20,7 @@ const history = createBrowserHistory();
 
 history.listen(location => {
     ReactGA.set({page: location.pathname});
-    ReactGA.send({hitType: "page_view", page: location.pathname});
+    ReactGA.send({hitType: "pageview", page: location.pathname});
 });
 
 function App() {
