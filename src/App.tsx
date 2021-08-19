@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
+import {Route, Router, Switch} from "react-router-dom";
 import RouteNames from "./constants/RouteNames";
 import {HeaderNavigation} from "./components/navigation/HeaderNavigation";
 import DeveloperPage from "./pages/DeveloperPage";
@@ -10,10 +10,18 @@ import ErrorPage from "./pages/ErrorPage";
 import DocsPage from "./pages/DocsPage";
 import {ThemeProvider} from '@material-ui/core/styles';
 import appTheme from "./theme/appTheme";
+import ReactGA from 'react-ga4';
 import PanelPage from "./pages/Panel/PanelPage";
 import LandingPage from "./pages/LandingPage/LandingPage";
 import CookieBanner from "./components/CookieBanner";
+import {createBrowserHistory} from 'history';
 
+const history = createBrowserHistory();
+
+history.listen(location => {
+    ReactGA.set({page: location.pathname});
+    ReactGA.send({hitType: "page_view", page: location.pathname});
+});
 
 function App() {
 
@@ -27,7 +35,7 @@ function App() {
 
     return (
         <ThemeProvider theme={appTheme}>
-            <Router>
+            <Router history={history}>
                 <div style={{flex: '1 0 auto'}}>
                     <HeaderNavigation/>
                     <Switch>
