@@ -68,7 +68,7 @@ const LandingPage: React.FC<LandingPageProps> = ({fakeLoad}) => {
                         Nordic Social Value Bank
                     </p>
                     <p style={{fontSize: 20, margin: 0}}>
-                        Metrics for wiser socioeconomic decisions.
+                        Værdier for bedre socioøkonomiske beslutninger
                     </p>
                 </Container>
             </Box>
@@ -106,30 +106,29 @@ const LandingPage: React.FC<LandingPageProps> = ({fakeLoad}) => {
                                                 backgroundColor: '#273A6B',
                                                 color: 'white',
                                                 fontWeight: 'bold'
-                                            }}>Domain</TableCell>
+                                            }}>Domæne</TableCell>
                                             <TableCell
                                                 style={{
                                                     backgroundColor: '#273A6B',
                                                     color: 'white',
                                                     fontWeight: 'bold'
-                                                }}>Age</TableCell>
+                                                }}>Alder</TableCell>
                                             <TableCell
                                                 style={{
                                                     backgroundColor: '#273A6B',
                                                     color: 'white',
                                                     fontWeight: 'bold'
-                                                }}>Sex</TableCell>
+                                                }}>Køn</TableCell>
                                             <TableCell style={{
                                                 backgroundColor: '#273A6B',
                                                 color: 'white',
                                                 fontWeight: 'bold'
-                                            }}>Education</TableCell>
+                                            }}>Uddannelse</TableCell>
                                             <TableCell align={"right"} style={{
                                                 backgroundColor: '#273A6B',
                                                 color: 'white',
                                                 fontWeight: 'bold'
-                                            }}>Wellbeing
-                                                coefficient</TableCell>
+                                            }}>Trivselskoefficient</TableCell>
                                             <TableCell align={"right"} style={{
                                                 backgroundColor: '#273A6B',
                                                 color: 'white',
@@ -139,17 +138,17 @@ const LandingPage: React.FC<LandingPageProps> = ({fakeLoad}) => {
                                                 backgroundColor: '#273A6B',
                                                 color: 'white',
                                                 fontWeight: 'bold'
-                                            }}>Sample size</TableCell>
+                                            }}>Prøvestørrelse</TableCell>
                                             <TableCell align={"right"} style={{
                                                 backgroundColor: '#273A6B',
                                                 color: 'white',
                                                 fontWeight: 'bold'
-                                            }}>Value gain pr. person</TableCell>
+                                            }}>Værdigevinst p</TableCell>
                                             <TableCell align={"right"} style={{
                                                 backgroundColor: '#273A6B',
                                                 color: 'white',
                                                 fontWeight: 'bold'
-                                            }}>Value gain group</TableCell>
+                                            }}>Værdigevinst total</TableCell>
                                         </TableRow>
                                     </TableHead>
                                     <TableBody>

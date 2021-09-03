@@ -16,7 +16,7 @@ function ResearchPage() {
              }}>
             <Container>
                 <p style={{fontWeight: 'bold', fontSize: 34, marginTop: 0, marginBottom: 16}}>
-                    Socioeconomics Research
+                    Socioøkonomisk forskning
                 </p>
             </Container>
         </Box>

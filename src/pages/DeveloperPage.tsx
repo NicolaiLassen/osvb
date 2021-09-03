@@ -22,7 +22,7 @@ function DeveloperPage() {
             }}>
                 <Container>
                     <p style={{color: '#273A6B', fontWeight: 'bold', fontSize: 34}}>
-                        Open Integration
+                        Åben integration
                     </p>
                 </Container>
             </Box>
@@ -48,7 +48,7 @@ function DeveloperPage() {
                                         <h3 style={{
                                             fontWeight: 400,
                                             margin: 0
-                                        }}>Documentation</h3>
+                                        }}>Dokumentation</h3>
                                     </Box>
                                 </FloatContainer>
                             </Link>
@@ -66,7 +66,7 @@ function DeveloperPage() {
                                         style={{background: 'rgba(99,163,238,0.2)', height: 45, width: 45}}>
                                         <KeyLineIcon color='#63A3EE' size={22}/>
                                     </Box>
-                                    <h3 style={{fontWeight: 400, margin: 0}}>API key</h3>
+                                    <h3 style={{fontWeight: 400, margin: 0}}>API nøgle</h3>
                                 </Box>
                             </FloatContainer>
                         </Grid>
@@ -83,7 +83,7 @@ function DeveloperPage() {
                                         style={{background: 'rgba(99,163,238,0.2)', height: 45, width: 45}}>
                                         <Slideshow3LineIcon color='#63A3EE' size={22}/>
                                     </Box>
-                                    <h3 style={{fontWeight: 400, margin: 0}}>Examples</h3>
+                                    <h3 style={{fontWeight: 400, margin: 0}}>Eksempler</h3>
                                 </Box>
                             </FloatContainer>
                         </Grid>

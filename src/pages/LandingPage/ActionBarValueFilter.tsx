@@ -56,7 +56,7 @@ export const ActionBarValueFilter: React.FC<ValueFilterProps> = ({data, search, 
                     }
                     renderInput={(params: any) => <TextField
                         {...params}
-                        label="Domain"
+                        label="Domæne"
                         size='small'
                         variant='outlined'
                     />
@@ -85,7 +85,7 @@ export const ActionBarValueFilter: React.FC<ValueFilterProps> = ({data, search, 
                     }
                     renderInput={(params: any) => <TextField
                         {...params}
-                        label="Age"
+                        label="Alder"
                         size='small'
                         variant='outlined'
                     />
@@ -115,7 +115,7 @@ export const ActionBarValueFilter: React.FC<ValueFilterProps> = ({data, search, 
                     }
                     renderInput={(params: any) => <TextField
                         {...params}
-                        label="Sex"
+                        label="Køn"
                         size='small'
                         fullWidth
                         variant='outlined'
@@ -146,7 +146,7 @@ export const ActionBarValueFilter: React.FC<ValueFilterProps> = ({data, search, 
                     }
                     renderInput={(params: any) => <TextField
                         {...params}
-                        label="Education"
+                        label="Uddannelse"
                         size='small'
                         fullWidth
                         variant='outlined'
@@ -156,7 +156,7 @@ export const ActionBarValueFilter: React.FC<ValueFilterProps> = ({data, search, 
                 />
             </Grid>
             <Grid item xs={12} md={2}>
-                <Tooltip title='Assumptions'>
+                <Tooltip title='Antagelser'>
                     <ColoredIconButton onClick={handleClick}
                                        style={{marginRight: 8,}}>
                         <ScalesLineIcon color='white' size={20}/>
@@ -189,7 +189,7 @@ export const ActionBarValueFilter: React.FC<ValueFilterProps> = ({data, search, 
                 }}
             >
                 <Box p={2} style={{background: 'rgb(245, 249, 255)', fontWeight: 500}}>
-                    Assumptions
+                    Antagelser
                 </Box>
                 <Box p={2}>
                     <div>

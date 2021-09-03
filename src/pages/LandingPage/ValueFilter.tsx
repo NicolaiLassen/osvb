@@ -39,7 +39,7 @@ export const ValueFilter: React.FC<ValueFilterProps> = ({data, search, setSearch
                     }
                     renderInput={(params: any) => <TextField
                         {...params}
-                        label="Domain"
+                        label="Domæne"
                         size='small'
                         variant='outlined'
                     />
@@ -68,7 +68,7 @@ export const ValueFilter: React.FC<ValueFilterProps> = ({data, search, setSearch
                     }
                     renderInput={(params: any) => <TextField
                         {...params}
-                        label="Age"
+                        label="Alder"
                         size='small'
                         variant='outlined'
                     />
@@ -98,7 +98,7 @@ export const ValueFilter: React.FC<ValueFilterProps> = ({data, search, setSearch
                     }
                     renderInput={(params: any) => <TextField
                         {...params}
-                        label="Sex"
+                        label="Køn"
                         size='small'
                         fullWidth
                         variant='outlined'
@@ -128,7 +128,7 @@ export const ValueFilter: React.FC<ValueFilterProps> = ({data, search, setSearch
                     }
                     renderInput={(params: any) => <TextField
                         {...params}
-                        label="Education"
+                        label="Uddannelse"
                         size='small'
                         variant='outlined'
                         InputProps={{...params.InputProps}}

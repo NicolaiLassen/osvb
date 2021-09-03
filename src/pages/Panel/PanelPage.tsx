@@ -122,7 +122,7 @@ export const PanelPage = () => {
                                                         <Box p={1} alignItems='center' justifyContent='space-between'
                                                              display='flex'>
                                                             <Box mr={1}>
-                                                                Domain
+                                                                Domæne
                                                             </Box>
                                                             <Box style={{fontSize: 14}}>
                                                                 {entry.domain}
@@ -132,7 +132,7 @@ export const PanelPage = () => {
                                                         <Box p={1} alignItems='center' justifyContent='space-between'
                                                              display='flex'>
                                                             <Box mr={1}>
-                                                                Age
+                                                                Alder
                                                             </Box>
                                                             <Box style={{fontSize: 14}}>
                                                                 {entry.age}
@@ -142,7 +142,7 @@ export const PanelPage = () => {
                                                         <Box p={1} alignItems='center' justifyContent='space-between'
                                                              display='flex'>
                                                             <Box mr={1}>
-                                                                Education
+                                                                Uddannelse
                                                             </Box>
                                                             <Box style={{fontSize: 14}}>
                                                                 {entry.education}
@@ -152,7 +152,7 @@ export const PanelPage = () => {
                                                         <Box p={1} alignItems='center' justifyContent='space-between'
                                                              display='flex'>
                                                             <Box mr={1}>
-                                                                Sex
+                                                                Køn
                                                             </Box>
                                                             <Box style={{fontSize: 14}}>
                                                                 {entry.sex}
@@ -162,7 +162,7 @@ export const PanelPage = () => {
                                                         <Box p={1} alignItems='center' justifyContent='space-between'
                                                              display='flex'>
                                                             <Box mr={1}>
-                                                                Value gain
+                                                                Værdigevinst
                                                             </Box>
                                                             <Box style={{fontSize: 14}}>
                                                                 {entry.valueGainPerson}
@@ -185,7 +185,7 @@ export const PanelPage = () => {
                                     <Field
                                         as={TextField}
                                         name="sampleSize"
-                                        label="Sample Size"
+                                        label="Prøvestørrelse"
                                         type="number"
                                         variant='outlined'
                                         size='small'
@@ -196,7 +196,7 @@ export const PanelPage = () => {
                                     <Field
                                         as={TextField}
                                         name="successRate"
-                                        label="Success Rate"
+                                        label="Succesrate i procent"
                                         type="number"
                                         variant='outlined'
                                         size='small'
@@ -206,7 +206,7 @@ export const PanelPage = () => {
                                 </Grid>
                                 <Grid item xs={12} md={12}>
                                     <Box style={{fontWeight: 'bold'}}>
-                                        Estimate
+                                        Estimat
                                     </Box>
                                     <Box>
                                         {formatNumber(Math.round(values.sampleSize * values.successRate * values.socialValue))} kr.
@@ -231,19 +231,19 @@ export const PanelPage = () => {
                     <BaseTable<PanelElement>
                         heads={[{
                             id: "domain",
-                            label: 'Domain',
+                            label: 'Domæne',
                         }, {
                             id: "sampleSize",
-                            label: 'Sample size',
+                            label: 'Prøvestørrelse',
                             numeric: true,
                         }, {
                             id: "successRate",
-                            label: 'Success rate',
+                            label: 'Succesrate',
                             numeric: true,
                             percent: true,
                         }, {
                             id: "socialValue",
-                            label: 'Social value',
+                            label: 'Værdigevinst pr. person',
                             numeric: true,
                             render: (e) => formatNumber(e.socialValue) + ' kr.'
                         }, {

@@ -43,7 +43,7 @@ export const headerRouteProps: HeaderNavigationStyleType = {
 }
 
 export const headerNavigationRoutes = [
-    {name: 'About', link: RouteNames.about, icon: FingerprintLineIcon},
-    {name: 'Research', link: RouteNames.research, icon: PieChart2LineIcon},
-    {name: 'Developers', link: RouteNames.developer, icon: KeyLineIcon},
+    {name: 'Projektet', link: RouteNames.about, icon: FingerprintLineIcon},
+    {name: 'Forskning', link: RouteNames.research, icon: PieChart2LineIcon},
+    {name: 'Udvikler', link: RouteNames.developer, icon: KeyLineIcon},
 ]
