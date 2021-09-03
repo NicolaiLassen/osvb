@@ -143,7 +143,7 @@ const LandingPage: React.FC<LandingPageProps> = ({fakeLoad}) => {
                                                 backgroundColor: '#273A6B',
                                                 color: 'white',
                                                 fontWeight: 'bold'
-                                            }}>Værdigevinst p</TableCell>
+                                            }}>Værdigevinst pr. person</TableCell>
                                             <TableCell align={"right"} style={{
                                                 backgroundColor: '#273A6B',
                                                 color: 'white',
