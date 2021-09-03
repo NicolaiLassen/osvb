@@ -3,6 +3,7 @@ import {Box, Container} from "@material-ui/core";
 import TextIconWrapper from "../icons/TextIconWrapper";
 import hri from '../../assets/partners/hri.png'
 import is from '../../assets/partners/is.png'
+import ooug from '../../assets/partners/øug.png'
 
 export const FooterNavigation = () => {
     const d = new Date();
@@ -25,6 +26,10 @@ export const FooterNavigation = () => {
                            target='_blank'
                            rel="noreferrer">
                             <img style={{maxWidth: 130}} src={hri} alt={'Happiness Research Institute'}/>
+                        </a>
+                        <a style={{paddingLeft: 16, paddingBottom: 4, paddingTop: 4}}
+                           href='http://economistswithoutborders.net/' target='_blank' rel="noreferrer">
+                            <img style={{maxWidth: 130}} src={ooug} alt={'Happiness Research Institute'}/>
                         </a>
                         <a style={{paddingLeft: 16, paddingBottom: 4, paddingTop: 4, paddingRight: 16}}
                            href='https://www.innosocial.dk/' target='_blank' rel="noreferrer">
