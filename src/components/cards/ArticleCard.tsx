@@ -5,14 +5,14 @@ interface ArticleCardStyleProps {
     img: string;
 }
 
-const useStyles = makeStyles<Theme, ArticleCardStyleProps>((theme) => ({
+const useStyles = makeStyles<Theme, ArticleCardStyleProps>(() => ({
     img: {
         backgroundImage: ({img}) => `url(${img})`,
         width: '100%',
         height: '100%',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center',
-        backgroundSize: '100% 100%',
+        backgroundSize: 'cover',
         transition: 'all 0.2s ease',
         '&:hover': {
             transform: 'scale(1.1)'
