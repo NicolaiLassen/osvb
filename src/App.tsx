@@ -11,13 +11,23 @@ const PageWrapper = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 `;
 
 function App() {
     return (
         <ThemeProvider theme={appTheme}>
             <PageWrapper>
-                <Typography variant='h1' style={{fontSize: 45}}>
+                <Typography variant='h1' sx={(theme) => ({
+                    textAlign: 'center',
+                    fontWeight: 400,
+                    fontSize: 45,
+                    margin: 0,
+                    padding: 1,
+                    [theme.breakpoints.down("sm")]: {
+                        fontSize: 32,
+                    }
+                })}>
                     Open Social Value Bank
                 </Typography>
             </PageWrapper>
